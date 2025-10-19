@@ -1,0 +1,180 @@
+[
+	{
+		"cidade": "Amapá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bailique",
+		"bairros": [
+		 	"Central"
+		]
+	},
+	{
+		"cidade": "Calçoene",
+		"bairros": [
+		 	"Centro",
+		 	"Vila Carnot"
+		]
+	},
+	{
+		"cidade": "Cutias",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ferreira Gomes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Igarapé do Lago",
+		"bairros": [
+		 	"Igarapé do Lago"
+		]
+	},
+	{
+		"cidade": "Ilha de Santana",
+		"bairros": [
+		 	"Ilha de Santana"
+		]
+	},
+	{
+		"cidade": "Itaubal",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Laranjal do Jari",
+		"bairros": [
+		 	"Agreste",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lourenço",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Macapá",
+		"bairros": [
+		 	"Alvorada",
+		 	"Araxá",
+		 	"Beirol",
+		 	"Boné Azul",
+		 	"Brasil Novo",
+		 	"Buritizal",
+		 	"Cabralzinho",
+		 	"Central",
+		 	"Cidade Nova",
+		 	"Congós",
+		 	"Fazendinha",
+		 	"Goiabal",
+		 	"Infraero",
+		 	"Jardim Equatorial",
+		 	"Jardim Felicidade",
+		 	"Jardim Marco Zero",
+		 	"Jesus de Nazaré",
+		 	"Julião Ramos",
+		 	"Lagoa Azul",
+		 	"Loteamento Açaí",
+		 	"Marabaixo",
+		 	"Muca",
+		 	"Muruci (Fazendinha)",
+		 	"Nova Esperança",
+		 	"Novo Buritizal",
+		 	"Novo Horizonte",
+		 	"Pacoval",
+		 	"Pantanal",
+		 	"Pedrinhas",
+		 	"Perpétuo Socorro",
+		 	"Renascer",
+		 	"Santa Inês",
+		 	"Santa Rita",
+		 	"São José",
+		 	"São Lázaro",
+		 	"Trem",
+		 	"Universidade",
+		 	"Zerão"
+		]
+	},
+	{
+		"cidade": "Mazagão",
+		"bairros": [
+		 	"Mazagão",
+		 	"Vila Carvão",
+		 	"Vila de Mazagão Velho"
+		]
+	},
+	{
+		"cidade": "Oiapoque",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedra Branca do Amaparí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Porto Grande",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pracuúba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana",
+		"bairros": [
+		 	"Central",
+		 	"Comercial",
+		 	"Daniel",
+		 	"Distrito Industrial",
+		 	"Elesbão",
+		 	"Fonte Nova",
+		 	"Fortaleza",
+		 	"Hospitalidade",
+		 	"Ilha de Santana",
+		 	"Nova Brasília",
+		 	"Novo Horizonte",
+		 	"Paraíso",
+		 	"Provedor",
+		 	"Provedor I",
+		 	"Remedios",
+		 	"Vila Amazonas"
+		]
+	},
+	{
+		"cidade": "Serra do Navio",
+		"bairros": [
+		 	"Centro",
+		 	"Vila Primária"
+		]
+	},
+	{
+		"cidade": "Tartarugalzinho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vitória do Jari",
+		"bairros": [
+		 	"Centro",
+		 	"Cidade Livre"
+		]
+	}
+]

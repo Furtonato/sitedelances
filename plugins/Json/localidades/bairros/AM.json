@@ -1,0 +1,597 @@
+[
+	{
+		"cidade": "Agrovila São Sebastião do Caburi",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alvarães",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Amaturá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Anamã",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Anori",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Apuí",
+		"bairros": [
+		 	"Centro",
+		 	"Sucunduri"
+		]
+	},
+	{
+		"cidade": "Atalaia do Norte",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Augusto Montenegro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Autazes",
+		"bairros": [
+		 	"Centro",
+		 	"Santa Luzia"
+		]
+	},
+	{
+		"cidade": "Balbina",
+		"bairros": [
+		 	"Centro (Vila Waimiri)"
+		]
+	},
+	{
+		"cidade": "Barcelos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Barreirinha",
+		"bairros": [
+		 	"São Judas Tadeu"
+		]
+	},
+	{
+		"cidade": "Benjamin Constant",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Beruri",
+		"bairros": [
+		 	"São Francisco"
+		]
+	},
+	{
+		"cidade": "Boa Vista do Ramos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Boca do Acre",
+		"bairros": [
+		 	"Platô do Piquiá"
+		]
+	},
+	{
+		"cidade": "Borba",
+		"bairros": [
+		 	"Cristo Rei"
+		]
+	},
+	{
+		"cidade": "Caapiranga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cacau Pirêra",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caiambé",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cametá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Canutama",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Carauari",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Careiro",
+		"bairros": [
+		 	"Janauacá",
+		 	"Vista Alegre"
+		]
+	},
+	{
+		"cidade": "Careiro da Várzea",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Coari",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Codajás",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cucuí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Eirunepé",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Envira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Fonte Boa",
+		"bairros": [
+		 	"Cidade Nova"
+		]
+	},
+	{
+		"cidade": "Guajará",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Humaitá",
+		"bairros": [
+		 	"Centro",
+		 	"São Pedro"
+		]
+	},
+	{
+		"cidade": "Iauaretê",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ipixuna",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Iranduba",
+		"bairros": [
+		 	"Centro",
+		 	"Piracatuba"
+		]
+	},
+	{
+		"cidade": "Itacoatiara",
+		"bairros": [
+		 	"Araújo Costa",
+		 	"Centenário",
+		 	"Centro",
+		 	"Colônia",
+		 	"Da Paz",
+		 	"Eduardo Braga I",
+		 	"Eduardo Braga II",
+		 	"Iraci",
+		 	"Jardim Adriana",
+		 	"Jardim Florestal",
+		 	"Jardim Lorena",
+		 	"Jauari I",
+		 	"Jauari II",
+		 	"Mamoud Amed",
+		 	"Mutirão",
+		 	"Nogueira Júnior",
+		 	"Pedreiras",
+		 	"Prainha",
+		 	"Santa Luzia",
+		 	"Santo Antônio",
+		 	"São Cristóvão",
+		 	"São Francisco",
+		 	"São Jorge",
+		 	"Tiradentes"
+		]
+	},
+	{
+		"cidade": "Itamarati",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itapiranga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Japurá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Juruá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jutaí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lábrea",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Manacapuru",
+		"bairros": [
+		 	"Aparecida",
+		 	"Biribiri",
+		 	"Centro",
+		 	"Correnteza",
+		 	"Liberdade",
+		 	"Morada do Sol",
+		 	"Nova Manacá",
+		 	"São Francisco",
+		 	"São José",
+		 	"Terra Preta",
+		 	"União",
+		 	"Vale Verde"
+		]
+	},
+	{
+		"cidade": "Manaquiri",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Manaus",
+		"bairros": [
+		 	"Adrianópolis",
+		 	"Aleixo",
+		 	"Alvorada",
+		 	"Aparecida",
+		 	"Armando Mendes",
+		 	"Betânia",
+		 	"Cachoeirinha",
+		 	"Centro",
+		 	"Chapada",
+		 	"Cidade de Deus",
+		 	"Cidade Nova",
+		 	"Colônia Antônio Aleixo",
+		 	"Colônia Oliveira Machado",
+		 	"Colônia Santo Antônio",
+		 	"Colônia Terra Nova",
+		 	"Compensa",
+		 	"Coroado",
+		 	"Crespo",
+		 	"Distrito Industrial I",
+		 	"Distrito Industrial II",
+		 	"Dom Pedro",
+		 	"Educandos",
+		 	"Flores",
+		 	"Gilberto Mestrinho",
+		 	"Glória",
+		 	"Japiim",
+		 	"Jorge Teixeira",
+		 	"Lago Azul",
+		 	"Lírio do Vale",
+		 	"Margem Esquerda do Rio Amazonas",
+		 	"Margem Esquerda do Rio Negro",
+		 	"Mauazinho",
+		 	"Monte das Oliveiras",
+		 	"Morro da Liberdade",
+		 	"Nossa Senhora das Graças",
+		 	"Nova Cidade",
+		 	"Nova Esperança",
+		 	"Novo Aleixo",
+		 	"Novo Israel",
+		 	"Parque 10 de Novembro",
+		 	"Paz",
+		 	"Petrópolis",
+		 	"Planalto",
+		 	"Ponta Negra",
+		 	"Praça 14 de Janeiro",
+		 	"Presidente Vargas",
+		 	"Puraquequara",
+		 	"Raiz",
+		 	"Redenção",
+		 	"Santa Etelvina",
+		 	"Santa Luzia",
+		 	"Santo Agostinho",
+		 	"Santo Antônio",
+		 	"São Francisco",
+		 	"São Geraldo",
+		 	"São Jorge",
+		 	"São José Operário",
+		 	"São Lázaro",
+		 	"São Raimundo",
+		 	"Tancredo Neves",
+		 	"Tarumã",
+		 	"Tarumã-Açu",
+		 	"Vila Buriti",
+		 	"Vila da Prata",
+		 	"Zumbi dos Palmares"
+		]
+	},
+	{
+		"cidade": "Manicoré",
+		"bairros": [
+		 	"Mazarelo"
+		]
+	},
+	{
+		"cidade": "Maraã",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Maués",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mocambo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nhamundá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nova Olinda do Norte",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Novo Airão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Novo Aripuanã",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Novo Remanso",
+		"bairros": [
+		 	"Novo Remanso"
+		]
+	},
+	{
+		"cidade": "Parintins",
+		"bairros": [
+		 	"Castanheira",
+		 	"Centro",
+		 	"Distrito Industrial",
+		 	"Djard Vieira",
+		 	"Emílio Moreira",
+		 	"Francesa",
+		 	"Itaúna I",
+		 	"Itaúna II",
+		 	"Jacareacanga",
+		 	"João Novo",
+		 	"Lady Laura",
+		 	"Nossa Senhora de Nazaré",
+		 	"Palmares",
+		 	"Paulo Correa",
+		 	"Raimundo Muniz",
+		 	"Santa Clara",
+		 	"Santa Rita de Cássia",
+		 	"São Benedito",
+		 	"São José Operário",
+		 	"São Vicente de Paula",
+		 	"Vitória Régia"
+		]
+	},
+	{
+		"cidade": "Pauini",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Presidente Figueiredo",
+		"bairros": [
+		 	"Centro",
+		 	"Vila C"
+		]
+	},
+	{
+		"cidade": "Rio Preto da Eva",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Isabel do Rio Negro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Rita",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Içá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Gabriel da Cachoeira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Paulo de Olivença",
+		"bairros": [
+		 	"Centro",
+		 	"Santa Rita do Well"
+		]
+	},
+	{
+		"cidade": "São Sebastião do Uatumã",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Silves",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tabatinga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tapauá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tefé",
+		"bairros": [
+		 	"Abial",
+		 	"Aeroporto",
+		 	"Centro",
+		 	"Colônia Ventura",
+		 	"Fonte Boa",
+		 	"Jerusalém",
+		 	"Juruá",
+		 	"Monte Castelo",
+		 	"Mutirão",
+		 	"Nossa Senhora de Fátima",
+		 	"Nova Esperança",
+		 	"Olaria",
+		 	"Santa Luzia",
+		 	"Santa Rosa",
+		 	"Santa Teresa",
+		 	"Santo Antônio",
+		 	"São Francisco",
+		 	"São João",
+		 	"São José",
+		 	"São Raimundo",
+		 	"Vila Nova"
+		]
+	},
+	{
+		"cidade": "Tonantins",
+		"bairros": [
+		 	"Santo Antonio"
+		]
+	},
+	{
+		"cidade": "Uarini",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Urucará",
+		"bairros": [
+		 	"São Jorge"
+		]
+	},
+	{
+		"cidade": "Urucurituba",
+		"bairros": [
+		 	"Centro"
+		]
+	}
+]

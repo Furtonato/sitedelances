@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* Css */
+
+
+	/* PADROES */
+		.admin > header { background: #1f1f1f; } /* topo */
+		.admin > header ul.barra > li.ativo > a { background: #393939; } /* hover do li na ul.barra */
+		.admin > header ul.barra > li > a { color: #999999; } /* cor do icone na ul.barra */
+		.admin > header ul.barra > li a.icones span { color: #ffffff; background: #d64635; } /* cor do balao na ul.barra */
+		.admin > header ul.barra ul.boxx:before {  }
+		.admin > header ul.barra ul.boxx {  }
+
+
+		aside.menu { background: #3d3d3d; }  /* back do menu */
+		aside.menu .menu_fundo { background: #3d3d3d; }  /* back do fundo do menu (tem q ser o mesmo do menu) */
+		aside.menu a.menu_lista { background: url(../../../web/img/admin/menu/05.jpg) no-repeat; }  /* menu lista (hide (Responsivo)) */
+		aside.menu a.visitar_site { color: #bdbdbd; }  /* cor do texto visitar site */
+		aside.menu hr { border-top-color: #484848; }  /* primeira faixa antes do menu */
+
+		aside.menu ul.menu_left   li.heading h3 { color: #9e9e9e; }  /* li da categoria */
+		aside.menu ul.menu_left > li { border-bottom-color: #484848; }  /* borda bottom do primeiro menu */
+		aside.menu ul.menu_left   li { background: #3d3d3d; }  /* back dos menus */
+		aside.menu ul.menu_left   li a { color: #bdbdbd; }  /* cor do texto no menu */
+		aside.menu ul.menu_left   li a:hover { background: #474747; }  /* back do menu hover */
+		aside.menu ul.menu_left > li.ativo > a { background: #303030; }  /* back do menu quando o menu tiver ativo */
+		aside.menu ul.menu_left   li.sel > a { color: #fff; background: #d64635; }  /* back do menu quando o menu tiver selecionado */
+		aside.menu ul.menu_left   li.sel > ul > li.sel_item > a { background: #474747; }  /* back do menu filho quando o menu tiver selecionado */
+
+
+		footer { color: #bdbdbd; background: #3d3d3d; }  /* footer */
+		footer .seta i { color: #A4AFBD; }  /* cor da seta */
+		footer .seta i:hover { opacity: 0.7 }  /* cor da seta hover */
+
+
+/* Css
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+*/

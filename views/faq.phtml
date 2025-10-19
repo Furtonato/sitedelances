@@ -1,0 +1,31 @@
+<div class="container-fluid">
+    <section class="container p-3">
+
+        <div id="accordion">
+            <?php foreach ($faq as $key => $value) { ?>
+                <div class="card">
+                    <div class="card-header" id="heading<?= $key ?>" data-toggle="collapse" data-target="#collapse<?= $key ?>" aria-expanded="true" aria-controls="collapseOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link w-100 text-left" >
+                                <?= $value->nome ?>
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapse<?= $key ?>" class="collapse <?= ($key == 0) ? 'show' : ''; ?>" aria-labelledby="headingOne" data-parent="#accordion">
+                        <div class="card-body">
+                            <?= txt($value) ?>
+                        </div>
+                    </div>
+                </div>
+            <?php } ?>
+        </div>
+
+
+        <div class="tac">
+            <div class="pb10 fz20 fwb"><?= lang('Ficou alguma dúvida?') ?> <span class="cor_AE1C20"><?= lang('Nós queremos te ajudar') ?></span></div>
+            <a href="<?= DIR ?>/fale/" class="cor_fff"><button class="p15 pl20 pr20 fz16 ttu cor_fff bd0 back_221E1F"><?= lang('Entre em contato') ?></button></a>
+        </div>
+
+    </section>
+</div>

@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br" xml:lang="pt-br">
+    <head>
+        <?= META . CSS ?>
+        <script> var HOST = "<?= $_SERVER["HTTP_HOST"] ?>"; var DIR = "<?= DIR ?>"; var ADMIN = "<?= ADMIN ?>"; var LUGAR = "<?= LUGAR ?>"; var $_SESSION = new Array();  var $_LOTES = new Array();</script>
+        <?= JAVASCRIPT ?>
+        <style>
+            .comitente{
+                width: 70px;
+                height: 70px;
+            }
+            .comitente img{
+                width: inherit;
+                height: inherit;
+            }
+        </style>
+    </head>
+    <?php
+    include_once '../model/Model.php';
+    include_once '../model/ItemLeilao.php';
+
+    $input = new Input();
+    $img = new Imagem();
+    $mysql = new Mysql();
+    ?>
+    <body>
+        <div class="tudo pg_<?= $pg ?>">
+
+            <?php
+            $not = explode('/', $_GET['cod']);
+            $hidden = true;
+            if (@$not[0] == 'imprimir') {
+                $hidden = false;
+            }
+
+            if (@$not[0] == 'leilaoseguro') {
+                $hidden = false;
+            }
+
+
+            if ($hidden) {
+                include 'z_top.phtml';
+            }
+            ?>
+
+
+            <article id="principal">
+                <?php include $pg . '.phtml'; ?>
+                <div class="clear"></div>
+            </article>
+
+            <?php
+            if ($hidden) {
+                include 'z_footer.phtml';
+            }
+            //echo sistema_mautic();
+            ?>
+        </div>
+        <!--script> iniciar_events_site();</script-->
+    </body>
+    <?= isset($style_zz) ? $style_zz : ''; ?>
+</html>

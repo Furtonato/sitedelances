@@ -1,0 +1,8 @@
+.BebasNeuewebfont { font-family:'BebasNeuewebfont' !important; }
+@font-face {
+	font-family: 'BebasNeuewebfont';
+	src: url('./BebasNeuewebfont.eot');
+	src: local('BebasNeuewebfont'), url('./BebasNeuewebfont.woff') format('woff'), url('./BebasNeuewebfont.ttf') format('truetype');
+}
+
+/* Font downloaded from FontsForWeb.com */

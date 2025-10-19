@@ -1,0 +1,87 @@
+<div class="container-fluid">
+    <section class="container">
+
+        <h4 class="d-block"><?= lang('Fale Conosco') ?></h4>
+        <div class="row">
+
+
+            <div class="col-md-5">
+                <div class="dib vat">
+                    <b class="fz16"><?= lang('Horário de Atendimento') ?></b>
+                    <div class="pt5 fz18"><?= $info->atendimento ?></div>
+                </div>
+                <div class="dib pt20 tal vat">
+                    <b class="fz16"><?= lang('Tem alguma dúvida?') ?></b>
+                    <div class="pt5 fz18"><i class="fa fa-envelope-o cor_153C8"></i> <?= $info->email ?></div>
+                </div>
+
+                <div class="wr6 pr20 p0_700">
+                    <b class="fz24"><?= lang('Entre em Contato') ?></b>
+                    <div class="pt5 fz16">
+                        <div class="pt20"><?= lang('Entre em contato agora mesmo! Se você tem alguma dúvida, por favor, não hesite em enviar uma mensagem.') ?></div>
+                        <div class="pt20"><?= lang('Preencha os campos do formulário ao lado corretamente, nós responderemos em no máximo 24 horas.') ?></div>
+                        <div class="pt20 fz18 fwb"><?= lang('Ou ligue agora mesmo:') ?><br><i class="fa fa-phone cor_153C8"></i> <?= $info->telefone ?></div>
+                        <div class="d-block"><?= lang('Acompanhe-nos nas redes sociais:') ?></div>
+
+                        <ul class="nav float-sm-left">
+                            <?= $info->facebook ? '<li class="nav-item"><a href="' . http($info->facebook) . '" target="_blank" class="text-dark p-2"><i class="fa fa-facebook"></i></a></li>' : '' ?>
+                            <?= $info->twitter ? '<li class="nav-item"><a href="' . http($info->twitter) . '" target="_blank" class="text-dark p-2"><i class="fa fa-twitter"></i></a></li>' : '' ?>
+                            <?= $info->vimeo ? '<li class="nav-item"><a href="' . http($info->vimeo) . '" target="_blank" class="text-dark p-2"><i class="fa fa-vimeo"></i></a></li>' : '' ?>
+                            <?= $info->pinterest ? '<li class="nav-item"><a href="' . http($info->pinterest) . '" target="_blank" class="text-dark p-2"><i class="fa fa-pinterest"></i></a></li>' : '' ?>
+                            <?= $info->linkedin ? '<li class="nav-item"><a href="' . http($info->linkedin) . '" target="_blank" class="text-dark p-2"><i class="fa fa-linkedin-square"></i></a></li>' : '' ?>
+                            <?= $info->dribbble ? '<li class="nav-item"><a href="' . http($info->dribbble) . '" target="_blank" class="text-dark p-2"><i class="fa fa-dribbble"></i></a></li>' : '' ?>
+                            <?= $info->google ? '<li class="nav-item"><a href="' . http($info->google) . '" target="_blank" class="text-dark p-2"><i class="fa fa-google-plus"></i></a></li>' : '' ?>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-md-7">
+
+                <form id="form_fale" method="post" action="<?= DIR ?>app/Ajax/ajaxForm/mail.php" enctype="multipart/form-data">
+
+                    <input name="to" type="hidden" value="<?= $emails->email ?>" />
+                    <input name="assunto" type="hidden" value="Contato" />
+
+                    <div class="form-group">
+                        <label for="nome"><?= lang('Nome') ?></label>
+                        <input name="mail[campo][1]" type="text" class="form-control" id="nome" required="true">
+                        <input type="hidden" name="mail[nome][1]" value="<?= lang('Nome') ?>" />
+                    </div>
+                    <div class="form-group">
+                        <label for="email"><?= lang('Email') ?></label>
+                        <input name="mail[campo][3]" type="text" class="form-control" id="email" required="true">
+                        <input type="hidden" name="mail[nome][3]" value="<?= lang('Email') ?>" />
+                    </div>
+                    <div class="form-group">
+                        <label for="telefone"><?= lang('Telefone') ?></label>
+                        <input name="mail[campo][5]" type="text" class="form-control" id="telefone" required="true">
+                        <input type="hidden" name="mail[nome][5]" value="<?= lang('Telefone') ?>" />
+                    </div>
+                    <div class="form-group">
+                        <label for="assunto"><?= lang('Assunto') ?></label>
+                        <input name="mail[campo][7]" type="text" class="form-control" id="assunto" required="true">
+                        <input type="hidden" name="mail[nome][7]" value="<?= lang('Assunto') ?>" />
+                    </div>
+                    <div class="form-group">
+                        <label for="mensagem"><?= lang('Mensagem') ?></label>
+                        <textarea name="mail[campo][10]"  class="form-control" id="mensagem" rows="3" required="true"></textarea>
+                        <input type="hidden" name="mail[nome][10]" value="<?= lang('Mensagem') ?>" />
+                    </div>
+                    <div class="form-group">
+                        <?= captcha() ?>
+                    </div>
+
+                    <div class="form-group">
+                        <button class="btn btn-primary btn-salvar" type="submit"><?= lang('ENVIAR') ?></button>
+                    </div>
+                    <input type="hidden" name="log_gravacoes" value="1" />
+                </form>
+            </div>
+
+        </div>
+
+
+    </section>
+</div>

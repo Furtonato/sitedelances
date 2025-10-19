@@ -1,0 +1,945 @@
+@charset "utf-8";
+/* Style */
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+.redondo (@n) {
+	-webkit-border-radius: @n;
+	-moz-border-radius: @n;
+	border-radius: @n;
+}
+
+.shadow (@n) {
+	-webkit-box-shadow: @n;
+	-moz-box-shadow: @n;
+	box-shadow: @n;
+}
+
+.back_gradient (@n1, @n2, @n3, @n4) {
+	background: -moz-linear-gradient(top, @n1 0%, @n2 50%, @n3 51%, @n4 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, @n1), color-stop(50%, @n2), color-stop(51%, @n3), color-stop(100%, @n4));
+	background: -webkit-linear-gradient(top, @n1 0%, @n2 50%, @n3 51%, @n4 100%);
+	background: -o-linear-gradient(top, @n1 0%, @n2 50%, @n3 51%, @n4 100%);
+	background: -ms-linear-gradient(top, @n1 0%, @n2 50%, @n3 51%, @n4 100%);
+}
+
+/* --------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+
+/* CORES */
+.COR_LARANJA {
+	color: #0100FD;
+}
+
+.BORDER_COLOR_LARANJA {
+	border-color: #0100FD;
+}
+
+.BACK_LARANJA {
+	background-color: #0100FD;
+}
+
+/* CORES */
+
+
+/* NOVO */
+.img_maior {
+	height: 302px;
+}
+
+.img_maior img {
+	max-height: 300px;
+	display: block;
+}
+
+#lote .google_maps iframe {
+	width: 100% !important;
+	height: 400px !important;
+}
+
+#lote .aovivo iframe {
+	width: 100% !important;
+	height: 150px !important;
+}
+
+@media (max-width: 700px) {
+	#lote .aovivo iframe {
+		height: 350px !important;
+	}
+}
+
+
+
+.backk_footer {
+	background-image: url('../web/img/footer/03.png');
+	background-position: center;
+	.BACK_LARANJA;
+	background-repeat: no-repeat;
+}
+
+#faq {
+	.fa-plus {
+		display: block;
+	}
+
+	.fa-minus {
+		display: none;
+	}
+
+	.txt {
+		display: none;
+	}
+
+	.ativo {
+		.topo {
+			.COR_LARANJA;
+		}
+
+		.fa-plus {
+			display: none;
+		}
+
+		.fa-minus {
+			display: block;
+		}
+
+		.txt {
+			display: block;
+		}
+	}
+}
+
+.border_dashed_DD0000 {
+	border: 1px dashed #DD0000;
+}
+
+
+span.cat-j::before {
+	content: "J";
+	height: 30px;
+	line-height: 24px;
+	font-size: 30px;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 4px;
+}
+
+span.cat-e::before {
+	content: "E";
+	height: 30px;
+	line-height: 24px;
+	font-size: 30px;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 4px;
+}
+
+/* NOVO */
+
+
+
+/* LOJA */
+
+/* Carrinho */
+.carrinhoo {
+	.colunas {
+		padding: 5px 10px;
+		color: #666;
+		font-size: 14px;
+		overflow: hidden;
+		border-bottom: 1px solid #d8d8d8;
+	}
+}
+
+/* Carrinho endereco */
+@media (max-width: 700px) {
+	.pg_carrinho_endereco {
+		.carrinho_all_subtotal.w200 {
+			width: auto !important;
+		}
+
+		.subtotal_resp {
+			padding-top: 20px !important;
+		}
+
+		.box_endereco_resp {
+			float: none;
+			padding: 0 !important;
+			margin: auto;
+		}
+
+		.fretes_resp {
+			float: none;
+			margin: auto;
+			padding-top: 20px;
+			padding-right: 0 !important;
+			text-align: center;
+
+			.w300 {
+				width: auto !important;
+				padding-right: 10px;
+			}
+
+			.fretes {
+				float: none !important;
+				display: inline-block;
+			}
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	.pg_minha_conta {
+		.pedido {
+			.h64 {
+				height: 80px !important;
+			}
+		}
+	}
+}
+
+
+/* Pagseguro Checkout Transparent */
+.abas {
+	ul {
+		li {
+			a {
+				display: block;
+				position: relative;
+				padding: 40px 30px 0;
+				overflow: hidden;
+				height: 100px;
+				background-color: rgb(15, 107, 235);
+				background-image: url('../web/img/outros/pagamentos/PagSeguro/01.png');
+				background-repeat: no-repeat;
+				background-position: -210px -30px;
+				-webkit-transition: background 0.35s ease-out;
+				-moz-transition: background 0.35s ease-out;
+				-o-transition: background 0.35s ease-out;
+				-ms-transition: background 0.35s ease-out;
+				transition: background 0.35s ease-out;
+				text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+
+				.nome {
+					width: 370px;
+					height: 100px;
+					font-size: 20px;
+					color: #fff;
+					vertical-align: middle;
+					-webkit-transition: font-size 0.35s ease-out;
+					-moz-transition: font-size 0.35s ease-out;
+					-o-transition: font-size 0.35s ease-out;
+					-ms-transition: font-size 0.35s ease-out;
+					transition: font-size 0.35s ease-out;
+					text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+				}
+
+				.seta {
+					color: #fff;
+					position: absolute;
+					top: 37px;
+					right: 30px;
+					font-size: 25px;
+					-webkit-transition: right 0.35s ease-out;
+					-moz-transition: right 0.35s ease-out;
+					-o-transition: right 0.35s ease-out;
+					-ms-transition: right 0.35s ease-out;
+					transition: right 0.35s ease-out;
+					text-shadow: rgba(0, 0, 0, 0.01) 0 0 1px;
+				}
+			}
+
+			a:hover {
+				background-color: rgb(14, 96, 212);
+				background-position: 210px -30px;
+
+				.nome {
+					font-size: 26px;
+				}
+
+				.seta {
+					right: -35px;
+				}
+			}
+		}
+	}
+}
+
+.pagamentos {
+	.credito {
+		.cartao {
+			.frente {
+				background: url('../web/img/outros/pagamentos/PagSeguro/credito/padrao.png') no-repeat;
+
+				.valido_ate {
+					position: absolute;
+					bottom: 26px;
+					left: 30px;
+					text-transform: uppercase;
+					width: 36px;
+					text-align: right;
+					font-size: 11px;
+				}
+
+				.numero {
+					position: absolute;
+					left: 30px;
+					bottom: 95px;
+					font-size: 19px;
+				}
+
+				.validade {
+					position: absolute;
+					bottom: 29px;
+					left: 80px;
+					font-size: 17px;
+				}
+
+				.nome {
+					overflow: hidden;
+					width: 250px;
+					font-size: 19px;
+					text-overflow: ellipsis;
+					white-space: nowrap;
+					position: absolute;
+					bottom: 62px;
+					left: 30px;
+					text-transform: uppercase;
+				}
+			}
+
+			.verso {
+				background: url('../web/img/outros/pagamentos/PagSeguro/credito/verso.png') no-repeat;
+
+				.cvv {
+					position: absolute;
+					top: 100px;
+					left: 318px;
+					color: #141414;
+					text-shadow: none;
+					webkit-transition: all 0.35s 0.45s ease-out;
+					-moz-transition: all 0.35s 0.45s ease-out;
+					-o-transition: all 0.35s 0.45s ease-out;
+					-ms-transition: all 0.35s 0.45s ease-out;
+					transition: all 0.35s 0.45s ease-out;
+				}
+			}
+
+			.aura {
+				background: url('../web/img/outros/pagamentos/PagSeguro/credito/aura-card-bg.png') no-repeat;
+			}
+
+			.diners {
+				background: url('../web/img/outros/pagamentos/PagSeguro/credito/diners-card-bg.png') no-repeat;
+			}
+
+			.discover {
+				background: url('../web/img/outros/pagamentos/PagSeguro/credito/discover-card-bg.png') no-repeat;
+			}
+
+			.elo {
+				background: url('../web/img/outros/pagamentos/PagSeguro/credito/elo-card-bg.png') no-repeat;
+			}
+
+			.hipercard {
+				background: url('../web/img/outros/pagamentos/PagSeguro/credito/hipercard-card-bg.png') no-repeat;
+			}
+
+			.jcb {
+				background: url('../web/img/outros/pagamentos/PagSeguro/credito/jcb-card-bg.png') no-repeat;
+			}
+
+			.mastercard {
+				background: url('../web/img/outros/pagamentos/PagSeguro/credito/mastercard-card-bg.png') no-repeat;
+			}
+
+			.visa {
+				background: url('../web/img/outros/pagamentos/PagSeguro/credito/visa-card-bg.png') no-repeat;
+			}
+		}
+	}
+
+	.credito, .debito, .boleto {
+		button {
+			width: 390px;
+			height: 80px;
+			font-size: 22px;
+			color: #fff;
+			cursor: pointer;
+			vertical-align: middle;
+			text-align: left;
+			background-color: rgb(15, 107, 235);
+		}
+	}
+
+}
+
+
+/* LOJA */
+
+
+
+
+/* PLUGINS */
+.Plugin {
+	position: relative;
+}
+
+/* Especificacoes do Plugin owl-carousel */
+.owl-carousel {
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+
+.owl-carousel .owl-wrapper {
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+
+.owl-carousel .owl-wrapper-outer {
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.owl-carousel .owl-wrapper-outer.autoHeight {
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+
+.owl-carousel .owl-item {
+	float: left;
+}
+
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.owl-carousel .owl-wrapper, .owl-carousel .owl-item {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	-webkit-transform: translate3d(0, 0, 0);
+	-moz-transform: translate3d(0, 0, 0);
+	-ms-transform: translate3d(0, 0, 0);
+}
+
+
+/* Setas e Pagginacao */
+.plugin_seta_left,
+.plugin_seta_right {
+	width: 60px;
+	height: 60px;
+	opacity: 0;
+	position: absolute;
+	top: 50%;
+	margin-top: -30px;
+	z-index: 99;
+	outline: 0;
+	text-indent: -9999px;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.Plugin:hover .plugin_seta_left {
+	opacity: 1;
+	left: 10px;
+}
+
+.Plugin:hover .plugin_seta_right {
+	opacity: 1;
+	right: 10px;
+}
+
+.Plugin:hover .plugin_seta_left:hover,
+.Plugin:hover .plugin_seta_right:hover {
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1)
+}
+
+.plugin_seta_left {
+	left: 0px;
+}
+
+.plugin_seta_right {
+	right: 0px;
+}
+
+.plugin_seta_left span,
+.plugin_seta_right span {
+	width: 40px;
+	height: 40px;
+	border: 3px solid #fff;
+	display: block;
+	cursor: pointer;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.plugin_seta_left span {
+	margin: 10px 0 0 22px;
+	border-right: none;
+	border-top: none;
+}
+
+.plugin_seta_right span {
+	margin: 10px 0 0 0;
+	border-left: none;
+	border-bottom: none;
+}
+
+.plugin_paginacao {
+	height: 35px;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.plugin_paginacao a {
+	width: 10px;
+	height: 10px;
+	margin: 3px;
+	display: block;
+	outline: 0;
+	text-indent: -9999px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, .05)) !important;
+}
+
+**.plugin_paginacao a {
+	width: 14px;
+	height: 14px;
+}
+
+.plugin_paginacao a:hover {
+	-o-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2)
+}
+
+.plugin_paginacao_item {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+/* CORES */
+.plugin_seta_left span, .plugin_seta_right span {
+	border-color: #fff;
+}
+
+.plugin_paginacao a {
+	border: 1px solid #fff;
+	background: #fff;
+}
+
+.plugin_paginacao a.active,
+.plugin_paginacao .plugin_paginacao_item.active a,
+.plugin_paginacao a.flex-active {
+	width: 14px;
+	height: 14px;
+	background: #fff;
+	box-shadow: 0 0px 5px 2px #fff;
+}
+
+/* Galeria para Carrocel normal */
+.Plugin_CSS_galeriaa {
+	.img_maior.galeria_textos {
+		width: 100%;
+		height: 400px;
+
+		img {
+			max-height: 400px;
+		}
+	}
+
+	.Plugin {
+		max-width: 100% !important;
+	}
+
+	.plugin_seta_left, .plugin_seta_right {
+		width: 30px;
+		height: 30px;
+	}
+
+	.plugin_seta_left span, .plugin_seta_right span {
+		width: 20px;
+		height: 20px;
+		margin-top: 20px;
+		border-color: #ccc;
+	}
+
+	.Plugin:hover .plugin_seta_left {
+		left: -30px;
+	}
+
+	.Plugin:hover .plugin_seta_right {
+		right: -18px;
+	}
+}
+
+/* Fundo branco br50%, seta vermelho */
+.Plugin_CSS_fundo_vermelho {
+	.plugin_seta_left span, .plugin_seta_right span {
+		border-color: #153C89;
+	}
+
+	.plugin_paginacao a.active,
+	.plugin_paginacao .plugin_paginacao_item.active a,
+	.plugin_paginacao a.flex-active {
+		border-color: #153C89;
+		.BACK_LARANJA;
+	}
+}
+
+/* Fundo preto, seta branca */
+.Plugin_CSS_fundo_preto {
+	.Plugin.bx-wrapper {
+		margin: 0 30px 0 25px;
+	}
+
+	.plugin_seta_left, .plugin_seta_right {
+		width: 25px;
+		height: 50px;
+		margin-top: -26px;
+		background: #333;
+	}
+
+	.plugin_seta_left, .plugin_seta_right {
+		opacity: 1 !important;
+	}
+
+	.plugin_seta_left {
+		left: -25px !important;
+	}
+
+	.plugin_seta_right {
+		right: -30px !important;
+	}
+
+	.plugin_seta_left span, .plugin_seta_right span {
+		width: 15px;
+		height: 15px;
+		display: block !important;
+		border-color: #fff;
+		border-width: 2px;
+	}
+
+	.plugin_seta_left span {
+		margin: 17px 0 0 9px;
+	}
+
+	.plugin_seta_right span {
+		margin: 17px 0 0 1px;
+	}
+
+	.plugin_paginacao a.active,
+	.plugin_paginacao .plugin_paginacao_item.active a,
+	.plugin_paginacao a.flex-active {
+		border-color: #F86253;
+		background: #F86253;
+	}
+}
+
+/* Fundo seta laranja */
+.Plugin_CSS_seta_laranja {
+	.plugin_seta_left span, .plugin_seta_right span {
+		border-color: #FAA91A;
+	}
+
+	.plugin_paginacao a {
+		background: #eee;
+		border: 0;
+	}
+
+	.plugin_paginacao a.active,
+	.plugin_paginacao .plugin_paginacao_item.active a,
+	.plugin_paginacao a.flex-active {
+		border-color: #FAA91A;
+		background: #FAA91A;
+	}
+}
+
+/* Boder seta laranja */
+.Plugin_CSS_boder_seta_laranja {
+	.plugin_seta_left, .plugin_seta_right {
+		height: 80px;
+		padding-top: 10px;
+		border: 1px solid #FF7D23;
+	}
+
+	.plugin_paginacao a {
+		background: #fff;
+		border: 0;
+	}
+
+	.plugin_paginacao a.active,
+	.plugin_paginacao .plugin_paginacao_item.active a,
+	.plugin_paginacao a.flex-active {
+		border-color: #FAA91A;
+		background: #FAA91A;
+	}
+}
+
+/* CORES */
+
+
+
+/* No Controles */
+.no_seta .plugin_seta_left,
+.no_seta .plugin_seta_right {
+	display: none !important;
+}
+
+.no_seta_left .plugin_seta_left {
+	display: none !important;
+}
+
+.no_seta_right .plugin_seta_right {
+	display: none !important;
+}
+
+.no_pagg .plugin_paginacao {
+	display: none !important;
+}
+
+.pagg1 .plugin_paginacao {
+	position: absolute;
+	width: 100%;
+	height: inherit;
+	padding: 0;
+	margin-top: -30px;
+}
+
+.pagg2 .plugin_paginacao {
+	position: absolute;
+	width: 100%;
+	height: inherit;
+	padding: 0;
+	margin-top: -40px;
+}
+
+.pagg3 .plugin_paginacao {
+	position: absolute;
+	width: 100%;
+	height: inherit;
+	padding: 0;
+	margin-top: -50px;
+}
+
+
+/* Galeria Thumbs */
+.plugin_paginacao.lSGallery {
+	height: 100px;
+}
+
+.plugin_paginacao.lSGallery a {
+	width: inherit;
+	height: inherit;
+}
+
+/* Mobile */
+@media screen and (max-width: 860px) {
+	.plugin_seta_left {
+		opacity: 1;
+		left: 10px;
+	}
+
+	.plugin_seta_right {
+		opacity: 1;
+		right: 10px;
+	}
+}
+
+/* PLUGINS */
+
+
+
+
+
+/* INPUT */
+
+/* Design */
+input.design,
+textarea.design,
+.select2,
+select.design,
+select.designx {
+	height: 36px;
+	line-height: 36px;
+	padding: 0 10px;
+	border: solid 1px #ccc;
+	background: url('../web/img/outros/input/bg-input30.png') repeat-x 0px 0px #FFF;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	outline: 0;
+	-webkit-box-shadow: 0 0 0 0 #fff;
+	-moz-box-shadow: 0 0 0 0 #fff;
+	box-shadow: 0 0 0 0 #fff;
+}
+
+input.design:focus,
+textarea.design:focus,
+.select2:focus,
+select.design:focus,
+select.designx:focus,
+.select2-container--open,
+.select2-container--focus {
+	box-shadow: 0px 0px 4px rgba(0, 204, 255, 0.7);
+	-webkit-box-shadow: 0px 0px 4px rgba(0, 204, 255, 0.7);
+	-moz-box-shadow: 0px 0px 4px rgba(0, 204, 255, 0.7);
+	border-color: #AAA;
+	background: url('../web/img/outros/input/bg-input-focus1.png') repeat-x 0px 0px #FFF;
+}
+
+/* Design */
+
+/* Select2 */
+.select2-selection__rendered {
+	height: 36px;
+	line-height: 36px;
+	font-size: 12px;
+	color: #666 !important;
+}
+
+.select2-container {
+	font-size: 12px;
+	border: 0 !important;
+}
+
+.select2-selection {
+	padding: 0 10px;
+	border: solid 1px #ccc;
+	background: url('../web/img/outros/input/bg-input30.png') repeat-x 0px 0px #FFF;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	outline: 0;
+}
+
+.select2-selection--multiple {
+	height: 36px !important;
+
+	.select2-selection__rendered {
+		height: 36px;
+	}
+
+	.select2-selection__choice {
+		height: 28px !important;
+		line-height: 28px !important;
+	}
+}
+
+.select2-container--default .select2-results__group {
+	color: #666;
+	border: 1px solid #eee;
+	background: #fafafa;
+}
+
+/* Select2 */
+
+
+
+
+.enviar_documento .select2,
+.enviar_documento select.design,
+.enviar_documento select.designx {
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+	border: solid 1px #ccc;
+	background: url('../web/img/outros/input/bg-input30.png') repeat-x 0px 0px #FFF;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	outline: 0;
+	-webkit-box-shadow: 0 0 0 0 #fff;
+	-moz-box-shadow: 0 0 0 0 #fff;
+	box-shadow: 0 0 0 0 #fff;
+}
+
+.enviar_documento .select2-container--open,
+.enviar_documento .select2-container--focus {
+	box-shadow: 0px 0px 4px rgba(0, 204, 255, 0.7);
+	-webkit-box-shadow: 0px 0px 4px rgba(0, 204, 255, 0.7);
+	-moz-box-shadow: 0px 0px 4px rgba(0, 204, 255, 0.7);
+	border-color: #AAA;
+	background: url('../web/img/outros/input/bg-input-focus1.png') repeat-x 0px 0px #FFF;
+}
+
+/* Design */
+
+/* Select2 */
+.enviar_documento .select2-selection__rendered {
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	color: #666 !important;
+}
+
+.enviar_documento .select2-container {
+	font-size: 12px;
+	border: 0 !important;
+}
+
+.enviar_documento .select2-selection {
+	padding: 0 10px;
+	border: solid 1px #ccc;
+	background: url('../web/img/outros/input/bg-input30.png') repeat-x 0px 0px #FFF;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	outline: 0;
+}
+
+.enviar_documento .select2-selection--multiple {
+	height: 30px !important;
+
+	.select2-selection__rendered {
+		height: 30px;
+	}
+
+	.select2-selection__choice {
+		height: 28px !important;
+		line-height: 28px !important;
+	}
+}
+
+.enviar_documento .select2-container--default .select2-results__group {
+	color: #666;
+	border: 1px solid #eee;
+	background: #fafafa;
+}
+
+/* Select2 */
+/* INPUT */
+
+
+/* Style
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+*/

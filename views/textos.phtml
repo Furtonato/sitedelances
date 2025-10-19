@@ -1,0 +1,37 @@
+<style>
+    .editor { line-height: 24px; }
+    .editor form, .editor input, .editor a { display: inline !important; }
+    .editor ul, .editor ol { padding: 0 40px }
+    .editor li, .editor h1, .editor h2, .editor h3, .editor h4, .editor h5, .editor h6 { padding: 3px; }
+    .editor p		{ float:none !important; margin:8px 0 16px !important; padding:0 }
+    .editor ul		{ float:none !important; list-style:inside; display:block !important; margin:0 !important; padding:0 40px !important; }
+    .editor ul li	{ float:none !important; margin:0; padding:0; }
+</style>
+<div class="container-fluid">
+    <section class="container p-3">
+
+        <div class="centerr pt40 pb40">
+            <div class="fz24 fwb ttu"><?= $item->nome ?><div class="w100 h5 bdw3 bdb_153C89"></div></div>
+
+            <div class="pt30 pb40">
+                <?= txt($item) ?>
+                <div class="h10 clear"></div>
+                <?= rede() ?>
+            </div>
+
+            <?php if ($mais_fotos) { ?>
+                <ul>
+                    <?php foreach ($mais_fotos as $key => $value) { ?>
+                        <?php $img->link = 1 ?>
+                        <li class="wr3 pb30 tac"><?= $img->img($value, 200, 200) ?></li>
+                        <?= clear($key, 4) ?>
+                    <?php } ?>
+                    <div class="clear"></div>
+                </ul>
+            <?php } ?>
+
+        </div>
+
+
+    </section>
+</div>

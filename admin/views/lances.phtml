@@ -1,0 +1,31 @@
+<?php
+$db = $mysql->getDB();
+
+$valor = serialize($_POST);
+
+$sql = $db->prepare("SELECT valor FROM configs WHERE id = 22");
+$executa = $sql->execute();
+$reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+$res = unserialize($reg['valor']);
+?>
+<div class="tabs menu_admin">
+    <form class="form_1609547723" action="/admin/controlers/remover_lances.php" method="post" enctype="multipart/form-data">
+
+        <?php if (isset($_GET['success'])) { ?>
+            <h2 style="padding: 10px;background-color: #188B51;color: white;margin-bottom: 10px;">Todos os lances foram removidos</h2>
+        <?php } ?>
+
+        <div class="pl10 ">
+            <button class="botao salvar_novo"> <i class="mr5 fa fa-times-circle"></i> Remover todos os lances </button>
+        </div>
+
+    </form>
+    <div class="clear"></div>
+    <script>
+        required_invalid('.tabs.menu_admin form.form_1609547723')
+    </script>
+    <script>
+        gravar_item('81', 'info_termos_e_notas', '.tabs.menu_admin form.form_1609547723')
+    </script>
+</div>

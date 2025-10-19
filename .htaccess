@@ -1,0 +1,28 @@
+RewriteEngine On
+RewriteCond %{SERVER_PORT} 80
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^(.+)\/?([0-9]*)\/?$ /system/index.php?cod=$1 [QSA,L]
+
+#Options -Indexes
+
+php_flag display_errors Off
+
+<FilesMatch "\.(inc|tpl|h|ihtml|ini|conf|class|bin|spd|theme|module|sql)$">
+	deny from all
+</FilesMatch>
+
+#Bloqueia o acesso ao .htaccess por curiosos 
+<Files ~ "^\.ht">
+	Order allow,deny
+	Deny from all
+</Files>
+
+# caso nao seja validada nenhum regra acima ou a pagina nao exista
+ErrorDocument 404 /erro.php
+

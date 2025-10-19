@@ -1,0 +1,56 @@
+<?php
+$db = $mysql->getDB();
+
+$valor = serialize($_POST);
+
+$sql = $db->prepare("SELECT valor FROM configs WHERE id = 22");
+$executa = $sql->execute();
+$reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+$res = unserialize($reg['valor']);
+?>
+
+<section class="container-fluid">
+    <div class="container">
+        <div class="col-12 pt-2 row align-items-center">
+            <div class="col-md-6">
+                <img class="img-fluid" src="<?= DIR ?>/web/img/leilaoseguro.png">
+            </div>
+            <div class="col-md-6 text-right">
+                <div class="p-2 text-secondary">Fundada em: <?= $res['fundado'] ?></div>
+                <div class="p-2 text-secondary">Membro ALEIBRAS</div>
+                <div style="color: #72bf44;font-family: 'Roboto', sans-serif;font-weight: 700;font-size: 1.4rem;" class="p-2">Última verificação: <?= date('d/m/Y H:i'); ?></div>
+            </div>
+        </div>
+
+    </div>
+    <div style="background-color: #f8f7f7;" class="container-fluid">
+        <div class="container">
+            <div class="row pt-3 pb-3">
+                <div class="col-md-3 col-4">
+                    <div style="color: #72bf44;font-family: 'Roboto', sans-serif;font-weight: 700;font-size: 1.4rem;" class="pb-4">Leiloeiros</div>
+                    <div style="color: #72bf44;font-family: 'Roboto', sans-serif;font-weight: 700;font-size: 1.4rem;" class="mt-3">Contato</div>
+                </div>
+                <div class="col-md-9 col-8">
+                    <div style="background-color: #fff;" class="rounded p-4 row"><?= $res['leiloiros'] ?></div>
+                    <div style="background-color: #fff;" class="rounded p-4 mt-3 row text-center">
+                        <div class="col-md-4">
+                            <b style="font-family: 'Roboto', sans-serif;font-weight: 700;color: #4d4d4f;font-size: 20px;">Email</b><br>
+                            <?= $res['email'] ?>
+                        </div>
+                        <div class="col-md-4">
+                            <b style="font-family: 'Roboto', sans-serif;font-weight: 700;color: #4d4d4f;font-size: 20px;">Fone</b><br>
+                            <?= $res['fone'] ?>
+                        </div>
+                        <div class="col-md-4">
+                            <b style="font-family: 'Roboto', sans-serif;font-weight: 700;color: #4d4d4f;font-size: 20px;">Mídias</b><br>
+                            <?= $res['midias'] ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>

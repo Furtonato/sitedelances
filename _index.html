@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="pt" style="overflow-x: hidden">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Parque dos Leilões</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/mdb.min.css" rel="stylesheet">
+    <link href="css/leiloes.css" rel="stylesheet">
+    <link rel="shortcut icon" type="icon" href="./images/ico.png">
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light white scrolling-navbar">
+                <div class="container pt-2 pb-2">
+
+                    <img src="./images/logo.png" alt="" class="img-fluid w-25 d-none d-sm-block pr-5">
+                    <img src="./images/logo.png" alt="" class="img-fluid w-50 d-block d-sm-none pr-5">
+
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarSupportedContent-7" aria-controls="navbarSupportedContent-7"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent-7">
+                        <ul class="navbar-nav mr-auto">
+
+                            <li class="nav-item">
+                                <a href="#" class="nav-link waves-effect waves-light"><i class="fa fa-envelope"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link waves-effect waves-light"><i class="fa fa-phone"></i></a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link waves-effect waves-light"><i class="fa fa-whatsapp"></i></a>
+                            </li>
+                        </ul>
+
+                        <ul class="navbar-nav ml-auto nav-flex-icons text-uppercase">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Início <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Sobre</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Acessar painel </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Criar conta</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="fixed-action-btn" style="bottom: 2rem; right: 1rem;">
+                <a class="btn-floating btn-lg green">
+                    <i class="fa fa-whatsapp"></i>
+                </a>
+            </div>
+        </header>
+
+        <div id="home" class="view jarallax" data-jarallax='{"speed": 0.2}'
+            style="background-image: url(./images/banner.jpg); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+            <div class="mask rgba-black-light">
+                <div class="container divleilao">
+                    <div class="row mt-5">
+                        <div class="col-lg-12 col-md-12">
+                            <div class="leilao text-center">
+                                <a class="btn bgleiloes btn-lg wow fadeInDown w-100" data-wow-delay="0.3s">
+                                    <h5 class="text-uppercase white-text mt-1 font-weight-bold wow fadeInDown"
+                                        data-wow-delay="0.3s">PRÓXIMO LEILÃO </h5>
+                                    <span id="contador" class="text-white" style="text-transform: none;"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="grey lighten-2">
+            <div class="container pt-5">
+                <div class="col-md-12 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="row flex-center">
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 pb-2">
+                            <div class="card bgleiloes text-center z-depth-2">
+                                <div class="card-body">
+                                    <p class="white-text mb-0"><i class="fa fa-car fa-2x"></i></p>
+                                    <p class="white-text mb-0 d-none d-md-block"><span class="font-weight-bold">119
+                                        </span>Veículos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 pb-2">
+                            <div class="card bgleiloes text-center z-depth-2">
+                                <div class="card-body">
+                                    <p class="white-text mb-0"><i class="fa fa-motorcycle fa-2x"></i></p>
+                                    <p class="white-text mb-0 d-none d-md-block"><span class="font-weight-bold">9
+                                        </span>Motos</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 pb-2">
+                            <div class="card bgleiloes text-center z-depth-2">
+                                <div class="card-body">
+                                    <p class="white-text mb-0"><i class="fa fa-truck fa-2x"></i></p>
+                                    <p class="white-text mb-0 d-none d-md-block"><span class="font-weight-bold">0
+                                        </span>Utilitários</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 pb-2">
+                            <div class="card bgleiloes text-center z-depth-2">
+                                <div class="card-body">
+                                    <p class="white-text mb-0"><i class="fa fa-building fa-2x"></i></p>
+                                    <p class="white-text mb-0 d-none d-md-block"><span class="font-weight-bold">2
+                                        </span>Imóveis</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-2 col-md-2 col-lg-2 col-xl-2 pb-2">
+                            <div class="card bgleiloes text-center z-depth-2">
+                                <div class="card-body">
+                                    <p class="white-text mb-0"><i class="fa fa-briefcase fa-2x"></i></p>
+                                    <p class="white-text mb-0 d-none d-md-block"><span class="font-weight-bold">3
+                                        </span>Outros</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="input-group md-form form-sm form-1 pb-4">
+                                <div class="input-group-prepend">
+                                    <span class="input-group-text bgleiloes" id="basic-text1"><i
+                                            class="fa fa-search text-white" aria-hidden="true"></i></span>
+                                </div>
+                                <input class="form-control my-0 py-1 white" type="text" placeholder="Pesquisar"
+                                    aria-label="Pesquisar">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="white">
+            <div class="container">
+                <div class="col-md-12 pt-5 pb-5 clearfix">
+                    <div class="row mb-2 wow fadeIn" data-wow-delay="0.5s">
+
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 pb-5">
+                            <div class="card card-cascade narrower card-ecommerce">
+
+                                <div class="view view-cascade overlay">
+                                    <img src="./image/bradesco.gif" class="banco w-25" alt="">
+                                    <img src="https://grupo-parquedosleiloes.com/web/fotos/lote_440_1_VOLKSWAGEN%20VIRTUS%201.6%202019.jpg"
+                                        class="card-img-top" alt="">
+                                    <a>
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+
+                                <div class="card-body card-body-cascade text-center no-padding">
+
+                                    <h6 class="h6-responsive font-weight-bold txtleiloes">Volkswagen Virtus 1.6 2019
+                                    </h6>
+
+                                    <p class="card-text txtleiloes">Fechamento: <span
+                                            class="font-weight-bold">00/00/0000</span>
+                                    </p>
+
+                                    <div class="card-footer txtleiloes p-0">
+                                        <p style="font-size: 0.9rem;" class="py-0 my-0">Lance atual:</p>
+                                        <h6 class="h6-responsive float-center font-weight-bold">R$ 29.500,00
+                                        </h6>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 pb-5">
+                            <div class="card card-cascade narrower card-ecommerce">
+
+                                <div class="view view-cascade overlay">
+                                    <img src="./image/bradesco.gif" class="banco w-25" alt="">
+                                    <img src="https://grupo-parquedosleiloes.com/web/fotos/lote_440_1_VOLKSWAGEN%20VIRTUS%201.6%202019.jpg"
+                                        class="card-img-top" alt="">
+                                    <a>
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+
+                                <div class="card-body card-body-cascade text-center no-padding">
+
+                                    <h6 class="h6-responsive font-weight-bold txtleiloes">Volkswagen Virtus 1.6 2019
+                                    </h6>
+
+                                    <p class="card-text txtleiloes">Fechamento: <span
+                                            class="font-weight-bold">00/00/0000</span>
+                                    </p>
+
+                                    <div class="card-footer txtleiloes p-0">
+                                        <p style="font-size: 0.9rem;" class="py-0 my-0">Lance atual:</p>
+                                        <h6 class="h6-responsive float-center font-weight-bold">R$ 29.500,00
+                                        </h6>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 pb-5">
+                            <div class="card card-cascade narrower card-ecommerce">
+
+                                <div class="view view-cascade overlay">
+                                    <img src="./image/bradesco.gif" class="banco w-25" alt="">
+                                    <img src="https://grupo-parquedosleiloes.com/web/fotos/lote_440_1_VOLKSWAGEN%20VIRTUS%201.6%202019.jpg"
+                                        class="card-img-top" alt="">
+                                    <a>
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+
+                                <div class="card-body card-body-cascade text-center no-padding">
+
+                                    <h6 class="h6-responsive font-weight-bold txtleiloes">Volkswagen Virtus 1.6 2019
+                                    </h6>
+
+                                    <p class="card-text txtleiloes">Fechamento: <span
+                                            class="font-weight-bold">00/00/0000</span>
+                                    </p>
+
+                                    <div class="card-footer txtleiloes p-0">
+                                        <p style="font-size: 0.9rem;" class="py-0 my-0">Lance atual:</p>
+                                        <h6 class="h6-responsive float-center font-weight-bold">R$ 29.500,00
+                                        </h6>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 pb-5">
+                            <div class="card card-cascade narrower card-ecommerce">
+
+                                <div class="view view-cascade overlay">
+                                    <img src="./image/bradesco.gif" class="banco w-25" alt="">
+                                    <img src="https://grupo-parquedosleiloes.com/web/fotos/lote_440_1_VOLKSWAGEN%20VIRTUS%201.6%202019.jpg"
+                                        class="card-img-top" alt="">
+                                    <a>
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+
+                                <div class="card-body card-body-cascade text-center no-padding">
+
+                                    <h6 class="h6-responsive font-weight-bold txtleiloes">Volkswagen Virtus 1.6 2019
+                                    </h6>
+
+                                    <p class="card-text txtleiloes">Fechamento: <span
+                                            class="font-weight-bold">00/00/0000</span>
+                                    </p>
+
+                                    <div class="card-footer txtleiloes p-0">
+                                        <p style="font-size: 0.9rem;" class="py-0 my-0">Lance atual:</p>
+                                        <h6 class="h6-responsive float-center font-weight-bold">R$ 29.500,00
+                                        </h6>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="row mb-2 wow fadeIn" data-wow-delay="0.5s">
+
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 pb-5">
+                            <div class="card card-cascade narrower card-ecommerce">
+
+                                <div class="view view-cascade overlay">
+                                    <img src="./image/bradesco.gif" class="banco w-25" alt="">
+                                    <img src="https://grupo-parquedosleiloes.com/web/fotos/lote_440_1_VOLKSWAGEN%20VIRTUS%201.6%202019.jpg"
+                                        class="card-img-top" alt="">
+                                    <a>
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+
+                                <div class="card-body card-body-cascade text-center no-padding">
+
+                                    <h6 class="h6-responsive font-weight-bold txtleiloes">Volkswagen Virtus 1.6 2019
+                                    </h6>
+
+                                    <p class="card-text txtleiloes">Fechamento: <span
+                                            class="font-weight-bold">00/00/0000</span>
+                                    </p>
+
+                                    <div class="card-footer txtleiloes p-0">
+                                        <p style="font-size: 0.9rem;" class="py-0 my-0">Lance atual:</p>
+                                        <h6 class="h6-responsive float-center font-weight-bold">R$ 29.500,00
+                                        </h6>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 pb-5">
+                            <div class="card card-cascade narrower card-ecommerce">
+
+                                <div class="view view-cascade overlay">
+                                    <img src="./image/bradesco.gif" class="banco w-25" alt="">
+                                    <img src="https://grupo-parquedosleiloes.com/web/fotos/lote_440_1_VOLKSWAGEN%20VIRTUS%201.6%202019.jpg"
+                                        class="card-img-top" alt="">
+                                    <a>
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+
+                                <div class="card-body card-body-cascade text-center no-padding">
+
+                                    <h6 class="h6-responsive font-weight-bold txtleiloes">Volkswagen Virtus 1.6 2019
+                                    </h6>
+
+                                    <p class="card-text txtleiloes">Fechamento: <span
+                                            class="font-weight-bold">00/00/0000</span>
+                                    </p>
+
+                                    <div class="card-footer txtleiloes p-0">
+                                        <p style="font-size: 0.9rem;" class="py-0 my-0">Lance atual:</p>
+                                        <h6 class="h6-responsive float-center font-weight-bold">R$ 29.500,00
+                                        </h6>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 pb-5">
+                            <div class="card card-cascade narrower card-ecommerce">
+
+                                <div class="view view-cascade overlay">
+                                    <img src="./image/bradesco.gif" class="banco w-25" alt="">
+                                    <img src="https://grupo-parquedosleiloes.com/web/fotos/lote_440_1_VOLKSWAGEN%20VIRTUS%201.6%202019.jpg"
+                                        class="card-img-top" alt="">
+                                    <a>
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+
+                                <div class="card-body card-body-cascade text-center no-padding">
+
+                                    <h6 class="h6-responsive font-weight-bold txtleiloes">Volkswagen Virtus 1.6 2019
+                                    </h6>
+
+                                    <p class="card-text txtleiloes">Fechamento: <span
+                                            class="font-weight-bold">00/00/0000</span>
+                                    </p>
+
+                                    <div class="card-footer txtleiloes p-0">
+                                        <p style="font-size: 0.9rem;" class="py-0 my-0">Lance atual:</p>
+                                        <h6 class="h6-responsive float-center font-weight-bold">R$ 29.500,00
+                                        </h6>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-3 col-lg-3 col-xl-3 pb-5">
+                            <div class="card card-cascade narrower card-ecommerce">
+
+                                <div class="view view-cascade overlay">
+                                    <img src="./image/bradesco.gif" class="banco w-25" alt="">
+                                    <img src="https://grupo-parquedosleiloes.com/web/fotos/lote_440_1_VOLKSWAGEN%20VIRTUS%201.6%202019.jpg"
+                                        class="card-img-top" alt="">
+                                    <a>
+                                        <div class="mask rgba-white-slight"></div>
+                                    </a>
+                                </div>
+
+                                <div class="card-body card-body-cascade text-center no-padding">
+
+                                    <h6 class="h6-responsive font-weight-bold txtleiloes">Volkswagen Virtus 1.6 2019
+                                    </h6>
+
+                                    <p class="card-text txtleiloes">Fechamento: <span
+                                            class="font-weight-bold">00/00/0000</span>
+                                    </p>
+
+                                    <div class="card-footer txtleiloes p-0">
+                                        <p style="font-size: 0.9rem;" class="py-0 my-0">Lance atual:</p>
+                                        <h6 class="h6-responsive float-center font-weight-bold">R$ 29.500,00
+                                        </h6>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </main>
+
+    <footer class="page-footer text-center text-md-left grey lighten-3 pt-0">
+        <div>
+            <a href="#"><img class="w-100" src="./images/whatsapp.png" alt=""></a>
+            <a href="#"><img class="w-100" src="./images/leilao.jpg" alt=""></a>
+        </div>
+
+        <div class="bgleiloes">
+            <div class="container">
+                <div class="row py-4 d-flex align-items-center">
+                    <div class="col-12 col-md-6 text-left mb-2">
+                        <h6 class="mb-0 white-text text-center text-md-left"><strong>Central de atendimento do Grupo
+                                Parque dos Leilões</span></strong></h6>
+                    </div>
+
+                    <div class="col-12 col-md-6 text-center">
+                        <a class="p-2 m-2 fa-lg fb-ic ml-0"><i class="fa fa-phone white-text mr-lg-4"> </i></a>
+                        <a class="p-2 m-2 fa-lg tw-ic"><i class="fa fa-whatsapp white-text mr-lg-4"> </i></a>
+                        <a class="p-2 m-2 fa-lg gplus-ic"><i class="fa fa-envelope white-text mr-lg-4"> </i></a>
+                        <a class="p-2 m-2 fa-lg li-ic"><i class="fa fa-map-marker white-text mr-lg-4"> </i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-5 mb-4 text-left" style="font-size: 0.8rem">
+            <div class="row mt-3">
+
+                <div class="col-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 mb-4 dark-grey-text">
+                    <h6 class="text-uppercase txtleiloes font-weight-bold"><strong>Grupo Parque dos Leilões</strong>
+                    </h6>
+                    <hr class="bgleiloes mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p class="font-weight-bold mb-0">IMPORTANTE:</p>
+                    <p class="mb-0">1: - Necessário agendamento prévio via e-mail ou telefone.</p>
+                    <p class="mb-0">2: - Grupo Parque dos Leilões não possui representantes nem associados, sendo falso
+                        e ilegais os
+                        sites com anúncios de facilidades, influências ou qualquer tipo de acesso em nossos leilões.</p>
+                </div>
+
+
+                <div class="col-12 col-sm-4 col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 dark-grey-text">
+                    <h6 class="text-uppercase txtleiloes font-weight-bold"><strong>Informações</strong></h6>
+                    <hr class="bgleiloes mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p><a href="#" class="dark-grey-text">Quem somos</a></p>
+                    <p><a href="#" class="dark-grey-text">Termos de uso</a></p>
+                    <p><a href="#" class="dark-grey-text">Termos de responsabilidade</a></p>
+                    <p><a href="#" class="dark-grey-text">Perguntas frequentes</a></p>
+                    <p><a href="#" class="dark-grey-text">Fale conosco</a></p>
+                </div>
+
+                <div class="col-12 col-sm-4 col-md-2 col-lg-2 col-xl-2 mx-auto mb-4 dark-grey-text">
+                    <h6 class="text-uppercase txtleiloes font-weight-bold"><strong>Serviços</strong></h6>
+                    <hr class="bgleiloes mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p><a href="#!" class="dark-grey-text">Meus lances</a></p>
+                </div>
+
+                <div class="col-12 col-sm-4 col-md-2 col-lg-2 col-xl-2  dark-grey-text">
+                    <h6 class="text-uppercase txtleiloes font-weight-bold"><strong>Minha conta</strong></h6>
+                    <hr class="bgleiloes mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                    <p><a href="#" class="dark-grey-text">Cadastre-se</a></p>
+                    <p><a href="#" class="dark-grey-text">Login</a></p>
+                    <p><a href="#" class="dark-grey-text">Esqueci minha senha</a></p>
+                </div>
+                <div class="col-12 col-sm-12 col-md-2 col-lg-2 col-xl-2  dark-grey-text">
+                    <img class="mb-3" src="./images/cs.png" alt="">
+                    <p class="txtleiloes mb-2" style="font-weight: 800; font-size: 0.7rem">Site homologado pelo TJ-SP
+                    </p>
+                    <img class="img-fluid w-75" src="./images/tj.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="z-depth-1" style="height: 300px">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3670.7179088853395!2d-45.66349288536811!3d-23.070801349543398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cc56c414332ad5%3A0x672a763e834fd22d!2sRod.%20Vito%20Ardito%2C%205632%20-%20Jardim%20Campo%20Grande%2C%20Ca%C3%A7apava%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1590881926870!5m2!1spt-BR!2sbr"
+                width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+        <div class="footer-copyright bgleiloes py-3 text-center">
+            <div class="container-fluid" style="font-size: 0.8rem;">
+                © Grupo Parque dos Leilões - Todos os direitos reservados. Proibido a reprodução total ou parcial do
+                layout, seleção, organização e disposição do conteúdo audiovisual deste software nos termos da Lei
+                n. º
+                9.609/98 e 9.610/98. </a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script type="text/javascript" src="js-BKP/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js-BKP/popper.min.js"></script>
+    <script type="text/javascript" src="js-BKP/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js-BKP/mdb.min.js"></script>
+    <script src="https://maps.google.com/maps/api/js"></script>
+
+    <script>
+        new WOW().init();
+        $('#myModal').on('shown.bs.modal', function () {
+            $('#myInput').focus()
+        })
+
+        $(document).ready(function () {
+            $('.mdb-select').material_select();
+        });
+
+        var countDownDate = new Date("Jun 01, 2020 00:00:00").getTime();
+        var x = setInterval(function () {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            if (days > 0) {
+                days = days + " dias "
+            }
+
+            document.getElementById("contador").innerHTML = days + hours + " horas " +
+                minutes + " minutos " + seconds + " segundos ";
+
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("contador").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+    </script>
+
+</body>
+
+</html>

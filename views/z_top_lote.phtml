@@ -1,0 +1,89 @@
+<div class="row align-items-center mb-3">
+    <div class="col-md-3">
+        <a href="<?= url('lotes', $leiloes) ?>">
+            <?php $img->tags = ' class="img-thumbnail" ' ?>
+            <img src="<?= DIR ?>/web/fotos/<?= $leiloes->foto ?>" alt="..." class="img-thumbnail">
+        </a>
+    </div>
+
+    <div class="col-md-6">
+        <h4><?= $leiloes->codigo ?> - <?= $leiloes->nome ?></h4>
+        <div class="row">
+            <div class="col-md-6 p-1">
+                <ul class="list-group">
+                    <li class="list-group-item p-1"><b>Comitente:</b> <?= comitentes($leiloes->comitentes) ?></li>
+                    <li class="list-group-item p-1"><b><?= lang('Início') ?>:</b> <?= data($leiloes->data_ini) ?> às <?= data($leiloes->data_ini, 'H:i') ?></li>
+                </ul>
+            </div>
+            <div class="col-md-6 p-1">
+                <ul class="list-group">
+                    <li class="list-group-item p-1"><b>Modalidade:</b> <?= rel('tipos', $leiloes->tipos) ?></li>
+                    <li class="list-group-item p-1"><b><?= lang('Término') ?>:</b> <?= data($leiloes->data_fim) ?> às <?= data($leiloes->data_fim, 'H:i') ?></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <?php if ($leiloes->foto1) { ?>
+            <a href="<?= DIR ?>/web/fotos/<?= $leiloes->foto1 ?>" target="_blank" class="btn btn-secondary text-uppercase btn-block"><?= lang('VER EDITAL') ?></a>
+        <?php } ?>
+
+        <a href="<?= DIR ?>/lotes/?natureza[]=<?= $leiloes->natureza ?>" class="btn btn-warning text-uppercase btn-block" role="alert"><?= rel('natureza', $leiloes->natureza) ?></a>
+
+        <?php if (isset($leiloes_habilitacoes) AND ! count($leiloes_habilitacoes)) { ?>
+            <button id="habilitar_leilao" onclick="habilitar_leilao('<?= $leiloes->id ?>')" class="btn btn-primary text-uppercase btn-block" role="alert"><?= lang('HABILITAR-SE PARA LEILÃO') ?></button>
+        <?php } ?>
+
+
+        <?php if (count($lotes) > 1) { ?>
+            <?php
+            $value_left = '';
+            $value_right = '';
+            $vez = 0;
+            foreach ($lotes as $key => $value) {
+                if ($item->id == $value->id) {
+                    $vez++;
+                } elseif (!$vez) {
+                    $value_left = $value;
+                } elseif ($vez AND ! $value_right) {
+                    $value_right = $value;
+                }
+            }
+
+
+            if ($_GET['pg'] != 'lotes') {
+                ?>
+                <div class="row justify-content-center align-items-center mt-2">
+                    <?php if ($value_left) { ?>
+                        <div class="col-1">
+                            <a href="<?= url('lote', $value_left) ?>"><i class="fa fa-chevron-left"></i></a>
+                        </div>
+                        <?php
+                    }
+                    ?>
+
+                    <div class="col-9">
+                        <select class="form-control" onchange="location = options[selectedIndex].value">
+                            <?php foreach ($lotes as $key => $value) { ?>
+                                <option value="<?= url('lote', $value) ?>" <?= $item->id == $value->id ? 'selected' : '' ?>>Leilão: <?= $leiloes->codigo ?> - Lote: <?= (int) $value->ordem ?></option>
+                            <?php } ?>
+                        </select>
+                    </div>
+                    <?php if ($value_right) { ?>
+
+                        <div class="col-1">
+                            <a href="<?= url('lote', $value_right) ?>" class="dib p9 pb8 fz16 vam cor_fff back_ccc br2"><i class="fa fa-chevron-right"></i></a>
+                        </div>
+                    <?php } ?>
+                </div>
+
+            <?php
+            }
+        }
+        ?>
+
+    </div>
+
+
+</div>

@@ -1,0 +1,35 @@
+<div class="container-fluid">
+    <section class="container p-md-4 p-0">
+
+        <?php $url = $_GET['nome'] ?>
+        <?php $url .= $_GET['id'] != '-' ? '/' . $_GET['id'] : ($_GET['categorias'] != '-' ? '/-' : ''); ?>
+        <?php $url .= $_GET['categorias'] != '-' ? '/' . $_GET['categorias'] : ''; ?>
+        <?php $url .= isset($_GET['ids']) ? '?ids=' . $_GET['ids'] : ''; ?>
+
+        <div class="row justify-content-center">
+
+            <div class="col-md-4 col-12" method="post">
+                <h4><?= lang('Entre com a sua conta') ?></h4>
+                <form action="<?= DIR ?>/app/Ajax/ajaxForm/login.php" method="POST">
+                    <div class="form-group">
+                        <input type="email" name="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Digite seu e-mail ou login">
+                    </div>
+                    <div class="form-group">
+                        <input type="password" name="senha" class="form-control" id="senha" placeholder="Digite sua senha">
+                    </div>
+
+                    <input type="hidden" name="direcionar" value="<?= $url ?>" />
+                    <input type="hidden" name="fazer_login" value="1">
+                    <div>
+                        <a onclick="boxs('esqueci_senha')" class="fll c_azul link"><?= lang('Esqueceu sua senha?') ?></a>
+                        <a href="<?= DIR ?>/cadastro/<?= $url ?>" class="flr c_azul link"> <?= lang('Cadastre-se grátis') ?> </a>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-salvar"><?= lang('ENTRAR') ?></button>
+                </form>
+            </div>
+
+
+        </div>
+
+    </section>
+</div>

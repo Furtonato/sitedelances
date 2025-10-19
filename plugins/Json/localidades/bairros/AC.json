@@ -1,0 +1,282 @@
+[
+	{
+		"cidade": "Acrelândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Assis Brasil",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Brasiléia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bujari",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campinas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Capixaba",
+		"bairros": [
+		 	"Centro",
+		 	"Conquista"
+		]
+	},
+	{
+		"cidade": "Cruzeiro do Sul",
+		"bairros": [
+		 	"Centro",
+		 	"Comunidade Santa Luzia"
+		]
+	},
+	{
+		"cidade": "Epitaciolândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Feijó",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jordão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mâncio Lima",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Manoel Urbano",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Marechal Thaumaturgo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Plácido de Castro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Porto Acre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Porto Walter",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rio Branco",
+		"bairros": [
+		 	"7º BEC",
+		 	"Abrahão Alab",
+		 	"Adalberto Aragão",
+		 	"Aeroporto Velho",
+		 	"Alto Alegre",
+		 	"Areal",
+		 	"Aviário",
+		 	"Ayrton Senna",
+		 	"Bahia Nova",
+		 	"Bahia Velha",
+		 	"Baixa da Colina",
+		 	"Baixada da Cadeia Velha",
+		 	"Baixada da Habitasa",
+		 	"Base",
+		 	"Belo Jardim I",
+		 	"Belo Jardim II",
+		 	"Boa Esperança",
+		 	"Boa União",
+		 	"Boa Vista",
+		 	"Bosque",
+		 	"Cadeia Velha",
+		 	"Calafate",
+		 	"Capoeira",
+		 	"Casa Nova",
+		 	"Centro",
+		 	"Cerâmica",
+		 	"Chácara Ipê",
+		 	"Chico Mendes",
+		 	"Cidade Nova",
+		 	"Comara",
+		 	"Conjunto Adalberto Sena",
+		 	"Conjunto Bela Vista",
+		 	"Conjunto Castelo Branco",
+		 	"Conjunto Esperança",
+		 	"Conjunto Guiomard Santos",
+		 	"Conjunto Habitacional Vila Betel 2",
+		 	"Conjunto Habitar Brasil",
+		 	"Conjunto Jardim São Francisco",
+		 	"Conjunto Jardim Universitário",
+		 	"Conjunto Laélia Alcântara",
+		 	"Conjunto Manoel Julião",
+		 	"Conjunto Mariana",
+		 	"Conjunto Mascarenha de Moraes",
+		 	"Conjunto Oscar Passos",
+		 	"Conjunto Ouricurí",
+		 	"Conjunto Paulo César de Oliveira",
+		 	"Conjunto Procon",
+		 	"Conjunto Rui Lino",
+		 	"Conjunto Solar",
+		 	"Conjunto Tangará",
+		 	"Conjunto Tucumã",
+		 	"Conjunto Universitário",
+		 	"Conjunto Xavier Maia",
+		 	"Conquista",
+		 	"Defesa Civil",
+		 	"Distrito Industrial",
+		 	"Doca Furtado",
+		 	"Dom Giocondo",
+		 	"Eldorado",
+		 	"Estação Experimental",
+		 	"Floresta Sul",
+		 	"Geraldo Fleming",
+		 	"Glória",
+		 	"Habitasa",
+		 	"Horto Florestal",
+		 	"Ilson Ribeiro",
+		 	"Invasão da Seis de Agosto",
+		 	"Ipase",
+		 	"Irineu Serra",
+		 	"Isaura Parente",
+		 	"Ivete Vargas",
+		 	"Jardim América",
+		 	"Jardim Brasil",
+		 	"Jardim de Alah",
+		 	"Jardim Europa",
+		 	"Jardim Manoel Julião",
+		 	"Jardim Nazle",
+		 	"Jardim Primavera",
+		 	"Jardim Tropical",
+		 	"João Eduardo I",
+		 	"João Eduardo II",
+		 	"João Paulo",
+		 	"Jorge Lavocat",
+		 	"José Augusto",
+		 	"Loteamento dos Engenheiros",
+		 	"Loteamento Ipanema",
+		 	"Loteamento Isaura Parente",
+		 	"Loteamento Jaguar",
+		 	"Loteamento Jardim São Francisco",
+		 	"Loteamento Joafra",
+		 	"Loteamento Novo Horizonte",
+		 	"Loteamento Santa Helena",
+		 	"Loteamento Santa Luzia",
+		 	"Loteamento Santo Afonso",
+		 	"Loteamento São José",
+		 	"Loteamento Vila Maria",
+		 	"Mocinha Magalhães",
+		 	"Montanhês",
+		 	"Morada do Sol",
+		 	"Nova Esperança",
+		 	"Nova Estação",
+		 	"Novo Horizonte",
+		 	"Palheiral",
+		 	"Papouco",
+		 	"Parque das Palmeiras",
+		 	"Parque dos Sabiás",
+		 	"Paz",
+		 	"Pedro Roseno",
+		 	"Pista",
+		 	"Placas",
+		 	"Plácido de Castro",
+		 	"Portal da Amazônia",
+		 	"Praia do Amapá",
+		 	"Preventório",
+		 	"Quinze",
+		 	"Raimundo Melo",
+		 	"Recanto dos Buritis",
+		 	"Residencial Araçá",
+		 	"Residencial Iolanda",
+		 	"Residencial Petrópolis",
+		 	"Residencial Rosa Linda",
+		 	"Santa Inês",
+		 	"Santa Quitéria",
+		 	"São Francisco",
+		 	"Seis de Agosto",
+		 	"Sobral",
+		 	"Tancredo Neves",
+		 	"Taquarí",
+		 	"Triângulo Novo",
+		 	"Triângulo Velho",
+		 	"Vila Acre",
+		 	"Vila Aeroporto",
+		 	"Vila da Amizade",
+		 	"Vila do DNER",
+		 	"Vila Nova",
+		 	"Vilage Tiradentes",
+		 	"Vilage Wilde Maciel",
+		 	"Vitória",
+		 	"Volta Seca",
+		 	"Waldemar Maciel",
+		 	"Wanderley Dantas"
+		]
+	},
+	{
+		"cidade": "Rodrigues Alves",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Rosa do Purus",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sena Madureira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Senador Guiomard",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tarauacá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Xapuri",
+		"bairros": [
+		 	"Centro"
+		]
+	}
+]

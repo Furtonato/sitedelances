@@ -1,0 +1,193 @@
+
+<ul class="dn pb10">
+    <li class="p10 tac cor_fff bd_ccc back_A8A8AA br10">
+        <div class="pb5 fz14"><?= lang('AUDITÓRIO VIRTUAL') ?></div>
+        <div class=""><?= lang('VEJA OS LANCES E') ?></div>
+        <div class=""><?= lang('PARTICIPE AGORA MESMO') ?></div>
+    </li>
+</ul>
+
+
+<ul class="p10 pb5 bd_ccc back_fff">
+    <?php foreach ($topo_lotes1_cate_star as $key => $value) { ?>
+        <a href="<?= busca_url('cate[]=' . $value->id) ?>" class="posr db p8 pl10 pr10 mb5 fwb ttu cor_fff bd_ccc" style="background: <?= $value->cor ?>">
+            <?= $value->nome ?>
+            <div class="posa t8 r5"><?= qtd_itens($value->id, 'categorias') ?></div>
+        </a>
+    <?php } ?>
+</ul>
+
+
+<ul class="pt10">
+    <li class="p10 tac bd_4982BB back_125DA8">
+        <?php if (isset($_SESSION['x_site']->id)) { ?>
+            <a href="<?= DIR ?>/minha_conta/" class="db cor_fff">
+                <div class="pb5 fz14"><?= lang('MINHA CONTA') ?></div>
+                <div class=""><?= lang('OS MELHORES LEILÕES') ?></div>
+            </a>
+        <?php } else { ?>
+            <a href="<?= DIR ?>/cadastro/" class="db cor_fff">
+                <div class="pb5 fz14"><?= lang('CADASTRE-SE') ?></div>
+                <div class=""><?= lang('OS MELHORES LEILÕES') ?></div>
+            </a>
+        <?php } ?>
+    </li>
+</ul>
+
+
+<ul class="p10 mt10 bd_ccc back_F8F8F8">
+    <li class="p5 fz18 tac ttu cor_fff bdb_E9E9EC back_5482B7"><?= lang('Categorias') ?></li>
+
+    <li class="posr">
+
+        <ul>
+            <?php foreach ($topo_lotes1_cate as $key => $value) { ?>
+                <li class="posr pt10">
+                    <div class="bd_ccc back_ddd">
+                        <a href="<?= busca_url('cate[]=' . $value->id) ?>" class="db p5 cor_666"><?= $value->nome ?></a>
+                        <?= busca_selecionado($value->id, 'cate', 1) ?>
+                    </div>
+                    <?php if ($topo_lotes1_cate1[$value->id]) { ?>
+                        <ul>
+                            <?php foreach ($topo_lotes1_cate1[$value->id] as $key1 => $value1) { ?>
+                                <li class="p5 pl10 pr10 <?= $key1 ? 'bdt_ccc' : '' ?>">
+                                    <div>
+                                        <a href="<?= busca_url('cate[]=' . $value1->id) ?>" class="db cor_666"> <?= $value1->nome ?> <?= qtd_itens($value1->id, 'categorias') ?></a>
+                                        <?= busca_selecionado($value1->id, 'cate', 1) ?>
+                                    </div>
+                                    <?php if ($topo_lotes1_cate2[$value1->id]) { ?>
+                                        <ul>
+                                            <?php foreach ($topo_lotes1_cate2[$value1->id] as $key2 => $value2) { ?>
+                                                <li class="p5 pl10 pr10 <?= $key2 ? 'bdt_ccc' : '' ?>">
+                                                    <div>
+                                                        <a href="<?= busca_url('cate[]=' . $value2->id) ?>" class="db cor_666"> <?= $value2->nome ?> <?= qtd_itens($value2->id, 'categorias') ?></a>
+                                                        <?= busca_selecionado($value2->id, 'cate', 1) ?>
+                                                    </div>
+                                                </li>
+                                            <?php } ?>
+                                        </ul>
+                                    <?php } ?>
+                                </li>
+                            <?php } ?>
+                        </ul>
+                    <?php } ?>
+                </li>
+            <?php } ?>
+        </ul>
+
+
+        <?php /*
+          <div class="fz16 fwb">Status</div>
+          <ul>
+          <?php foreach ($topo_status as $key => $value) { ?>
+          <li class="pt10 pr10 posr">
+          <div class=" posa r0 cor_<?=LARANJA?>"><?=qtd_itens_status($value)?></div>
+          <a href="<?=busca_url('status_2[]='.$value->id)?>">
+          <div class="dib w15 h15 mr4 tac vam bd_ccc back_fff br2"><?=busca_selecionado($value->id, 'status_2', 0)?></div>
+          <span class="fz14 vam cor_666"><?=$value->nome?></span>
+          <?=busca_selecionado($value->id, 'status_2', 1)?>
+          </a>
+          </li>
+          <?php } ?>
+          </ul>
+
+          <div class="pt25 fz16 fwb">Tipos</div>
+          <ul>
+          <?php foreach ($topo_tipos as $key => $value) { ?>
+          <li class="pt10 pr20 posr">
+          <div class=" posa r0 cor_<?=LARANJA?>"><?=qtd_itens($value)?></div>
+          <a href="<?=busca_url('tipos[]='.$value->id)?>">
+          <div class="dib w15 h15 mr4 tac vam bd_ccc back_fff br2"><?=busca_selecionado($value->id, 'tipos', 0)?></div>
+          <span class="fz14 vam cor_666"><?=$value->nome?></span>
+          <?=busca_selecionado($value->id, 'tipos', 1)?>
+          </a>
+          </li>
+          <?php } ?>
+          </ul>
+
+          <div class="pt25 fz16 fwb">Natureza</div>
+          <ul>
+          <?php foreach ($topo_natureza as $key => $value) { ?>
+          <li class="pt10 pr20 posr">
+          <div class=" posa r0 cor_<?=LARANJA?>"><?=qtd_itens($value)?></div>
+          <a href="<?=busca_url('natureza[]='.$value->id)?>">
+          <div class="dib w15 h15 mr4 tac vam bd_ccc back_fff br2"><?=busca_selecionado($value->id, 'natureza', 0)?></div>
+          <span class="fz14 vam cor_666"><?=$value->nome?></span>
+          <?=busca_selecionado($value->id, 'natureza', 1)?>
+          </a>
+          </li>
+          <?php } ?>
+          </ul>
+
+          <div class="pt25 fz16 fwb">Categorias</div>
+          <ul hover="true">
+          <?php foreach ($topo_lotes1_cate as $key => $value) { ?>
+          <li class="pt10 pr20 posr">
+          <div class=" posa r0 cor_<?=LARANJA?>"><?=qtd_itens($value->id, 'categorias')?></div>
+          <a href="<?=busca_url('cate[]='.$value->id)?>">
+          <div class="dib w15 h15 mr4 tac vam bd_ccc back_fff br2"><?=busca_selecionado($value->id, 'cate', 0)?></div>
+          <span class="fz14 vam cor_666"><?=$value->nome?></span>
+          <?=busca_selecionado($value->id, 'cate', 1)?>
+          </a>
+          <?php if($topo_lotes1_cate1[$value->id]){ ?>
+          <ul class="dn" hover="true">
+          <?php foreach ($topo_lotes1_cate1[$value->id] as $key1 => $value1) { ?>
+          <li class="pt10">
+          <div class=" posa r0 cor_<?=LARANJA?>"><?=qtd_itens($value1->id, 'categorias')?></div>
+          <a href="<?=busca_url('cate[]='.$value1->id)?>">
+          <div class="dib w15 h15 mr4 tac vam bd_ccc back_fff br2"><?=busca_selecionado($value1->id, 'cate', 0)?></div>
+          <span class="fz14 vam cor_666"> &#10148; <?=$value1->nome?></span>
+          <?=busca_selecionado($value1->id, 'cate', 1)?>
+          </a>
+          <?php if($topo_lotes1_cate2[$value1->id]){ ?>
+          <ul class="dn">
+          <?php foreach ($topo_lotes1_cate2[$value1->id] as $key2 => $value2) { ?>
+          <li class="pt10">
+          <div class=" posa r0 cor_<?=LARANJA?>"><?=qtd_itens($value2->id, 'categorias')?></div>
+          <a href="<?=busca_url('cate[]='.$value2->id)?>">
+          <div class="dib w15 h15 mr4 tac vam bd_ccc back_fff br2"><?=busca_selecionado($value2->id, 'cate', 0)?></div>
+          <span class="fz14 vam cor_666"> &#10148;&#10148; <?=$value2->nome?></span>
+          <?=busca_selecionado($value2->id, 'cate', 1)?>
+          </a>
+          </li>
+          <?php } ?>
+          </ul>
+          <?php } ?>
+          </li>
+          <?php } ?>
+          </ul>
+          <?php } ?>
+          </li>
+          <?php } ?>
+          </ul>
+
+          <div class="pt25 fz16 fwb">Localidade</div>
+          <ul hover="true">
+          <?php foreach ($topo_estados as $key => $value) { ?>
+          <li class="pt10 pr20 posr">
+          <div class=" posa r0 cor_<?=LARANJA?>"><?=qtd_itens($key, 'estados')?></div>
+          <a href="<?=busca_url('estados[]='.$key)?>">
+          <div class="dib w15 h15 mr4 tac vam bd_ccc back_fff br2"><?=busca_selecionado($key, 'estados', 0)?></div>
+          <span class="fz14 vam cor_666"><?=estados($key)?></span>
+          <?=busca_selecionado($key, 'estados', 1)?>
+          </a>
+          <ul class="dn">
+          <?php foreach ($value as $key => $value) { ?>
+          <li class="pt10">
+          <div class=" posa r0 cor_<?=LARANJA?>"><?=qtd_itens($value, 'cidades')?></div>
+          <a href="<?=busca_url('cidades[]='.$value)?>">
+          <div class="dib w15 h15 mr4 tac vam bd_ccc back_fff br2"><?=busca_selecionado($value, 'cidades', 0)?></div>
+          <span class="fz14 vam cor_666"> &#10148; <?=$value?></span>
+          <?=busca_selecionado($value, 'cidades', 1)?>
+          </a>
+          </li>
+          <?php } ?>
+          </ul>
+          </li>
+          <?php } ?>
+          </ul>
+         */ ?>
+
+
+    </li>
+</ul>

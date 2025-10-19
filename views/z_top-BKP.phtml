@@ -1,0 +1,147 @@
+﻿
+<?php if ($_GET['pg'] != 'imprimir') { ?>
+    <header>
+
+
+        <div class="back_<?= LARANJA ?>">
+            <div class="centerr topo_01">
+                <ul class="fll fwb" hover="true">
+                    <?php if(isset($_SESSION['x_site']->id)){ ?>
+                    <li class="fll p15 pl20 pr20"><a class="cor_fff"><div class=""><?= lang('Olá') ?>, <?= $cadastro_pd->login ?>!</div></a>
+                        <ul class="posa z4 dn mt15 ml-10 bd_ccc br2 back_F0F0F0">
+                            <li class="posa mt-10 ml10" style="border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #F0F0F0;"></li>
+                            <li class="pt10 p12 pl30 pr30 fwn bdb_ccc"><a href="<?= DIR ?>/minha_conta/dados/"><?= lang('Meu Cadastro') ?></a></li>
+                            <li class="pt10 p12 pl30 pr30 fwn bdb_ccc"><a href="<?= DIR ?>/minha_conta/documentos/"><?= lang('Meus Documentos') ?></a></li>
+                            <li class="pt10 p12 pl30 pr30 fwn bdb_ccc"><a href="<?= DIR ?>/minha_conta/habilitacoes/"><?= lang('Minhas Habilitações') ?></a></li>
+                            <li class="pt10 p12 pl30 pr30 fwn bdb_ccc"><a href="<?= DIR ?>/minha_conta/meus_lances/"><?= lang('Meus Lances') ?></a></li>
+                            <li class="pt10 p12 pl30 pr30 fwn bdb_ccc"><a href="<?= DIR ?>/minha_conta/lotes_arrematados/"><?= lang('Meus Lotes') ?></a></li>
+                            <li class="pt10 p12 pl30 pr30 fwn bdb_ccc"><a onclick="ajaxNormal('ajaxForm/login.php?sair=1');"><?= lang('Sair') ?></a></li>
+                        </ul>
+                    </li>
+                    <?php } else { ?>
+                    <li class="fll p15 pl20 pr20"><a href="<?= DIR ?>/cadastro/" class="cor_fff"><?= lang('Registre-se') ?></a></li>
+                    <li class="fll p15 pl20 pr20"><a href="<?= DIR ?>/login/" class="cor_fff"><?= lang('Faça seu login') ?></a></li>
+                    <?php } ?>
+                    <li class="clear"></li>
+                </ul>
+                <ul class="fll p15 pl20 pr30 cor_fff">
+                    <li class="cronometro_tempo"></li>
+                    <script>cronometro_tempo()</script>
+                </ul>
+                <?php if(!isset($_SESSION['x_site']->id)){ ?>
+                <ul class="fll">
+                    <li>
+                        <form id="form_login1" method="post" action="">
+                            <div class="w150 fll pt10 pr10">
+                                <input type="text" name="email" class="w100p h25 design fz14" placeholder="<?= lang('Email ou Login') ?>" required>
+                            </div>
+                            <div class="w150 fll pt10 pr5">
+                                <input type="password" name="senha" class="w100p h25 design fz14" placeholder="<?= lang('Senha') ?>" required>
+                            </div>
+                            <div class="w100 fll pt10">
+                                <button class="design p4 fwb cor_fff bd_FFC000 hover2 hoverr4 back_FFC000 br2"><?= lang('OK') ?></button>
+                            </div>
+                            <input type="hidden" name="direcionar" value="refresh" />
+                            <input type="hidden" name="fazer_login" value="1">
+                        </form>
+                        <script>ajaxForm('form_login1', 'login.php')</script>
+                    </li>
+                </ul>
+                <?php } ?>
+                <ul class="flr pt10 fz16 tar">
+                    <?= $info->facebook ? '<li class="dib p5"><a href="' . http($info->facebook) . '" target="_blank" class="cor_fff hoverr-op8"><i class="fa fa-facebook"></i></a></li>' : '' ?>
+                    <?= $info->twitter ? '<li class="dib p5"><a href="' . http($info->twitter) . '" target="_blank" class="cor_fff hoverr-op8"><i class="fa fa-twitter"></i></a></li>' : '' ?>
+                    <?= $info->vimeo ? '<li class="dib p5"><a href="' . http($info->vimeo) . '" target="_blank" class="cor_fff hoverr-op8"><i class="fa fa-vimeo"></i></a></li>' : '' ?>
+                    <?= $info->pinterest ? '<li class="dib p5"><a href="' . http($info->pinterest) . '" target="_blank" class="cor_fff hoverr-op8"><i class="fa fa-pinterest"></i></a></li>' : '' ?>
+                    <?= $info->linkedin ? '<li class="dib p5"><a href="' . http($info->linkedin) . '" target="_blank" class="cor_fff hoverr-op8"><i class="fa fa-linkedin-square"></i></a></li>' : '' ?>
+                    <?= $info->dribbble ? '<li class="dib p5"><a href="' . http($info->dribbble) . '" target="_blank" class="cor_fff hoverr-op8"><i class="fa fa-dribbble"></i></a></li>' : '' ?>
+                    <?= $info->google ? '<li class="dib p5"><a href="' . http($info->google) . '" target="_blank" class="cor_fff hoverr-op8"><i class="fa fa-google-plus"></i></a></li>' : '' ?>
+                </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+
+        <div class="centerr pt10 pb10 p0_700 topo_02">
+            <div class="wr5 logo">
+                <div class="fll pt8 pl10">
+                    <a href="<?= DIR ?>/home/"><img src="<?= DIR ?>/web/img/z_leilao/logo.png" class="max-w150"></a>
+                </div>
+                <div class="fll pt26 pl20 fz14">
+                    <div class="">
+                        <i class="fa fa-gavel cor_777"></i>
+                        <span class="cor_FFC000"><?= count($total_leiloes) ?> <?= lang('Leilão(ões)') ?></span>
+                    </div>
+                    <div class="pt4">
+                        <i class="fa fa-bus cor_777"></i>
+                        <span class="cor_1442A5"><?= count($total_lotes) ?> <?= lang('Lote(s)') ?></span>
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </div>
+
+            <div class="wr1 tac centro">&nbsp;</div>
+
+            <div class="wr6 pt20 menu">
+                <ul class="menu fz14 tar tac_700" hover="true">
+                    <li class="dib"><a href="<?= DIR ?>/home/" class="db p20 bdr_F2F2F2 cor_hover_fff back_hover_<?= LARANJA ?> <?= ativo('home', '', 'cor_fff back_' . LARANJA) ?>"><?= lang('Home') ?></a></li>
+                    <li class="dib">
+                        <a href="<?= url_txt(2) ?>" class="db p20 bdr_F2F2F2 cor_hover_fff back_hover_<?= LARANJA ?> <?= ativo('textos', 2, 'cor_fff back_' . LARANJA) ?>"><?= lang('Quem Somos') ?></a>
+                        <ul class="dn posa z1 tal bd_F2F2F2">
+                            <?php foreach ($paginas as $key => $value) { ?>
+                            <li><a href="<?= url('textosp', $value) ?>" class="db p10 pl20 pr20 bdb_F2F2F2 back_fff cor_hover_fff back_hover_<?= LARANJA ?>"> <span class="dib_700">&nbsp; </span> <i class="fa fa-caret-right"></i> <?= $value->nome ?></a></li>
+                            <?php } ?>
+                        </ul>
+                    </li>
+                    <li class="dib"><a href="<?= DIR ?>/faq/" class="db p20 bdr_F2F2F2 cor_hover_fff back_hover_<?= LARANJA ?> <?= ativo('faq', '', 'cor_fff back_' . LARANJA) ?>"><?= lang('Faq') ?></a></li>
+                    <li class="dib"><a href="<?= DIR ?>/fale/" class="db p20 cor_hover_fff back_hover_<?= LARANJA ?> <?= ativo('fale', '', 'cor_fff back_' . LARANJA) ?>"><?= lang('Fale Conosco') ?></a></li>
+                </ul>
+                <ul class="menu_resp dn pt10 pb10" click="true" cor="fff" bd="fff" back="<?= LARANJA ?>"></ul>
+            </div>
+            <div class="clear"></div>
+        </div>
+
+
+        <?php if($_GET['pg']=='home'){ ?>
+        <div class="">
+            <div class="Plugin1 pagg1 Plugin_CSS_fundo_vermelho" itens="1" auto="10" altura_flexcivel="1">
+                <?php foreach ($banner[1] as $key => $value) { ?>
+                <a <?= $value->link ? 'href="' . http($value->link) . '"' : '' ?> class="db">
+                    <?= banner($value, auto, auto, ' class="db w100p m-a" ') ?>
+                </a>
+                <?php } ?>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <?php } ?>
+
+
+        <div class="bs2 bdt_ccc bdb_ccc" style="background: #EFEFEF;">
+            <div class="centerr">
+                <ul class="wr8 tac_600" hover="true">
+                    <li class="pt12 fz20">
+                        <div class="Plugin1 no_seta no_pagg" itens="1" auto="10" altura_flexcivel="1">
+                            <?php foreach ($topo_frases as $key => $value) { ?>
+                            <table>
+                                <tr>
+                                    <td <span class="h48 o-h pb10"><?= $value->nome ?></td>
+                                </tr>
+                            </table>
+                            <?php } ?>
+                        </div>
+                        <div class="clear"></div>
+                    </li>
+                </ul>
+                <div class="wr4 p12 pt12 pr30 fln_600">
+                    <form method="get" action="<?= DIR ?>/lotes/" class="posr">
+                        <input type="search" name="busca" class="design w100p h44 pr25 fz14" <?= isset($_GET['busca']) ? ' value="' . $_GET['busca'] . '" ' : ' placeholder="' . lang('O que você procura? ') . '" '; ?>  />
+                        <button class="posa t14 r10 fz16 cor_<?= LARANJA ?> bd0 back0"><i class="fa fa-search"></i></button>
+                    <div class="clear"></div>
+                </form>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+
+</header>
+<?php } ?>

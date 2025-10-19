@@ -1,0 +1,66 @@
+﻿.product-quantity {
+	color: #434343;
+	padding: 0 0 5px 0;
+}
+.product-quantity .content {
+	padding: 0 !important;
+}
+.product-quantity .footer {
+	clear: both;
+}
+
+/* BOX QUANTIDADE */
+.product-quantity-box {
+	float: left;
+	width: 30%;
+}
+.quantity-box {
+	padding: 5px;	
+	background: #F3F3F3;
+}
+.quantity-box .title {
+	$bold;
+	padding: 0 5px 5px 5px;
+	line-height: 15px;
+	text-align: center;
+}
+.quantity-box .content {
+	background: #fff;
+}
+.type-quantity {
+	width: 35px;
+	margin: 0 8px 0 5px;
+}
+
+
+/* TABELA VALORES */
+.product-quantity-table {
+	float: right;
+	width: 68%;
+}
+.table-box {
+	padding: 5px;	
+	background: #F3F3F3;
+}
+.table-box .title {
+	$bold;
+	padding: 0 5px 5px 5px;
+	line-height: 15px;
+	text-align: center;
+}
+.table-box .content {
+	padding: 0 !important;
+	background: #fff;
+}
+.product-quantity-table  table {
+	width: 100%;
+	text-align: center;
+}
+.table-quantity { width: 55%; }
+.table-price { width: 65%; }
+.product-quantity-table  table th,
+.product-quantity-table  table td {
+	padding: 5px;
+	border-top: 1px solid #F3F3F3;
+}
+.product-quantity-table  table th { border: 0; }

@@ -1,0 +1,165 @@
+
+<div class="container-fluid">
+    <section class="container p-2 p-md-5">
+
+        <h3 class="text-center"><?= lang('Faça seu Cadastro') ?></h3>
+        <div class="pb-2">
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link <?= !(isset($_GET['tipo']) AND $_GET['tipo'] == 'pj') ? 'active' : '' ?>" href="<?= DIR ?>/cadastro/"><?= lang('Pessoas Física') ?></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link <?= (isset($_GET['tipo']) AND $_GET['tipo'] == 'pj') ? 'active' : '' ?>" href="<?= DIR ?>/cadastro/?tipo=pj"><?= lang('Pessoas Jurídica') ?></a>
+                </li>
+            </ul>
+        </div>
+        <form action="<?= DIR ?>/app/Ajax/ajaxForm/cadastro.php" autocomplete="false">
+
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="nome"><?= (isset($_GET['tipo']) AND $_GET['tipo'] == 'pj') ? lang('Razão Social') : lang('Nome') ?><span class="text-danger">*</span></label>
+                    <input type="text" name="nome" class="form-control input" id="nome" placeholder="Digite seu nome completo" required="true" autocomplete="false">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email"><?= lang('Email') ?><span class="text-danger">*</span></label>
+                    <input type="email" name="email" class="form-control input" id="email" placeholder="Digite seu email" required="true">
+                </div>
+            </div>
+
+            <?php if ((isset($_GET['tipo']) AND $_GET['tipo'] == 'pj') OR ! isset($_GET['pg'])) { //Pessoa Juridica ?>
+                <input type="hidden" name="tipo" value="1">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="cnpj"><?= lang('CNPJ') ?><span class="text-danger">*</span></label>
+                        <input type="text" name="cnpj" class="form-control input validarCNPJ" id="cnpj" required="true" autocomplete="false">
+                        <div class="invalid-feedback">
+                            Forneça um CNPJ válido.
+                        </div>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="ie"><?= lang('IE') ?><span class="text-danger">*</span></label>
+                        <input type="text" name="ie" class="form-control input" id="ie" placeholder="Digite seu email" required="true">
+                    </div>
+                </div>
+            <?php } else { //Pessoa Fisica ?>
+                <div class="form-row">
+                    <div class="form-group col-md-3">
+                        <label for="cpf"><?= lang('CPF') ?><span class="text-danger">*</span></label>
+                        <input type="text" name="cpf" class="form-control input validarCPF" id="cpf" required="true" autocomplete="false">
+                        <div class="invalid-feedback">
+                            Forneça um CPF válido.
+                        </div>
+                    </div>
+                    <div class="form-group col-md-3 d-none">
+                        <label for="rg"><?= lang('RG') ?><span class="text-danger">*</span></label>
+                        <input type="text" name="rg" class="form-control input" id="rg">
+                    </div>
+                    <div class="form-group col-md-3 d-none">
+                        <label for="sexo"><?= lang('Sexo') ?></label>
+                        <select name="sexo" id="sexo" class="form-control input">
+                            <option value=""><?= lang('--Selecione--') ?>...</option>
+                            <option value="0"><?= lang('Feminino') ?></option>
+                            <option value="1"><?= lang('Masculino') ?></option>
+                        </select>
+                    </div>
+                    <div class="form-group col-md-3 d-none">
+                        <label for="nascimento"><?= lang('Data de Nascimento') ?><span class="text-danger">*</span></label>
+                        <input type="date" name="nascimento" class="form-control input" id="nascimento">
+                    </div>
+                </div>
+            <?php } ?>
+            <hr>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="telefone"><?= lang('Celular') ?><span class="text-danger">*</span></label>
+                    <input type="text" name="telefone" class="form-control input" id="telefone" required="true" autocomplete="false">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="celular"><?= lang('Telefone') ?></label>
+                    <input type="text" name="celular" class="form-control input" id="celular">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-2">
+                    <label for="cep"><?= lang('CEP') ?><span class="text-danger">*</span></label>
+                    <input type="text" name="cep" class="form-control input" id="cep" required="true">
+                </div>
+                <div class="form-group col-md-8">
+                    <label for="rua"><?= lang('Logradouro') ?><span class="text-danger">*</span></label>
+                    <input type="text" name="rua" class="form-control input" id="rua" required="true">
+                </div>
+                <div class="form-group col-md-2">
+                    <label for="numero"><?= lang('Número') ?><span class="text-danger">*</span></label>
+                    <input type="text" name="numero" class="form-control input" id="numero" required="true">
+                </div>
+                <div class="form-group col-md-3 d-none">
+                    <label for="complemento"><?= lang('Complemento') ?></label>
+                    <input type="text" name="complemento" class="form-control input" id="complemento">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label for="bairro"><?= lang('Bairro') ?><span class="text-danger">*</span></label>
+                    <input type="text" name="bairro" class="form-control input" id="bairro" required="true">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="cidades"><?= lang('Cidade') ?><span class="text-danger">*</span></label>
+                    <input type="text" name="cidades" class="form-control input" id="cidades" required="true">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="estados"><?= lang('Estado') ?><span class="text-danger">*</span></label>
+                    <input type="text" name="estados" class="form-control input" id="estados" required="true">
+                </div>
+                <div class="form-group col-md-3 d-none">
+                    <label for="pais"><?= lang('País') ?><span class="text-danger">*</span></label>
+                    <input type="text" name="pais" class="form-control input" id="pais">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group col-md-3">
+                    <label for="login"><?= lang('Usuario') ?><span class="text-danger">*</span></label>
+                    <input type="text" name="login" class="form-control input" id="login" required="true">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="senha"><?= lang('Senha') ?><span class="text-danger">*</span></label>
+                    <input type="password" name="senha" class="form-control input" id="senha" required="true">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="c_senha"><?= lang('Confirmar a Senha') ?><span class="text-danger">*</span></label>
+                    <input type="password" name="c_senha" class="form-control input" id="c_senha" required="true">
+                </div>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input input" type="checkbox" name="termos" value="1" id="termos" required="true">
+                    <label class="form-check-label" for="termos">
+                        <?= lang('Eu aceito os') ?> <a href="<?= DIR ?>/textos/<?= amg(1) ?>/1/" target="_blank" class="link c_azul"><?= lang('Termos de Uso') ?></a>.
+                    </label>
+                </div>
+            </div>
+
+            <?php if (isset($_SESSION['indicacao'])) { ?>
+                <div class="remove_edit"><input type="hidden" name="indicacao" value="<?= $_SESSION['indicacao'] ?>"></div>
+            <?php } ?>
+
+            <?php if (isset($_GET['nome'])) { ?>
+                <?php $url = $_GET['nome'] ?>
+                <?php $url .= $_GET['id'] != '-' ? '/' . $_GET['id'] : ($_GET['categorias'] != '-' ? '/-' : ''); ?>
+                <?php $url .= $_GET['categorias'] != '-' ? '/' . $_GET['categorias'] : ''; ?>
+                <input type="hidden" name="direcionar" value="<?= $url ?>" />
+            <?php } ?>
+
+            <input type="hidden" name="gravar" value="1">
+
+            <button type="submit" class="btn btn-primary btn-salvar"><?= lang('CADASTRAR') ?></button>
+        </form>
+
+
+        <div class="h80 remove_edit"></div>
+
+        <div class="h80 remove_edit clear"></div>
+
+    </section>
+</div>

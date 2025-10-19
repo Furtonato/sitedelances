@@ -1,0 +1,147 @@
+<?php
+
+$sql = $db->prepare("SELECT valor FROM configs WHERE id = 21");
+$executa = $sql->execute();
+$reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+$dados = unserialize($reg['valor']);
+?>
+
+<div class="tabs menu_admin">
+    <form class="form_1609547723" action="/admin/views/gravar.php" method="post" enctype="multipart/form-data">
+        <input type="hidden" name="dados_empresa" value="true">
+        <div class="pl10 ">
+            <h3>Dados Bancário</h3>
+
+            <div style="padding: 10px;padding-left: 0;width: 400px;" class="finput finput_nome">
+                <label style="width: 150px;" class="lnome">
+                    <p> Nome responsável: </p>
+
+                    <div class="input" data-original-title="">
+                        <input style="padding: 5px;width: 400px;" value="<?= $dados['nome'] ?>" type="text" name="nome">
+                    </div>
+                </label>
+            </div>
+
+            <div style="padding: 10px;padding-left: 0;width: 400px;" class="finput finput_nome">
+                <label style="width: 150px;" class="lnome">
+                    <p> CPF: </p>
+
+                    <div class="input" data-original-title="">
+                        <input style="padding: 5px;width: 400px;" value="<?= $dados['cpf'] ?>" type="text" name="cpf">
+                    </div>
+                </label>
+            </div>
+
+            <div style="padding: 10px;padding-left: 0;width: 400px;" class="finput finput_nome">
+                <label style="width: 150px;" class="lnome">
+                    <p> Banco: </p>
+
+                    <div class="input" data-original-title="">
+                        <input style="padding: 5px;width: 400px;" value="<?= $dados['banco'] ?>" type="text" name="banco">
+                    </div>
+                </label>
+            </div>
+
+            <div style="padding: 10px;padding-left: 0;width: 400px;" class="finput finput_nome">
+                <label style="width: 150px;" class="lnome">
+                    <p> Agência: </p>
+
+                    <div class="input" data-original-title="">
+                        <input style="padding: 5px;width: 400px;" value="<?= $dados['agencia'] ?>" type="text" name="agencia">
+                    </div>
+                </label>
+            </div>
+
+            <div style="padding: 10px;padding-left: 0;width: 400px;" class="finput finput_nome">
+                <label style="width: 150px;" class="lnome">
+                    <p> Conta: </p>
+
+                    <div class="input" data-original-title="">
+                        <input style="padding: 5px;width: 400px;" value="<?= $dados['conta'] ?>" type="text" name="conta">
+                    </div>
+                </label>
+            </div>
+            <h3>Dados Empresa</h3>
+
+
+            <div style="padding: 10px;padding-left: 0;width: 400px;" class="finput finput_nome">
+                <label style="width: 150px;" class="lnome">
+                    <p> Nome empresa: </p>
+
+                    <div class="input" data-original-title="">
+                        <input style="padding: 5px;width: 400px;" value="<?= $dados['nome_empresa'] ?>" type="text" name="nome_empresa">
+                    </div>
+                </label>
+            </div>
+
+            <div style="padding: 10px;padding-left: 0;width: 400px;" class="finput finput_nome">
+                <label style="width: 150px;" class="lnome">
+                    <p> Responsável Financeiro: </p>
+
+                    <div class="input" data-original-title="">
+                        <input style="padding: 5px;width: 400px;" value="<?= $dados['financeiro'] ?>" type="text" name="financeiro">
+                    </div>
+                </label>
+            </div>
+
+            <div style="padding: 10px;padding-left: 0;width: 400px;" class="finput finput_nome">
+                <label style="width: 150px;" class="lnome">
+                    <p> CNPJ: </p>
+
+                    <div class="input" data-original-title="">
+                        <input style="padding: 5px;width: 400px;" value="<?= $dados['cnpj'] ?>" type="text" name="cnpj">
+                    </div>
+                </label>
+            </div>
+
+            <div style="padding: 10px;padding-left: 0;width: 400px;" class="finput finput_nome">
+                <label style="width: 150px;" class="lnome">
+                    <p> Endereço: </p>
+
+                    <div class="input" data-original-title="">
+                        <input style="padding: 5px;width: 400px;" value="<?= $dados['endereco'] ?>" type="text" name="endereco">
+                    </div>
+                </label>
+            </div>
+
+            <div style="padding: 10px;padding-left: 0;width: 400px;" class="finput finput_nome">
+                <label style="width: 150px;" class="lnome">
+                    <p> CEP: </p>
+
+                    <div class="input" data-original-title="">
+                        <input style="padding: 5px;width: 400px;" value="<?= $dados['cep'] ?>" type="text" name="cep">
+                    </div>
+                </label>
+            </div>
+
+            <div style="padding: 10px;padding-left: 0;width: 400px;" class="finput finput_nome">
+                <label style="width: 150px;" class="lnome">
+                    <p> Telefone: </p>
+
+                    <div class="input" data-original-title="">
+                        <input style="padding: 5px;width: 400px;" value="<?= $dados['telefone'] ?>" type="text" name="telefone">
+                    </div>
+                </label>
+            </div>
+
+            <div style="padding: 10px;padding-left: 0;width: 400px;" class="finput finput_nome">
+                <label style="width: 150px;" class="lnome">
+                    <p> Site: </p>
+
+                    <div class="input" data-original-title="">
+                        <input style="padding: 5px;width: 400px;" value="<?= $dados['site'] ?>" type="text" name="site">
+                    </div>
+                </label>
+            </div>
+
+            <div class="clear"></div>
+
+            <br>
+            <div style="padding-left: 10px;" class="finput finput_nome">
+                <button type="submit">SALVAR</button>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </form>
+</div>

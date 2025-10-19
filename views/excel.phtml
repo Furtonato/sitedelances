@@ -1,0 +1,128 @@
+
+	<?php /*<script type="text/javascript" src="<?=DIR?>/plugins/Jquery/jquery-1.11.3.min.js"></script>*/ ?>
+
+	Aguarde Até O Download ser Executado!
+
+	<form id="exportarr" method="post" action="<?=DIR?>/app/Exportacoes/exportar_para_excel.php">
+	  	<input type="hidden" name="exportar_table" value="<?=$_GET['nome']?>">
+
+		<?
+			$exportar = array();
+			$exportar_top = '';
+			$exportar_center = '';
+
+			if($_GET['nome'] == 'cadastro'){
+				$exportar[] = array('nome', 'Nome / Razão Social');
+				$exportar[] = array('email', 'Email');
+				$exportar[] = array('login', 'Nick');
+				$exportar[] = array('cpf', 'CPF');
+				$exportar[] = array('cnpj', 'CNPJ');
+				$exportar[] = array('ie', 'IE');
+				$exportar[] = array('rg', 'RG');
+				$exportar[] = array('sexo', 'Sexo');
+				$exportar[] = array('nascimento', 'Data de nascimento');
+				$exportar[] = array('telefone', 'Telefone');
+				$exportar[] = array('celular', 'Celular');
+				$exportar[] = array('cep', 'Cep');
+				$exportar[] = array('rua', 'Endereço');
+				$exportar[] = array('numero', 'Número');
+				$exportar[] = array('complemento', 'Complemento');
+				$exportar[] = array('bairro', 'Bairro');
+				$exportar[] = array('cidades', 'Cidades');
+				$exportar[] = array('estados', 'Estados');
+
+			} elseif($_GET['nome'] == 'leiloes'){
+				$exportar[] = array('nome', 'Nome');
+				$exportar[] = array('codigo', 'Código');
+				$exportar[] = array('comitentes', 'Comitentes');
+				$exportar[] = array('cpf_cnpj', 'CPF/CNPJ');
+				$exportar[] = array('tipos', 'Tipos', 'select');
+				$exportar[] = array('natureza', 'Natureza', 'select');
+				$exportar[] = array('acrescimo', 'Acréscimo');
+				$exportar[] = array('data_ini', 'Data Inicio');
+				$exportar[] = array('data_fim', 'Data Fim');
+
+			} elseif($_GET['nome'] == 'lotes'){
+				$exportar[] = array('nome', 'Nome');
+				$exportar[] = array('categorias', 'Categorias');
+				$exportar[] = array('leiloes', 'Leilão', 'select');
+				$exportar[] = array('data_ini', 'Data Inicio');
+				$exportar[] = array('data_fim', 'Data Fim');
+				$exportar[] = array('lance_ini', 'Lance Inicial');
+				$exportar[] = array('lance_min', 'Lance Mínimo');
+				$exportar[] = array('data_ini1', 'Data Inicio (2ª Praça)');
+				$exportar[] = array('data_fim1', 'Data Fim (2ª Praça)');
+				$exportar[] = array('lance_min1', 'Lance Mínimo (2ª Praça)');
+				$exportar[] = array('incremento', 'Incremento');
+				$exportar[] = array('acrescimo', 'Acréscimo');
+				$exportar[] = array('lances', 'Valor Arrematado');
+				$exportar[] = array('lances_cadastro', 'Arrematando');
+				$exportar[] = array('sucata', 'Sucata de Veículos');
+				$exportar[] = array('endereco', 'Endereço');
+				$exportar[] = array('cidades', 'Cidades');
+				$exportar[] = array('estados', 'Estados');
+			}
+
+
+			// TOPO
+				foreach ($exportar as $key => $value) {
+					$exportar_top .= $value[1].'z|z';
+				}
+			// TOPO
+
+			// CENTRO
+				$mysql = new Mysql();
+				$mysql->filtro = " ORDER BY ".ORDER." ";
+				$consulta = $mysql->read($_GET['nome']);
+				foreach ($consulta as $key => $value) {
+					foreach ($exportar as $key1 => $value1) {
+						$item = $value1[0];
+
+						if($item == 'sexo'){
+							$exportar_center .= $value->$item ? 'Masculino' : 'Feminino';
+
+						} elseif($item == 'nascimento'){
+							$exportar_center .= data($value->$item);
+
+						} elseif(isset($value1[2]) AND $value1[2]=='select'){
+							$exportar_center .= rel($item, $value->$item);
+
+						} elseif($item == 'categorias'){
+							$exportar_center .= rel($_GET['nome'].'1_cate', $value->$item);
+
+						} elseif($item == 'data_ini' OR $item == 'data_fim' OR $item == 'data_ini1' OR $item == 'data_fim1'){
+							$exportar_center .= data($value->$item, 'd/m/Y H:i');
+
+						} elseif($item == 'lance_ini' OR $item == 'lance_min' OR $item == 'lance_min1' OR $item == 'incremento'){
+							$exportar_center .= preco($value->$item, 1);
+
+						} elseif($item == 'lances_cadastro'){
+							$exportar_center .= rel('cadastro', $value->$item).', '.rel('cadastro', $value->$item, 'cpf').rel('cadastro', $value->$item, 'cnpj').', '.rel('cadastro', $value->$item, 'telefone');
+
+						} elseif($item == 'comitentes'){
+							$exportar_center .= comitentes($value->comitentes);
+
+						} elseif($item == 'cpf_cnpj'){
+							$exportar_center .= comitentes($value->comitentes, 'cpf_cnpj');
+
+						} else {
+							$exportar_center .= $value->$item;
+						}
+
+						$exportar_center .= 'z|z';
+					}
+					$exportar_center .= 'z-z';
+				}
+			// CENTRO
+
+	  		echo '<input type="hidden" name="exportar_top" value="'.$exportar_top.'">';
+	  		echo '<input type="hidden" name="exportar_center" value="'.$exportar_center.'">';
+		?>
+
+		<button style="display: none"></button>
+
+	</form>
+
+	<script>
+		document.getElementById("exportarr").submit();
+	</script>

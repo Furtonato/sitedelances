@@ -1,0 +1,57 @@
+<?php
+$db = $mysql->getDB();
+
+$valor = serialize($_POST);
+
+$sql = $db->prepare("SELECT valor FROM configs WHERE id = 22");
+$executa = $sql->execute();
+$reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+$res = unserialize($reg['valor']);
+?>
+<div class="tabs menu_admin"> 
+    <form class="form_1609547723" action="/admin/views/gravar.php" method="post" enctype="multipart/form-data"> 
+
+        <div class="pl10 "> 
+            <fieldset class="w100p fll pt5 pb5 pr10 mt5 mb5 br1 "> 
+
+
+                <div class="finput finput_nome">
+                    <label class="lnome" for="nome"> <p> Fundado em: </p> </label>
+                    <div class="input" rel="tooltip" data-original-title="">
+                        <input type="text" name="fundado" value="<?= $res['fundado'] ?>" class="design "> </div>
+                </div>
+
+                <div class="finput finput_nome">
+                    <label class="lnome" for="nome"> <p> Leiloeiros: </p> </label>
+                    <div class="input" rel="tooltip" data-original-title="">
+                        <input type="text" name="leiloiros" value="<?= $res['leiloiros'] ?>" class="design "> </div>
+                </div>
+
+                <div class="finput finput_nome">
+                    <label class="lnome" for="nome"> <p> Email: </p> </label>
+                    <div class="input" rel="tooltip" data-original-title="">
+                        <input type="text" name="email" value="<?= $res['email'] ?>" class="design "> </div>
+                </div>
+
+                <div class="finput finput_nome">
+                    <label class="lnome" for="nome"> <p> Fone: </p> </label>
+                    <div class="input" rel="tooltip" data-original-title="">
+                        <input type="text" name="fone" value="<?= $res['fone'] ?>" class="design "> </div>
+                </div>
+
+                <div class="finput finput_nome">
+                    <label class="lnome" for="nome"> <p> Mídias: </p> </label>
+                    <div class="input" rel="tooltip" data-original-title="">
+                        <input type="text" name="midias" value="<?= $res['midias'] ?>" class="design "> </div>
+                </div>
+
+                <div class="clear"></div>
+
+                <br>
+                <div style="padding-left: 10px;" class="finput finput_nome">
+                    <button type="submit">SALVAR</button>
+                </div>
+        </div>
+
+    </form> <div class="clear"></div> <script> required_invalid('.tabs.menu_admin form.form_1609547723')</script> <script> gravar_item('81', 'info_termos_e_notas', '.tabs.menu_admin form.form_1609547723')</script> </div>

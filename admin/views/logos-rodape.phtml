@@ -1,0 +1,49 @@
+<?php
+$db = $mysql->getDB();
+
+$valor = serialize($_POST);
+
+
+
+
+$sql = $db->prepare("SELECT valor FROM configs WHERE id = 21");
+$executa = $sql->execute();
+$reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+$logos = unserialize($reg['valor']);
+?>
+<div class="tabs menu_admin"> 
+    <form class="form_1609547723" action="/admin/views/gravar.php" method="post" enctype="multipart/form-data"> 
+
+        <input type="hidden" name="logos_rodape" value="true">
+
+        <div class="pl10 "> 
+            <fieldset class="w100p fll pt5 pb5 pr10 mt5 mb5 br1 "> 
+
+                <?php for ($i = 1; $i <= 6; $i++) { ?>
+                    <div style="padding: 10px;padding-left: 0;" class="finput finput_nome">
+                        <label style="width: 150px;padding: 10px;" class="lnome" for="nome"> <p> Logo <?= $i ?>: </p> </label><br>
+                        <?php if (!empty($logos[$i])) { ?>
+                            <img id="img-<?= $i ?>" style="padding: 10px;" src="<?= DIR ?>/web/fotos/<?= $logos[$i] ?>" height="75px;"><br>
+                            <a data-i="<?= $i ?>" class="remover" style="margin-left: 20px;" href="#remover"><small>Remover</small></a>
+
+                        <?php } ?>
+                        <br>
+                        <br>
+
+                        <input id="logo-<?= $i ?>" type="hidden" name="logo-old-<?= $i ?>" value="<?= (!empty($logos[$i])) ? $logos[$i] : ''; ?>">
+                        <div class="input" rel="tooltip" data-original-title="">
+                            <input type="file" name="logo_<?= $i ?>">
+                        </div>
+                    </div>
+                <?php } ?>
+                <div class="clear"></div>
+
+                <br>
+                <div style="padding-left: 10px;" class="finput finput_nome">
+                    <button type="submit">SALVAR</button>
+                </div>
+        </div>
+
+    </form> <div class="clear"></div>
+</div>

@@ -1,0 +1,322 @@
+<section class="container-fluid p-md-1" id="app">
+    <input type="hidden" id="id" value="<?= $item->id ?>">
+    <div class="container p-md-3 p-0 pt-2 pb-2">
+
+
+        <?php include 'z_top_lote.phtml' ?>
+        <div class="p-lg-3 p-0 border border-secondary">
+
+            <div class="row pl-3 pr-3 align-items-center">
+                <h1 style="font-size: 1.8rem;" class="col-md-8"><?= $item->nome; ?></h1>
+                <div class="col-md-4">
+                    <div id="txt-encerra" style="font-size: 1.3rem;" class="text-center font-weight-bold">--------------</div>
+                    <div class="row LL_cronometro_tempo text-center align-items-center">
+                        <div class="dib text-center vat col-2">
+                            <span id="dias">--</span>
+                            <div class="small">DIAS</div>
+                        </div>
+                        <div style="font-size: 30px;" class="col-1 text-center">:</div>
+                        <div class="dib text-center vat col-2">
+                            <span id="hora">--</span>
+                            <div class="small">HORAS</div>
+                        </div>
+                        <div style="font-size: 30px;" class="col-1 text-center">:</div>
+                        <div class="dib text-center vat col-2">
+                            <span id="min">--</span>
+                            <div class="small">MIM</div>
+                        </div>
+                        <div style="font-size: 30px;" class="col-1 text-center">:</div>
+                        <div class="dib text-center vat col-2">
+                            <span id="seg">--</span>
+                            <div class="small">SEG</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div id="situacao" class="alert  text-light text-center text-uppercase rounded-0 mt-0 text-uppercase" role="alert">...</div>
+                    <div>
+
+                        <div class="slider slider-for popup-gallery">
+                            <div class="d-flex align-items-center justify-content-center bg-dark border">
+                                <a href="<?= DIR ?>/web/fotos/<?= $item->foto; ?>"><img src="<?= DIR ?>/web/fotos/<?= $item->foto; ?>" class="img-fluid"></a>
+                            </div>
+                            <?php foreach ($mais_fotos as $key => $fotos) { ?>
+                                <div class="d-flex align-items-center justify-content-center bg-dark border">
+                                    <a href="<?= DIR ?>/web/fotos/<?= $fotos->foto; ?>"><img src="<?= DIR ?>/web/fotos/<?= $fotos->foto; ?>" class="img-fluid"></a>
+                                </div>
+                            <?php } ?>
+                        </div>
+                        <div class="slider slider-nav mt-2">
+                            <div style="height: 80px;width: 80px;" class="d-flex align-items-center justify-content-center bg-light p-1 border">
+                                <img src="<?= DIR ?>/web/fotos/<?= $item->foto; ?>" class="img-fluid">
+                            </div>
+                            <?php foreach ($mais_fotos as $key => $fotos) { ?>
+                                <div style="height: 80px;width: 80px;" class="d-flex align-items-center justify-content-center bg-light p-1 border">
+                                    <img src="<?= DIR ?>/web/fotos/<?= $fotos->foto; ?>" class="img-fluid">
+                                </div>
+                            <?php } ?>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <div style="background-color: #f1f1f1;" class="border p-3">
+                        <div class="row m-0" role="group" aria-label="Basic example">
+                            <div class="alert alert-danger col-md-4 text-center text-uppercase rounded-0" role="alert" id="natureza"></div>
+                            <div class="alert alert-dark col-md-4 text-center text-uppercase rounded-0" role="alert" id="tipos"></div>
+                            <div class="alert alert-light col-md-4 text-center text-uppercase rounded-0" role="alert" id="praca_info"></div>
+                        </div>
+                        <div class="list-group">
+                            <div class="list-group-item">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <?= lang('Lote: ') ?><br>#<span id="lote"></span>
+                                    </div>
+
+                                    <div class="col-6">
+                                        <?= lang('Localidade: ') ?><br><span id="localidade"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item">
+                                <div class="row m-0">
+                                    <div class="col-6 p-0"><i class="fas fa-gavel"></i> <span id="count-lances"></span> <?= lang('Lance(s)') ?></div>
+                                    <div class="col-6"><i class="fas fa-eye"></i> <span id="visua"></span> <span class="d-md-inline d-none"><?= lang('Visualização(ões)') ?></span></div>
+                                </div>
+                            </div>
+                            <div class="list-group-item">
+                                <div class="row">
+                                    <div class="col-lg-6 col-12">
+                                        <i class="far fa-calendar-alt"></i> <?= lang('Data Inicio: ') ?><br>
+                                        <span id="data-ini"></span>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <i class="far fa-calendar-alt"></i> <?= lang('Data Fim: ') ?><br>
+                                        <span id="data-fim"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list-group-item">
+                                <div class="row justify-content-center">
+                                    <div class="col-lg-6 p-lg-3 p-0 col-12 row align-items-center">
+                                        <div class="p-lg-3 p-1 alert alert-warning w-100 mb-1">
+                                            <small>Lance Inicial:</small>
+                                            <p style="font-size: 20px;" class="font-weight-bold" id="lance-ini">R$ ...</p>
+                                        </div>
+                                        <div class="p-lg-3 p-1 alert alert-success w-100 mb-lg-0">
+                                            <b style="font-size: 16px;">Lance Atual:</b>
+                                            <div style="font-size: 30px;" class="font-weight-bold" id="lance-atual">R$ ...</div>
+                                            <div class="text-center small" id="data-lance"></div>
+                                            <div class="text-center small font-weight-bold" id="user-lance"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <?php if ($item->incremento > 0 and $item->situacao != 20) { ?>
+                                            <div class="row justify-content-center">
+                                                <?php
+                                                $inicio = 0;
+
+                                                for ($i = 1; $i <= 8; $i++) {
+                                                ?>
+
+                                                    <button onclick="dar_lance(<?= $item->id ?>, this)" type="button" class="btn btn-dark col-md-5 col-12 m-1 d-flex  align-items-center">
+                                                        <i class="far fa-plus-square float-left"></i> <span class="pl-1"><?= preco($item->incremento * $i, 1) ?></span>
+                                                        <input type="hidden" name="lance_mais" value="<?= $item->incremento * $i ?>">
+                                                    </button>
+
+                                                <?php } ?>
+                                            </div>
+                                        <?php } ?>
+                                        <div class="mt-2">
+                                            <form action="javascript:void(0)" onsubmit="dar_lance(<?= $item->id ?>, this)">
+                                                <div class="form-group">
+                                                    <input type="text" name="lance" class="form-control" placeholder="Para outros valores" required="true">
+                                                </div>
+                                                <button type="submit" class="btn btn-dark btn-block" style="background-color: var(--primary-color);">DAR LANCE</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="p-2">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#descricao" role="tab" aria-controls="descricao" aria-selected="true">
+                            <?= lang('Descrição') ?>
+                        </a>
+                    </li>
+                    <?php if ($item->situacao != 20) { ?>
+                        <li class="nav-item">
+                            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#historico" role="tab" aria-controls="historico" aria-selected="false">
+                                <?= lang('Histórico de lances') ?>
+                            </a>
+                        </li>
+                    <?php }
+                    if ($item->foto10) { ?>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#edital" role="tab" aria-controls="edital" aria-selected="false"><?= lang('Edital') ?></a>
+                        </li>
+                    <?php }
+                    if ($item->anexo1 and $item->foto1) { ?>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#anexo1" role="tab" aria-controls="anexo1" aria-selected="false"><?= $item->anexo1 ?></a>
+                        </li>
+                    <?php }
+                    if ($item->anexo2 and $item->foto2) { ?>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#anexo2" role="tab" aria-controls="anexo2" aria-selected="false"><?= $item->anexo2 ?></a>
+                        </li>
+                    <?php }
+                    if ($item->anexo3 and $item->foto3) { ?>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#anexo3" role="tab" aria-controls="anexo3" aria-selected="false"><?= $item->anexo3 ?></a>
+                        </li>
+                    <?php }
+                    if ($item->anexo4 and $item->foto4) { ?>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#anexo4" role="tab" aria-controls="anexo4" aria-selected="false"><?= $item->anexo4 ?></a>
+                        </li>
+                    <?php }
+                    if ($item->anexo5 and $item->foto5) { ?>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#anexo5" role="tab" aria-controls="anexo5" aria-selected="false"><?= $item->anexo5 ?></a>
+                        </li>
+                    <?php }
+                    if ($item->txt_extra_01) { ?>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#extra1" role="tab" aria-controls="extra1" aria-selected="false"><?= $item->txt_extra_01 ?></a>
+                        </li>
+                    <?php }
+                    if ($item->txt_extra_02) { ?>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#extra2" role="tab" aria-controls="extra2" aria-selected="false"><?= $item->txt_extra_02 ?></a>
+                        </li>
+                    <?php }
+                    if ($item->txt_extra_03) { ?>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#extra3" role="tab" aria-controls="extra3" aria-selected="false"><?= $item->txt_extra_03 ?></a>
+                        </li>
+                    <?php
+                    }
+                    $mapa = cod('asc->html', stripcslashes($item->google_maps));
+                    if ($mapa) {
+                    ?>
+                        <li class="nav-item">
+                            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#mapa" role="tab" aria-controls="mapa" aria-selected="false"><?= lang('Mapa') ?></a>
+                        </li>
+                    <?php } ?>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active p-0" id="descricao" role="tabpanel" aria-labelledby="descricao-tab">
+                        <ul class="list-group list-group-flush">
+                            <?php
+                            $descricao = explode('<br />', txt($item));
+
+                            foreach ($descricao as $key => $value) {
+                            ?>
+
+                                <li class="list-group-item ml-0"><?= strip_tags($value) ?></li>
+
+                            <?php
+                            }
+                            ?>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade p-2" id="historico" role="tabpanel" aria-labelledby="historico-tab">
+
+                        <?php if ($item->situacao != 20) { ?>
+
+
+                            <div class="table-responsive-md">
+                                <table class="table table-striped table-hover">
+                                    <thead class="thead-dark">
+                                        <tr>
+                                            <td><?= lang('TIPO') ?></td>
+                                            <td><?= lang('USÚARIO / PLAQUETA') ?></td>
+                                            <td><?= lang('DATA') ?></td>
+                                            <td><?= lang('HORA') ?></td>
+                                            <td><?= lang('VALOR') ?></td>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="historico"></tbody>
+                                </table>
+                            </div>
+
+                        <?php } ?>
+
+                    </div>
+                    <?php if ($item->foto10) { ?>
+                        <div class="tab-pane fade p-2" id="edital" role="tabpanel" aria-labelledby="edital-tab">
+                            <iframe src="<?= DIR ?>/web/fotos/<?= $item->foto10 ?>" height="450" frameborder="0" style="border:0;width: 100%;" allowfullscreen="" aria-hidden="false;" tabindex="0"></iframe>
+                        </div>
+                    <?php }
+                    if ($item->anexo1 and $item->foto1) { ?>
+                        <div class="tab-pane fade p-2" id="anexo1" role="tabpanel" aria-labelledby="anexo1-tab">
+                            <iframe src="<?= DIR ?>/web/fotos/<?= $item->foto1 ?>" height="450" frameborder="0" style="border:0;width: 100%;" allowfullscreen="" aria-hidden="false;" tabindex="0"></iframe>
+                        </div>
+                    <?php }
+                    if ($item->anexo2 and $item->foto2) { ?>
+                        <div class="tab-pane fade p-2" id="anexo2" role="tabpanel" aria-labelledby="anexo2-tab">
+                            <iframe src="<?= DIR ?>/web/fotos/<?= $item->foto2 ?>" height="450" frameborder="0" style="border:0;width: 100%;" allowfullscreen="" aria-hidden="false;" tabindex="0"></iframe>
+                        </div>
+                    <?php }
+                    if ($item->anexo3 and $item->foto3) { ?>
+                        <div class="tab-pane fade p-2" id="anexo3" role="tabpanel" aria-labelledby="anexo3-tab">
+                            <iframe src="<?= DIR ?>/web/fotos/<?= $item->foto3 ?>" height="450" frameborder="0" style="border:0;width: 100%;" allowfullscreen="" aria-hidden="false;" tabindex="0"></iframe>
+                        </div>
+                    <?php }
+                    if ($item->anexo4 and $item->foto4) { ?>
+                        <div class="tab-pane fade p-2" id="anexo4" role="tabpanel" aria-labelledby="anexo4-tab">
+                            <iframe src="<?= DIR ?>/web/fotos/<?= $item->foto4 ?>" height="450" frameborder="0" style="border:0;width: 100%;" allowfullscreen="" aria-hidden="false;" tabindex="0"></iframe>
+                        </div>
+                    <?php }
+                    if ($item->anexo5 and $item->foto5) { ?>
+                        <div class="tab-pane fade p-2" id="anexo5" role="tabpanel" aria-labelledby="anexo5-tab">
+                            <iframe src="<?= DIR ?>/web/fotos/<?= $item->foto5 ?>" height="450" frameborder="0" style="border:0;width: 100%;" allowfullscreen="" aria-hidden="false;" tabindex="0"></iframe>
+                        </div>
+                    <?php }
+                    if ($item->txt_extra_01) { ?>
+                        <div class="tab-pane fade p-2" id="extra1" role="tabpanel" aria-labelledby="extra1-tab"><?= txt($item, 1) ?></div>
+                    <?php }
+                    if ($item->txt_extra_02) { ?>
+                        <div class="tab-pane fade p-2" id="extra2" role="tabpanel" aria-labelledby="extra2-tab"><?= txt($item, 2) ?></div>
+                    <?php }
+                    if ($item->txt_extra_03) { ?>
+                        <div class="tab-pane fade p-2" id="extra3" role="tabpanel" aria-labelledby="extra3-tab"><?= txt($item, 3) ?></div>
+                    <?php }
+                    if ($mapa) { ?>
+                        <style>
+                            #mapa iframe {
+                                width: 100% !important;
+                            }
+                        </style>
+                        <div class="tab-pane fade p-2" id="mapa" role="tabpanel" aria-labelledby="mapa-tab"><?= mapaa($mapa, '100%', 500) ?></div>
+                    <?php } ?>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+</section>
+<script>
+    setInterval(function() {
+        atualizar();
+    }, 1000);
+    historico(<?= $item->id ?>);
+</script>

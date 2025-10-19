@@ -1,0 +1,191 @@
+<link rel="stylesheet" href="./css/bootstrap.min.css">
+<script type="text/javascript" src="https://kit.fontawesome.com/dabd3c9a66.js" crossorigin="anonymous"></script>
+<style>
+    <?php
+    $db = $mysql->getDB();
+
+    $valor = serialize($_POST);
+
+    $sql = $db->prepare("SELECT valor FROM configs WHERE id = 20");
+    $executa = $sql->execute();
+    $reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+    $res = unserialize($reg['valor']);
+
+    $sql = $db->prepare("SELECT valor FROM configs WHERE id = 15");
+    $executa = $sql->execute();
+    $reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+    $logo_topo = $reg['valor'];
+
+
+    $sql = $db->prepare("SELECT valor FROM configs WHERE id = 16");
+    $executa = $sql->execute();
+    $reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+    $logo_roda = $reg['valor'];
+
+    $sql = $db->prepare("SELECT valor FROM configs WHERE id = 17");
+    $executa = $sql->execute();
+    $reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+    $fundo_topo = $reg['valor'];
+
+    $bg_fundo = null;
+    ?> :root {
+        --primary-color: <?= $res['cor_principal'] ?>;
+        --text-color: <?= $res['cor_texto'] ?>;
+    }
+
+    body {
+        background-image: url('https://lancemaiorleiloeiro.com/web/fotos/<?= $bg_fundo ?>');
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    #principal .container,
+    header {
+        background-color: #fff;
+    }
+
+    #bar_account {
+        font-size: 14px;
+        height: 50px;
+        background-color: #F1F1F1;
+    }
+
+    #search_input {
+        border: 1px solid #F1F1F1;
+        border-radius: 5px;
+        box-shadow: 0px 1px 2px #999;
+    }
+
+    #btn_search {
+        background-color: transparent;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+
+    #nav_bar {
+        background-color: var(--primary-color);
+    }
+
+    #nav_bar a {
+        text-transform: uppercase;
+        color: var(--text-color) !important;
+    }
+
+    #nav_bar a:hover,
+    #nav_bar .active {
+        background-color: rgba(0, 0, 0, .1) !important;
+    }
+
+    .LL_cronometro_tempo span {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    .LL_cronometro_tempo .vat {
+        color: var(--primary-color);
+    }
+
+    .editor {
+        line-height: 24px;
+    }
+
+    .carousel-indicators .active {
+        background-color: #fff !important;
+    }
+</style>
+<header>
+
+    <!-- ######################### -->
+
+    <div id="bar_account" class="container-fluid">
+        <div style="padding-top: 5px;" class="container clearfix">
+            <ul class="nav float-right">
+                <?php if (isset($_SESSION['x_site']->id)) { ?>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><?= lang('Olá') ?>, <?= $cadastro_pd->login ?>!</a>
+                        <div class="dropdown-menu">
+                            <a class="nav-link text-dark" href="<?= DIR ?>/minha_conta/dados/"><?= lang('Meu Cadastro') ?></a>
+                            <a class="nav-link text-dark" href="<?= DIR ?>/minha_conta/documentos/"><?= lang('Meus Documentos') ?></a>
+                            <a class="nav-link text-dark" href="<?= DIR ?>/minha_conta/habilitacoes/"><?= lang('Minhas Habilitações') ?></a>
+                            <a class="nav-link text-dark" href="<?= DIR ?>/minha_conta/meus_lances/"><?= lang('Meus Lances') ?></a>
+                            <a class="nav-link text-dark" href="<?= DIR ?>/minha_conta/lotes_arrematados/"><?= lang('Meus Lotes') ?></a>
+                            <div class="dropdown-divider"></div>
+                            <a class="nav-link text-dark" href="<?= DIR ?>/app/Ajax/ajaxForm/login.php?sair=1"><?= lang('Sair') ?></a>
+                        </div>
+
+                    </li>
+                <?php } else { ?>
+                    <li class="nav-item">
+                        <a class="nav-link active text-dark" href="<?= DIR ?>/cadastro/"><i class="fa fa-user-plus"></i> <?= lang('Registre-se') ?></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="<?= DIR ?>/login/"><i class="fa fa-lock"></i> <?= lang('Faça seu login') ?></a>
+                    </li>
+                <?php } ?>
+            </ul>
+        </div>
+    </div>
+
+    <!-- ######################### -->
+    <div style="background: url('<?= DIR ?>/web/img/<?= $fundo_topo ?>');background-repeat: no-repeat;background-position: center;background-size: cover;" class="container pt-2 pb-2 pt-sm-5 pb-sm-5">
+        <div class="row align-items-center">
+            <div class="col-12 col-xl-4 col-md-3 col-lg-4 p-2 row justify-content-center">
+
+                <a class="align-self-center" href="<?= DIR ?>/inicio/"><img src="<?= DIR ?>/web/img/<?= $logo_topo ?>" height="65px;"></a>
+
+            </div>
+            <div class="col-12 col-xl-5 col-md-5 col-lg-5 p-2">
+                <form action="<?= DIR ?>/lotes/" class="form-inline">
+                    <div class="form-group w-100">
+                        <input name="busca" type="search" class="form-control-plaintext p-2 bg-light" id="search_input">
+                    </div>
+                    <button type="submit" class="btn mb-2" id="btn_search"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <div class="col-12 col-xl-3 col-md-4 col-lg-3 p-2 row justify-content-center">
+                <button style="height: 45px;" type="button" class="btn btn-light p-2 col-5 ml-1 border"><?= lang('Leilões') ?> (<?= count($total_leiloes) ?>)</button>
+                <button style="height: 45px;" type="button" class="btn btn-light p-2 col-5 ml-1 border"><?= lang('Lotes') ?> (<?= count($total_lotes) ?>)</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- ######################### -->
+
+    <div class="container-fluid" id="nav_bar">
+        <div class="container p-0">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link p-3" href="<?= DIR ?>/inicio/"><?= lang('INÍCIO'); ?><span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-3" href="<?= url_txt(2) ?>"><?= lang('Quem Somos') ?></a>
+                        </li>
+                        <?php foreach ($paginas as $key => $value) { ?>
+                            <li class="nav-item">
+                                <a class="nav-link p-3" href="<?= url('textosp', $value) ?>"><?= $value->nome ?></a>
+                            </li>
+                        <?php } ?>
+                        <li class="nav-item">
+                            <a class="nav-link p-3" href="<?= DIR ?>/faq/"><?= lang('Faq') ?></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-3 " href="<?= DIR ?>/fale/"><?= lang('Fale Conosco') ?></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>

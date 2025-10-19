@@ -1,0 +1,12562 @@
+[
+	{
+		"cidade": "Abadia dos Dourados",
+		"bairros": [
+		 	"Centro",
+		 	"Córrego dos Desiderios",
+		 	"Riacho Três",
+		 	"Tronqueiras"
+		]
+	},
+	{
+		"cidade": "Abaeté",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Abaeté dos Mendes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Abaíba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Abre Campo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Abreus",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Acaiaca",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Açucena",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Adão Colares",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Água Boa",
+		"bairros": [
+		 	"Alexandrina",
+		 	"Centro",
+		 	"Palmeiras do Resplendor"
+		]
+	},
+	{
+		"cidade": "Água Branca de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Água Comprida",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Água Santa de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Aguanil",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Águas de Contendas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Águas Férreas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Águas Formosas",
+		"bairros": [
+		 	"Água Quente",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Águas Vermelhas",
+		"bairros": [
+		 	"Centro",
+		 	"Itamarati",
+		 	"Machado Mineiro",
+		 	"Mocó"
+		]
+	},
+	{
+		"cidade": "Aimorés",
+		"bairros": [
+		 	"Centro",
+		 	"Santo Antônio do Rio Doce"
+		]
+	},
+	{
+		"cidade": "Aiuruoca",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alagoa",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Albertina",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alberto Isaacson",
+		"bairros": [
+		 	"Buriti Grande",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Albertos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alegre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alegria",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Além Paraíba",
+		"bairros": [
+		 	"Centro",
+		 	"Porto Novo",
+		 	"São José"
+		]
+	},
+	{
+		"cidade": "Alexandrita",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alfenas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alfredo Vasconcelos",
+		"bairros": [
+		 	"Centro",
+		 	"São José de Pouso Alegre"
+		]
+	},
+	{
+		"cidade": "Almeida",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Almenara",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alpercata",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alpinópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alterosa",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alto Belo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alto Caparaó",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alto Capim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alto de Santa Helena",
+		"bairros": [
+		 	"Centro",
+		 	"São José do Itapinoa"
+		]
+	},
+	{
+		"cidade": "Alto Jequitibá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alto Maranhão",
+		"bairros": [
+		 	"Centro",
+		 	"Vila José Marques"
+		]
+	},
+	{
+		"cidade": "Alto Rio Doce",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Altolândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alvação",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alvarenga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alvinópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alvorada",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alvorada de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Amanda",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Amanhece",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Amarantina",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Amparo da Serra",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Andiroba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Andradas",
+		"bairros": [
+		 	"Centro",
+		 	"Dos Garibaldi"
+		]
+	},
+	{
+		"cidade": "Andrelândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Andrequicé",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Angaturama",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Angelândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Angicos de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Angueretá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Angustura",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Antônio Carlos",
+		"bairros": [
+		 	"Centro",
+		 	"Curral Novo",
+		 	"São Sebastião de Campolide"
+		]
+	},
+	{
+		"cidade": "Antônio Dias",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Antônio dos Santos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Antônio Ferreira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Antônio Pereira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Antônio Prado de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Antunes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Aparecida de Minas",
+		"bairros": [
+		 	"Boa Esperança",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Araçaí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Araçaji de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Aracati de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Aracitaba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Araçuaí",
+		"bairros": [
+		 	"Alfredo Graça",
+		 	"Arraial Lazaredo",
+		 	"Centro",
+		 	"Corredor Pedregulho",
+		 	"Esplanada"
+		]
+	},
+	{
+		"cidade": "Araguari",
+		"bairros": [
+		 	"Aeroporto",
+		 	"Alvorada",
+		 	"Amorim",
+		 	"Beatriz",
+		 	"Bosque",
+		 	"Brasília",
+		 	"Centro",
+		 	"Conjunto Amparo",
+		 	"Conjunto Mauá",
+		 	"Distrito Industrial",
+		 	"Eduardo Mendes (Aeroporto)",
+		 	"Eduardo Moreira (Aeroporto)",
+		 	"Fátima",
+		 	"Goiás",
+		 	"Goiás (Parte Alta)",
+		 	"Gutierrez",
+		 	"Idelmino",
+		 	"Independência",
+		 	"Industrial",
+		 	"Jardim das Hortênsias",
+		 	"Jardim das Rosas",
+		 	"Jardim de Fátima",
+		 	"Jardim Ipanema",
+		 	"Jardim Panorama",
+		 	"Jardim Regina",
+		 	"João Calixto",
+		 	"Jóquei Clube",
+		 	"Maria Eugênia",
+		 	"Milenium",
+		 	"Miranda",
+		 	"Nossa Senhora da Penha",
+		 	"Novo Horizonte",
+		 	"Oliveira",
+		 	"Ouro Verde",
+		 	"Paineiras",
+		 	"Palmeiras do Império",
+		 	"Paraíso",
+		 	"Parque dos Verdes",
+		 	"Parque Flamboyants",
+		 	"Residencial Madri",
+		 	"Rosário",
+		 	"Santa Helena",
+		 	"Santa Terezinha",
+		 	"Santiago",
+		 	"São João",
+		 	"São Judas Tadeu",
+		 	"São Luiz",
+		 	"São Sebastião",
+		 	"São Vicente de Paula",
+		 	"Sewa",
+		 	"Sibipiruna",
+		 	"Vieno",
+		 	"Vila Militar"
+		]
+	},
+	{
+		"cidade": "Aramirim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Aranha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Arantina",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Araponga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Araporã",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Arapuá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Araújos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Araxá",
+		"bairros": [
+		 	"Abolição",
+		 	"Ademar Rodrigues Vale",
+		 	"Aeroporto",
+		 	"Águas de Araxá",
+		 	"Alvorada",
+		 	"Amazonas",
+		 	"Ana Antônia",
+		 	"Ana Pinto de Almeida",
+		 	"Arasol",
+		 	"Área I (CBMM)",
+		 	"Área II",
+		 	"Armando Santos",
+		 	"Barreirinho",
+		 	"Barreiro",
+		 	"Bom Jesus",
+		 	"Brasília",
+		 	"Centro",
+		 	"Cicinato de Ávila",
+		 	"Conjunto Habitacional Bela Vista",
+		 	"Conjunto Habitacional Boa Vista",
+		 	"Conjunto Habitacional Pão de Açúcar",
+		 	"Córrego da Mata",
+		 	"Distrito Industrial José Honorato da Silva",
+		 	"Domingos Zema",
+		 	"Dona Beja",
+		 	"Doutor Pedro Pezzuti",
+		 	"Engenheiro Clovis Freitas Leal",
+		 	"Francisco Duarte",
+		 	"Guilhermina Vieira Chaer",
+		 	"Jardim das Primaveras",
+		 	"Jardim Europa",
+		 	"Jardim Natália",
+		 	"Jardim Residencial Bela Vista",
+		 	"João Bosco Teixeira",
+		 	"João Ribeiro",
+		 	"José Ferreira Guimarães (Mangueira II)",
+		 	"Leblon",
+		 	"Leda Barcelos",
+		 	"Loteamento",
+		 	"Loteamento Bosque dos Ipês",
+		 	"Loteamento Fenícia",
+		 	"Loteamento Flávia Helena",
+		 	"Loteamento Jardim América",
+		 	"Loteamento Max Newmann",
+		 	"Loteamento Novo Horizonte",
+		 	"Loteamento Novo Pão de Açucar",
+		 	"Loteamento Quintas do Lago",
+		 	"Loteamento Recanto das Gameleiras",
+		 	"Loteamento Recanto dos Pássaros",
+		 	"Loteamento Residencial Solaris",
+		 	"Loteamento Vale dos Araxás",
+		 	"Loteamento Vila Verde",
+		 	"Mangueira I",
+		 	"Mangueira II",
+		 	"Micro Distrito Santa Rita",
+		 	"Monte Verde",
+		 	"Morada do Sol",
+		 	"Novo Horizonte",
+		 	"Novo Santo Antônio",
+		 	"Novo São Geraldo",
+		 	"Odilon José Carneiro",
+		 	"Orozino Teixeira",
+		 	"Padre Alaor",
+		 	"Parque das Flores",
+		 	"Parque das Mangabeiras",
+		 	"Parque dos Ipês",
+		 	"Pedra Azul",
+		 	"Rancho das Orquídeas",
+		 	"Recanto do Bosque",
+		 	"Recanto do Ipê",
+		 	"Residencial Camuá",
+		 	"Residencial Jardim das Oliveiras",
+		 	"Residencial Laura",
+		 	"Riviera do Lago",
+		 	"Salomão Drumond",
+		 	"Santa Maria",
+		 	"Santa Mônica",
+		 	"Santa Rita",
+		 	"Santo Antônio",
+		 	"São Cristóvão",
+		 	"São Domingos",
+		 	"São Francisco",
+		 	"São Geraldo",
+		 	"Serra Morena",
+		 	"Setor Sul",
+		 	"Tiradentes",
+		 	"Urciano Lemos",
+		 	"Veredas da Cidade",
+		 	"Veredas do Belvedere",
+		 	"Vila Andréa",
+		 	"Vila Estância",
+		 	"Vila Fertiza",
+		 	"Vila Guimarães",
+		 	"Vila Jardim",
+		 	"Vila João Ribeiro",
+		 	"Vila Lamartine (Área II)",
+		 	"Vila Padre Alaor",
+		 	"Vila Rica",
+		 	"Vila Santa Luzia",
+		 	"Vila Santa Terezinha",
+		 	"Vila São Pedro",
+		 	"Vila Silvéria",
+		 	"Vila Universitária",
+		 	"Zona de Atividade Minerária Industrial"
+		]
+	},
+	{
+		"cidade": "Arcângelo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Arceburgo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Arcos",
+		"bairros": [
+		 	"Calciolândia",
+		 	"Centro",
+		 	"Ilha"
+		]
+	},
+	{
+		"cidade": "Areado",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Argenita",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Argirita",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Aricanduva",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Arinos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Aristides Batista",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ascenção",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Assaraí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Astolfo Dutra",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ataléia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Augusto de Lima",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Avaí do Jacinto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Azurita",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Babilônia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bação",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Baependi",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Baguari",
+		"bairros": [
+		 	"Centro",
+		 	"Vila Nova Floresta"
+		]
+	},
+	{
+		"cidade": "Baiões",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Baixa Quente",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Baldim",
+		"bairros": [
+		 	"Centro",
+		 	"Mocambo",
+		 	"Vargem Grande"
+		]
+	},
+	{
+		"cidade": "Bambuí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bandeira",
+		"bairros": [
+		 	"Centro",
+		 	"Zona Rural"
+		]
+	},
+	{
+		"cidade": "Bandeira do Sul",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bandeirantes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Barão de Cocais",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Barão de Monte Alto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Barbacena",
+		"bairros": [
+		 	"Água Santa",
+		 	"Andaraí",
+		 	"Belvedere",
+		 	"Boa Morte",
+		 	"Boa Vista",
+		 	"Bom Pastor",
+		 	"Caiçaras",
+		 	"Camélias",
+		 	"Caminho Novo",
+		 	"Campo",
+		 	"Carmo",
+		 	"Centro",
+		 	"Chácaras das Andorinhas",
+		 	"Colônia Rodrigo Silva",
+		 	"Diniz",
+		 	"Diniz II",
+		 	"Eucisa",
+		 	"Fátima",
+		 	"Floresta",
+		 	"Funcionários",
+		 	"Greenville",
+		 	"Grogotó",
+		 	"Guarani",
+		 	"Guilherme Weyers",
+		 	"Ibiapaba",
+		 	"Ipanema",
+		 	"Jardim",
+		 	"Jardim das Alterosas",
+		 	"João Paulo II",
+		 	"Mansões",
+		 	"Marino Ceolin",
+		 	"Monsenhor Mário Quintão",
+		 	"Monte Mário",
+		 	"Nossa Senhora Aparecida",
+		 	"Nova Cidade",
+		 	"Nova Suíça",
+		 	"Nove de Março",
+		 	"Novo Horizonte",
+		 	"Padre Cunha",
+		 	"Panorama",
+		 	"Passarinhos",
+		 	"Pontilhão",
+		 	"Retiro das Rosas",
+		 	"Santa Cecília",
+		 	"Santa Efigênia",
+		 	"Santa Luzia",
+		 	"Santa Maria",
+		 	"Santa Tereza I",
+		 	"Santa Tereza II",
+		 	"Santo Antônio",
+		 	"São Cristóvão",
+		 	"São Francisco",
+		 	"São Geraldo",
+		 	"São Jorge",
+		 	"São José",
+		 	"São Pedro",
+		 	"São Sebastião",
+		 	"São Vicente de Paula",
+		 	"Serra Verde",
+		 	"Vale das Rosas",
+		 	"Valentim Prenazzi",
+		 	"Vilela",
+		 	"Vista Alegre"
+		]
+	},
+	{
+		"cidade": "Barra da Figueira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Barra do Ariranha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Barra do Cuieté",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Barra Feliz",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Barra Longa",
+		"bairros": [
+		 	"Barro Branco",
+		 	"Bom Sucesso",
+		 	"Centro",
+		 	"Gesteira"
+		]
+	},
+	{
+		"cidade": "Barranco Alto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Barreiro Branco",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Barreiro da Raiz",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Barretos de Alvinópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Barrocão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Barroso",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bela Vista de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Belisário",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Belmiro Braga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Belo Horizonte",
+		"bairros": [
+		 	"Aarão Reis",
+		 	"Acaiaca",
+		 	"Adelaide",
+		 	"Aeroporto",
+		 	"Águas Claras (Barreiro)",
+		 	"Alípio de Melo",
+		 	"Alpes",
+		 	"Alto Barroca",
+		 	"Alto Caiçaras",
+		 	"Alto dos Pinheiros",
+		 	"Álvaro Camargos",
+		 	"Anchieta",
+		 	"Aparecida",
+		 	"Araguaia",
+		 	"Átila de Paiva (Barreiro)",
+		 	"Baleia",
+		 	"Bandeirantes (Pampulha)",
+		 	"Barreiro",
+		 	"Barreiro de Cima",
+		 	"Barro Preto",
+		 	"Barroca",
+		 	"Beija Flor",
+		 	"Belém",
+		 	"Belmonte",
+		 	"Belvedere",
+		 	"Betânia",
+		 	"Boa Vista",
+		 	"Bom Jesus",
+		 	"Bonfim",
+		 	"Bonsucesso (Barreiro)",
+		 	"Brasil Industrial (Barreiro)",
+		 	"Braúnas",
+		 	"Buritis",
+		 	"Cabana do Pai Tomás",
+		 	"Cachoeirinha",
+		 	"Caetano Furquim",
+		 	"Caiçara-Adelaide",
+		 	"Caiçaras",
+		 	"Calafate",
+		 	"Califórnia",
+		 	"Camargos",
+		 	"Campo Alegre",
+		 	"Campus UFMG",
+		 	"Canaã",
+		 	"Canadá",
+		 	"Candelária",
+		 	"Capitão Eduardo",
+		 	"Cardoso (Barreiro)",
+		 	"Carlos Prates",
+		 	"Carmo",
+		 	"Casa Branca",
+		 	"Castanheira I Vale do Jatobá (Barreiro)",
+		 	"Castanheira II Vale do Jatobá (Barreiro)",
+		 	"Castelo",
+		 	"CDI Jatobá (Barreiro)",
+		 	"Celestino",
+		 	"Cenáculo",
+		 	"Centro",
+		 	"Céu Azul",
+		 	"Cidade Jardim",
+		 	"Cidade Jardim Taquaril",
+		 	"Cidade Nova",
+		 	"Cinquentenário",
+		 	"Colégio Batista",
+		 	"Comiteco",
+		 	"Concórdia",
+		 	"Conjunto Ademar Maldonado (Barreiro)",
+		 	"Conjunto Califórnia",
+		 	"Conjunto Celso Machado",
+		 	"Conjunto Colar",
+		 	"Conjunto Confisco",
+		 	"Conjunto Habitacional Vale do Jatobá (Barreiro)",
+		 	"Conjunto Helena Antipoff",
+		 	"Conjunto Jardim Filadélfia",
+		 	"Conjunto Jatobá (Barreiro)",
+		 	"Conjunto Lagoa",
+		 	"Conjunto Minascaixa",
+		 	"Conjunto Novo Dom Bosco",
+		 	"Conjunto Paulo VI",
+		 	"Conjunto Santa Maria",
+		 	"Conjunto Taquaril",
+		 	"Conjunto Túnel Ibirité (Barreiro)",
+		 	"Conjunto Vista Alegre III",
+		 	"Conjunto Zilah Spósito",
+		 	"Copacabana",
+		 	"Coqueiros",
+		 	"Coração de Jesus",
+		 	"Coração Eucarístico",
+		 	"Corumbiara (Barreiro)",
+		 	"Cristo Redentor",
+		 	"Cruz de Malta (Vale do Jatobá)",
+		 	"Cruzeiro",
+		 	"Das Indústrias I (Barreiro)",
+		 	"Das Indústrias II",
+		 	"Delta",
+		 	"Diamante (Barreiro)",
+		 	"Distrito Industrial Vale do Jatobá (Barreiro)",
+		 	"Dom Bosco",
+		 	"Dom Cabral",
+		 	"Dom Joaquim",
+		 	"Dom Silvério",
+		 	"Dona Clara",
+		 	"Engenho Nogueira",
+		 	"Ermelinda",
+		 	"Ernesto do Nascimento(Barreiro)",
+		 	"Esperança (Barreiro)",
+		 	"Esplanada",
+		 	"Estoril",
+		 	"Estrela",
+		 	"Estrela Dalva",
+		 	"Estrela do Oriente",
+		 	"Etelvina Carneiro",
+		 	"Europa",
+		 	"Eymard",
+		 	"Fazendinha",
+		 	"Fernão Dias",
+		 	"Flávio de Oliveira (Barreiro)",
+		 	"Flávio Marques Lisboa (Barreiro)",
+		 	"Floramar",
+		 	"Floresta",
+		 	"Frei Eustáquio",
+		 	"Frei Leopoldo",
+		 	"Funcionários",
+		 	"Gameleira",
+		 	"Garças",
+		 	"Glória",
+		 	"Goiânia",
+		 	"Graça",
+		 	"Grajaú",
+		 	"Granja de Freitas",
+		 	"Granja Werneck",
+		 	"Guarani",
+		 	"Gutierrez",
+		 	"Havaí",
+		 	"Heliópolis",
+		 	"Horto",
+		 	"Horto Florestal",
+		 	"Humaitá",
+		 	"Imbaúbas",
+		 	"Inconfidência",
+		 	"Indaiá",
+		 	"Independência (Barreiro)",
+		 	"Indians",
+		 	"Ipanema",
+		 	"Ipê",
+		 	"Ipiranga",
+		 	"Ipiranga (Barreiro)",
+		 	"Itaipu (Barreiro)",
+		 	"Itamarati",
+		 	"Itapoã",
+		 	"Itatiaia",
+		 	"Jaqueline",
+		 	"Jaraguá",
+		 	"Jardim Alvorada",
+		 	"Jardim América",
+		 	"Jardim Atlântico",
+		 	"Jardim das Nações",
+		 	"Jardim dos Comerciários (Venda Nova)",
+		 	"Jardim Felicidade",
+		 	"Jardim Filadélfia",
+		 	"Jardim Guanabara",
+		 	"Jardim Leblon",
+		 	"Jardim Liberdade",
+		 	"Jardim Montanhês",
+		 	"Jardim Pirineus",
+		 	"Jardim São José",
+		 	"Jardim Vitória",
+		 	"Jardinópolis",
+		 	"João Pinheiro",
+		 	"Jonas Veiga",
+		 	"Juliana",
+		 	"Lagoa",
+		 	"Lagoinha",
+		 	"Lajedo",
+		 	"Laranjeiras",
+		 	"Leblon (Venda Nova)",
+		 	"Leonina",
+		 	"Letícia",
+		 	"Liberdade",
+		 	"Lindéia (Barreiro)",
+		 	"Lourdes",
+		 	"Luxemburgo",
+		 	"Madre Gertrudes",
+		 	"Madri",
+		 	"Manacás",
+		 	"Mangabeiras",
+		 	"Mangueiras (Barreiro)",
+		 	"Mantiqueira",
+		 	"Marajó",
+		 	"Marçola",
+		 	"Maria Goretti",
+		 	"Maria Helena",
+		 	"Maria Tereza",
+		 	"Maria Virgínia",
+		 	"Mariano de Abreu",
+		 	"Marilândia Jatobá (Barreiro)",
+		 	"Mariquinhas",
+		 	"Milionários (Barreiro)",
+		 	"Minas Brasil",
+		 	"Minascaixa",
+		 	"Minaslândia (P Maio)",
+		 	"Mineirão",
+		 	"Miramar (Barreiro)",
+		 	"Monsenhor Messias",
+		 	"Monte Azul",
+		 	"Morro das Pedras",
+		 	"Morro do Papagaio",
+		 	"Nazaré",
+		 	"Nossa Senhora Aparecida",
+		 	"Nossa Senhora da Conceição",
+		 	"Nossa Senhora da Saúde",
+		 	"Nossa Senhora de Fátima",
+		 	"Nossa Senhora do Rosário",
+		 	"Nova Barroca",
+		 	"Nova Cachoeirinha",
+		 	"Nova Cintra",
+		 	"Nova Esperança",
+		 	"Nova Floresta",
+		 	"Nova Gameleira",
+		 	"Nova Granada",
+		 	"Nova Pampulha",
+		 	"Nova Suíssa",
+		 	"Nova Vista",
+		 	"Nova York",
+		 	"Novo Aarão Reis",
+		 	"Novo das Indústrias (Barreiro)",
+		 	"Novo Glória",
+		 	"Novo Itamarati",
+		 	"Novo Santa Cecília (Barreiro)",
+		 	"Novo Tupi",
+		 	"Olaria (Barreiro)",
+		 	"Olhos D'Água",
+		 	"Ouro Minas",
+		 	"Ouro Preto",
+		 	"Padre Eustáquio",
+		 	"Padre Júlio Maria",
+		 	"Palmares",
+		 	"Palmeiras",
+		 	"Pampulha",
+		 	"Paquetá",
+		 	"Paraíso",
+		 	"Parque Copacabana",
+		 	"Parque Pedro II",
+		 	"Parque Riachuelo",
+		 	"Parque São João Batista",
+		 	"Parque São José",
+		 	"Parque São Pedro (Venda Nova)",
+		 	"Paulo VI",
+		 	"Pedra Branca",
+		 	"Pedro II",
+		 	"Penha",
+		 	"Petrópolis (Barreiro)",
+		 	"Pilar",
+		 	"Pindorama",
+		 	"Pio XII",
+		 	"Pirajá",
+		 	"Piratininga (Venda Nova)",
+		 	"Planalto",
+		 	"Pompéia",
+		 	"Pongelupe (Barreiro)",
+		 	"Pousada Santo Antônio",
+		 	"Prado",
+		 	"Primavera",
+		 	"Primeiro de Maio",
+		 	"Providência",
+		 	"Regina (Barreiro)",
+		 	"Renascença",
+		 	"Ribeiro de Abreu",
+		 	"Rio Branco",
+		 	"Sagrada Família",
+		 	"Salgado Filho",
+		 	"Santa Amélia",
+		 	"Santa Branca",
+		 	"Santa Cecília Vale do Jatobá (Barreiro)",
+		 	"Santa Cruz",
+		 	"Santa Cruz (Barreiro)",
+		 	"Santa Efigênia",
+		 	"Santa Helena (Barreiro)",
+		 	"Santa Inês",
+		 	"Santa Isabel",
+		 	"Santa Lúcia",
+		 	"Santa Maria",
+		 	"Santa Mônica",
+		 	"Santa Rita de Cássia",
+		 	"Santa Rosa",
+		 	"Santa Sofia",
+		 	"Santa Tereza",
+		 	"Santa Terezinha",
+		 	"Santana do Cafezal",
+		 	"Santo Agostinho",
+		 	"Santo André",
+		 	"Santo Antônio",
+		 	"São Benedito",
+		 	"São Bento",
+		 	"São Bernardo",
+		 	"São Cristóvão",
+		 	"São Damião",
+		 	"São Francisco",
+		 	"São Francisco das Chagas",
+		 	"São Gabriel",
+		 	"São Geraldo",
+		 	"São Gonçalo",
+		 	"São João Batista (Venda Nova)",
+		 	"São Jorge",
+		 	"São José",
+		 	"São Lucas",
+		 	"São Luiz",
+		 	"São Marcos",
+		 	"São Paulo",
+		 	"São Pedro",
+		 	"São Salvador",
+		 	"São Sebastião",
+		 	"São Tomáz",
+		 	"Saramenha",
+		 	"Satélite",
+		 	"Saudade",
+		 	"Senhor dos Passos",
+		 	"Serra",
+		 	"Serra Verde (Venda Nova)",
+		 	"Serrano",
+		 	"Silveira",
+		 	"Sinimbu",
+		 	"Sion",
+		 	"Solar do Barreiro (Barreiro)",
+		 	"Solimões",
+		 	"Sport Club",
+		 	"Sumaré",
+		 	"Suzana",
+		 	"Taquaril",
+		 	"Teixeira Dias (Barreiro)",
+		 	"Tirol (Barreiro)",
+		 	"Trevo",
+		 	"Tupi A",
+		 	"Tupi B",
+		 	"União",
+		 	"Universitário",
+		 	"Urca",
+		 	"Urucuia",
+		 	"Vale do Jatobá (Barreiro)",
+		 	"Venda Nova",
+		 	"Ventosa",
+		 	"Vera Cruz",
+		 	"Vila Aeroporto",
+		 	"Vila Amaral",
+		 	"Vila Antena",
+		 	"Vila Antena Montanhês",
+		 	"Vila Barragem Santa Lúcia",
+		 	"Vila Bernadeti (Barreiro)",
+		 	"Vila Cemig",
+		 	"Vila Cloris",
+		 	"Vila da Paz (Novo Glória)",
+		 	"Vila das Antenas",
+		 	"Vila Ecológica (Barreiro)",
+		 	"Vila Formosa Vale do Jatobá (Barreiro)",
+		 	"Vila Itaipu (Barreiro)",
+		 	"Vila Magnesita",
+		 	"Vila Nova Paraíso",
+		 	"Vila Oeste",
+		 	"Vila Paris",
+		 	"Vila Patrocínio",
+		 	"Vila Pinho Vale do Jatobá (Barreiro)",
+		 	"Vila Rica",
+		 	"Vila Santa Branca (Venda Nova)",
+		 	"Vila Santa Rita Vale do Jatobá (Barreiro)",
+		 	"Vila São Domingos",
+		 	"Vila São José",
+		 	"Vila Sumaré",
+		 	"Vila Tirol (Barreiro)",
+		 	"Vila União",
+		 	"Vila Zilah Spósito",
+		 	"Virgínia",
+		 	"Vista Alegre",
+		 	"Vista do Sol",
+		 	"Vitória",
+		 	"Vitória da Conquista (Barreiro)",
+		 	"Washington Pires (Barreiro)",
+		 	"Xodó Marize"
+		]
+	},
+	{
+		"cidade": "Belo Oriente",
+		"bairros": [
+		 	"Bom Jesus do Bagre",
+		 	"Centro",
+		 	"São Sebastião de Braúnas"
+		]
+	},
+	{
+		"cidade": "Belo Vale",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Beltrão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bentópolis de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Berilo",
+		"bairros": [
+		 	"Centro",
+		 	"Lelivéldia"
+		]
+	},
+	{
+		"cidade": "Berizal",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bertópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Betim",
+		"bairros": [
+		 	"Açude",
+		 	"Alto das Flores",
+		 	"Alvorada",
+		 	"Amarante",
+		 	"Amazonas",
+		 	"Angola",
+		 	"Aroeiras",
+		 	"Arquipélago Verde",
+		 	"Bandeirinhas",
+		 	"Betim Industrial",
+		 	"Bodocó",
+		 	"Bom Repouso",
+		 	"Bom Retiro",
+		 	"Brasiléia",
+		 	"Brodoski",
+		 	"Cachoeira",
+		 	"Califórnia",
+		 	"Campos Elíseos",
+		 	"Capelinha",
+		 	"Casa Amarela",
+		 	"Centro",
+		 	"Chácara",
+		 	"Charneca",
+		 	"Cidade Verde",
+		 	"Citrolândia",
+		 	"Colônia Santa Isabel",
+		 	"Conjunto Habitacional Bueno Franco",
+		 	"Conjunto Habitacional Celso Alves Pedrosa",
+		 	"Conjunto Habitacional Dicalino Cabral",
+		 	"Conjunto Habitacional Homero Gil",
+		 	"Conjunto Habitacional Jalila Conceição Pedrosa",
+		 	"Conjunto Habitacional José Gomes de Castro",
+		 	"Cruzeiro",
+		 	"Cruzeiro do Sul",
+		 	"Decamão",
+		 	"Distrito Industrial Bandeirinhas",
+		 	"Distrito Industrial Jardim Piemont Norte",
+		 	"Distrito Industrial Jardim Piemont Sul",
+		 	"Distrito Industrial Paulo Camilo Norte",
+		 	"Distrito Industrial Paulo Camilo Sul",
+		 	"Dom Bosco",
+		 	"Duque de Caxias",
+		 	"Espírito Santo",
+		 	"Estância do Sereno PTB",
+		 	"Estância do Sereno Sede",
+		 	"Filadélfia",
+		 	"Flores e Florestas",
+		 	"Gentileza",
+		 	"Granja Verde",
+		 	"Guanabara",
+		 	"Guarujá",
+		 	"Guarujá Mansões",
+		 	"Horto",
+		 	"Icaivera",
+		 	"Imbiruçu",
+		 	"Ingá",
+		 	"Ingá Alto",
+		 	"Itacolomi",
+		 	"Jardim Brasília",
+		 	"Jardim Casa Branca",
+		 	"Jardim da Cidade",
+		 	"Jardim das Alterosas - 2ª Seção",
+		 	"Jardim das Alterosas 1ª Seção",
+		 	"Jardim Nazareno",
+		 	"Jardim Teresópolis",
+		 	"Laranjeiras",
+		 	"Marimbá",
+		 	"Marmeleiros",
+		 	"Monte Verde",
+		 	"Morada do Trevo",
+		 	"Niterói",
+		 	"Nova Baden",
+		 	"Novo Horizonte",
+		 	"Paquetá",
+		 	"Parque das Acácias",
+		 	"Parque das Indústrias",
+		 	"Parque Ipiranga",
+		 	"Paulo Camilo",
+		 	"Petrópolis",
+		 	"Petrovale",
+		 	"Pimentas",
+		 	"Pingo D'água",
+		 	"Ponte Alta",
+		 	"Presidente Kennedy",
+		 	"Quintas do Godoy",
+		 	"Renascer",
+		 	"Residencial Lagoa",
+		 	"Residencial Montserrat",
+		 	"Residencial Taquaril",
+		 	"Riacho III",
+		 	"Salomé",
+		 	"Santa Cruz",
+		 	"Santa Fé",
+		 	"Santa Inês",
+		 	"Santa Lúcia",
+		 	"Santo Afonso",
+		 	"Santo Antônio",
+		 	"São Caetano",
+		 	"São Cristóvão",
+		 	"São João",
+		 	"São Jorge",
+		 	"São Luiz",
+		 	"São Marcos",
+		 	"São Salvador",
+		 	"São Sebastião",
+		 	"Saraiva",
+		 	"Senhora das Graças",
+		 	"Senhora de Fátima",
+		 	"Teixeirinha",
+		 	"Vale Verde",
+		 	"Vargem das Flores",
+		 	"Vianópolis",
+		 	"Vila Alpina",
+		 	"Vila Bandeirantes",
+		 	"Vila Boa Esperança",
+		 	"Vila Cristina",
+		 	"Vila das Flores",
+		 	"Vila Universal",
+		 	"Vila Verde"
+		]
+	},
+	{
+		"cidade": "Bias Fortes",
+		"bairros": [
+		 	"Centro",
+		 	"Santo Antônio",
+		 	"Várzea Santo Antônio"
+		]
+	},
+	{
+		"cidade": "Bicas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bicuíba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Biquinhas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bituri",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Boa Esperança",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Boa Família",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Boa União de Itabirinha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Boa Vista de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bocaina de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bocaiúva",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bom Despacho",
+		"bairros": [
+		 	"Centro",
+		 	"Jardim América"
+		]
+	},
+	{
+		"cidade": "Bom Jardim das Pedras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bom Jardim de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bom Jesus da Cachoeira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bom Jesus da Penha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bom Jesus de Angicos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bom Jesus de Cardosos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bom Jesus do Amparo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bom Jesus do Divino",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bom Jesus do Galho",
+		"bairros": [
+		 	"Centro",
+		 	"Iguaçu",
+		 	"Revés do Belém",
+		 	"São Geraldo"
+		]
+	},
+	{
+		"cidade": "Bom Jesus do Madeira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bom Repouso",
+		"bairros": [
+		 	"Campo Alegre",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bom Retiro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bom Sucesso",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bom Sucesso de Patos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bonança",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bonfim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bonfinópolis de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bonito de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Borba Gato",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Borda da Mata",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Botelhos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Boticão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Botumirim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Brás Pires",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Brasilândia de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Brasília de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Brasópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Braúnas",
+		"bairros": [
+		 	"Centro",
+		 	"Salto Grande"
+		]
+	},
+	{
+		"cidade": "Brejaúba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Brejaubinha",
+		"bairros": [
+		 	"Centro",
+		 	"Córrego dos Desidérios"
+		]
+	},
+	{
+		"cidade": "Brejo Bonito",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Brejo do Amparo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Brumadinho",
+		"bairros": [
+		 	"Casa Branca",
+		 	"Centro",
+		 	"Suzana"
+		]
+	},
+	{
+		"cidade": "Brumal",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Buarque de Macedo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bueno",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bueno Brandão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Buenópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bugre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Buritis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Buritizeiro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cabeceira Grande",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cabo Verde",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caçaratiba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caçarema",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cachoeira Alegre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cachoeira da Prata",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cachoeira de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cachoeira de Pajeú",
+		"bairros": [
+		 	"Águas Altas",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cachoeira de Santa Cruz",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cachoeira do Aranã",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cachoeira do Brumado",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cachoeira do Campo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cachoeira do Manteiga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cachoeira Dourada",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cachoeirinha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caetano Lopes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caetanópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caeté",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caeté",
+		"bairros": [
+		 	"Centro",
+		 	"Pedra Branca"
+		]
+	},
+	{
+		"cidade": "Cafemirim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caiana",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caiapó",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cajuri",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caldas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Calixto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Camacho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Camanducaia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cambuí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cambuquira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campanário",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campanha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campestre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campestrinho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campina Verde",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campo Alegre de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campo Alegre de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campo Azul",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campo Belo",
+		"bairros": [
+		 	"Arandutaba",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campo do Meio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campo Florido",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campo Redondo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campolide",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campos Altos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campos Gerais",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cana Verde",
+		"bairros": [
+		 	"Centro",
+		 	"Cerradinho"
+		]
+	},
+	{
+		"cidade": "Canaã",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Canabrava",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Canabrava",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Canápolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Canastrão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Candeias",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Canoeiros",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cantagalo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caparaó",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Capela Nova",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Capelinha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Capetinga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Capim Branco",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Capinópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Capitânia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Capitão Andrade",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Capitão Enéas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Capitólio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caputira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caraí",
+		"bairros": [
+		 	"Centro",
+		 	"Marambainha",
+		 	"Maranhão"
+		]
+	},
+	{
+		"cidade": "Caranaíba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Carandaí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Carangola",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caratinga",
+		"bairros": [
+		 	"Anápolis",
+		 	"Barro Branco",
+		 	"Bela Vista",
+		 	"Bom Pastor",
+		 	"Centro",
+		 	"Dário Grossi",
+		 	"Doutor Eduardo Daladier Pereira",
+		 	"Esperança",
+		 	"Esplanada",
+		 	"Floresta",
+		 	"Graça",
+		 	"Itaúna",
+		 	"Jardim Francisco Pena",
+		 	"Limoeiro",
+		 	"Loteamento Comunitário Conquista III",
+		 	"Loteamento Izaltino Silveira da Mata",
+		 	"Loteamento Sociedade Monte Líbano",
+		 	"Loteamento Tiãozinho Vilela",
+		 	"Monte Líbano",
+		 	"Morro Escorpião",
+		 	"Nossa Senhora Aparecida",
+		 	"Rafael José de Lima",
+		 	"Rodoviários",
+		 	"Salatiel",
+		 	"Santa Cruz",
+		 	"Santa Zita",
+		 	"Santo Antônio",
+		 	"Vale do Sol",
+		 	"Zacarias"
+		]
+	},
+	{
+		"cidade": "Carbonita",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Careaçu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Carlos Alves",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Carlos Chagas",
+		"bairros": [
+		 	"Centro",
+		 	"Epaminondas Otoni",
+		 	"Francisco Sá",
+		 	"Mairink"
+		]
+	},
+	{
+		"cidade": "Carmésia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Carmo da Cachoeira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Carmo da Mata",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Carmo de Minas",
+		"bairros": [
+		 	"Centro",
+		 	"Dos Campos"
+		]
+	},
+	{
+		"cidade": "Carmo do Cajuru",
+		"bairros": [
+		 	"Centro",
+		 	"Santo Antônio da Serra"
+		]
+	},
+	{
+		"cidade": "Carmo do Paranaíba",
+		"bairros": [
+		 	"Juscelino Kubitschek"
+		]
+	},
+	{
+		"cidade": "Carmo do Rio Claro",
+		"bairros": [
+		 	"Centro",
+		 	"Rural Três Barras"
+		]
+	},
+	{
+		"cidade": "Carmópolis de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Carneirinho",
+		"bairros": [
+		 	"Fátima do Pontal",
+		 	"Jardim Primavera"
+		]
+	},
+	{
+		"cidade": "Carrancas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Carvalho de Brito",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Carvalhópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Carvalhos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Casa Grande",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cascalho Rico",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cássia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cataguarino",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cataguases",
+		"bairros": [
+		 	"Ana Carrara",
+		 	"Antônio Justino",
+		 	"Beira Rio",
+		 	"Bela Vista",
+		 	"Bom Pastor",
+		 	"Bom Retiro",
+		 	"Carijós",
+		 	"Centenário",
+		 	"Centro",
+		 	"Chácara Bom Sucesso",
+		 	"Chácaras Palmeiras",
+		 	"Cidade Nova",
+		 	"Colinas",
+		 	"Conjunto João Paulo II",
+		 	"Dico Leite",
+		 	"Distrito Industrial",
+		 	"Esperança",
+		 	"Faber Resende",
+		 	"Fátima",
+		 	"Granjaria",
+		 	"Guanabara",
+		 	"Haidee",
+		 	"Hermenegildo Marote",
+		 	"Horto Florestal",
+		 	"Ibraim Mendoça",
+		 	"Ime Farage",
+		 	"Independência",
+		 	"Iracema",
+		 	"Izabel Cristina Mauad",
+		 	"Izabel Tavares",
+		 	"Jardim",
+		 	"Jardim Bandeirantes I",
+		 	"Jardim Bandeirantes II",
+		 	"Jardim Santa Cristina",
+		 	"João Riguete",
+		 	"José Gabriel de Passos",
+		 	"Leonardo",
+		 	"Menezes",
+		 	"Miguel Rocha",
+		 	"Morada da Serra",
+		 	"Nossa Senhora das Graças",
+		 	"Pampulha",
+		 	"Paraíso",
+		 	"Popular",
+		 	"Pouso Alegre",
+		 	"Primavera",
+		 	"Recanto das Palmeiras",
+		 	"Santa Clara",
+		 	"São Cristóvão",
+		 	"São Diniz",
+		 	"São Pedro",
+		 	"São Sebastião",
+		 	"São Vicente",
+		 	"Sol Nascente",
+		 	"Taquara Preta",
+		 	"Thomé",
+		 	"Vila Domingos Lopes",
+		 	"Vila Minalda",
+		 	"Vila Reis",
+		 	"Vila Rezende",
+		 	"Vila São José",
+		 	"Vila Tereza"
+		]
+	},
+	{
+		"cidade": "Catajás",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Catas Altas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Catas Altas da Noruega",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Catiara",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Catuji",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Catuné",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Catuni",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Catuti",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caxambu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cedro do Abaeté",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Centenário",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Central de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Central de Santa Helena",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Centralina",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cervo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Chácara",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Chalé",
+		"bairros": [
+		 	"Centro",
+		 	"Penha do Coco"
+		]
+	},
+	{
+		"cidade": "Chapada de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Chapada do Norte",
+		"bairros": [
+		 	"Cachoeira do Norte",
+		 	"Centro",
+		 	"Granjas do Norte",
+		 	"Santa Rita do Araçuaí",
+		 	"São Sebastião da Boa Vista"
+		]
+	},
+	{
+		"cidade": "Chapada Gaúcha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Chaves",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Chaveslândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Chiador",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Chonim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Chonin de Baixo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Chumbo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cipotânea",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cisneiros",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Claraval",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Claro de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Claro dos Poções",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cláudio",
+		"bairros": [
+		 	"Bocaina",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cláudio Manuel",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cocais",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Coimbra",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Coluna",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Comendador Gomes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Comercinho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conceição da Aparecida",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conceição da Barra de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conceição da Boa Vista",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conceição da Ibitipoca",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conceição das Alagoas",
+		"bairros": [
+		 	"Alagoas",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conceição das Pedras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conceição de Ipanema",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conceição de Itaguá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conceição de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conceição de Piracicaba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conceição de Tronqueiras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conceição do Capim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conceição do Formoso",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conceição do Mato Dentro",
+		"bairros": [
+		 	"Centro",
+		 	"Ouro Fino",
+		 	"Socorro",
+		 	"Taboleiro"
+		]
+	},
+	{
+		"cidade": "Conceição do Pará",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conceição do Rio Acima",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conceição do Rio Verde",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conceição dos Ouros",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Concórdia de Mucuri",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Condado do Norte",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cônego João Pio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cônego Marinho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Confins",
+		"bairros": [
+		 	"Aeroporto Confins",
+		 	"Centro",
+		 	"Tavares"
+		]
+	},
+	{
+		"cidade": "Congonhal",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Congonhas",
+		"bairros": [
+		 	"Centro",
+		 	"Joaquim Murtinho"
+		]
+	},
+	{
+		"cidade": "Congonhas do Norte",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conquista",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conselheiro Lafaiete",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conselheiro Mata",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conselheiro Pena",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Consolação",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Contagem",
+		"bairros": [
+		 	"Água Branca",
+		 	"Alvorada",
+		 	"Amazonas",
+		 	"Antônio Cambraia",
+		 	"Arcádia",
+		 	"Arpoador",
+		 	"Arvoredo",
+		 	"Arvoredo II",
+		 	"Bandeirantes",
+		 	"Beatriz",
+		 	"Bela Vista",
+		 	"Bernardo Monteiro",
+		 	"Betânia",
+		 	"Bom Jesus",
+		 	"Buganvile I",
+		 	"Buganville II",
+		 	"Cabral",
+		 	"Caiapós",
+		 	"Camilo Alves",
+		 	"Campina Verde",
+		 	"Campo Alto",
+		 	"Canadá",
+		 	"Cândida Ferreira",
+		 	"Carajás",
+		 	"Central Parque",
+		 	"Centro",
+		 	"Chácara Boa Vista",
+		 	"Chácara Contagem",
+		 	"Chácara Cotia",
+		 	"Chácara Del-Rey",
+		 	"Chácara Novo Horizonte",
+		 	"Chácara Planalto",
+		 	"Chácara São Geraldo",
+		 	"Chácaras Califórnia",
+		 	"Chácaras Campestre",
+		 	"Chácaras Reunidas Santa Terezinha",
+		 	"Cidade Industrial",
+		 	"Cincão",
+		 	"Cinco",
+		 	"Colonial",
+		 	"Colorado",
+		 	"Condomínio Estância San Remo",
+		 	"Conjunto Água Branca",
+		 	"Darcy Ribeiro",
+		 	"Darcy Vargas",
+		 	"Distrito Industrial Doutor Hélio Pentagna Guimarães",
+		 	"Divisa com Ribeirão das Neves",
+		 	"Do Comércio",
+		 	"Duque de Caxias",
+		 	"Eldoradinho",
+		 	"Eldorado",
+		 	"Estaleiro",
+		 	"Estância do Hibisco",
+		 	"Estância Silveira",
+		 	"Estâncias Imperiais",
+		 	"Estrela Dalva",
+		 	"Europa",
+		 	"Feijão Miúdo",
+		 	"Flamengo",
+		 	"Fonte Grande",
+		 	"Funcionários",
+		 	"Glória",
+		 	"Granja Ouro Branco",
+		 	"Granja Vista Alegre",
+		 	"Guanabara",
+		 	"Icaivera",
+		 	"Inconfidentes",
+		 	"Industrial",
+		 	"Industrial Itaú",
+		 	"Industrial Santa Cruz",
+		 	"Industrial Santa Rita",
+		 	"Industrial São Luiz",
+		 	"Jardim Alvorada",
+		 	"Jardim Balneário",
+		 	"Jardim Bandeirantes",
+		 	"Jardim Califórnia",
+		 	"Jardim das Oliveiras",
+		 	"Jardim do Lago",
+		 	"Jardim Industrial",
+		 	"Jardim Laguna",
+		 	"Jardim Marrocos",
+		 	"Jardim Riacho das Pedras",
+		 	"Jardim Vera Cruz",
+		 	"Jardim Vera Cruz II",
+		 	"JK",
+		 	"Kennedy",
+		 	"Liberdade I",
+		 	"Liberdade II",
+		 	"Linda Vista",
+		 	"Lua Nova da Pampulha",
+		 	"Lúcio de Abreu",
+		 	"Maria da Conceição",
+		 	"Milanez",
+		 	"Monsenhor Horta",
+		 	"Monte Castelo",
+		 	"Morada Nova",
+		 	"Nacional",
+		 	"Nazaré",
+		 	"Nossa Senhora da Conceição",
+		 	"Nossa Senhora de Fátima",
+		 	"Nossa Senhora do Carmo",
+		 	"Nova Contagem",
+		 	"Novo Boa Vista",
+		 	"Novo Eldorado",
+		 	"Novo Progresso",
+		 	"Novo Recanto",
+		 	"Novo Riacho",
+		 	"Oitis",
+		 	"Olinda",
+		 	"Parque Ayrton Senna",
+		 	"Parque das Mangueiras",
+		 	"Parque Duval de Barros",
+		 	"Parque Maracanã",
+		 	"Parque Recreio",
+		 	"Parque São João",
+		 	"Parque Turistas",
+		 	"Pedra Azul",
+		 	"Perobas",
+		 	"Perobas 2",
+		 	"Petrolândia",
+		 	"Portal do Sol",
+		 	"Praia",
+		 	"Quintas Coloniais",
+		 	"Quintas do Jacuba",
+		 	"Recanto da Pampulha",
+		 	"Ressaca",
+		 	"Retiro",
+		 	"Retiro dos Sonhos",
+		 	"Riacho das Pedras",
+		 	"Santa Cruz Industrial",
+		 	"Santa Edwiges",
+		 	"Santa Helena",
+		 	"Santa Luzia",
+		 	"Santa Maria",
+		 	"Santa Terezinha",
+		 	"Santo Antônio",
+		 	"São Caetano",
+		 	"São Gonçalo",
+		 	"São Gotardo",
+		 	"São Joaquim",
+		 	"São Mateus",
+		 	"São Sebastião",
+		 	"Sapucaia",
+		 	"Sapucaia II",
+		 	"Sapucaias III",
+		 	"Solar do Madeira",
+		 	"Tijuco",
+		 	"Três Barras",
+		 	"Tropical",
+		 	"Tupã",
+		 	"Vale das Amendoeiras",
+		 	"Vale das Orquídeas",
+		 	"Vera Cruz",
+		 	"Vila Barroquinha",
+		 	"Vila Beatriz",
+		 	"Vila Beija-Flor",
+		 	"Vila Belém",
+		 	"Vila Beneves",
+		 	"Vila Boa Vista",
+		 	"Vila Cristina",
+		 	"Vila Feliz",
+		 	"Vila Francisco Mariano",
+		 	"Vila Ipê Amarelo",
+		 	"Vila Itália",
+		 	"Vila Magdalena",
+		 	"Vila Militar",
+		 	"Vila Nova Esperança",
+		 	"Vila Panamá",
+		 	"Vila Paris",
+		 	"Vila Pérola",
+		 	"Vila Renascer",
+		 	"Vila Santa Luzia",
+		 	"Vila São José",
+		 	"Vila São Paulo",
+		 	"Xangri-Lá"
+		]
+	},
+	{
+		"cidade": "Contrato",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Contria",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Coqueiral",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Coração de Jesus",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cordisburgo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cordislândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Corinto",
+		"bairros": [
+		 	"Beltrão",
+		 	"Centro",
+		 	"Contria"
+		]
+	},
+	{
+		"cidade": "Coroaci",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Coromandel",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Coronel Fabriciano",
+		"bairros": [
+		 	"Aldeia do Lago",
+		 	"Alipinho",
+		 	"Amaro Lanari",
+		 	"Aparecida do Norte",
+		 	"Belvedere",
+		 	"Bom Jesus",
+		 	"Caladinho",
+		 	"Centro",
+		 	"Contente",
+		 	"Córrego Alto",
+		 	"Florença",
+		 	"Floresta",
+		 	"Frederico Ozanan",
+		 	"Gávea",
+		 	"Giovanini",
+		 	"Jardim Primavera",
+		 	"José da Silva Brito",
+		 	"Judith Bhering",
+		 	"Júlia Kubitschek",
+		 	"Mangueiras",
+		 	"Manoel Domingos",
+		 	"Manoel Maia (Apara Foice)",
+		 	"Melo Viana",
+		 	"Morada do Vale",
+		 	"Nossa Senhora da Penha",
+		 	"Nossa Senhora do Carmo",
+		 	"Nova Tijuca",
+		 	"Olaria",
+		 	"Parque Industrial Novo Reno",
+		 	"Pedra Linda",
+		 	"Pedreira",
+		 	"Potyra (Caladão)",
+		 	"Professores",
+		 	"Recanto Verde",
+		 	"Residencial Fazendinha",
+		 	"Residencial Pomar",
+		 	"Santa Cruz",
+		 	"Santa Helena",
+		 	"Santa Inez",
+		 	"Santa Luzia",
+		 	"Santa Rita",
+		 	"Santa Terezinha I",
+		 	"Santa Terezinha II",
+		 	"Santo Antônio",
+		 	"Santo Elói",
+		 	"São Cristovão",
+		 	"São Domingos",
+		 	"São Geraldo",
+		 	"São Vicente",
+		 	"Surinan",
+		 	"Sylvio Pereira I",
+		 	"Sylvio Pereira II",
+		 	"Todos os Santos",
+		 	"Universitário",
+		 	"Vila Jacinto das Neves",
+		 	"Vila Maria Linhares",
+		 	"Vila São Domingos",
+		 	"Vila São Francisco"
+		]
+	},
+	{
+		"cidade": "Coronel Murta",
+		"bairros": [
+		 	"Barra do Salinas",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Coronel Pacheco",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Coronel Xavier Chaves",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Córrego Danta",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Córrego do Bom Jesus",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Córrego do Ouro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Córrego dos Bernardes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Córrego dos Borges",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Córrego dos Melquíades",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Córrego Fundo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Córrego Novo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Córregos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Correia de Almeida",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Correntinho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Costa Sena",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Costas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Costas da Mantiqueira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Couto de Magalhães de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Crisólia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Crisólita",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Crispim Jaques",
+		"bairros": [
+		 	"Brejão",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cristais",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cristália",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cristiano Otoni",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cristina",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Crucilândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cruzeiro da Fortaleza",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cruzeiro dos Peixotos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cruzília",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cruzinha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cubas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cuité Velho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cuparaque",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Curimataí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Curral de Dentro",
+		"bairros": [
+		 	"Centro",
+		 	"Maristela"
+		]
+	},
+	{
+		"cidade": "Curvelo",
+		"bairros": [
+		 	"Centro",
+		 	"Estiva",
+		 	"JK",
+		 	"Vila de Lourdes"
+		]
+	},
+	{
+		"cidade": "Datas",
+		"bairros": [
+		 	"Cachimbo",
+		 	"Centro",
+		 	"Tombadouro"
+		]
+	},
+	{
+		"cidade": "Delfim Moreira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Delfinópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Delta",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Deputado Augusto Clementino",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Descoberto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Desembargador Otoni",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Desemboque",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Desterro de Entre Rios",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Desterro do Melo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Diamante de Ubá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Diamantina",
+		"bairros": [
+		 	"Centro",
+		 	"Jacuba",
+		 	"Maria Nunes"
+		]
+	},
+	{
+		"cidade": "Dias",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dias Tavares",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Diogo de Vasconcelos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dionísio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Divinésia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Divino",
+		"bairros": [
+		 	"Centro",
+		 	"Viletes"
+		]
+	},
+	{
+		"cidade": "Divino das Laranjeiras",
+		"bairros": [
+		 	"Centro",
+		 	"Macedônia"
+		]
+	},
+	{
+		"cidade": "Divino de Virgolândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Divino Espírito Santo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Divinolândia de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Divinópolis",
+		"bairros": [
+		 	"Aeroporto",
+		 	"Afonso Pena",
+		 	"Alterosa",
+		 	"Alto da Urca",
+		 	"Alto São Vicente",
+		 	"Alvorada",
+		 	"Anchieta",
+		 	"Antares",
+		 	"Antônio Fonseca",
+		 	"Bela Vista",
+		 	"Belo Vale",
+		 	"Belvedere",
+		 	"Belvedere II",
+		 	"Bom Pastor",
+		 	"Campina Verde",
+		 	"Casa Nova",
+		 	"Catalão",
+		 	"Centro",
+		 	"Chácara Santa Rita",
+		 	"Chácaras Belo Horizonte",
+		 	"Chácaras Bom Retiro",
+		 	"Chácaras Sambeca-Núcleo Urbano Roseiras",
+		 	"Chanadour",
+		 	"Cidade Jardim",
+		 	"Conjunto Habitacional Dom Cristiano",
+		 	"Conjunto Habitacional Nilda Barros",
+		 	"Conjunto Habitacional Osvaldo Machado Gontijo",
+		 	"Costa Azul",
+		 	"Danilo Passos",
+		 	"Danilo Passos II",
+		 	"Davanuze",
+		 	"Del-Rey",
+		 	"Distrito Industrial Coronel Jovelino Rabelo",
+		 	"Do Carmo",
+		 	"Dom Pedro II",
+		 	"Dona Quita",
+		 	"Dona Rosa",
+		 	"Doutor José Thomaz",
+		 	"Dulphe Pinto de Aguiar",
+		 	"Eldorado",
+		 	"Esplanada",
+		 	"Exposição",
+		 	"Fábio Notini",
+		 	"Ferrador",
+		 	"Floramar",
+		 	"Floresta",
+		 	"Gafanhoto",
+		 	"Geraldo Pereira",
+		 	"Grajaú",
+		 	"Granjas do Sheik",
+		 	"Halin Souki",
+		 	"Icaraí",
+		 	"Industrial",
+		 	"Interlagos",
+		 	"Ipanema",
+		 	"Ipiranga",
+		 	"Itacolomi",
+		 	"Itaí",
+		 	"Jardim Alterosa",
+		 	"Jardim Betânia",
+		 	"Jardim Brasília",
+		 	"Jardim Candelária",
+		 	"Jardim Candidés",
+		 	"Jardim Copacabana",
+		 	"Jardim das Acácias",
+		 	"Jardim das Mansões",
+		 	"Jardim Nova América",
+		 	"Jardim Real",
+		 	"Jardinópolis",
+		 	"João Antônio Gonçalves",
+		 	"João Paulo II",
+		 	"Juscelino Kubitschek",
+		 	"Jussara",
+		 	"Juza Fonseca",
+		 	"Levindo Paula Pereira",
+		 	"Liberdade",
+		 	"Mangabeiras",
+		 	"Manoel Valinhas",
+		 	"Mar e Terra",
+		 	"Marajó",
+		 	"Maria Helena",
+		 	"Maria Peçanha",
+		 	"Morada Nova",
+		 	"Morumbi",
+		 	"Nações",
+		 	"Niterói",
+		 	"Nossa Senhora da Conceição",
+		 	"Nossa Senhora das Graças",
+		 	"Nossa Senhora de Lourdes",
+		 	"Nova Fortaleza",
+		 	"Nova Holanda",
+		 	"Nova Suíça",
+		 	"Novo Paraíso",
+		 	"Oliveiras",
+		 	"Orion",
+		 	"Pacaembu",
+		 	"Padre Eustáquio",
+		 	"Padre Herculano Yanes",
+		 	"Padre Libério",
+		 	"Paraíso",
+		 	"Parque Jardim Capitão Silva",
+		 	"Planalto",
+		 	"Ponte Funda",
+		 	"Porto Velho",
+		 	"Primavera",
+		 	"Prolongamento I do Bairro Manoel Valinhas",
+		 	"Quinta das Palmeiras",
+		 	"Quintino",
+		 	"Rancho Alegre",
+		 	"Realengo",
+		 	"Residencial Castelo",
+		 	"Residencial Doutor Walchir Resende Costa",
+		 	"Residencial Jardim das Oliveiras",
+		 	"Residencial Lagoa dos Mandarins",
+		 	"Residencial Lagoa Park",
+		 	"Residencial Morumbi",
+		 	"Sagrada Família",
+		 	"Santa Clara",
+		 	"Santa Lúcia",
+		 	"Santa Luzia",
+		 	"Santa Marta",
+		 	"Santa Rosa",
+		 	"Santa Tereza",
+		 	"Santo André",
+		 	"Santo Antônio",
+		 	"Santos Dumont",
+		 	"São Bento",
+		 	"São Caetano",
+		 	"São Domingos",
+		 	"São Francisco",
+		 	"São Geraldo",
+		 	"São João de Deus",
+		 	"São José",
+		 	"São Lucas",
+		 	"São Luís",
+		 	"São Miguel",
+		 	"São Paulo",
+		 	"São Roque",
+		 	"São Sebastião",
+		 	"São Simão",
+		 	"Savassi",
+		 	"Serra Verde",
+		 	"Sidil",
+		 	"Sion",
+		 	"Terra Azul",
+		 	"Tietê",
+		 	"Universitário",
+		 	"Vale do Sol",
+		 	"Vila Belo Horizonte",
+		 	"Vila Cruzeiro",
+		 	"Vila das Roseiras",
+		 	"Vila Espírito Santo",
+		 	"Vila Minas Gerais",
+		 	"Vila Rica",
+		 	"Vila Romana",
+		 	"Vivendas da Exposição",
+		 	"Xavante",
+		 	"Xavantes",
+		 	"Zona Sul"
+		]
+	},
+	{
+		"cidade": "Divisa Alegre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Divisa Nova",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Divisópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dois de Abril",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dom Bosco",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dom Cavati",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dom Joaquim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dom Lara",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dom Modesto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dom Silvério",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dom Viçoso",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dona Euzébia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dores da Vitória",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dores de Campos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dores de Guanhães",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dores do Indaiá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dores do Paraibuna",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dores do Turvo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Doresópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Douradinho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Douradoquara",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Doutor Lund",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Durandé",
+		"bairros": [
+		 	"Centro",
+		 	"São João da Figueira",
+		 	"São José da Figueira"
+		]
+	},
+	{
+		"cidade": "Edgard Melo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Elói Mendes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Emboabas",
+		"bairros": [
+		 	"Cananéia",
+		 	"Centro",
+		 	"Morro Grande"
+		]
+	},
+	{
+		"cidade": "Engenheiro Caldas",
+		"bairros": [
+		 	"Centro",
+		 	"Divino do Traíra",
+		 	"São José do Acácio"
+		]
+	},
+	{
+		"cidade": "Engenheiro Correia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Engenheiro Navarro",
+		"bairros": [
+		 	"Centro",
+		 	"São Norberto"
+		]
+	},
+	{
+		"cidade": "Engenheiro Schnoor",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Engenho do Ribeiro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Entre Folhas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Entre Rios de Minas",
+		"bairros": [
+		 	"Castro",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Epaminondas Otoni",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Era Nova",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ervália",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Esmeraldas",
+		"bairros": [
+		 	"Centro",
+		 	"Quintas São José",
+		 	"Recanto da Serra",
+		 	"Tropeiros",
+		 	"Vargem Bento da Costa"
+		]
+	},
+	{
+		"cidade": "Esmeraldas de Ferros",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Espera Feliz",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Espinosa",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Espírito Santo do Dourado",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Esteios",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Estevão de Araújo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Estiva",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Estrela da Barra",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Estrela Dalva",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Estrela de Jordânia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Estrela do Indaiá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Estrela do Sul",
+		"bairros": [
+		 	"Centro",
+		 	"Dolearina"
+		]
+	},
+	{
+		"cidade": "Eugenópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Euxenita",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ewbank da Câmara",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Expedicionário Alício",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Extração",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Extrema",
+		"bairros": [
+		 	"Centro",
+		 	"Distrito Industrial dos Pires"
+		]
+	},
+	{
+		"cidade": "Fama",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Faria Lemos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Farias",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Felicina",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Felício dos Santos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Felisburgo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Felixlândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Fernandes Tourinho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Fernão Dias",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ferreiras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ferreirópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ferros",
+		"bairros": [
+		 	"Celeste",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ferruginha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Fervedouro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Fidalgo",
+		"bairros": [
+		 	"Fidalgo"
+		]
+	},
+	{
+		"cidade": "Fidelândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Flor de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Florália",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Floresta",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Florestal",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Fonseca",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Formiga",
+		"bairros": [
+		 	"Boa Esperança",
+		 	"Boa Vista",
+		 	"Centro",
+		 	"Quinzinho"
+		]
+	},
+	{
+		"cidade": "Formoso",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Fortaleza de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Fortuna de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Francisco Badaró",
+		"bairros": [
+		 	"Centro",
+		 	"Tocoios de Minas"
+		]
+	},
+	{
+		"cidade": "Francisco Dumont",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Francisco Sá",
+		"bairros": [
+		 	"Centro",
+		 	"São Geraldo"
+		]
+	},
+	{
+		"cidade": "Franciscópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Frei Eustáquio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Frei Gaspar",
+		"bairros": [
+		 	"Arana",
+		 	"Cachoeira do Arana",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Frei Inocêncio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Frei Lagonegro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Frei Orlando",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Frei Serafim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Freire Cardoso",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Fronteira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Fronteira dos Vales",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Fruta de Leite",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Frutal",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Funilândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Furquim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Galena",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Galiléia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Gama",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Gameleiras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Garapuava",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Gavião",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Glaucilândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Glaura",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Glucínio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Goiabal",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Goiabeira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Goiaminas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Goianá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Goianases",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Gonçalves",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Gonzaga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Gororós",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Gorutuba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Gouveia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Governador Valadares",
+		"bairros": [
+		 	"Altinópolis",
+		 	"Alto Esplanada",
+		 	"Azteca",
+		 	"Bela Vista",
+		 	"Belvedere",
+		 	"Betel",
+		 	"Canaã",
+		 	"Capim",
+		 	"Carapina",
+		 	"Caravelas",
+		 	"Cardo",
+		 	"Castanheiras",
+		 	"Castanheiras II",
+		 	"Centro",
+		 	"Chácaras Braúnas",
+		 	"Chácaras Encosta do Sol",
+		 	"Chácaras Quintas Green Hill",
+		 	"Cidade Jardim",
+		 	"Cidade Nova",
+		 	"Conquista",
+		 	"Distrito Industrial",
+		 	"Elvamar",
+		 	"Esperança",
+		 	"Esplanada",
+		 	"Fazenda Figueira",
+		 	"Figueira do Rio Doce",
+		 	"Floresta",
+		 	"Grã-Duquesa",
+		 	"Ilha dos Araújos",
+		 	"Interlagos",
+		 	"Jardim Alice",
+		 	"Jardim Alvorada",
+		 	"Jardim Atalaia",
+		 	"Jardim do Trevo",
+		 	"Jardim Ipê",
+		 	"Jardim JK",
+		 	"Jardim Pérola",
+		 	"Jardim Primavera",
+		 	"JK",
+		 	"JK I",
+		 	"Kennedy",
+		 	"Lagoa Santa",
+		 	"Lourdes",
+		 	"Mãe de Deus",
+		 	"Maravilha",
+		 	"Maria Eugênia",
+		 	"Mirante da Rocha",
+		 	"Monte Carmelo",
+		 	"Morada do Acampamento",
+		 	"Morada do Vale",
+		 	"Morada do Vale II",
+		 	"Morada do Vale III",
+		 	"Morro do Querozene",
+		 	"Nossa Senhora das Graças",
+		 	"Nossa Senhora de Fátima",
+		 	"Nova Vila Bretas",
+		 	"Novo Horizonte",
+		 	"Palmeiras",
+		 	"Park da Fraternidade",
+		 	"Parque das Aroeiras",
+		 	"Parque Ibituruna",
+		 	"Penha",
+		 	"Planalto",
+		 	"Recanto das Cachoeiras",
+		 	"Recanto dos Sonhos",
+		 	"Retiro dos Lagos",
+		 	"Sagrada Família",
+		 	"Santa Efigênia",
+		 	"Santa Helena",
+		 	"Santa Paula",
+		 	"Santa Rita",
+		 	"Santa Rosa",
+		 	"Santa Rosa de Lima",
+		 	"Santa Terezinha",
+		 	"Santo Agostinho",
+		 	"Santo Antônio",
+		 	"Santos Dumont I",
+		 	"São Cristóvão",
+		 	"São Geraldo",
+		 	"São José",
+		 	"São Luiz",
+		 	"São Paulo",
+		 	"São Pedro",
+		 	"São Raimundo",
+		 	"São Tarcísio",
+		 	"Sion",
+		 	"Sir",
+		 	"Tiradentes",
+		 	"Turmalina",
+		 	"Universitário",
+		 	"Vale do Sol",
+		 	"Vale do Sol II",
+		 	"Vale Pastoril",
+		 	"Vale Pastoril II",
+		 	"Vale Verde",
+		 	"Vera Cruz",
+		 	"Vila Bretas",
+		 	"Vila do Sol",
+		 	"Vila do Sol II",
+		 	"Vila dos Montes",
+		 	"Vila Império",
+		 	"Vila Isa",
+		 	"Vila Mariana",
+		 	"Vila Mariquita",
+		 	"Vila Monte Líbano",
+		 	"Vila Ozanan",
+		 	"Vila Rica",
+		 	"Vila São João",
+		 	"Vila União Penha",
+		 	"Vila Verde",
+		 	"Vilagge da Serra",
+		 	"Vista Alegre"
+		]
+	},
+	{
+		"cidade": "Gramínea",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Granada",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Grão Mogol",
+		"bairros": [
+		 	"Centro",
+		 	"Vale das Cancelas"
+		]
+	},
+	{
+		"cidade": "Grupiara",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guaicui",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guaipava",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guanhães",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guapé",
+		"bairros": [
+		 	"Centro",
+		 	"Santo Antônio do Guapé"
+		]
+	},
+	{
+		"cidade": "Guaraciaba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guaraciama",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guaranésia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guarani",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guaranilândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guarará",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guarataia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guarda dos Ferreiros",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guarda-Mor",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guardinha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guaxima",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guaxupé",
+		"bairros": [
+		 	"Centro",
+		 	"Jardim Itália"
+		]
+	},
+	{
+		"cidade": "Guidoval",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guimarânia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guinda",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guiricema",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Gurinhatã",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Heliodora",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Hematita",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Hermilo Alves",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Honorópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Iapu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ibertioga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ibiá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ibiaí",
+		"bairros": [
+		 	"Bom Jesus da Vereda",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ibiracatu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ibiraci",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ibirité",
+		"bairros": [
+		 	"Centro",
+		 	"Jatobá",
+		 	"Piratininga"
+		]
+	},
+	{
+		"cidade": "Ibitira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ibitiúra de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ibituruna",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Icaraí de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Igarapé",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Igaratinga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Iguatama",
+		"bairros": [
+		 	"Centro",
+		 	"Corguinhos"
+		]
+	},
+	{
+		"cidade": "Ijaci",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ilhéus do Prata",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ilicínea",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Imbé de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Inconfidentes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Indaiabira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Independência",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Indianópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ingaí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Inhaí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Inhapim",
+		"bairros": [
+		 	"Bom Jesus do Rio Preto",
+		 	"Centro",
+		 	"Jerusalém",
+		 	"Macadame",
+		 	"Novo Horizonte",
+		 	"Santo Antônio do Alegre",
+		 	"São Tomé de Minas"
+		]
+	},
+	{
+		"cidade": "Inhaúma",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Inimutaba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ipaba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ipanema",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ipatinga",
+		"bairros": [
+		 	"Barra Alegre",
+		 	"Bela Vista",
+		 	"Bethânia",
+		 	"Bom Jardim",
+		 	"Bom Retiro",
+		 	"Canaã",
+		 	"Caravelas",
+		 	"Cariru",
+		 	"Castelo",
+		 	"Centro",
+		 	"Chácaras Madalena",
+		 	"Chácaras Oliveira",
+		 	"Cidade Nobre",
+		 	"Córrego Novo",
+		 	"Das Águas",
+		 	"Distrito Industrial",
+		 	"Esperança",
+		 	"Ferroviários",
+		 	"Fontes",
+		 	"Granjas Vagalume",
+		 	"Horto",
+		 	"Ideal",
+		 	"Iguaçu",
+		 	"Imbaúbas",
+		 	"Industrial",
+		 	"Irmãos Marianos",
+		 	"Jardim Panorama",
+		 	"Limoeiro",
+		 	"Nova Esperança",
+		 	"Novo Cruzeiro",
+		 	"Parque das Águas",
+		 	"Pedra Branca",
+		 	"Planalto II",
+		 	"Primeiro de Maio",
+		 	"Recanto Verde",
+		 	"Taúbas",
+		 	"Tiradentes",
+		 	"Veneza",
+		 	"Vila Celeste",
+		 	"Vila Formosa",
+		 	"Vila Ipanema"
+		]
+	},
+	{
+		"cidade": "Ipiaçu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ipoema",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ipuiúna",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Iraí de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itabira",
+		"bairros": [
+		 	"Abóboras",
+		 	"Água Fresca",
+		 	"Alto da Boa Vista",
+		 	"Alto Pereira",
+		 	"Amazonas",
+		 	"Bálsamos",
+		 	"Barreiro",
+		 	"Barro Branco",
+		 	"Bela Vista",
+		 	"Boa Esperança",
+		 	"Campestre",
+		 	"Campestre I",
+		 	"Centro",
+		 	"Chapada",
+		 	"Cidade Nova",
+		 	"Clóvis Alvim I",
+		 	"Clóvis Alvim II",
+		 	"Colina da Praia",
+		 	"Condomínio Vila Residencial de Conceição",
+		 	"Cônego Guilhermino Pereira",
+		 	"Distrito Industrial",
+		 	"Distrito Industrial II",
+		 	"Doze de Março",
+		 	"Eldorado",
+		 	"Esplanada da Estação",
+		 	"Fênix",
+		 	"Gabiroba",
+		 	"Gabiroba (1ª Seção)",
+		 	"Gianette",
+		 	"Hamilton",
+		 	"Jardim dos Ipês",
+		 	"JK",
+		 	"João XXIII",
+		 	"Juca Batista",
+		 	"Juca Rosa",
+		 	"Machado",
+		 	"Madre Maria de Jesus",
+		 	"Major Lage de Baixo",
+		 	"Major Lage de Cima",
+		 	"Moinho Velho",
+		 	"Monsenhor José Lopes",
+		 	"Nossa Senhora das Oliveiras",
+		 	"Nova Vista",
+		 	"Novo Amazonas",
+		 	"Panorama",
+		 	"Pará",
+		 	"Pedreira",
+		 	"Pedreira do Instituto",
+		 	"Penha",
+		 	"Praia",
+		 	"Quatorze de Fevereiro",
+		 	"Quintas da Rocinha",
+		 	"Ribeira de Baixo",
+		 	"Ribeira de Cima",
+		 	"Santa Inês",
+		 	"Santa Marta",
+		 	"Santa Matilde",
+		 	"Santa Ruth",
+		 	"Santa Tereza (Cvrd)",
+		 	"Santo Antônio",
+		 	"São Bento",
+		 	"São Cristóvão",
+		 	"São Francisco",
+		 	"São Marcos",
+		 	"São Pedro",
+		 	"Serra do Esmeril",
+		 	"Valença",
+		 	"Vila Amélia",
+		 	"Vila Bethânia",
+		 	"Vila Conceição de Baixo",
+		 	"Vila Nações Unidas",
+		 	"Vila Piedade",
+		 	"Vila Salica",
+		 	"Vila Santa Izabel",
+		 	"Vila Santa Rosa",
+		 	"Vila São Geraldo",
+		 	"Vila São Joaquim",
+		 	"Vila Senhora de Fátima"
+		]
+	},
+	{
+		"cidade": "Itabirinha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itabirito",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itaboca",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itacambira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itacarambi",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itacolomi",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itaguara",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itaim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itaipé",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itajubá",
+		"bairros": [
+		 	"Açude",
+		 	"Anhumas",
+		 	"Avenida",
+		 	"Boa Vista",
+		 	"Capetinga",
+		 	"Centro",
+		 	"Cruzeiro",
+		 	"Distrito Industrial",
+		 	"Estiva",
+		 	"Imbel",
+		 	"Jardim Bernadete",
+		 	"Loteamento Jardim Eldorado",
+		 	"Medicina",
+		 	"Morro Chic",
+		 	"Morro Grande",
+		 	"Nações",
+		 	"Nossa Senhora da Agonia",
+		 	"Nossa Senhora de Fátima",
+		 	"Novo Horizonte",
+		 	"Oriente",
+		 	"Piedade",
+		 	"Pinheirinho",
+		 	"Ponte Alta",
+		 	"Porto Velho",
+		 	"Rebourgeon",
+		 	"Santa Luzia",
+		 	"Santa Rita de Cássia",
+		 	"Santa Rosa",
+		 	"Santo Antônio",
+		 	"Santos Dumont",
+		 	"São Judas Tadeu",
+		 	"São Sebastião",
+		 	"São Vicente",
+		 	"Varginha",
+		 	"Vila Betel",
+		 	"Vila Isabel",
+		 	"Vila Poddis",
+		 	"Vila Rubens"
+		]
+	},
+	{
+		"cidade": "Itajutiba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itamarandiba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itamarati",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itamarati de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itambacuri",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itambé do Mato Dentro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itamirim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itamogi",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itamonte",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itamuri",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itanhandu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itanhomi",
+		"bairros": [
+		 	"Centro",
+		 	"Iara",
+		 	"São Francisco do Jataí"
+		]
+	},
+	{
+		"cidade": "Itaobim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itapagipe",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itapanhoacanga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itapecerica",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itapeva",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itapiru",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itapirucu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itatiaiuçu",
+		"bairros": [
+		 	"Centro",
+		 	"Pinheiros"
+		]
+	},
+	{
+		"cidade": "Itaú de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itaúna",
+		"bairros": [
+		 	"Aeroporto",
+		 	"Aeroporto II",
+		 	"Alaita",
+		 	"Antunes",
+		 	"Bela Vista",
+		 	"Belvedere",
+		 	"Centro",
+		 	"Cerqueira Lima",
+		 	"Chácara do Quitão",
+		 	"Cidade Leonane",
+		 	"Cidade Nova",
+		 	"Cidade Nova II",
+		 	"Conjunto Habitacional Jadir Marinho",
+		 	"Distrito Industrial",
+		 	"Eldorado",
+		 	"Garcias",
+		 	"Graças",
+		 	"Irmãos Auler",
+		 	"Itaunense",
+		 	"Itaunense II",
+		 	"João Paulo II",
+		 	"Juscelino Kubitschek",
+		 	"Lourdes",
+		 	"Morada Nova",
+		 	"Morro do Engenho",
+		 	"Morro do Sol",
+		 	"Murilo Augusto Gonçalves",
+		 	"Nogueira Machado",
+		 	"Nogueirinha",
+		 	"Novo Horizonte",
+		 	"Núcleo Regional Victor Gonçalves de Sousa",
+		 	"Olímpio Moreira",
+		 	"Padre Eustáquio",
+		 	"Parque Jardim Santanense",
+		 	"Piaguassu",
+		 	"Piedade",
+		 	"Pio XII",
+		 	"Residencial Morro do Sol",
+		 	"Residencial Santanense",
+		 	"Residencial São Geraldo",
+		 	"Residencial Veredas",
+		 	"Residencial Veredas II",
+		 	"Santa Edwiges",
+		 	"Santa Edwiges II",
+		 	"Santa Mônica",
+		 	"Santanense",
+		 	"Santiago",
+		 	"Santo Antônio",
+		 	"São Bento",
+		 	"São Geraldo",
+		 	"São Judas Tadeu",
+		 	"Três Marias",
+		 	"Tropical",
+		 	"Universitário",
+		 	"Vale das Aroeiras",
+		 	"Várzea da Olaria",
+		 	"Vila Augusto Chaves",
+		 	"Vila Mozart",
+		 	"Vila Nazaré",
+		 	"Vila Santa Maria",
+		 	"Vila Tavares",
+		 	"Vila Vilaça",
+		 	"Vila Washington",
+		 	"Vitória"
+		]
+	},
+	{
+		"cidade": "Itaverava",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itinga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itueta",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ituí",
+		"bairros": [
+		 	"Araci",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ituiutaba",
+		"bairros": [
+		 	"Alcides Junqueira",
+		 	"Alvorada",
+		 	"Bela Vista",
+		 	"Boa Esperança",
+		 	"Boa Vista",
+		 	"Brasil",
+		 	"Camargo",
+		 	"Carvalho",
+		 	"Central",
+		 	"Centro",
+		 	"Cidade Jardim",
+		 	"Cristina",
+		 	"Distrito Industrial",
+		 	"Elândia",
+		 	"Eldorado",
+		 	"Gardênia",
+		 	"Gerson Baduy I",
+		 	"Gerson Baduy II",
+		 	"Gilca Cancela Vilela",
+		 	"Guimarães",
+		 	"Hélio",
+		 	"Independência",
+		 	"Ipiranga",
+		 	"Jardim do Rosário",
+		 	"Jardim Europa",
+		 	"Jardim Jamila",
+		 	"Jerônimo Mendonça",
+		 	"Lagoa Azul",
+		 	"Lagoa Azul II",
+		 	"Maria Vilela",
+		 	"Marta Helena",
+		 	"Mirim",
+		 	"Morada do Sol",
+		 	"Natal",
+		 	"Nossa Senhora Aparecida",
+		 	"Nova Ituiutaba I",
+		 	"Nova Ituiutaba II",
+		 	"Nova Ituiutaba III",
+		 	"Nova Ituiutaba IV",
+		 	"Novo Horizonte",
+		 	"Novo Mundo",
+		 	"Novo Tempo II",
+		 	"Paranaíba",
+		 	"Pirapitinga",
+		 	"Platina",
+		 	"Progresso",
+		 	"Residencial Buritis",
+		 	"Residencial Canaã I",
+		 	"Residencial Canaã II",
+		 	"Residencial Doutor Marcondes Bernardes Ferreira",
+		 	"Residencial Drummond",
+		 	"Residencial Jardim Copacabana",
+		 	"Residencial Jardim Europa II",
+		 	"Residencial Monte Verde",
+		 	"Residencial Nadime Derze Jorge I",
+		 	"Residencial Nadime Derze Jorge II",
+		 	"Residencial Portal dos Ipês",
+		 	"Residencial Primavera",
+		 	"Ribeiro",
+		 	"Santa Edwiges",
+		 	"Santa Maria",
+		 	"Santo Antônio",
+		 	"São José",
+		 	"Satélite Andradina",
+		 	"Setor Norte",
+		 	"Setor Norte Industrial",
+		 	"Setor Sul",
+		 	"Sol Nascente",
+		 	"Sol Nascente II",
+		 	"Tiradentes",
+		 	"Tupã",
+		 	"Universitário",
+		 	"Vila Miisa",
+		 	"Zona Rural"
+		]
+	},
+	{
+		"cidade": "Itumirim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Iturama",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itutinga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jaboticatubas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jacarandira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jacinto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jacu das Piranhas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jacuí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jacutinga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jaguaraçu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jaguarão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jaguaritira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jaíba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jampruca",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Janaúba",
+		"bairros": [
+		 	"Centro",
+		 	"Padre Eustaquio"
+		]
+	},
+	{
+		"cidade": "Januária",
+		"bairros": [
+		 	"Centro",
+		 	"Várzea Bonita"
+		]
+	},
+	{
+		"cidade": "Japaraíba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Japonvar",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jeceaba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jenipapo de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jequeri",
+		"bairros": [
+		 	"Centro",
+		 	"Pouso Alegre da Mata"
+		]
+	},
+	{
+		"cidade": "Jequitaí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jequitibá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jequitinhonha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jesuânia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Joaíma",
+		"bairros": [
+		 	"Centro",
+		 	"Giru",
+		 	"Marianos"
+		]
+	},
+	{
+		"cidade": "Joanésia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "João Monlevade",
+		"bairros": [
+		 	"Aclimação",
+		 	"Alvorada",
+		 	"Areia Preta",
+		 	"Baú",
+		 	"Belmonte",
+		 	"Boa Vista",
+		 	"Campos Elísios",
+		 	"Carneirinhos",
+		 	"Centro Industrial",
+		 	"Cidade Nova",
+		 	"Corumbiana de Vanessa",
+		 	"Cruzeiro Celeste",
+		 	"Distrito Industrial",
+		 	"Ernestina Graciana",
+		 	"Estrela Dalva",
+		 	"Feixos",
+		 	"Industrial",
+		 	"Ipiranga",
+		 	"Jacuí",
+		 	"JK",
+		 	"José de Alencar",
+		 	"José Elói",
+		 	"Laranjeiras",
+		 	"Loanda",
+		 	"Lourdes",
+		 	"Lucília",
+		 	"Mangabeiras",
+		 	"Metalúrgico",
+		 	"Nossa Senhora da Conceição",
+		 	"Nova Aclimação",
+		 	"Nova Esperança",
+		 	"Nova Monlevade",
+		 	"Novo Cruzeiro",
+		 	"Novo Horizonte",
+		 	"Paineiras",
+		 	"Palmares",
+		 	"Petrópolis",
+		 	"Primeiro de Maio",
+		 	"Recanto Paraíso",
+		 	"República",
+		 	"Rosário",
+		 	"Santa Bárbara",
+		 	"Santa Cecília",
+		 	"Santa Cruz",
+		 	"Santo Hipólito",
+		 	"São Benedito",
+		 	"São Geraldo",
+		 	"São João",
+		 	"São Jorge",
+		 	"São José",
+		 	"Satélite",
+		 	"Serra",
+		 	"Sion",
+		 	"Tanquinho",
+		 	"Teresópolis",
+		 	"Vale da Serra",
+		 	"Vale do Sol",
+		 	"Vera Cruz",
+		 	"Vila Tanque"
+		]
+	},
+	{
+		"cidade": "João Pinheiro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Joaquim Felício",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jordânia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "José Gonçalves de Minas",
+		"bairros": [
+		 	"Beltrão"
+		]
+	},
+	{
+		"cidade": "José Raydan",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Joselândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Josenópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Juatuba",
+		"bairros": [
+		 	"Boa Vista da Serra",
+		 	"Centro",
+		 	"Francelinos"
+		]
+	},
+	{
+		"cidade": "Jubaí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Juiraçu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Juiz de Fora",
+		"bairros": [
+		 	"Adolfo Vireque",
+		 	"Aeroporto",
+		 	"Alto dos Pinheiros",
+		 	"Alto Sumaré",
+		 	"Aracy",
+		 	"Arco Íris",
+		 	"Bairu",
+		 	"Bandeirantes",
+		 	"Barbosa Lage",
+		 	"Barreira do Triunfo",
+		 	"Benfica",
+		 	"Boa Vista",
+		 	"Bom Clima",
+		 	"Bom Pastor",
+		 	"Bonfim",
+		 	"Bonsucesso",
+		 	"Borboleta",
+		 	"Bosque do Imperador",
+		 	"Bosque dos Pinheiros",
+		 	"Cachoeira",
+		 	"Caiçaras",
+		 	"Carlos Chagas",
+		 	"Cascatinha",
+		 	"Centenário",
+		 	"Centro",
+		 	"Cerâmica",
+		 	"Chales do Imperador",
+		 	"Cidade do Sol",
+		 	"Cidade Jardim",
+		 	"Cidade Nova",
+		 	"Costa Carvalho",
+		 	"Cruzeiro do Sul",
+		 	"Democrata",
+		 	"Distrito Industrial",
+		 	"Dom Bosco",
+		 	"Eldorado",
+		 	"Encosta do Sol",
+		 	"Esplanada",
+		 	"Fábrica",
+		 	"Filgueiras",
+		 	"Floresta",
+		 	"Fontesville",
+		 	"Fontesville II",
+		 	"Francisco Bernardino",
+		 	"Grajaú",
+		 	"Grama",
+		 	"Graminha",
+		 	"Granbery",
+		 	"Granjas Betânia",
+		 	"Granjas Bethel",
+		 	"Granjas do Bosque",
+		 	"Granjas Guarujá",
+		 	"Granjas Santo Antônio",
+		 	"Granville",
+		 	"Igrejinha",
+		 	"Industrial",
+		 	"Ipiranga",
+		 	"Ipiranguinha",
+		 	"Jardim Casablanca",
+		 	"Jardim de Alá",
+		 	"Jardim do Sol",
+		 	"Jardim dos Alfineiros",
+		 	"Jardim Esperança",
+		 	"Jardim Europa",
+		 	"Jardim Glória",
+		 	"Jardim L Ermitage",
+		 	"Jardim Natal",
+		 	"Jardim Olímpia",
+		 	"Jardins Imperiais",
+		 	"JK",
+		 	"Jóquei Clube",
+		 	"Ladeira",
+		 	"Linhares",
+		 	"Lourdes",
+		 	"Manoel Honório",
+		 	"Mansões do Bom Pastor",
+		 	"Mariano Procópio",
+		 	"Marilândia",
+		 	"Marmelos",
+		 	"Martelos",
+		 	"Marumbi",
+		 	"Milho Branco",
+		 	"Monte Castelo",
+		 	"Morro da Glória",
+		 	"Mundo Novo",
+		 	"Nossa Senhora Aparecida",
+		 	"Nossa Senhora das Graças",
+		 	"Nossa Senhora de Fátima",
+		 	"Nova Benfica",
+		 	"Nova Califórnia",
+		 	"Nova Era",
+		 	"Novo Horizonte",
+		 	"Novo Triunfo",
+		 	"Paineiras",
+		 	"Parque Alto",
+		 	"Parque das Palmeiras",
+		 	"Parque das Samambaias",
+		 	"Parque das Torres",
+		 	"Parque Guadalajara",
+		 	"Parque Guarani",
+		 	"Parque Guarua",
+		 	"Parque Imperial",
+		 	"Parque Independência",
+		 	"Parque Independência III",
+		 	"Parque Jardim Burnier",
+		 	"Parque Jardim da Serra",
+		 	"Parque Serra Verde",
+		 	"Passos",
+		 	"Paula Lima",
+		 	"Pedra Bonita",
+		 	"Poço Rico",
+		 	"Ponte Preta",
+		 	"Portal da Torre",
+		 	"Previdenciários",
+		 	"Progresso",
+		 	"Quintas das Avenidas",
+		 	"Recanto dos Lagos",
+		 	"Residência",
+		 	"Retiro",
+		 	"Sagrado Coração de Jesus",
+		 	"Salvaterra",
+		 	"Santa Cândida",
+		 	"Santa Catarina",
+		 	"Santa Cecília",
+		 	"Santa Cruz",
+		 	"Santa Efigênia",
+		 	"Santa Helena",
+		 	"Santa Isabel",
+		 	"Santa Luzia",
+		 	"Santa Maria",
+		 	"Santa Paula",
+		 	"Santa Rita de Cássia",
+		 	"Santa Teresa",
+		 	"Santa Terezinha",
+		 	"Santana",
+		 	"Santo Antônio",
+		 	"Santos Anjos",
+		 	"Santos Dumont",
+		 	"São Benedito",
+		 	"São Bernardo",
+		 	"São Damião",
+		 	"São Dimas",
+		 	"São Francisco de Paula",
+		 	"São Geraldo",
+		 	"São Judas Tadeu",
+		 	"São Mateus",
+		 	"São Pedro",
+		 	"São Sebastião",
+		 	"São Tarcísio",
+		 	"Serra D'Água",
+		 	"Solidariedade",
+		 	"Spina Ville II",
+		 	"Teixeiras",
+		 	"Terras Altas",
+		 	"Tiguera",
+		 	"Três Moinhos",
+		 	"Tupã",
+		 	"Vale do Amanhecer",
+		 	"Vale do Ipê",
+		 	"Vale Verde",
+		 	"Verbo Divino",
+		 	"Vila Alpina",
+		 	"Vila Branca",
+		 	"Vila da Prata",
+		 	"Vila Esperança II",
+		 	"Vila Furtado de Menezes",
+		 	"Vila Ideal",
+		 	"Vila Montanhesa",
+		 	"Vila Olavo Costa",
+		 	"Vila Ozanan",
+		 	"Vina Del Mar",
+		 	"Vitorino Braga",
+		 	"Vivendas da Serra",
+		 	"Vivendas das Fontes",
+		 	"Vivendas do Retiro"
+		]
+	},
+	{
+		"cidade": "Junco de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Juramento",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Juréia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Juruaia",
+		"bairros": [
+		 	"Centro",
+		 	"Mata do Sino"
+		]
+	},
+	{
+		"cidade": "Jurumirim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Juvenília",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lacerdina",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ladainha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lagamar",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lagoa Bonita",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lagoa da Prata",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lagoa dos Patos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lagoa Dourada",
+		"bairros": [
+		 	"Arame",
+		 	"Catauá",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lagoa Formosa",
+		"bairros": [
+		 	"Centro",
+		 	"Limeira de Minas"
+		]
+	},
+	{
+		"cidade": "Lagoa Grande",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lagoa Grande de Minas Novas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lagoa Santa",
+		"bairros": [
+		 	"Aeroporto",
+		 	"Centro",
+		 	"Joana D'arc",
+		 	"Lagoinha de Fora"
+		]
+	},
+	{
+		"cidade": "Lagoa Seca",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lajinha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lambari",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lamim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lamounier",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lapinha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Laranjal",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Laranjeiras de Caldas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lassance",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lavras",
+		"bairros": [
+		 	"Centro",
+		 	"Esal"
+		]
+	},
+	{
+		"cidade": "Leandro Ferreira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Leme do Prado",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Leopoldina",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Levinópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Liberdade",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lima Duarte",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Limeira de Mantena",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Limeira do Oeste",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lobo Leite",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lontra",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lufa",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Luisburgo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Luislândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Luiz Pires de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Luizlândia do Oeste",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Luminárias",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Luminosa",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Luz",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Macaia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Machacalis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Machado",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Macuco",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Macuco de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Madre de Deus de Minas",
+		"bairros": [
+		 	"Brasilinha",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mãe dos Homens",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Major Ezequiel",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Major Porto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Malacacheta",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mamonas",
+		"bairros": [
+		 	"Barrinha",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Manga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Manhuaçu",
+		"bairros": [
+		 	"Baixada",
+		 	"Bom Pastor",
+		 	"Centro",
+		 	"Dom Corrêa",
+		 	"Santo Antônio"
+		]
+	},
+	{
+		"cidade": "Manhumirim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mantena",
+		"bairros": [
+		 	"Centro",
+		 	"Nazário"
+		]
+	},
+	{
+		"cidade": "Mantiqueira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mantiqueira do Palmital",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mar de Espanha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Marambainha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Maravilhas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Maria da Fé",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mariana",
+		"bairros": [
+		 	"Águas Claras",
+		 	"Centro",
+		 	"Vila do Carmo"
+		]
+	},
+	{
+		"cidade": "Marilac",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Marilândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mário Campos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Maripá de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Marliéria",
+		"bairros": [
+		 	"Centro",
+		 	"Santa Rita"
+		]
+	},
+	{
+		"cidade": "Marmelópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Martinésia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Martinho Campos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Martins Guimarães",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Martins Soares",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mata Verde",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Materlândia",
+		"bairros": [
+		 	"Centro",
+		 	"Córrego do Bufão"
+		]
+	},
+	{
+		"cidade": "Mateus Leme",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mathias Lobato",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Matias Barbosa",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Matias Cardoso",
+		"bairros": [
+		 	"Centro",
+		 	"Rio Verde de Minas"
+		]
+	},
+	{
+		"cidade": "Matipó",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mato Verde",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Matozinhos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Matutina",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Medeiros",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Medina",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Melo Viana",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mendanha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mendes Pimentel",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mendonça",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mercês",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mercês de Água Limpa",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mesquita",
+		"bairros": [
+		 	"Barra Grande",
+		 	"Burrinho",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mestre Caetano",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Miguel Burnier",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Milagre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Milho Verde",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Minas Novas",
+		"bairros": [
+		 	"Baixa Quente",
+		 	"Centro",
+		 	"Cruzinha"
+		]
+	},
+	{
+		"cidade": "Minduri",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mirabela",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Miradouro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Miragaia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Miraí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mirantão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Miraporanga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Miravânia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Missionário",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mocambeiro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mocambinho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Moeda",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Moema",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monjolinho de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monjolos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monsenhor Horta",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monsenhor Isidro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monsenhor João Alexandre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monsenhor Paulo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Montalvânia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monte Alegre de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monte Azul",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monte Belo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monte Carmelo",
+		"bairros": [
+		 	"Buritis",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monte Celeste",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monte Formoso",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monte Rei",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monte Santo de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monte Sião",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monte Verde",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monte Verde",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Montes Claros",
+		"bairros": [
+		 	"Acácias",
+		 	"Alcides Rabelo",
+		 	"Alice Maia",
+		 	"Alterosa II",
+		 	"Alterosas",
+		 	"Alto da Boa Vista",
+		 	"Alto Floresta",
+		 	"Alto São João",
+		 	"Amazonas",
+		 	"Antônio Canela",
+		 	"Antônio Pimenta",
+		 	"Augusta Mota",
+		 	"Barcelona Park",
+		 	"Bela Paisagem",
+		 	"Bela Vista",
+		 	"Belvedere",
+		 	"Camilo Prates",
+		 	"Cândida Câmara",
+		 	"Canelas",
+		 	"Canelas I",
+		 	"Carmelo",
+		 	"Centro",
+		 	"Chácara Ceres",
+		 	"Chácara Recanto dos Araçás",
+		 	"Chácaras Paineiras",
+		 	"Chácaras Paraíso",
+		 	"Cidade Industrial",
+		 	"Cidade Nova",
+		 	"Cidade Santa Maria",
+		 	"Cintra",
+		 	"Clarindo Lopes",
+		 	"Colorado",
+		 	"Condomínio Pai João",
+		 	"Conjunto Alterosa",
+		 	"Conjunto Bandeirantes",
+		 	"Conjunto Chiquinho Guimarães",
+		 	"Conjunto Ciro dos Anjos",
+		 	"Conjunto Clarice Alves Vieira",
+		 	"Conjunto Cristo Rei",
+		 	"Conjunto Havaí",
+		 	"Conjunto Joaquim Costa",
+		 	"Conjunto Olga Benário",
+		 	"Conjunto Residencial JK",
+		 	"Delfino Magalhães",
+		 	"Distrito Industrial",
+		 	"Dona Gregória",
+		 	"Dos Mangues",
+		 	"Doutor Joaquim Costa",
+		 	"Duque de Caxias",
+		 	"Edgar Pereira",
+		 	"Eldorado",
+		 	"Esplanada",
+		 	"Europa",
+		 	"Francisco Peres I",
+		 	"Funcionários",
+		 	"Guarujá",
+		 	"Ibituruna",
+		 	"Inconfidentes",
+		 	"Independência",
+		 	"Interlagos",
+		 	"Jaraguá",
+		 	"Jardim Alegre",
+		 	"Jardim Alvorada",
+		 	"Jardim América",
+		 	"Jardim Brasil",
+		 	"Jardim Itália",
+		 	"Jardim Liberdade",
+		 	"Jardim Olímpico",
+		 	"Jardim Palmeiras",
+		 	"Jardim Panorama",
+		 	"Jardim Parque Morada do Sol",
+		 	"Jardim Planalto",
+		 	"Jardim Primavera",
+		 	"Jardim São Geraldo",
+		 	"Jardim São Luiz",
+		 	"João Alves",
+		 	"João Botelho",
+		 	"João Gordo",
+		 	"José Carlos Vale de Lima",
+		 	"José Correia Machado",
+		 	"Juscelino Kubitschek",
+		 	"Lourdes",
+		 	"Major Prates",
+		 	"Maracanã",
+		 	"Melo",
+		 	"Monte Alegre",
+		 	"Monte Carmelo",
+		 	"Morada da Serra",
+		 	"Morada do Parque",
+		 	"Morada do Sol",
+		 	"Morada do Sol II",
+		 	"Morrinhos",
+		 	"Nossa Senhora Aparecida",
+		 	"Nossa Senhora das Graças",
+		 	"Nossa Senhora de Fátima",
+		 	"Nova América",
+		 	"Nova Suiça",
+		 	"Novo Delfino",
+		 	"Panorama II",
+		 	"Planalto",
+		 	"Planalto II",
+		 	"Prolongamento Todos os Santos",
+		 	"Raul Lourenço",
+		 	"Regina Peres",
+		 	"Renascença",
+		 	"Residencial Sul Ipês",
+		 	"Residencial Vitória",
+		 	"Roxo Verde",
+		 	"Sagrada Família",
+		 	"Santa Cecília",
+		 	"Santa Eugênia",
+		 	"Santa Laura",
+		 	"Santa Lúcia",
+		 	"Santa Lúcia II",
+		 	"Santa Maria",
+		 	"Santa Rafaela",
+		 	"Santa Rita I",
+		 	"Santa Rita II",
+		 	"Santo Amaro",
+		 	"Santo Antônio",
+		 	"Santo Antônio II",
+		 	"Santo Expedito",
+		 	"Santo Inácio",
+		 	"Santo Inácio II",
+		 	"Santos Dumont",
+		 	"Santos Reis",
+		 	"São Bento",
+		 	"São Geraldo",
+		 	"São José",
+		 	"São Judas Tadeu",
+		 	"São Judas Tadeu II",
+		 	"São Lucas",
+		 	"São Mateus",
+		 	"Sapucaia",
+		 	"Tancredo Neves",
+		 	"Todos os Santos",
+		 	"Universitário",
+		 	"Vargem Grande II",
+		 	"Veneza Parque",
+		 	"Vera Cruz",
+		 	"Vila Alice",
+		 	"Vila Anália",
+		 	"Vila Antônio Narciso",
+		 	"Vila Atlântida",
+		 	"Vila Áurea",
+		 	"Vila Brasília",
+		 	"Vila Campos",
+		 	"Vila Castelo Branco",
+		 	"Vila Exposição",
+		 	"Vila Fenix",
+		 	"Vila Greice",
+		 	"Vila Guilhermina",
+		 	"Vila Ipiranga",
+		 	"Vila Itatiaia",
+		 	"Vila Luiza",
+		 	"Vila Maria Cândida",
+		 	"Vila Mauricéia",
+		 	"Vila Nossa Senhora Aparecida",
+		 	"Vila Nova Morada",
+		 	"Vila Oliveira",
+		 	"Vila Oliveira II",
+		 	"Vila Real",
+		 	"Vila Regina",
+		 	"Vila Santa Cruz",
+		 	"Vila Santa Mônica",
+		 	"Vila São Francisco de Assis",
+		 	"Vila Senhor do Bonfim",
+		 	"Vila Sion",
+		 	"Vila Sion II",
+		 	"Vila Sumaré",
+		 	"Vila Telma",
+		 	"Vila Tiradentes",
+		 	"Vila Toncheff",
+		 	"Vila Tupã",
+		 	"Village do Lago I",
+		 	"Village do Lago II"
+		]
+	},
+	{
+		"cidade": "Montezuma",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Morada Nova de Minas",
+		"bairros": [
+		 	"Centro",
+		 	"Frei Orlando",
+		 	"Vau das Flores"
+		]
+	},
+	{
+		"cidade": "Morro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Morro da Garça",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Morro do Ferro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Morro do Pilar",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Morro Vermelho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mucuri",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mundo Novo de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Munhoz",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Muquém",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Muriaé",
+		"bairros": [
+		 	"Barra",
+		 	"Centro",
+		 	"Gávea",
+		 	"Porto"
+		]
+	},
+	{
+		"cidade": "Mutum",
+		"bairros": [
+		 	"Centenário",
+		 	"Centro",
+		 	"Imbiruçu",
+		 	"Ocidente",
+		 	"Roseiral"
+		]
+	},
+	{
+		"cidade": "Muzambinho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nacip Raydan",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nanuque",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Naque",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Naque-Nanuque",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Natalândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Natércia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nazaré de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nazareno",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nelson de Sena",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Neolândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nepomuceno",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nhandutiba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nicolândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ninheira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nova Belém",
+		"bairros": [
+		 	"Centro",
+		 	"Santo Antônio de Nova Belém"
+		]
+	},
+	{
+		"cidade": "Nova Era",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nova Esperança",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nova Lima",
+		"bairros": [
+		 	"Centro",
+		 	"Jardim Canadá",
+		 	"Jardim Petrópolis",
+		 	"São Sebastião de Águas Claras",
+		 	"Vale do Sereno"
+		]
+	},
+	{
+		"cidade": "Nova Minda",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nova Módica",
+		"bairros": [
+		 	"Cabeceira dos Henriques",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nova Ponte",
+		"bairros": [
+		 	"Almeida Campos",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nova Porteirinha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nova Resende",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nova Santa Luzia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nova Serrana",
+		"bairros": [
+		 	"Centro",
+		 	"Parque Dona Gumercinda",
+		 	"Ripas"
+		]
+	},
+	{
+		"cidade": "Nova União",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Novilhona",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Novo Cruzeiro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Novo Horizonte",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Novo Oriente de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Novorizonte",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ocidente",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Olaria",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Olegário Maciel",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Olhos D'Água",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Olhos D'Água do Oeste",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Olímpio Campos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Olímpio Noronha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Oliveira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Oliveira Fortes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Onça de Pitangui",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Oratórios",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Orizânia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ouro Branco",
+		"bairros": [
+		 	"Água Limpa",
+		 	"Castigliano",
+		 	"Centro",
+		 	"Cristais",
+		 	"Itatiaia",
+		 	"Pioneiros",
+		 	"São Francisco"
+		]
+	},
+	{
+		"cidade": "Ouro Fino",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ouro Preto",
+		"bairros": [
+		 	"Bauxita",
+		 	"Cabeças",
+		 	"Centro",
+		 	"Lages",
+		 	"Lavras Novas",
+		 	"Rosário",
+		 	"Santo Antônio do Salto",
+		 	"São Cristóvão",
+		 	"Vila Samarco"
+		]
+	},
+	{
+		"cidade": "Ouro Verde de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Paciência",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Padre Brito",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Padre Carvalho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Padre Felisberto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Padre Fialho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Padre João Afonso",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Padre Júlio Maria",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Padre Paraíso",
+		"bairros": [
+		 	"Centro",
+		 	"Encachoeirado"
+		]
+	},
+	{
+		"cidade": "Padre Pinto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Padre Viegas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pai Pedro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Paineiras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pains",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Paiolinho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Paiva",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Palma",
+		"bairros": [
+		 	"Centro",
+		 	"Cisneiros"
+		]
+	},
+	{
+		"cidade": "Palmeiral",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Palmeirinha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Palmital de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Palmital dos Carvalhos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Palmópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pântano",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Papagaios",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pará de Minas",
+		"bairros": [
+		 	"Ascenção",
+		 	"Azambeque",
+		 	"Bela Vista",
+		 	"Belvedere",
+		 	"Bom Jesus do Pará",
+		 	"Califórnia",
+		 	"Carioca",
+		 	"Centro",
+		 	"Conjunto Habitacional São Vicente de Paulo",
+		 	"Coração de Jesus",
+		 	"Córrego do Barro",
+		 	"Distrito Industrial Antônio Júlio de Faria",
+		 	"Distrito Industrial Fernando Antônio Almeida",
+		 	"Dom Bosco",
+		 	"Eldorado",
+		 	"Esplanada",
+		 	"Gorduras",
+		 	"Grão Pará",
+		 	"Independência",
+		 	"Irmãos Henriques",
+		 	"Jardim América",
+		 	"Jardim Beatriz",
+		 	"Jardim Castelo Branco",
+		 	"Jardim das Piteiras",
+		 	"Jardim das Piteiras II",
+		 	"Jardim Serra Dourada",
+		 	"Jardim Serra Verde",
+		 	"Jardins",
+		 	"JK",
+		 	"Matinha",
+		 	"Morada Cores de Minas",
+		 	"Nossa Senhora das Graças",
+		 	"Nossa Senhora de Fátima",
+		 	"Nossa Senhora de Lourdes",
+		 	"Novo Horizonte",
+		 	"Padre Libério",
+		 	"Papa João Paulo II",
+		 	"Patafufo",
+		 	"Prefeito Walter Martins Ferreira",
+		 	"Providência",
+		 	"Recanto da Lagoa",
+		 	"Redentor",
+		 	"Residencial Dona Flor",
+		 	"Residencial Dona Tunica",
+		 	"Santa Edwirges",
+		 	"Santo Antônio",
+		 	"Santos Dumont",
+		 	"São Cristóvão",
+		 	"São Francisco",
+		 	"São José",
+		 	"São Luiz",
+		 	"São Paulo",
+		 	"São Pedro",
+		 	"Senador Valadares",
+		 	"Setor Industrial II",
+		 	"Tavares de Minas",
+		 	"Torneiros",
+		 	"União",
+		 	"Várzea",
+		 	"Vila Benvinda",
+		 	"Vila Ferreira",
+		 	"Vila Maria",
+		 	"Vila Nossa Senhora Auxiliadora",
+		 	"Vila Raquel",
+		 	"Vila Romualdo Pereira",
+		 	"Vila Ronaldo Pereira",
+		 	"Vila Santa Izabel",
+		 	"Vila Sinhô",
+		 	"Vila Vicentina",
+		 	"Xavier Capanema"
+		]
+	},
+	{
+		"cidade": "Paracatu",
+		"bairros": [
+		 	"Bela Vista",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Paraguaçu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Paraguai",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Paraíso Garcia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Paraisópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Paraopeba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Paredão de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Passa Dez",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Passa Quatro",
+		"bairros": [
+		 	"Centro",
+		 	"Tronqueiras"
+		]
+	},
+	{
+		"cidade": "Passa Tempo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Passa Vinte",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Passabém",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Passagem de Mariana",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Passos",
+		"bairros": [
+		 	"Alta Vista",
+		 	"Belo Horizonte",
+		 	"Candeias",
+		 	"Canjeranus",
+		 	"Carmelo",
+		 	"Centro",
+		 	"COHAB",
+		 	"COHAB II",
+		 	"COHAB IV",
+		 	"Coimbras",
+		 	"Condomínio das Nações",
+		 	"Distrito Industrial",
+		 	"Distrito Industrial II",
+		 	"Doutor Mário Magalhães",
+		 	"Exposição",
+		 	"Jardim Aclimação",
+		 	"Jardim Bela Vista",
+		 	"Jardim Belo Horizonte",
+		 	"Jardim Califórnia",
+		 	"Jardim Canadá",
+		 	"Jardim Centenário",
+		 	"Jardim Cidade",
+		 	"Jardim Colégio de Passos",
+		 	"Jardim do Ipê",
+		 	"Jardim Embratel",
+		 	"Jardim Harmonia",
+		 	"Jardim Panorama",
+		 	"Jardim Pinheiros",
+		 	"Jardim Polivalente",
+		 	"Jardim Santa Luzia",
+		 	"Jardim Satélite",
+		 	"Jardim Vila Rica",
+		 	"João Paulo II",
+		 	"Monsenhor João Pedro",
+		 	"Monsenhor Messias",
+		 	"Muarama",
+		 	"Nossa Senhora Aparecida",
+		 	"Nossa Senhora das Graças",
+		 	"Nossa Senhora de Fátima",
+		 	"Nossa Senhora de Lourdes",
+		 	"Novo Horizonte",
+		 	"Novo Mundo II",
+		 	"Novo Mundo III",
+		 	"Parque Casarão",
+		 	"Parque Estação",
+		 	"Parque Residencial Eldorado",
+		 	"Penha",
+		 	"Penha II",
+		 	"Santa Casa",
+		 	"Santa Maria Goretti",
+		 	"Santa Rita",
+		 	"Santa Terezinha",
+		 	"São Benedito",
+		 	"São Francisco",
+		 	"Serra das Brisas",
+		 	"Vila Betinho",
+		 	"Vila Romana",
+		 	"Vila São José"
+		]
+	},
+	{
+		"cidade": "Patis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Patos de Minas",
+		"bairros": [
+		 	"Abner Afonso",
+		 	"Alto Boa Vista",
+		 	"Alto dos Caiçaras",
+		 	"Alto Limoeiro",
+		 	"Alvorada",
+		 	"Antônio Caixeta",
+		 	"Aquarius",
+		 	"Aurélio Caixeta",
+		 	"Bela Vista",
+		 	"Belvedere",
+		 	"Boa Vista",
+		 	"Brasil",
+		 	"Brasília",
+		 	"Caiçaras",
+		 	"Campos Elíseos",
+		 	"Caramuru",
+		 	"Centro",
+		 	"Cerrado",
+		 	"Cidade Jardim",
+		 	"Cidade Nova",
+		 	"Cônego Getúlio",
+		 	"Copacabana",
+		 	"Coração Eucarístico",
+		 	"Cristo Redentor",
+		 	"Distrito Industrial I",
+		 	"Distrito Industrial II",
+		 	"Eldorado",
+		 	"Guanabara",
+		 	"Ipanema",
+		 	"Jardim América",
+		 	"Jardim Andrades",
+		 	"Jardim Califórnia",
+		 	"Jardim Centro",
+		 	"Jardim Céu Azul",
+		 	"Jardim Esperança",
+		 	"Jardim Floresta",
+		 	"Jardim Itamarati",
+		 	"Jardim Panorâmico",
+		 	"Jardim Paraíso",
+		 	"Jardim Paulistano",
+		 	"Jardim Peluzzo",
+		 	"Jardim Recanto",
+		 	"Lagoa Grande",
+		 	"Lagoinha",
+		 	"Morada do Sol",
+		 	"Nossa Senhora Aparecida",
+		 	"Nossa Senhora das Graças",
+		 	"Nossa Senhora de Fátima",
+		 	"Nova Floresta",
+		 	"Novo Horizonte",
+		 	"Novo Sorriso",
+		 	"Padre Eustáquio",
+		 	"Planalto",
+		 	"Residencial Barreiro",
+		 	"Residencial Gramado",
+		 	"Residencial Monjolo",
+		 	"Residencial Sorriso",
+		 	"Rosário",
+		 	"Santa Terezinha",
+		 	"Santo Antônio",
+		 	"São Francisco",
+		 	"Sebastião Amorim",
+		 	"Sobradinho",
+		 	"Valparaíso",
+		 	"Várzea",
+		 	"Vila Garcia",
+		 	"Vila Operária",
+		 	"Vila Rosa",
+		 	"Vila Santa Luzia"
+		]
+	},
+	{
+		"cidade": "Patrimônio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Patrocínio",
+		"bairros": [
+		 	"Centro",
+		 	"São Francisco",
+		 	"Serra Negra"
+		]
+	},
+	{
+		"cidade": "Patrocínio do Muriaé",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Paula Cândido",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Paula Lima",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Paulistas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pavão",
+		"bairros": [
+		 	"Centro",
+		 	"Limeira"
+		]
+	},
+	{
+		"cidade": "Pé do Morro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Peçanha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedra Azul",
+		"bairros": [
+		 	"Aracaji de Minas",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedra Bonita",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedra Corrida",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedra do Anta",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedra do Indaiá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedra do Sino",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedra Dourada",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedra Grande",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedra Menina",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedralva",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedras de Maria da Cruz",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedrinópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedro Leopoldo",
+		"bairros": [
+		 	"Centro",
+		 	"São José"
+		]
+	},
+	{
+		"cidade": "Pedro Lessa",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedro Teixeira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedro Versiani",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Penédia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Penha de França",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Penha do Capim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Penha do Cassiano",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Penha do Norte",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Penha Longa",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pequeri",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pequi",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Perdigão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Perdilândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Perdizes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Perdões",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pereirinhas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Periquito",
+		"bairros": [
+		 	"Centro",
+		 	"Serraria"
+		]
+	},
+	{
+		"cidade": "Perpétuo Socorro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pescador",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Petúnia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Piacatuba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Piau",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pic Sagarana",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Piedade de Caratinga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Piedade de Ponte Nova",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Piedade do Paraopeba",
+		"bairros": [
+		 	"Centro",
+		 	"Santo Antônio do Porto",
+		 	"Suzana"
+		]
+	},
+	{
+		"cidade": "Piedade do Rio Grande",
+		"bairros": [
+		 	"Centro",
+		 	"Jardim da Piedade",
+		 	"Paraíso da Piedade",
+		 	"Santo Antônio do Porto"
+		]
+	},
+	{
+		"cidade": "Piedade dos Gerais",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pilar",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pimenta",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pindaíbas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pingo-D'Água",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pinheirinhos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pinheiro de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pinheiros Altos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pinhotiba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pintópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Piracaiba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Piracema",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pirajuba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Piranga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Piranguçu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Piranguinho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Piranguita",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pirapanema",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pirapetinga",
+		"bairros": [
+		 	"Centro",
+		 	"Valão Quente"
+		]
+	},
+	{
+		"cidade": "Pirapora",
+		"bairros": [
+		 	"Centro",
+		 	"Santos Dumont"
+		]
+	},
+	{
+		"cidade": "Piraúba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Piscamba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pitangui",
+		"bairros": [
+		 	"Brumado de Pitangui",
+		 	"Campo Grande",
+		 	"Centro",
+		 	"Rio do Peixe"
+		]
+	},
+	{
+		"cidade": "Pitarana",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Piumhi",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Planalto de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Planura",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Plautino Soares",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Poaia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Poço Fundo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Poções de Paineiras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Poços de Caldas",
+		"bairros": [
+		 	"Alto da Boa Vista",
+		 	"Augusto de Almeida",
+		 	"Bem Bastos",
+		 	"Bianucci",
+		 	"Boa Esperança",
+		 	"Boa Esperança II",
+		 	"Bortolan",
+		 	"Bortolan Norte I",
+		 	"Bortolan Norte II",
+		 	"Bortolan Sul",
+		 	"Cabeceira do Córrego Monjolinho",
+		 	"Campo  da Mogiana",
+		 	"Campo das Antas",
+		 	"Campo de Santa Maria",
+		 	"Campo do Retirinho",
+		 	"Castro e Gaiga",
+		 	"Centro",
+		 	"Chácara Alvorada",
+		 	"Chácara das Rosas",
+		 	"Chácara dos Cravos",
+		 	"Chácara dos Pessegueiros",
+		 	"Chácara Poços de Caldas",
+		 	"Chácara Praia do Sol",
+		 	"Chácara Rancho Azul",
+		 	"Chácara Santa Bárbara",
+		 	"Chácara Santa Cruz",
+		 	"Chácara Santa Terezinha",
+		 	"Chácara São Francisco",
+		 	"Chácara São Pedro",
+		 	"Chácaras Poços de Caldas",
+		 	"Cidade Universitária",
+		 	"Colinas",
+		 	"Condomínio Morada das Flores",
+		 	"Condomínio Pitangueiras",
+		 	"Condomínio Vila Verde",
+		 	"Conjunto Habitacional Pedro Afonso Junqueira",
+		 	"Conjunto União",
+		 	"Country Club",
+		 	"Cristiano Ozório",
+		 	"Da Saúde",
+		 	"Distrito Industrial",
+		 	"Dom Bosco",
+		 	"Estância Poços de Caldas",
+		 	"Estância São José",
+		 	"Fazenda Baeta",
+		 	"Funcionários",
+		 	"Gato Preto",
+		 	"Jardim Aeroporto",
+		 	"Jardim Amaryllis",
+		 	"Jardim América",
+		 	"Jardim Bandeirantes",
+		 	"Jardim Bela Vista",
+		 	"Jardim Brasil",
+		 	"Jardim Campos Elísios",
+		 	"Jardim Carolina",
+		 	"Jardim Cascatinha",
+		 	"Jardim Centenário",
+		 	"Jardim Country Club",
+		 	"Jardim Daniele",
+		 	"Jardim das Acácias",
+		 	"Jardim das Azaléias",
+		 	"Jardim das Hortênsias",
+		 	"Jardim Del Rey",
+		 	"Jardim do Contorno",
+		 	"Jardim do Ginásio",
+		 	"Jardim dos Estados",
+		 	"Jardim dos Manacás",
+		 	"Jardim Doutor Ottoni",
+		 	"Jardim Elizabete",
+		 	"Jardim Elvira Dias",
+		 	"Jardim Esmeralda",
+		 	"Jardim Esperança",
+		 	"Jardim Esperança III",
+		 	"Jardim Europa",
+		 	"Jardim Filipinas",
+		 	"Jardim Filipino",
+		 	"Jardim Formosa",
+		 	"Jardim Gama Cruz",
+		 	"Jardim Ipê",
+		 	"Jardim Itamaraty I",
+		 	"Jardim Itamaraty II",
+		 	"Jardim Itamaraty III",
+		 	"Jardim Itamaraty IV",
+		 	"Jardim Itamaraty V",
+		 	"Jardim Kennedy",
+		 	"Jardim Kennedy II",
+		 	"Jardim Monte Almo",
+		 	"Jardim Nova Aparecida",
+		 	"Jardim Nova Esperança",
+		 	"Jardim Novo Mundo",
+		 	"Jardim Paraíso",
+		 	"Jardim Philadélphia",
+		 	"Jardim Philadélphia II",
+		 	"Jardim Planalto",
+		 	"Jardim Planalto II",
+		 	"Jardim Quisisana",
+		 	"Jardim Regina",
+		 	"Jardim Santa Augusta",
+		 	"Jardim Santa Helena",
+		 	"Jardim Santa Rita",
+		 	"Jardim Santa Rosália",
+		 	"Jardim São Bento",
+		 	"Jardim São Jorge",
+		 	"Jardim São Paulo",
+		 	"Jardim Vitória",
+		 	"Jardim Vitória IV",
+		 	"Jardim Vitória V",
+		 	"João Pinheiro",
+		 	"Jóias do Vale do Sol",
+		 	"Loteamento Campo das Aroeiras",
+		 	"Loteamento Jardim Nova Europa",
+		 	"Loteamento Nova Primavera",
+		 	"Loteamento Residencial Santa Clara II",
+		 	"Loteamento Vila Flora II",
+		 	"Loteamento Vila Matilde",
+		 	"Marçal Santos",
+		 	"Maria Imaculada",
+		 	"Monte Verde",
+		 	"Monte Verde II",
+		 	"Morada dos Pássaros",
+		 	"Nossa Senhora Aparecida",
+		 	"Nova Aparecida",
+		 	"Nova Califórnia",
+		 	"Panorama",
+		 	"Parque das Nações",
+		 	"Parque Nova Aurora",
+		 	"Parque Pinheiros",
+		 	"Parque Primavera",
+		 	"Parque San Carlo",
+		 	"Parque São Sebastião",
+		 	"Parque São Sebastião II",
+		 	"Parque Véu das Noivas",
+		 	"Parque Vivaldi Leite Ribeiro",
+		 	"Real Parque",
+		 	"Recanto dos Lagos",
+		 	"Residencial Colinas do Sul",
+		 	"Residencial Greenville",
+		 	"Residencial Mantiqueira",
+		 	"Residencial Morumbí",
+		 	"Residencial Paineiras",
+		 	"Residencial Portal do Sol",
+		 	"Residencial Santa Clara",
+		 	"Residencial São Bernardo",
+		 	"Residencial Torre",
+		 	"Santa Ângela",
+		 	"Santa Ângela IV",
+		 	"Santa Emília",
+		 	"Santa Lúcia",
+		 	"Santa Margarida",
+		 	"Santa Maria",
+		 	"Santa Teresa",
+		 	"Santana",
+		 	"Santana do Pedregal",
+		 	"Santo André",
+		 	"São Benedito",
+		 	"São Conrado",
+		 	"São Domingos",
+		 	"São Geraldo",
+		 	"São João",
+		 	"São José",
+		 	"Serras Azuis",
+		 	"Vale das Antas",
+		 	"Vila Ana Pereira",
+		 	"Vila Bela",
+		 	"Vila Brasil de Nossa Senhora Aparecida",
+		 	"Vila Caio Junqueira",
+		 	"Vila Cascata das Antas",
+		 	"Vila Cruz",
+		 	"Vila Flora",
+		 	"Vila Guaporé",
+		 	"Vila Iguatimara e Fátima",
+		 	"Vila José Carlos",
+		 	"Vila Líder",
+		 	"Vila Menezes",
+		 	"Vila Miglioranzi",
+		 	"Vila Nossa Senhora de Fátima",
+		 	"Vila Nova",
+		 	"Vila Olímpica",
+		 	"Vila Rabelo",
+		 	"Vila Rica",
+		 	"Vila Togni",
+		 	"Village São Luiz",
+		 	"Zona Rural"
+		]
+	},
+	{
+		"cidade": "Pocrane",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pompéu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Poncianos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pontalete",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ponte Alta",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ponte Alta de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ponte do Cosme",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ponte dos Ciganos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ponte Firme",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ponte Nova",
+		"bairros": [
+		 	"Alto da Boa Vista",
+		 	"Ana Florência",
+		 	"Bom Pastor",
+		 	"Centro",
+		 	"Cidade Nova",
+		 	"Copacabana",
+		 	"Esplanada",
+		 	"Fátima",
+		 	"Fortaleza",
+		 	"Guarapiranga",
+		 	"Ipanema",
+		 	"Jardim",
+		 	"Nossa Senhora Auxiliadora",
+		 	"Nova Almeida",
+		 	"Nova Copacabana",
+		 	"Nova Suíça",
+		 	"Novo Horizonte",
+		 	"Palmeiras",
+		 	"Paraíso",
+		 	"Progresso",
+		 	"Rasa",
+		 	"Sagrado Coração de Jesus",
+		 	"Santa Teresa",
+		 	"Santo Antônio I",
+		 	"Santo Antônio II",
+		 	"São Geraldo",
+		 	"São Judas Tadeu",
+		 	"São Pedro",
+		 	"Sumaré",
+		 	"Tijuca",
+		 	"Triângulo",
+		 	"Triângulo Novo",
+		 	"Vale do Ipê",
+		 	"Vale Verde",
+		 	"Vila Alvarenga",
+		 	"Vila Oliveira"
+		]
+	},
+	{
+		"cidade": "Ponte Segura",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pontevila",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ponto Chique",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ponto Chique do Martelo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ponto do Marambaia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ponto dos Volantes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Porteirinha",
+		"bairros": [
+		 	"Centro",
+		 	"Mulungu de Minas",
+		 	"Serra Branca de Minas"
+		]
+	},
+	{
+		"cidade": "Porto Agrário",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Porto das Flores",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Porto dos Mendes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Porto Firme",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Poté",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pouso Alegre",
+		"bairros": [
+		 	"Centro",
+		 	"Jardim Olímpico"
+		]
+	},
+	{
+		"cidade": "Pouso Alto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Prados",
+		"bairros": [
+		 	"Centro",
+		 	"Vitoriano Veloso"
+		]
+	},
+	{
+		"cidade": "Prata",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pratápolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pratinha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Presidente Bernardes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Presidente Juscelino",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Presidente Kubitschek",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Presidente Olegário",
+		"bairros": [
+		 	"Centro",
+		 	"Santiago de Minas"
+		]
+	},
+	{
+		"cidade": "Presidente Pena",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Professor Sperber",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Providência",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Prudente de Morais",
+		"bairros": [
+		 	"Campo de Santana",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Quartel do Sacramento",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Quartel Geral",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Quatituba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Queixada",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Queluzito",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Quem-Quem",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Quilombo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Quilombo Nossa Senhora do Rosário",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Quintinos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Raposos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Raul Soares",
+		"bairros": [
+		 	"Bicuíba",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ravena",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Realeza",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Recreio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Reduto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Resende Costa",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Resplendor",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ressaquinha",
+		"bairros": [
+		 	"Canjamba",
+		 	"Centro",
+		 	"Peixoto",
+		 	"Simão Tamm",
+		 	"Vargem do Amargoso"
+		]
+	},
+	{
+		"cidade": "Retiro Velho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Riachinho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Riacho da Cruz",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Riacho dos Machados",
+		"bairros": [
+		 	"Centro",
+		 	"Venda Nova",
+		 	"Vila Bem Querer"
+		]
+	},
+	{
+		"cidade": "Ribeirão da Folha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ribeirão das Neves",
+		"bairros": [
+		 	"Alicante",
+		 	"Alterosa",
+		 	"Areias (Justinópolis)",
+		 	"Areias de Baixo",
+		 	"Atalaia (Justinópolis)",
+		 	"Barcelona",
+		 	"Belo Vale",
+		 	"Belvedere",
+		 	"Bom Sossego",
+		 	"Botafogo (Justinópolis)",
+		 	"Campos Silveira",
+		 	"Canoas",
+		 	"Centro",
+		 	"Centro (Justinópolis)",
+		 	"Cerejeira (Justinópolis)",
+		 	"Céu Anil (Justinópolis)",
+		 	"Cidade Neviana",
+		 	"Condomínio Vale do Ouro",
+		 	"Conjunto Henrique Sapori",
+		 	"Conjunto Nova Pampulha (Justinópolis)",
+		 	"Cristal (Justinópolis)",
+		 	"Cruzeiro",
+		 	"Distrito Industrial João de Almeida",
+		 	"Dona Clara",
+		 	"Dona Clarice",
+		 	"Eliane (Justinópolis)",
+		 	"Elizabeth (Justinópolis)",
+		 	"Esperança (Justinópolis)",
+		 	"Evereste",
+		 	"Fazenda Castro",
+		 	"Felixlândia (Justinópolis)",
+		 	"Flamengo (Justinópolis)",
+		 	"Florença",
+		 	"Fortaleza (Justinópolis)",
+		 	"Franciscadriângela",
+		 	"Girassol",
+		 	"Granjas Primavera (Justinópolis)",
+		 	"Guadalajara (Justinópolis)",
+		 	"Hawaí (Justinópolis)",
+		 	"Iolanda",
+		 	"Itapoã",
+		 	"Jardim Alvorada (Justinópolis)",
+		 	"Jardim Colonial",
+		 	"Jardim de Alá (Justinópolis)",
+		 	"Jardim Primavera",
+		 	"Jardim São Judas Tadeu (Justinópolis)",
+		 	"Jardim Verona",
+		 	"Kátia (Justinópolis)",
+		 	"Labanca (Justinópolis)",
+		 	"Lagoa (Justinópolis)",
+		 	"Landi (Justinópolis)",
+		 	"Landi 2ª Seção (Justinópolis)",
+		 	"Laredo (Justinópolis)",
+		 	"Liberdade",
+		 	"Lidici (Justinópolis)",
+		 	"Luana (Justinópolis)",
+		 	"Luar da Pampulha (Justinópolis)",
+		 	"Maracanã I (Justinópolis)",
+		 	"Maracanã II (Justinópolis)",
+		 	"Maria Helena (Justinópolis)",
+		 	"Menezes (Justinópolis)",
+		 	"Metropolitano",
+		 	"Monte Verde",
+		 	"Nápoli",
+		 	"Nossa Senhora das Neves",
+		 	"Nossa Senhora de Fátima",
+		 	"Nova União",
+		 	"Papine (Justinópolis)",
+		 	"Paraíso das Piabas (Justinópolis)",
+		 	"Pedra Branca (Justinópolis)",
+		 	"Penha (Justinópolis)",
+		 	"Piedade (Justinópolis)",
+		 	"Porto Seguro",
+		 	"Quintas de Vera Cruz",
+		 	"Quintas do Lago",
+		 	"Rosana",
+		 	"Rosaneves",
+		 	"Rosimeire (Justinópolis)",
+		 	"San Genaro",
+		 	"San Marino",
+		 	"San Remo",
+		 	"Santa Branca (Justinópolis)",
+		 	"Santa Fé (Justinópolis)",
+		 	"Santa Izabel (Justinópolis)",
+		 	"Santa Margarida (Justinópolis)",
+		 	"Santa Marta",
+		 	"Santa Martinha",
+		 	"Santa Matilde",
+		 	"Santa Paula",
+		 	"Santana (Justinópolis)",
+		 	"Santana II",
+		 	"Santinho",
+		 	"Santo Antônio",
+		 	"São Geraldo",
+		 	"São Januário (Justinópolis)",
+		 	"São João de Deus (Justinópolis)",
+		 	"São José (Justinópolis )",
+		 	"São Judas Tadeu",
+		 	"São Luiz",
+		 	"São Miguel Arcanjo (Justinópolis)",
+		 	"São Pedro",
+		 	"Savassi",
+		 	"Severina",
+		 	"Sevilha (1ª Seção)",
+		 	"Sevilha (2ª Seção)",
+		 	"Soares",
+		 	"Sônia (Justinópolis)",
+		 	"Status",
+		 	"Suely (Justinópolis)",
+		 	"Tancredo Neves (Justinópolis)",
+		 	"Tânia",
+		 	"Tocantins (Justinópolis)",
+		 	"Tony (Justinópolis)",
+		 	"Tropical (Justinópolis)",
+		 	"Urca (Justinópolis)",
+		 	"Vale da Prata",
+		 	"Vale das Acácias",
+		 	"Vale Verde",
+		 	"Várzea Alegre",
+		 	"Veneza",
+		 	"Vera Lúcia (Justinópolis)",
+		 	"Vereda",
+		 	"Verônica",
+		 	"Viena (Justinópolis)",
+		 	"Vila Bispo de Maura",
+		 	"Vila Delma (Justinópolis)",
+		 	"Vila do Cacique",
+		 	"Vila do Sapé",
+		 	"Vila Esplanada",
+		 	"Vila Hortinha",
+		 	"Vila Mariana",
+		 	"Vila Real (Justinópolis)",
+		 	"Vila Santa Branca (Justinópolis)",
+		 	"Xangrilá (Justinópolis)"
+		]
+	},
+	{
+		"cidade": "Ribeirão de São Domingos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ribeirão Vermelho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ribeiro Junqueira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ribeiros",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rio Acima",
+		"bairros": [
+		 	"Centro",
+		 	"Jatobá"
+		]
+	},
+	{
+		"cidade": "Rio Casca",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rio das Mortes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rio do Prado",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rio Doce",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rio Espera",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rio Manso",
+		"bairros": [
+		 	"Bernardas",
+		 	"Centro",
+		 	"Souza"
+		]
+	},
+	{
+		"cidade": "Rio Melo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rio Novo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rio Paranaíba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rio Pardo de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rio Piracicaba",
+		"bairros": [
+		 	"Centro",
+		 	"Padre Pinto"
+		]
+	},
+	{
+		"cidade": "Rio Pomba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rio Pretinho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rio Preto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rio Vermelho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ritápolis",
+		"bairros": [
+		 	"Centro",
+		 	"Penedo",
+		 	"Prainha",
+		 	"Restinga de Cima"
+		]
+	},
+	{
+		"cidade": "Roça Grande",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Roças Novas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rochedo de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rodeiro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rodrigo Silva",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Romaria",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rosário da Limeira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rosário de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rosário do Pontal",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Roseiral",
+		"bairros": [
+		 	"Centro",
+		 	"Distrito de Roseiral"
+		]
+	},
+	{
+		"cidade": "Rubelita",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rubim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ruralminas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sabará",
+		"bairros": [
+		 	"Adelmolândia",
+		 	"Água Férrea",
+		 	"Alto do Cabral",
+		 	"Alto do Fidalgo",
+		 	"Alvorada",
+		 	"Ana Lúcia",
+		 	"Arraial Velho",
+		 	"Borba Gato",
+		 	"Borges",
+		 	"Caieira",
+		 	"Centro",
+		 	"Conjunto Morada da Serra",
+		 	"Córrego da Ilha",
+		 	"Distrito Industrial Simão da Cunha",
+		 	"Esplanada",
+		 	"Fogo Apagou",
+		 	"Galego",
+		 	"Itacolomi",
+		 	"Jardim Castanheiras",
+		 	"Mangabeiras",
+		 	"Mangueiras",
+		 	"Morro da Cruz",
+		 	"Morro São Francisco",
+		 	"Nações Unidas",
+		 	"Nossa Senhora da Conceição",
+		 	"Nossa Senhora de Fátima",
+		 	"Nossa Senhora do Ó",
+		 	"Novo Alvorada",
+		 	"Novo Horizonte",
+		 	"Novo Santa Inês",
+		 	"Paciência",
+		 	"Padre Chiquinho",
+		 	"Pompeu",
+		 	"Praia dos Bandeirantes",
+		 	"Rio Negro",
+		 	"Roça Grande",
+		 	"Rosário",
+		 	"Santana",
+		 	"Santo Antônio (Roça Grande)",
+		 	"São Francisco",
+		 	"São José",
+		 	"Siderúrgica",
+		 	"Sobradinho",
+		 	"Terra Santa",
+		 	"Valparaíso",
+		 	"Vila Amélia Moreira",
+		 	"Vila Bom Retiro",
+		 	"Vila Campinas",
+		 	"Vila dos Coqueiros",
+		 	"Vila Esperança",
+		 	"Vila Eugênio Rossi",
+		 	"Vila Francisco de Moura",
+		 	"Vila Ipê",
+		 	"Vila Marzagão",
+		 	"Vila Michel",
+		 	"Vila Nossa Senhora da Conceição (General Carneiro)",
+		 	"Vila Nova Vista",
+		 	"Vila Real",
+		 	"Vila Rica",
+		 	"Vila Santa Cruz",
+		 	"Vila Santa Rita",
+		 	"Vila Santo Antônio de Pádua",
+		 	"Vila São Sebastião"
+		]
+	},
+	{
+		"cidade": "Sabinópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sacramento",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Salinas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Salitre de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Salto da Divisa",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Bárbara",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Bárbara do Leste",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Bárbara do Monte Verde",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Bárbara do Tugúrio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Cruz da Aparecida",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Cruz de Botumirim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Cruz de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Cruz de Salinas",
+		"bairros": [
+		 	"Água Boa",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Cruz do Escalvado",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Cruz do Prata",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Efigênia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Efigênia de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Fé de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Filomena",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Helena de Minas",
+		"bairros": [
+		 	"Bom Jesus da Vitória",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Izabel",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Juliana",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Luzia",
+		"bairros": [
+		 	"Adeodato",
+		 	"Asteca (São Benedito)",
+		 	"Baronesa (São Benedito)",
+		 	"Barreiro do Amaral",
+		 	"Bela Vista",
+		 	"Belo Vale",
+		 	"Boa Esperança",
+		 	"Bom Destino",
+		 	"Bom Jesus",
+		 	"Bonanza",
+		 	"Camelos",
+		 	"Capitão Paulo",
+		 	"Casa Branca",
+		 	"Castanheira",
+		 	"Centro",
+		 	"Colorado",
+		 	"Condomínio Estância dos Lagos",
+		 	"Conjunto Cristina (São Benedito)",
+		 	"Conjunto Palmital (São Benedito)",
+		 	"Córrego Frio",
+		 	"Distrito Industrial III",
+		 	"Distrito Industrial Simão da Cunha",
+		 	"Dona Rosarinha",
+		 	"Duquesa I (São Benedito)",
+		 	"Duquesa II (São Benedito)",
+		 	"Esplanada",
+		 	"Frimisa",
+		 	"Gameleira",
+		 	"Granja Santa Inês (São Benedito)",
+		 	"Idulipê",
+		 	"Imperial",
+		 	"Industrial Americano",
+		 	"Kennedy",
+		 	"Liberdade",
+		 	"Londrina (São Benedito)",
+		 	"Luxemburgo",
+		 	"Maria Adélia",
+		 	"Monte Carlo",
+		 	"Morada do Rio",
+		 	"Moreira",
+		 	"Natividade",
+		 	"Nossa Senhora da Conceição",
+		 	"Nossa Senhora das Graças",
+		 	"Nossa Senhora do Carmo",
+		 	"Nova Conquista (São Benedito)",
+		 	"Nova Esperança",
+		 	"Nova Esperança (São Benedito)",
+		 	"Novo Centro",
+		 	"Padre Miguel",
+		 	"Padre Miguel (São Benedito)",
+		 	"Pérola Negra",
+		 	"Petrópolis",
+		 	"Pinhões",
+		 	"Pousada Del Rey (São Benedito)",
+		 	"Quarenta e Dois",
+		 	"Rio das Velhas",
+		 	"Santa Helena",
+		 	"Santa Matilde",
+		 	"Santa Rita",
+		 	"São Benedito",
+		 	"São Cosme de Baixo (São Benedito)",
+		 	"São Cosme de Cima (São Benedito)",
+		 	"São Geraldo",
+		 	"São João Batista",
+		 	"Sítio Boa Vista",
+		 	"Três Corações",
+		 	"Vale das Acácias",
+		 	"Vale do Tamanduá",
+		 	"Vila Beatriz (São Benedito)",
+		 	"Vila das Mansões",
+		 	"Vila Íris",
+		 	"Vila Olga",
+		 	"Vila Santa Mônica",
+		 	"Vila Santo Antônio (São Benedito)",
+		 	"Vila São Mateus"
+		]
+	},
+	{
+		"cidade": "Santa Luzia da Serra",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Margarida",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Maria de Itabira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Maria do Salto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Maria do Suaçuí",
+		"bairros": [
+		 	"Brejo de Minas",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Quitéria",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Quitéria",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Rita",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Rita de Caldas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Rita de Jacutinga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Rita de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Rita de Ouro Preto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Rita do Cedro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Rita do Ibitipoca",
+		"bairros": [
+		 	"Bom Jesus do Vermelho",
+		 	"Centro",
+		 	"Paraíso Garcia"
+		]
+	},
+	{
+		"cidade": "Santa Rita do Itueto",
+		"bairros": [
+		 	"Aldeamento",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Rita do Rio do Peixe",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Rita do Sapucaí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Rita Durão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Rosa da Serra",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Rosa de Lima",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Rosa dos Dourados",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Teresa do Bonito",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Terezinha de Minas",
+		"bairros": [
+		 	"Centro",
+		 	"Planalto"
+		]
+	},
+	{
+		"cidade": "Santa Vitória",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Vitória de Cocais dos Arrudas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana da Vargem",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana de Caldas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana de Cataguases",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana de Patos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana de Pirapama",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana do Alfié",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana do Araçuaí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana do Campestre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana do Capivari",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana do Deserto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana do Garambéu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana do Jacaré",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana do Manhuaçu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana do Paraíso",
+		"bairros": [
+		 	"Centro",
+		 	"Distrito Industrial",
+		 	"Industrial",
+		 	"Ipaba de Paraíso"
+		]
+	},
+	{
+		"cidade": "Santana do Paraopeba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana do Riacho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana do Tabuleiro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana dos Montes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio da Boa Vista",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio da Fortaleza",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio da Vargem Alegre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Amparo",
+		"bairros": [
+		 	"Centro",
+		 	"São Sebastião da Estrela"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Aventureiro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Boqueirão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Cruzeiro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Glória",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Grama",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Itambé",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Jacinto",
+		"bairros": [
+		 	"Catajás",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Leite",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Manhuaçu",
+		"bairros": [
+		 	"Centro",
+		 	"Suíço"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Monte",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Mucuri",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Norte",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Pirapetinga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Pontal",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Porto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Retiro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Rio Abaixo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio dos Araújos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio dos Campos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Hipólito",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santos Dumont",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Bartolomeu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Bartolomeu de Sem Peixe",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Bento Abade",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Bento de Caldas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Brás do Suaçuí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Braz",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Cândido",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Domingos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Domingos da Bocaina",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Domingos das Dores",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Domingos do Prata",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Félix de Minas",
+		"bairros": [
+		 	"Centro",
+		 	"Frei Jorge"
+		]
+	},
+	{
+		"cidade": "São Francisco",
+		"bairros": [
+		 	"Barreiros",
+		 	"Centro",
+		 	"Santa Izabel de Minas"
+		]
+	},
+	{
+		"cidade": "São Francisco de Paula",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Francisco de Sales",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Francisco do Glória",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Francisco do Humaitá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Geraldo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Geraldo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Geraldo da Piedade",
+		"bairros": [
+		 	"Centro",
+		 	"Horto Vinhático"
+		]
+	},
+	{
+		"cidade": "São Geraldo de Tumiritinga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Geraldo do Baguari",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Geraldo do Baixio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Gonçalo de Botelhos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Gonçalo do Abaeté",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Gonçalo do Pará",
+		"bairros": [
+		 	"Água Limpa",
+		 	"Centro",
+		 	"Prata",
+		 	"Quilombo do Gaia"
+		]
+	},
+	{
+		"cidade": "São Gonçalo do Rio Abaixo",
+		"bairros": [
+		 	"Centro",
+		 	"Una"
+		]
+	},
+	{
+		"cidade": "São Gonçalo do Rio das Pedras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Gonçalo do Rio Preto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Gonçalo do Sapucaí",
+		"bairros": [
+		 	"Carneiros",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Gotardo",
+		"bairros": [
+		 	"Abaeté dos Venâncios",
+		 	"Centro",
+		 	"Mundim",
+		 	"Nossa Senhora de Fátima"
+		]
+	},
+	{
+		"cidade": "São João Batista do Glória",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João da Chapada",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João da Lagoa",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João da Mata",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João da Ponte",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João da Sapucaia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João da Serra",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João da Serra Negra",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João das Missões",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João Del Rei",
+		"bairros": [
+		 	"Água Geral (Tejuco)",
+		 	"Águas Férreas (Tejuco)",
+		 	"Alto das Mercês",
+		 	"Alto do Maquiné (Colônia do Marçal)",
+		 	"Araçá",
+		 	"Barro Preto",
+		 	"Bela Vista",
+		 	"Bom Pastor",
+		 	"Bonfim",
+		 	"Caiçaras",
+		 	"Centro",
+		 	"Cidade Nova",
+		 	"COHAB",
+		 	"Colinas Del Rey",
+		 	"Colônia do Giarola",
+		 	"Colônia do Marçal",
+		 	"Dom Bosco",
+		 	"Fábricas",
+		 	"Guarda-Mor",
+		 	"Jardim América",
+		 	"Jardim América (Fábricas)",
+		 	"Jardim Colônia (Colônia do Marçal)",
+		 	"Jardim Montese",
+		 	"Jardim Paulo Campos",
+		 	"Lava Pés",
+		 	"Loteamento do Carmindo (Colônia do Marçal)",
+		 	"Matozinhos",
+		 	"Nascente do Sol (Colônia do Marçal)",
+		 	"Nossa Senhora da Conceição",
+		 	"Parque São João Del Rey (Colônia do Marçal)",
+		 	"Pio XII",
+		 	"Portal Vila Rica (Colônia do Marçal)",
+		 	"Rainha da Paz",
+		 	"Recreio das Alterosas (Colônia do Marçal)",
+		 	"Residencial Girassol",
+		 	"Residencial Jardim Aeroporto",
+		 	"Residencial Lenheiro",
+		 	"Residencial Maquiné",
+		 	"Residencial São José Operário (Tejuco)",
+		 	"Rio Acima",
+		 	"São Caetano",
+		 	"São Francisco (Colônia do Marçal)",
+		 	"São Geraldo",
+		 	"São José Operário",
+		 	"São Judas Tadeu",
+		 	"São Pedro (Colônia do Marçal)",
+		 	"Segredo",
+		 	"Senhor dos Montes",
+		 	"Solar da Serra (Colônia do Marçal)",
+		 	"Tejuco",
+		 	"Vale Nascente do Sol",
+		 	"Várzea do Faria (Bonfim)",
+		 	"Vila Belizário",
+		 	"Vila Brasil",
+		 	"Vila do Carmo (Colonia do Marçal)",
+		 	"Vila Jardim Nossa Senhora de Fátima (Matozinhos)",
+		 	"Vila Jardim São José",
+		 	"Vila Jesus Silva",
+		 	"Vila João Lombard (Fábricas)",
+		 	"Vila Marchetti",
+		 	"Vila Maria (Bonfim)",
+		 	"Vila Militar",
+		 	"Vila Nossa Senhora de Fátima",
+		 	"Vila Santa Terezinha",
+		 	"Vila Santo Antônio (Matozinhos)",
+		 	"Vila São Bento",
+		 	"Vila São Paulo (Fábricas)",
+		 	"Vila São Vicente (Colônia do Marçal)"
+		]
+	},
+	{
+		"cidade": "São João do Bonito",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João do Jacutinga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João do Manhuaçu",
+		"bairros": [
+		 	"Centro",
+		 	"Pontões"
+		]
+	},
+	{
+		"cidade": "São João do Manteninha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João do Oriente",
+		"bairros": [
+		 	"Centro",
+		 	"Santa Maria do Baixio"
+		]
+	},
+	{
+		"cidade": "São João do Pacuí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João do Paraíso",
+		"bairros": [
+		 	"Boa Sorte",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João Evangelista",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João Nepomuceno",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Joaquim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Joaquim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Joaquim de Bicas",
+		"bairros": [
+		 	"Centro",
+		 	"Tereza Cristina"
+		]
+	},
+	{
+		"cidade": "São José da Barra",
+		"bairros": [
+		 	"Centro",
+		 	"Furnas"
+		]
+	},
+	{
+		"cidade": "São José da Bela Vista",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José da Lapa",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José da Pedra Menina",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José da Safira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José da Varginha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José do Alegre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José do Barreiro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José do Batatal",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José do Buriti",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José do Divino",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José do Goiabal",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José do Itueto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José do Jacaré",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José do Jacuri",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José do Mantimento",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José do Mato Dentro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José do Pântano",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José do Paraopeba",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José do Rio Manso",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José dos Lopes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José dos Salgados",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Judas Tadeu de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Lourenço",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Manoel do Guaiaçu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Mateus de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Miguel do Anta",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Pedro da Garça",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Pedro da União",
+		"bairros": [
+		 	"Biguatinga",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Pedro das Tabocas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Pedro de Caldas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Pedro do Avaí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Pedro do Glória",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Pedro do Jequitinhonha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Pedro do Passa Três",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Pedro do Suaçuí",
+		"bairros": [
+		 	"Araras",
+		 	"Centro",
+		 	"Cinco Ilhas",
+		 	"Córrego Dantas"
+		]
+	},
+	{
+		"cidade": "São Pedro dos Ferros",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Romão",
+		"bairros": [
+		 	"Centro",
+		 	"Ribanceira"
+		]
+	},
+	{
+		"cidade": "São Roque de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião da Barra",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião da Bela Vista",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião da Vala",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião da Vargem Alegre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião da Vitória",
+		"bairros": [
+		 	"Caquende",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião de Braúnas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião do Anta",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião do Baixio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião do Barreado",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião do Barreiro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião do Bonsucesso",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião do Bugre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião do Gil",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião do Maranhão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião do Óculo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião do Oeste",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião do Paraíso",
+		"bairros": [
+		 	"Centro",
+		 	"Jardim Coolapa"
+		]
+	},
+	{
+		"cidade": "São Sebastião do Pontal",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião do Rio Preto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião do Rio Verde",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião do Sacramento",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião dos Poções",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião dos Robertos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Sebastião dos Torres",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Thomé das Letras",
+		"bairros": [
+		 	"Centro",
+		 	"Sobradinho"
+		]
+	},
+	{
+		"cidade": "São Tiago",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Tomás de Aquino",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Vicente",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Vicente da Estrela",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Vicente de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Vicente do Grama",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Vicente do Rio Doce",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Vítor",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sapucaí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sapucaí-Mirim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sapucaia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sapucaia de Guanhães",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sapucaia do Norte",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sarandira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sardoá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sarzedo",
+		"bairros": [
+		 	"Centro",
+		 	"Santa Rosa de Lima",
+		 	"Vila Satélite"
+		]
+	},
+	{
+		"cidade": "Saudade",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sem Peixe",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Senador Amaral",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Senador Cortes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Senador Firmino",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Senador José Bento",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Senador Modestino Gonçalves",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Senador Mourão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Senhora da Glória",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Senhora da Penha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Senhora das Dores",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Senhora de Oliveira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Senhora do Carmo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Senhora do Porto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Senhora dos Remédios",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sereno",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sericita",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Seritinga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Serra Azul",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Serra Azul de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Serra Bonita",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Serra da Saudade",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Serra do Camapuã",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Serra do Cipó",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Serra do Salitre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Serra dos Aimorés",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Serra dos Lemes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Serra Nova",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Serrania",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Serranópolis de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Serranos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Serro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sertãozinho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sete Cachoeiras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sete Lagoas",
+		"bairros": [
+		 	"Aeroporto Industrial",
+		 	"Alex Paiva",
+		 	"Alto Coqueiral",
+		 	"Alvorada",
+		 	"Anchieta",
+		 	"Areias",
+		 	"Bandeirante",
+		 	"Barreiro",
+		 	"Barreiro de Baixo",
+		 	"Barreiro de Cima",
+		 	"Bela Vista II",
+		 	"Bela Vista III",
+		 	"Bela Vista l",
+		 	"Belo Vale",
+		 	"Belo Vale ll",
+		 	"Boa Vista",
+		 	"Bom Jardim",
+		 	"Bom Jesus",
+		 	"Bouganvile l",
+		 	"Bouganvile ll",
+		 	"Brasília",
+		 	"Braz Filizola",
+		 	"Brejão",
+		 	"Brejinho",
+		 	"Campo de Aviação",
+		 	"Canaã",
+		 	"Canadá",
+		 	"Canada II",
+		 	"Catarina",
+		 	"CDI",
+		 	"Cedro e Cachoeira",
+		 	"Centro",
+		 	"Chácara do Paiva",
+		 	"Chácara Esplanada do Moinho",
+		 	"Cidade de Deus",
+		 	"Cidade Nova",
+		 	"Condomínio Lago Azul",
+		 	"Condomínio Lagoas do Moinho",
+		 	"Conjunto Habitacional Bernardo Valadares Vasconcelos",
+		 	"Dante Lanza",
+		 	"Distrito Industrial",
+		 	"Dona Dora",
+		 	"Eldorado",
+		 	"Emília",
+		 	"Esmeraldas",
+		 	"Esmeraldas II",
+		 	"Esperança",
+		 	"Fátima",
+		 	"Fazenda Velha",
+		 	"Flórida",
+		 	"Funcionários",
+		 	"Glória",
+		 	"Henrique Nery",
+		 	"Honorina Pontes",
+		 	"Industrial",
+		 	"Indústrias",
+		 	"Indústrias II",
+		 	"Interlagos",
+		 	"Interlagos II",
+		 	"Iporanga",
+		 	"Iporanga II",
+		 	"Iraque",
+		 	"Itapoã",
+		 	"Itapoã II",
+		 	"Jardim Arizona",
+		 	"Jardim Cambuí",
+		 	"Jardim dos Pequis",
+		 	"Jardim Europa",
+		 	"Jardim Primavera II",
+		 	"Jardim Primavera l",
+		 	"Jardim Universitário",
+		 	"JK",
+		 	"Kwait",
+		 	"Lontra",
+		 	"Lontrinha",
+		 	"Luxemburgo",
+		 	"Mangabeiras",
+		 	"Manoa",
+		 	"Mata Grande",
+		 	"Monte Carlo",
+		 	"Montreal",
+		 	"Montreal II",
+		 	"Morro do Claro",
+		 	"New York",
+		 	"Nossa Senhora das Graças",
+		 	"Nossa Senhora de Lourdes",
+		 	"Nossa Senhora do Carmo",
+		 	"Nossa Senhora do Carmo II",
+		 	"Nova Cidade",
+		 	"Nova Serrana",
+		 	"Novo Horizonte",
+		 	"Olinto Alvin",
+		 	"Ondina Vasconcelos de Oliveira",
+		 	"Orozimbo Macedo",
+		 	"Ouro Branco",
+		 	"Padre Teodoro",
+		 	"Padre Teodoro ll",
+		 	"Panorama",
+		 	"Papavento",
+		 	"Paredão",
+		 	"Parque das Nogueiras",
+		 	"Pedras",
+		 	"Piedade",
+		 	"Planalto",
+		 	"Portal da Serra",
+		 	"Primavera",
+		 	"Progresso",
+		 	"Progresso II",
+		 	"Quinducha",
+		 	"Quintas da Varginha",
+		 	"Quintas do Lago I",
+		 	"Quintas do Lago II",
+		 	"Recanto da Gineta",
+		 	"Recanto da Serra",
+		 	"Recanto do Cedro",
+		 	"Recanto do Itororó",
+		 	"Recanto do Yassu",
+		 	"Recanto São José",
+		 	"Residencial Campestre",
+		 	"Residencial Da Vinci",
+		 	"Residencial Dona Sílvia I",
+		 	"Residencial Ermitage",
+		 	"Residencial Goiabeiras",
+		 	"Residencial Pôr do Sol",
+		 	"Retiro da Serra",
+		 	"Santa Eliza",
+		 	"Santa Felicidade",
+		 	"Santa Helena",
+		 	"Santa Luzia",
+		 	"Santa Marcelina",
+		 	"Santa Maria",
+		 	"Santa Rita",
+		 	"Santa Rita de Cássia",
+		 	"Santa Rosa",
+		 	"Santo Antônio",
+		 	"São Cristóvão",
+		 	"São Cristóvão II",
+		 	"São Dimas",
+		 	"São Francisco de Assis",
+		 	"São Geraldo",
+		 	"São João",
+		 	"São João II",
+		 	"São Jorge",
+		 	"São José",
+		 	"São Pedro",
+		 	"São Sebastião",
+		 	"São Vicente",
+		 	"Silva Xavier",
+		 	"Tamanduá",
+		 	"Titamar",
+		 	"Universitário",
+		 	"Vale das Palmeiras",
+		 	"Vale do Aritana",
+		 	"Vapabuçu",
+		 	"Várzea",
+		 	"Várzea da Lagoa II",
+		 	"Verde Vale",
+		 	"Vila Brasil",
+		 	"Vila Ipê",
+		 	"Vila Santa Helena"
+		]
+	},
+	{
+		"cidade": "Setubinha",
+		"bairros": [
+		 	"Centro",
+		 	"Palmeiras"
+		]
+	},
+	{
+		"cidade": "Silva Campos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Silva Xavier",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Silvano",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Silveira Carvalho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Silveirânia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Silvestre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Silvianópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Simão Campos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Simão Pereira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Simonésia",
+		"bairros": [
+		 	"Centro",
+		 	"São Simão do Rio Preto"
+		]
+	},
+	{
+		"cidade": "Sobral Pinto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sobrália",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Soledade de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sopa",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sucanga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tabajara",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tabaúna",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tabuão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tabuleiro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Taiobeiras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Taparuba",
+		"bairros": [
+		 	"Centro",
+		 	"Três Barras"
+		]
+	},
+	{
+		"cidade": "Tapira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tapiraí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tapuirama",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Taquaraçu de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Taruaçu",
+		"bairros": [
+		 	"Largo da Matriz"
+		]
+	},
+	{
+		"cidade": "Tarumirim",
+		"bairros": [
+		 	"Centro",
+		 	"Taruaçu"
+		]
+	},
+	{
+		"cidade": "Tebas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Teixeiras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tejuco",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Teófilo Otoni",
+		"bairros": [
+		 	"Altino Barbosa",
+		 	"Barreiros",
+		 	"Bela Vista",
+		 	"Belvedere",
+		 	"Castro Pires",
+		 	"Centro",
+		 	"Cidade Alta",
+		 	"Cidade Nova",
+		 	"Concórdia",
+		 	"Conjunto Paulo Freire",
+		 	"Doutor Laerte Laender",
+		 	"Esperança",
+		 	"Fátima",
+		 	"Felicidade",
+		 	"Filadélfia",
+		 	"Floresta",
+		 	"Frei Dimas",
+		 	"Frei Júlio",
+		 	"Frimusa",
+		 	"Funcionários",
+		 	"Gangorrinha",
+		 	"Grão Pará",
+		 	"Indaiá",
+		 	"Ipiranga",
+		 	"Itaguaçú",
+		 	"Jardim das Acácias",
+		 	"Jardim Iracema",
+		 	"Jardim São Paulo",
+		 	"Jardim Serra Verde",
+		 	"Joaquim Pedrosa",
+		 	"Lourival Soares da Costa",
+		 	"Manoel Pimenta",
+		 	"Marajoara",
+		 	"Matinha",
+		 	"Minas Novas",
+		 	"Monte Carlo",
+		 	"Mucuri",
+		 	"Novo Horizonte",
+		 	"Olga Prates Correia",
+		 	"Palmeiras",
+		 	"Pampulhinha",
+		 	"Santa Clara",
+		 	"Santo Antônio",
+		 	"São Benedito",
+		 	"São Cristóvão",
+		 	"São Diogo",
+		 	"São Francisco",
+		 	"São Geraldo",
+		 	"São Jacinto",
+		 	"São João",
+		 	"São Pedro",
+		 	"Solidariedade",
+		 	"Tabajaras",
+		 	"Tancredo Neves",
+		 	"Taquara",
+		 	"Teófilo Rocha",
+		 	"Turma Trinta e Oito",
+		 	"Turma Trinta e Sete",
+		 	"Vila Betel",
+		 	"Vila Ramos",
+		 	"Vila Vitória",
+		 	"Viriato"
+		]
+	},
+	{
+		"cidade": "Terra Branca",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Timóteo",
+		"bairros": [
+		 	"Alegre",
+		 	"Alphaville",
+		 	"Alto Serenata",
+		 	"Alvorada",
+		 	"Ana Malaquias",
+		 	"Ana Moura",
+		 	"Ana Rita",
+		 	"Bandeirantes",
+		 	"Bela Vista",
+		 	"Bromélias",
+		 	"Cachoeira do Vale",
+		 	"Centro",
+		 	"Centro Sul",
+		 	"Chácaras Alphaville",
+		 	"Córrego do Caçador",
+		 	"Cruzeirinho",
+		 	"Distrito Industrial",
+		 	"Eldorado",
+		 	"Funcionários",
+		 	"Garapa",
+		 	"João XXIII",
+		 	"John Kennedy",
+		 	"Limoeiro",
+		 	"Macuco",
+		 	"Nossa Senhora das Graças",
+		 	"Nova Esperança",
+		 	"Novo Horizonte",
+		 	"Novo Tempo",
+		 	"Núcleo Industrial",
+		 	"Olaria",
+		 	"Petrópolis",
+		 	"Primavera",
+		 	"Quitandinha",
+		 	"Recanto",
+		 	"Recanto Verde",
+		 	"Residencial Colina",
+		 	"Santa Cecília",
+		 	"Santa Maria",
+		 	"Santa Rita (Cachoeira do Vale)",
+		 	"Santa Terezinha",
+		 	"São Cristóvão",
+		 	"São José",
+		 	"Serenata",
+		 	"Timirim",
+		 	"Timotinho",
+		 	"Vale Verde",
+		 	"Vila dos Técnicos"
+		]
+	},
+	{
+		"cidade": "Tiradentes",
+		"bairros": [
+		 	"Águas Santas",
+		 	"Centro",
+		 	"César de Pina"
+		]
+	},
+	{
+		"cidade": "Tiros",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tobati",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tocandira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tocantins",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tocos do Moji",
+		"bairros": [
+		 	"Centro",
+		 	"Fernandes"
+		]
+	},
+	{
+		"cidade": "Toledo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Toledos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tomás Gonzaga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tombos",
+		"bairros": [
+		 	"Água Santa de Minas",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Topázio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Torneiros",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Torreões",
+		"bairros": [
+		 	"Centro",
+		 	"Humaitá",
+		 	"Monte Verde",
+		 	"Toledo"
+		]
+	},
+	{
+		"cidade": "Três Barras da Estrada Real",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Três Corações",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Três Ilhas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Três Marias",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Três Pontas",
+		"bairros": [
+		 	"Centro",
+		 	"Martinho Campos"
+		]
+	},
+	{
+		"cidade": "Trimonte",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tuiutinga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tumiritinga",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tupaciguara",
+		"bairros": [
+		 	"Andorinhas",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tuparecê",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Turmalina",
+		"bairros": [
+		 	"Cacaratiba",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Turvolândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ubá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ubaí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ubaporanga",
+		"bairros": [
+		 	"Centro",
+		 	"São Sebastião do Batatal"
+		]
+	},
+	{
+		"cidade": "Ubari",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Uberaba",
+		"bairros": [
+		 	"Abadia",
+		 	"Alfredo Freire II",
+		 	"Alfredo Freire III",
+		 	"Amoroso Costa",
+		 	"Antônia Cândida I",
+		 	"Beija-Flor",
+		 	"Beija-Flor II",
+		 	"Bela Vista",
+		 	"Boa Vista",
+		 	"Bom Retiro",
+		 	"Canadá",
+		 	"Capelinha do Barreiro",
+		 	"Centro",
+		 	"Chácaras Bouganville",
+		 	"Chácaras das Orquideas",
+		 	"Chácaras Mariitas",
+		 	"Chácaras Quintas Del Rey",
+		 	"Chácaras Vila Real",
+		 	"Cidade Jardim",
+		 	"Cidade Nova",
+		 	"Cidade Ozanan",
+		 	"COHAB Boa Vista",
+		 	"Conjunto Alfredo Freire",
+		 	"Conjunto Antônio Barbosa de Souza",
+		 	"Conjunto Cássio Rezende",
+		 	"Conjunto Chica Ferreira",
+		 	"Conjunto Costa Telles I",
+		 	"Conjunto Costa Telles II",
+		 	"Conjunto Frei Eugênio",
+		 	"Conjunto Guanabara",
+		 	"Conjunto José Barbosa",
+		 	"Conjunto José Vallim de Melo",
+		 	"Conjunto Manoel Mendes",
+		 	"Conjunto Margarida Rosa de Azevedo",
+		 	"Conjunto Maringá I",
+		 	"Conjunto Maringá II",
+		 	"Conjunto Morada do Sol",
+		 	"Conjunto Pontal",
+		 	"Conjunto Sete Colinas",
+		 	"Conjunto Treze de Maio",
+		 	"Conjunto Uberaba",
+		 	"Conjunto Umuarama",
+		 	"Conquistinha",
+		 	"Cyrela Landscape",
+		 	"Damha Residencial Uberaba I",
+		 	"Damha Residencial Uberaba II",
+		 	"Deolinda Freire",
+		 	"Deolinda Laura",
+		 	"Distrito Industrial I",
+		 	"Distrito Industrial II",
+		 	"Distrito Industrial III",
+		 	"Dom Eduardo",
+		 	"Estados Unidos",
+		 	"Estrela da Vitória",
+		 	"Europark",
+		 	"Fabrício",
+		 	"Flamboyant Residencial Park",
+		 	"Gleba Déa Maria",
+		 	"Gleba Santa Mônica",
+		 	"Grande Horizonte",
+		 	"Indianópolis",
+		 	"Irmãos Soares",
+		 	"Jardim Alexandre Campos",
+		 	"Jardim Alvorada",
+		 	"Jardim Amélia",
+		 	"Jardim América",
+		 	"Jardim Aquárius",
+		 	"Jardim Bela Vista",
+		 	"Jardim Belo Horizonte",
+		 	"Jardim Bento de Assis Valim",
+		 	"Jardim Brasília",
+		 	"Jardim Califórnia",
+		 	"Jardim Canadá",
+		 	"Jardim Copacabana",
+		 	"Jardim do Lago",
+		 	"Jardim Eldorado",
+		 	"Jardim Elza Amuí I",
+		 	"Jardim Elza Amuí II",
+		 	"Jardim Elza Amuí III",
+		 	"Jardim Elza Amuí IV",
+		 	"Jardim Espírito Santo",
+		 	"Jardim Esplanada",
+		 	"Jardim Imperador",
+		 	"Jardim Induberaba",
+		 	"Jardim Itália",
+		 	"Jardim Itália II",
+		 	"Jardim Maracanã",
+		 	"Jardim Metrópole",
+		 	"Jardim Nenê Gomes",
+		 	"Jardim Pacaembu",
+		 	"Jardim Primavera",
+		 	"Jardim Santa Clara",
+		 	"Jardim Santa Inez",
+		 	"Jardim São Bento",
+		 	"Jardim Serra Dourada",
+		 	"Jardim Terra Santa",
+		 	"Jardim Triângulo",
+		 	"Jardim Uberaba",
+		 	"Jockey Park",
+		 	"Josa Bernardino I",
+		 	"Josa Bernardino II",
+		 	"Leblon",
+		 	"Loteamento das Américas",
+		 	"Loteamento das Gameleiras",
+		 	"Loteamento Guilherme Borges",
+		 	"Loteamento Jardim Santa Clara",
+		 	"Loteamento Residencial Cândida Borges",
+		 	"Lourdes",
+		 	"Mangueiras",
+		 	"Manhattan",
+		 	"Mercês",
+		 	"Mônica Cristina",
+		 	"Morada das Fontes",
+		 	"Nossa Senhora da Abadia",
+		 	"Novo Horizonte",
+		 	"Núcleo Habitacional Silvério Cartafina",
+		 	"Núcleo Residencial Tutunas",
+		 	"Olinda",
+		 	"Oneida Mendes",
+		 	"Pacaembu",
+		 	"Pacaembu II",
+		 	"Parque das Américas",
+		 	"Parque das Gameleiras",
+		 	"Parque do Café",
+		 	"Parque do Mirante",
+		 	"Parque dos Buritis",
+		 	"Parque dos Girassóis",
+		 	"Parque Exposição",
+		 	"Parque Hiléia",
+		 	"Parque São Geraldo",
+		 	"Peirópolis",
+		 	"Planalto",
+		 	"Portal do Sol",
+		 	"Princesa do Sertão",
+		 	"Quinta Boa Esperança",
+		 	"Recanto da Terra",
+		 	"Recanto das Flores",
+		 	"Recanto das Torres",
+		 	"Recanto do Sol",
+		 	"Recreio dos Bandeirantes",
+		 	"Residencial 2000",
+		 	"Residencial Alves Valim",
+		 	"Residencial Anita",
+		 	"Residencial Budeus",
+		 	"Residencial Doutor Abel Reis",
+		 	"Residencial Estados Unidos",
+		 	"Residencial Mário de Almeida Franco",
+		 	"Residencial Monte Castelo",
+		 	"Residencial Morada Du Park",
+		 	"Residencial Morumbi",
+		 	"Residencial Nova Era",
+		 	"Residencial Palmeiras",
+		 	"Residencial Paulo Cury",
+		 	"Residencial Presidente Tancredo Neves",
+		 	"Residencial Terra Nova",
+		 	"Residencial Veneza",
+		 	"Santa Fé",
+		 	"Santa Maria",
+		 	"Santa Marta",
+		 	"Santa Rosa",
+		 	"Santos Dumont",
+		 	"São Benedito",
+		 	"São José",
+		 	"São Sebastião",
+		 	"Seriema",
+		 	"Serra do Sol",
+		 	"Serra Dourada",
+		 	"Tiago e Jéssica",
+		 	"Tita Rezende",
+		 	"Unidade de Planejamento e Gestão Urbana Portal",
+		 	"Univerdecidade",
+		 	"Universitário",
+		 	"Vale do Sol",
+		 	"Vila Alvorada",
+		 	"Vila Arquelau",
+		 	"Vila Boa Vista",
+		 	"Vila Celeste",
+		 	"Vila Ceres",
+		 	"Vila Craide",
+		 	"Vila Esperança",
+		 	"Vila Frei Eugênio",
+		 	"Vila João Pinheiro",
+		 	"Vila Leandro",
+		 	"Vila Maria Helena",
+		 	"Vila Militar",
+		 	"Vila Nossa Senhora Aparecida",
+		 	"Vila Olímpica",
+		 	"Vila Presidente Vargas",
+		 	"Vila São Cristóvão",
+		 	"Vila São José",
+		 	"Vila São Vicente",
+		 	"Villaggio Di Fiori"
+		]
+	},
+	{
+		"cidade": "Uberlândia",
+		"bairros": [
+		 	"Aclimação",
+		 	"Aeroporto",
+		 	"Altamira",
+		 	"Alto Umuarama",
+		 	"Bela Vista",
+		 	"Belo Horizonte",
+		 	"Bom Jesus",
+		 	"Bosque dos Buritis",
+		 	"Brasil",
+		 	"Buritis",
+		 	"Carajás",
+		 	"Casas Populares",
+		 	"Cazeca",
+		 	"Centro",
+		 	"Chácaras Bonanza",
+		 	"Chácaras Eldorado",
+		 	"Chácaras Oliveiras",
+		 	"Chácaras Parque Maravilha",
+		 	"Chácaras Rancho Alegre",
+		 	"Chácaras Tubalina e Quartel",
+		 	"Chácaras Uirapuru",
+		 	"Cidade Jardim",
+		 	"City Uberlândia",
+		 	"Conjunto Alvorada",
+		 	"Conjunto Bandeirantes",
+		 	"Copacabana",
+		 	"Custódio Pereira",
+		 	"Daniel Fonseca",
+		 	"Distrito Industrial",
+		 	"Dom Almir",
+		 	"Dona Zulmira",
+		 	"Erlan",
+		 	"Esperança",
+		 	"Gávea",
+		 	"General Osório",
+		 	"Granada",
+		 	"Guarani",
+		 	"Higino Guerra",
+		 	"Jaraguá",
+		 	"Jardim América I",
+		 	"Jardim América II",
+		 	"Jardim Auroras",
+		 	"Jardim Botânico",
+		 	"Jardim Brasília",
+		 	"Jardim Califórnia",
+		 	"Jardim Canaã",
+		 	"Jardim Colina",
+		 	"Jardim das Palmeiras",
+		 	"Jardim Europa",
+		 	"Jardim Holanda",
+		 	"Jardim Inconfidência",
+		 	"Jardim Ipanema",
+		 	"Jardim Ipanema II",
+		 	"Jardim Karaíba",
+		 	"Jardim Panorama",
+		 	"Jardim Patrícia",
+		 	"Jardim Sucupira",
+		 	"Joana D'Arc",
+		 	"Jockey Camping",
+		 	"Lagoinha",
+		 	"Laranjeiras",
+		 	"Lidice",
+		 	"Loteamento Integração",
+		 	"Loteamento Vale dos Vinhedos",
+		 	"Loteamento Vida Nova",
+		 	"Lourdes",
+		 	"Luizote de Freitas",
+		 	"Mansões Aeroporto",
+		 	"Mansour",
+		 	"Maracanã",
+		 	"Maravilha",
+		 	"Maria Rezende",
+		 	"Marta Helena",
+		 	"Martins",
+		 	"Minas Brasil",
+		 	"Minas Gerais",
+		 	"Morada da Colina",
+		 	"Morada do Sol",
+		 	"Morada dos Pássaros",
+		 	"Morada Nova",
+		 	"Morada Nova II",
+		 	"Morumbi",
+		 	"Nossa Senhora Aparecida",
+		 	"Nossa Senhora das Graças",
+		 	"Nosso Recanto",
+		 	"Nova Uberlândia",
+		 	"Novo Mundo",
+		 	"Osvaldo Rezende",
+		 	"Pacaembu",
+		 	"Pampulha",
+		 	"Panorama",
+		 	"Parque das Américas",
+		 	"Parque das Andorinhas",
+		 	"Parque das Paineiras",
+		 	"Parque das Seringueiras",
+		 	"Parque São Gabriel",
+		 	"Patrimônio",
+		 	"Planalto",
+		 	"Presidente Roosevelt",
+		 	"Prosperidade",
+		 	"Residencial Gramado",
+		 	"Residencial Nosso Lar",
+		 	"Residencial Viviane",
+		 	"Rezende",
+		 	"Rezende Junqueira",
+		 	"Ribeirinho",
+		 	"Santa Luzia",
+		 	"Santa Mônica",
+		 	"Santa Rosa",
+		 	"São Francisco",
+		 	"São Jorge",
+		 	"São José",
+		 	"Saraiva",
+		 	"Segismundo Pereira",
+		 	"Shopping Park",
+		 	"Tabajaras",
+		 	"Taiaman",
+		 	"Tancredo Neves",
+		 	"Thomas Rezende",
+		 	"Tibery",
+		 	"Tocantins",
+		 	"Tubalina",
+		 	"Umuarama",
+		 	"Vale do Sol",
+		 	"Vallee",
+		 	"Valparaíso",
+		 	"Vigilato Pereira",
+		 	"Vila Carneiro",
+		 	"Vila Fátima",
+		 	"Vila Marielza",
+		 	"Vila Póvoa",
+		 	"Vila Satélite"
+		]
+	},
+	{
+		"cidade": "Umburatiba",
+		"bairros": [
+		 	"Centro",
+		 	"São Pedro"
+		]
+	},
+	{
+		"cidade": "Umbuzeiro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Unaí",
+		"bairros": [
+		 	"Cachoeira",
+		 	"Centro",
+		 	"Cruzeiro",
+		 	"Ruralminas"
+		]
+	},
+	{
+		"cidade": "União de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Uruana de Minas",
+		"bairros": [
+		 	"Centro",
+		 	"Cercado"
+		]
+	},
+	{
+		"cidade": "Urucânia",
+		"bairros": [
+		 	"Cardoso",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Urucuia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vai-Volta",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Valadares",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Valão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vale Verde de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vargem Alegre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vargem Bonita",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vargem Grande do Rio Pardo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vargem Linda",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Varginha",
+		"bairros": [
+		 	"Aeroporto",
+		 	"Alta Villa",
+		 	"Alto da Figueira II",
+		 	"Atlântico Sul",
+		 	"Bela Vista",
+		 	"Bom Pastor",
+		 	"Campos Elíseos",
+		 	"Centro",
+		 	"Condomínio Lagamar",
+		 	"Condomínio Pássaro",
+		 	"Condomínio Residencial Urupês",
+		 	"Conjunto Habitacional Catanduvas",
+		 	"Conjunto Habitacional Centenário",
+		 	"Conjunto Habitacional Sion",
+		 	"Conjunto Habitacional Sion II",
+		 	"Conjunto Minas Gerais",
+		 	"Conjunto Residencial Jetcon",
+		 	"Cruzeiro do Sul",
+		 	"Damasco",
+		 	"Distrito Industrial Cláudio Galvão Nogueira",
+		 	"Distrito Industrial Miguel de Luca",
+		 	"Dos Carvalhos",
+		 	"Eldorado",
+		 	"Fausto Ribeiro",
+		 	"Imaculada Conceição",
+		 	"Imperial",
+		 	"Industrial JK",
+		 	"Industrial Reinaldo Foresti",
+		 	"Jardim Alvorada",
+		 	"Jardim Andere",
+		 	"Jardim Atlântico Sul",
+		 	"Jardim Áurea",
+		 	"Jardim Bouganville",
+		 	"Jardim Canaã",
+		 	"Jardim Cidade Nova",
+		 	"Jardim Colonial",
+		 	"Jardim Corcetti I",
+		 	"Jardim Corcetti II",
+		 	"Jardim das Oliveiras",
+		 	"Jardim dos Pássaros",
+		 	"Jardim Estrela I",
+		 	"Jardim Estrela II",
+		 	"Jardim Europa",
+		 	"Jardim Itália",
+		 	"Jardim Mariana",
+		 	"Jardim Mont Serrat",
+		 	"Jardim Morada do Sol",
+		 	"Jardim Oriente",
+		 	"Jardim Orlândia",
+		 	"Jardim Panorama",
+		 	"Jardim Petrópolis",
+		 	"Jardim Renata",
+		 	"Jardim Ribeiro",
+		 	"Jardim Santa Mônica",
+		 	"Jardim Santa Tereza",
+		 	"Jardim São Joaquim",
+		 	"Jardim Simões",
+		 	"Jardim Sion",
+		 	"Jardim Vale dos Ipês",
+		 	"Jardim Vale Verde",
+		 	"Jardim Zinoca",
+		 	"Lagamar",
+		 	"Loteamento Sete de Outubro",
+		 	"Nossa Senhora Aparecida",
+		 	"Nossa Senhora das Graças III",
+		 	"Nossa Senhora de Fátima",
+		 	"Nossa Senhora de Lourdes",
+		 	"Nova Varginha",
+		 	"Novo Horizonte",
+		 	"Padre Vitor",
+		 	"Park Imperial",
+		 	"Parque Alto da Figueira",
+		 	"Parque Boa Vista",
+		 	"Parque Catanduvas",
+		 	"Parque das Acácias",
+		 	"Parque das Américas",
+		 	"Parque de Exposições",
+		 	"Parque Ileana",
+		 	"Parque Mariela",
+		 	"Parque Nossa Senhora das Graças",
+		 	"Parque Ozanam",
+		 	"Parque Residencial Jardins do Ágape",
+		 	"Parque Residencial Rio Verde",
+		 	"Parque Retiro",
+		 	"Parque Rinaldo",
+		 	"Parque São José",
+		 	"Parque Urupês",
+		 	"Parque Urupês III",
+		 	"Pinheiros",
+		 	"Primavera",
+		 	"Princesa do Sul",
+		 	"Residencial Alto Pinheiros",
+		 	"Residencial Belo Horizonte",
+		 	"Residencial Parque Imperador",
+		 	"Residencial Vale das Palmeiras",
+		 	"Rezende",
+		 	"Rio Verde II",
+		 	"Riviera do Lago",
+		 	"Sagrado Coração",
+		 	"Sagrado Coração II",
+		 	"Santa Luiza",
+		 	"Santa Maria",
+		 	"Santa Terezinha",
+		 	"Santana",
+		 	"São Francisco",
+		 	"São José",
+		 	"São Lucas",
+		 	"São Sebastião",
+		 	"Três Bicas",
+		 	"Vargem",
+		 	"Vila Adelaide",
+		 	"Vila Andere I",
+		 	"Vila Andere II",
+		 	"Vila Avelar",
+		 	"Vila Barcelona",
+		 	"Vila Belmiro",
+		 	"Vila Bueno",
+		 	"Vila do Pontal",
+		 	"Vila Dona Josefina",
+		 	"Vila Flamengo",
+		 	"Vila Floresta",
+		 	"Vila Ipiranga",
+		 	"Vila Isabel",
+		 	"Vila Limborco",
+		 	"Vila Maria",
+		 	"Vila Maristela",
+		 	"Vila Martins",
+		 	"Vila Mendes",
+		 	"Vila Monte Castelo",
+		 	"Vila Monteiro",
+		 	"Vila Morais",
+		 	"Vila Murad",
+		 	"Vila Nogueira",
+		 	"Vila Nossa Senhora dos Anjos",
+		 	"Vila Paiva",
+		 	"Vila Peloso",
+		 	"Vila Pinto",
+		 	"Vila Registânea",
+		 	"Vila Santa Cruz",
+		 	"Vila São Geraldo",
+		 	"Vila Verde",
+		 	"Vila Verônica",
+		 	"Vista Alegre"
+		]
+	},
+	{
+		"cidade": "Varjão de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Várzea da Palma",
+		"bairros": [
+		 	"Buritis das Mulatas",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Varzelândia",
+		"bairros": [
+		 	"Brejo do Mutambal",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vau-Açu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vazante",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vera Cruz de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Verdelândia",
+		"bairros": [
+		 	"Cachoeirinha",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Veredas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Veredinha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Veríssimo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vermelho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vermelho Novo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vermelho Velho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vespasiano",
+		"bairros": [
+		 	"Campesino",
+		 	"Centro",
+		 	"Jardim da Glória",
+		 	"Morro Alto"
+		]
+	},
+	{
+		"cidade": "Viçosa",
+		"bairros": [
+		 	"Campus Universitário",
+		 	"Centro",
+		 	"Ramos",
+		 	"Santo Antonio",
+		 	"São José do Triunfo"
+		]
+	},
+	{
+		"cidade": "Vieiras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vila Acari",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vila Bom Jesus",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vila Costina",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vila Nova de Minas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vila Nova dos Poções",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vila Nova Floresta",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vila Pereira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vilas Boas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vinte Alqueires",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Virgem da Lapa",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Virgínia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Virginópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Virgolândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Visconde do Rio Branco",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vista Alegre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vista Alegre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vitorinos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Volta Grande",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Wenceslau Braz",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Zelândia",
+		"bairros": [
+		 	"Centro"
+		]
+	}
+]

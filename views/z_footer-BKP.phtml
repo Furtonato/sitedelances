@@ -1,0 +1,76 @@
+﻿	<?php if($_GET['pg'] != 'imprimir'){ ?>
+	<footer>
+		
+		<div class="bdb_ccc" style="background: url(<?=DIR?>/web/img/footer/03.jpg) repeat-x #fff">
+			<div class="centerr pb40">
+				<div class="wr4 pt40">
+					<a href="<?=url_txt(2)?>" class="cor_666">
+						<img src="<?=DIR?>/web/img/z_leilao/logo.png" class="max-w200">
+						<div class="h20"></div>
+						<?=$textos[2]->txt?>
+					</a>
+				</div>
+				<div class="wr2">&nbsp;</div>
+				<div class="wr6 pt40 tar cor_666">
+					<ul class="dib min-h100 pl20 pr20 tal vat bdr_666 db_700 bd0_700">
+						<li class="fwb ttu">Informações</li>
+						<ul class="pt10">
+							<li class="pb5"><a href="<?=url_txt(2)?>" class="cor_666">Quem Somos</a></li>
+							<li class="pb5"><a href="<?=url_txt(1)?>" class="cor_666">Termos de uso</a></li>
+							<?php foreach ($paginas as $key => $value) { ?>
+								<li class="pb5"><a href="<?=url('textosp', $value)?>" class="cor_666"><?=$value->nome?></a></li>
+							<?php } ?>
+							<li class="pb5"><a href="<?=DIR?>/faq/" class="cor_666">Perguntas Frequentes</a></li>
+							<li class="pb5"><a href="<?=DIR?>/fale/" class="cor_666">Fale Conosco</a></li>
+						</ul>
+					</ul>
+					<div class="h20 dnn_700"></div>
+					<ul class="dib min-h100 pl20 pr20 tal vat bdr_666 db_700 bd0_700">
+						<li class="fwb ttu">Serviços</li>
+						<ul class="pt10">
+							<?php foreach ($footer_servicos as $key => $value) { ?>
+								<li class="pb5"><a href="<?=url('servico', $value)?>" class="cor_666"><?=$value->nome?></a></li>
+							<?php } ?>
+						</ul>
+					</ul>
+					<div class="h20 dnn_700"></div>
+					<ul class="dib min-h100 pl20 tal vat db_700">
+						<li class="fwb ttu">Minha Conta</li>
+						<ul class="pt10">
+							<li class="pb5"><a href="<?=DIR?>/cadastro/" class="cor_666">Cadastre-se</a></li>
+							<li class="pb5"><a href="<?=DIR?>/login/" class="cor_666">Login</a></li>
+							<li class="pb5"><a onclick="boxs('esqueci_senha')" class="cor_666">Esqueci minha senha</a></li>
+						</ul>
+					</ul>
+				</div>
+				<div class="clear"></div>
+				<div class="flr pt20">
+			        <form id="form_newsletter" action="" method="post" >
+			            <input type="email" name="email" class="design w280 fll" placeholder="Cadastre seu Email e Novidades em seu Email" required />
+						<button class="fll p8 pl15 pr15 ml1 fz16 cor_666 bd_ccc back_fff hoverr-bs2">Cadastrar</button>
+						<div class="clear"></div>
+			            <input type="reset" class="dni" />
+			        </form>
+			        <script>ajaxForm('form_newsletter', 'newsletter.php')</script>
+		        </div>
+		        <div class="clear"></div>
+			</div>
+		</div>
+
+		<div class="centerr pt10 pb10">
+			<div class="wr4 pt10">© <?=date('Y')?> <?=NOME?> - Todos os direitos reservados.</div>
+			<div class="wr4 pt5 tar"><img src="<?=DIR?>/web/img/footer/01.jpg"></div>
+			<ul class="wr4 fz16 tar">
+				<?=$info->facebook ? '<li class="dib p5"><a href="'.http($info->facebook).'" target="_blank" class="hoverr-op8"><i class="fa fa-facebook"></i></a></li>' : ''?>
+				<?=$info->twitter ? '<li class="dib p5"><a href="'.http($info->twitter).'" target="_blank" class="hoverr-op8"><i class="fa fa-twitter"></i></a></li>' : ''?>
+				<?=$info->vimeo ? '<li class="dib p5"><a href="'.http($info->vimeo).'" target="_blank" class="hoverr-op8"><i class="fa fa-vimeo"></i></a></li>' : ''?>
+				<?=$info->pinterest ? '<li class="dib p5"><a href="'.http($info->pinterest).'" target="_blank" class="hoverr-op8"><i class="fa fa-pinterest"></i></a></li>' : ''?>
+				<?=$info->linkedin ? '<li class="dib p5"><a href="'.http($info->linkedin).'" target="_blank" class="hoverr-op8"><i class="fa fa-linkedin-square"></i></a></li>' : ''?>
+				<?=$info->dribbble ? '<li class="dib p5"><a href="'.http($info->dribbble).'" target="_blank" class="hoverr-op8"><i class="fa fa-dribbble"></i></a></li>' : ''?>
+				<?=$info->google ? '<li class="dib p5"><a href="'.http($info->google).'" target="_blank" class="hoverr-op8"><i class="fa fa-google-plus"></i></a></li>' : ''?>
+			</ul>
+			<div class="clear"></div>
+		</div>
+
+	</footer>
+	<?php } ?>

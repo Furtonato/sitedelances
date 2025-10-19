@@ -1,0 +1,1531 @@
+[
+	{
+		"cidade": "Acauã",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Agricolândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Água Branca",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alagoinha do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alegrete do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alto Longá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Altos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alvorada do Gurguéia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Amarante",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Angical do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Anísio de Abreu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Antônio Almeida",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Aroazes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Aroeiras do Itaim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Arraial",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Assunção do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Avelino Lopes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Baixa Grande do Ribeiro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Barra D'Alcântara",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Barras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Barreiras do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Barro Duro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Batalha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bela Vista do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Belém do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Beneditinos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bertolínia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Betânia do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Boa Hora",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bocaina",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bom Jesus",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bom Princípio do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bonfim do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Boqueirão do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Brasileira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Brejo do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Buriti dos Lopes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Buriti dos Montes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cabeceiras do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cajazeiras do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cajueiro da Praia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caldeirão Grande do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campinas do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campo Alegre do Fidalgo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campo Grande do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campo Largo do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campo Maior",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Canavieira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Canto do Buriti",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Capitão de Campos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Capitão Gervásio Oliveira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caracol",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caraúbas do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caridade do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Castelo do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caxingó",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cocal",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cocal de Telha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cocal dos Alves",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Coivaras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Colônia do Gurguéia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Colônia do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Conceição do Canindé",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Coronel José Dias",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Corrente",
+		"bairros": [
+		 	"Centro",
+		 	"Nova Corrente"
+		]
+	},
+	{
+		"cidade": "Cristalândia do Piauí",
+		"bairros": [
+		 	"Centro",
+		 	"Vila Nova República"
+		]
+	},
+	{
+		"cidade": "Cristino Castro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Curimatá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Currais",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Curral Novo do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Curralinhos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Demerval Lobão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dirceu Arcoverde",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dom Expedito Lopes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Dom Inocêncio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Domingos Mourão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Elesbão Veloso",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Eliseu Martins",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Esperantina",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Fartura do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Flores do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Floresta do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Floriano",
+		"bairros": [
+		 	"Centro",
+		 	"Irapuá"
+		]
+	},
+	{
+		"cidade": "Francinópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Francisco Ayres",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Francisco Macedo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Francisco Santos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Fronteiras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Geminiano",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Gilbués",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guadalupe",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guaribas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Hugo Napoleão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ilha Grande",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Inhuma",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ipiranga do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Isaías Coelho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itainópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Itaueira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jacobina do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jaicós",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jardim do Mulato",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jatobá do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jerumenha",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "João Costa",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Joaquim Pires",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Joca Marques",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "José de Freitas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Juazeiro do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Júlio Borges",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jurema",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lagoa Alegre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lagoa de São Francisco",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lagoa do Barro do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lagoa do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lagoa do Sítio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Lagoinha do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Landri Sales",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Luís Correia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Luzilândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Madeiro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Manoel Emídio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Marcolândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Marcos Parente",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Massapê do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Matias Olímpio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Miguel Alves",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Miguel Leão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Milton Brandão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monsenhor Gil",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monsenhor Hipólito",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monte Alegre do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Morro Cabeça no Tempo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Morro do Chapéu do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Murici dos Portelas",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nazaré do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nazária",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nossa Senhora de Nazaré",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nossa Senhora dos Remédios",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nova Santa Rita",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Novo Nilo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Novo Oriente do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Novo Santo Antônio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Oeiras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Olho D'Água do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Padre Marcos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Paes Landim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pajeú do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Palmeira do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Palmeirais",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Paquetá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Parnaguá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Parnaíba",
+		"bairros": [
+		 	"Alto Santa Maria",
+		 	"Bebedouro",
+		 	"Boa Esperança",
+		 	"Campos",
+		 	"Cantagalo",
+		 	"Catanduvas",
+		 	"Ceará",
+		 	"Centro",
+		 	"Conselheiro Alberto Silva",
+		 	"Dirceu Arcoverde",
+		 	"Frei Higino",
+		 	"Igaraçu",
+		 	"João XXIII",
+		 	"Mendonça Clark",
+		 	"Nossa Senhora de Fátima",
+		 	"Nossa Senhora do Carmo",
+		 	"Nova Parnaíba",
+		 	"Piauí",
+		 	"Pindorama",
+		 	"Planalto de Monteserra The",
+		 	"Primavera",
+		 	"Reis Veloso",
+		 	"Rodoviária",
+		 	"Sabiazal",
+		 	"Santa Isabel",
+		 	"Santa Luzia",
+		 	"São Benedito",
+		 	"São Francisco da Guarita",
+		 	"São José",
+		 	"São Judas Tadeu",
+		 	"São Vicente de Paula",
+		 	"Taboleiro"
+		]
+	},
+	{
+		"cidade": "Passagem Franca do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Patos do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pau D'Arco do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Paulistana",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pavussu",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedro II",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pedro Laurentino",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Picos",
+		"bairros": [
+		 	"Aerolândia",
+		 	"Altamira",
+		 	"Aroeiras",
+		 	"Bela Vista",
+		 	"Belo Norte",
+		 	"Boa Sorte",
+		 	"Boa Vista",
+		 	"Bomba",
+		 	"Canto da Varzea",
+		 	"Catavento",
+		 	"Centro",
+		 	"Conduru",
+		 	"DNER",
+		 	"Fátima",
+		 	"Ipueiras",
+		 	"Jardim Natal",
+		 	"Junco",
+		 	"Malva",
+		 	"Marcos de Sousa",
+		 	"Morada do Sol",
+		 	"Paraibinha",
+		 	"Paroquial",
+		 	"Parque de Exposição",
+		 	"Parque Industrial",
+		 	"Passagem das Pedras",
+		 	"Pedrinhas",
+		 	"São José",
+		 	"São Sebastião"
+		]
+	},
+	{
+		"cidade": "Pimenteiras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pio IX",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Piracuruca",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Piripiri",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Porto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Porto Alegre do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Prata do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Queimada Nova",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Redenção do Gurguéia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Regeneração",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Riacho Frio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ribeira do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ribeiro Gonçalves",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rio Grande do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Cruz do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Cruz dos Milagres",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Filomena",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Luz",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Rosa do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santana do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio de Lisboa",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio dos Milagres",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Inácio do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Braz do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Félix do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Francisco de Assis do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Francisco do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Gonçalo do Gurguéia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Gonçalo do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João da Canabrava",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João da Fronteira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João da Serra",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João da Varjota",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João do Arraial",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José do Divino",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José do Peixe",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São José do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Julião",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Lourenço do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Luís do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Miguel da Baixa Grande",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Miguel do Fidalgo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Miguel do Tapuio",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Pedro do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Raimundo Nonato",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sebastião Barros",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sebastião Leal",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sigefredo Pacheco",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Simões",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Simplício Mendes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Socorro do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sussuapara",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tamboril do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tanque do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Teresina",
+		"bairros": [
+		 	"Acarape",
+		 	"Aeroporto",
+		 	"Água Mineral",
+		 	"Alto Alegre",
+		 	"Alvorada",
+		 	"Angelim",
+		 	"Angelim Sul",
+		 	"Areias",
+		 	"Aroeiras",
+		 	"Beira Rio",
+		 	"Bela Vista",
+		 	"Bom Jesus",
+		 	"Bom Princípio",
+		 	"Brasilar",
+		 	"Buenos Aires",
+		 	"Cabral",
+		 	"Campestre",
+		 	"Catarina",
+		 	"Centro",
+		 	"Cidade Industrial",
+		 	"Cidade Nova",
+		 	"Colorado",
+		 	"Comprida",
+		 	"Cristo Rei",
+		 	"Cuídos",
+		 	"Distrito Industrial",
+		 	"Embrapa",
+		 	"Esplanada",
+		 	"Extrema",
+		 	"Fátima",
+		 	"Frei Serafim",
+		 	"Gurupi",
+		 	"Horto",
+		 	"Ilhotas",
+		 	"Ininga",
+		 	"Itaperu",
+		 	"Itararé",
+		 	"Jóquei",
+		 	"Livramento",
+		 	"Lourival Parente",
+		 	"Macaúba",
+		 	"Mafrense",
+		 	"Mafuá",
+		 	"Marquês de Paranaguá",
+		 	"Matadouro",
+		 	"Matinha",
+		 	"Memorare",
+		 	"Mocambinho",
+		 	"Monte Castelo",
+		 	"Morada do Sol",
+		 	"Morada Nova",
+		 	"Morro da Esperança",
+		 	"Morros",
+		 	"Noivos",
+		 	"Nossa Senhora das Graças",
+		 	"Nova Brasília",
+		 	"Novo Horizonte",
+		 	"Novo Uruguai",
+		 	"Olarias",
+		 	"Parque Ideal",
+		 	"Parque Jacinta",
+		 	"Parque Juliana",
+		 	"Parque Piauí",
+		 	"Parque Poti",
+		 	"Parque São João",
+		 	"Parque Sul",
+		 	"Pedra Mole",
+		 	"Piçarra",
+		 	"Piçarreira",
+		 	"Pio XII",
+		 	"Pirajá",
+		 	"Planalto",
+		 	"Polo Empresarial Sul",
+		 	"Porenquanto",
+		 	"Portal da Alegria",
+		 	"Porto do Centro",
+		 	"Poti Velho",
+		 	"Primavera",
+		 	"Promorar",
+		 	"Real Copagri",
+		 	"Recanto das Palmeiras",
+		 	"Redenção",
+		 	"Redonda",
+		 	"Renascença",
+		 	"Saci",
+		 	"Samapi",
+		 	"Santa Cruz",
+		 	"Santa Isabel",
+		 	"Santa Lia",
+		 	"Santa Luzia",
+		 	"Santa Maria da Codipe",
+		 	"Santa Rosa",
+		 	"Santana",
+		 	"Santo Antônio",
+		 	"São Cristóvão",
+		 	"São Francisco",
+		 	"São João",
+		 	"São Joaquim",
+		 	"São Lourenço",
+		 	"São Pedro",
+		 	"São Raimundo",
+		 	"São Sebastião",
+		 	"Satélite",
+		 	"Socopo",
+		 	"Tabajaras",
+		 	"Tabuleta",
+		 	"Tancredo Neves",
+		 	"Todos os Santos",
+		 	"Três Andares",
+		 	"Triunfo",
+		 	"Uruguai",
+		 	"Vale do Gavião",
+		 	"Vale Quem Tem",
+		 	"Verde Cap",
+		 	"Verde Lar",
+		 	"Vermelha",
+		 	"Vila Operária",
+		 	"Zoobotânico"
+		]
+	},
+	{
+		"cidade": "União",
+		"bairros": [
+		 	"Centro",
+		 	"David Caldas"
+		]
+	},
+	{
+		"cidade": "Uruçuí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Valença do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Várzea Branca",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Várzea Grande",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vera Mendes",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vila Nova do Piauí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Wall Ferraz",
+		"bairros": [
+		 	"Centro"
+		]
+	}
+]

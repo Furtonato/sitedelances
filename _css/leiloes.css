@@ -1,0 +1,63 @@
+.bgleiloes {
+  background-color: #153a63 !important;
+}
+
+.txtleiloes {
+  color: #153a63 !important;
+}
+
+.navbar.navbar-light .navbar-nav .nav-item .nav-link {
+  color: #153a63;
+}
+
+.jarallax {
+  min-height: 35vw;
+}
+
+p{
+  font-size: 0.8rem !important;
+}
+
+.banco {
+  position: absolute !important;
+  z-index: 1;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.divleilao {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+}
+
+@media (max-width: 990px) {
+  .navbar-nav {
+      flex-direction: row;
+  }
+
+  .navbar .nav-flex-icons {
+      flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+  .col-md-2 {
+      max-width: 20%;
+  }
+}
+
+@media (max-width: 576px) {
+  .jarallax {
+      min-height: 100vw;
+  }
+}
+
+@media (min-width: 576px) {
+  .col-sm-2 {
+      max-width: 20%;
+  }
+}

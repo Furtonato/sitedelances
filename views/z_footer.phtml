@@ -1,0 +1,177 @@
+<!--footer class="container-fluid">
+    <div class="container p-0 pb-3 pt-3">
+        <a href="<?= DIR ?>/leilaoseguro/"><img class="img-fluid" src="<?= DIR ?>/web/img/sl.jpg"></a>
+    </div>
+</footer-->
+
+<footer class="container-fluid bg-light p-3">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6 row">
+                <!--div class="col-sm-4">
+                    <h6 class="pl-3">Informações</h6>
+                    <ul style="font-size: 12px;" class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="<?= url_txt(2) ?>"><?= lang('Quem Somos') ?></a>
+                        </li>
+                        <?php foreach ($paginas as $key => $value) { ?>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="<?= url('textosp', $value) ?>"><?= $value->nome ?></a>
+                            </li>
+                        <?php } ?>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="<?= DIR ?>/faq/"><?= lang('Faq') ?></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="<?= DIR ?>/fale/"><?= lang('Fale Conosco') ?></a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-sm-4">
+                    <h6 class="pl-3">Serviços</h6>
+                    <ul style="font-size: 12px;" class="nav flex-column">
+                        <?php foreach ($footer_servicos as $key => $value) { ?>
+                            <li class="nav-item">
+                                <a href="<?= url('servico', $value) ?>" class="nav-link text-dark">
+                                    <?= $value->nome ?>
+                                </a>
+                            </li>
+                        <?php } ?>
+                    </ul>
+                </div-->
+
+                <div class="col-sm-4">
+                    <h6 class="pl-3">Minha Conta</h6>
+                    <ul style="font-size: 12px;" class="nav flex-column">
+                        <?php if (isset($_SESSION['x_site']->id)) { ?>
+
+                            <li class="nav-item"><a class="nav-link text-dark" href="<?= DIR ?>/minha_conta/dados/"><?= lang('Meu Cadastro') ?></a>
+                            <li class="nav-item"><a class="nav-link text-dark" href="<?= DIR ?>/minha_conta/documentos/"><?= lang('Meus Documentos') ?></a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" href="<?= DIR ?>/minha_conta/habilitacoes/"><?= lang('Minhas Habilitações') ?></a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" href="<?= DIR ?>/minha_conta/meus_lances/"><?= lang('Meus Lances') ?></a></li>
+                            <li class="nav-item"><a class="nav-link text-dark" href="<?= DIR ?>/minha_conta/lotes_arrematados/"><?= lang('Meus Lotes') ?></a></li>
+                            <li class="nav-item">
+                                <div class="dropdown-divider"></div>
+                            <li class="nav-item"><a class="nav-link text-dark" href="<?= DIR ?>/app/Ajax/ajaxForm/login.php?sair=1"><?= lang('Sair') ?></a></li>
+
+                        <?php } else { ?>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="<?= DIR ?>/cadastro/"><?= lang('Registre-se') ?></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="<?= DIR ?>/login/"><?= lang('Faça seu login') ?></a>
+                            </li>
+                        <?php } ?>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-6 row justify-content-center align-items-center">
+                <a href="<?= url_txt(2) ?>" class="text-center">
+                    <img class="img-fluid" src="<?= DIR ?>/web/img/<?= $logo_roda ?>">
+                    <div class="dropdown-divider"></div>
+                    <p class="text-dark"><?= $textos[2]->txt ?></p>
+                </a>
+                <?php
+                $sql = $db->prepare("SELECT valor FROM configs WHERE id = 21");
+                $executa = $sql->execute();
+                $reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+                $logos = unserialize($reg['valor']);
+                ?>
+            </div>
+
+        </div>
+
+        <div class="col-md-10 col-12 row align-items-center">
+            <?php
+            for ($i = 1; $i <= 6; $i++) {
+                if (!empty($logos[$i])) {
+            ?>
+                    <div class="col-md-2 col-4 justify-content-center p-2">
+                        <img class="img-fluid" src="<?= DIR ?>/web/img/<?= $logos[$i] ?>">
+                    </div>
+            <?php
+                }
+            }
+            ?>
+        </div>
+    </div>
+</footer>
+<div class="bg-dark container-fluid p-2">
+    <div class="container clearfix">
+        <div class="row justify-content-between">
+
+            <div class="col-md-8 col-12 mb-3">
+                <div class="text-light">
+                    © <?= date('Y') ?> <?= NOME ?> - Todos os direitos reservados.
+                </div>
+
+                <ul class="nav">
+                    <?= $info->facebook ? '<li class="nav-item"><a href="' . http($info->facebook) . '" target="_blank" class="text-light p-2"><i class="fa fa-facebook"></i></a></li>' : '' ?>
+                    <?= $info->twitter ? '<li class="nav-item"><a href="' . http($info->twitter) . '" target="_blank" class="text-light p-2"><i class="fa fa-twitter"></i></a></li>' : '' ?>
+                    <?= $info->vimeo ? '<li class="nav-item"><a href="' . http($info->vimeo) . '" target="_blank" class="text-light p-2"><i class="fa fa-vimeo"></i></a></li>' : '' ?>
+                    <?= $info->pinterest ? '<li class="nav-item"><a href="' . http($info->pinterest) . '" target="_blank" class="text-light p-2"><i class="fa fa-pinterest"></i></a></li>' : '' ?>
+                    <?= $info->linkedin ? '<li class="nav-item"><a href="' . http($info->linkedin) . '" target="_blank" class="text-light p-2"><i class="fa fa-linkedin-square"></i></a></li>' : '' ?>
+                    <?= $info->dribbble ? '<li class="nav-item"><a href="' . http($info->dribbble) . '" target="_blank" class="text-light p-2"><i class="fa fa-dribbble"></i></a></li>' : '' ?>
+                    <?= $info->google ? '<li class="nav-item"><a href="' . http($info->google) . '" target="_blank" class="text-light p-2"><i class="fa fa-google-plus"></i></a></li>' : '' ?>
+                </ul>
+            </div>
+
+            <div class="col-md-4 col-12 d-flex flex-column flex-md-row align-items-center text-white mb-3">
+                <img height="50px" src="<?= DIR ?>/web/img/tjsp.png" alt="">
+                <span class="ml-2">Site homologado pelo Tribunal de Justiça do Estado de São Paulo</span>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    $(document).ready(function() {
+        $('#myTab a').on('click', function(e) {
+            e.preventDefault()
+            $(this).tab('show')
+        });
+
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 200) {
+                $('#nav_bar').addClass('fixed-top');
+            } else {
+                $('#nav_bar').removeClass('fixed-top');
+            }
+        });
+    });
+</script>
+<style>
+    @keyframes pulse {
+        0% {
+            transform: scale(1);
+        }
+
+        70% {
+            transform: scale(1);
+            box-shadow: 0 0 0 30px rgba(69, 152, 27, 0);
+        }
+
+        100% {
+            transform: scale(1);
+            box-shadow: 0 0 0 0 rgba(69, 152, 27, 0);
+        }
+    }
+</style>
+
+<?php
+$db = $mysql->getDB();
+
+$valor = serialize($_POST);
+
+$sql = $db->prepare("SELECT valor FROM configs WHERE id = 14");
+$executa = $sql->execute();
+$reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+$res = unserialize($reg['valor']);
+?>
+<a href="https://wa.me/55<?= preg_replace("/[^0-9]/", "", $res['whatsapp']); ?>?text=" style="animation: pulse 1.5s infinite;position:fixed;width:60px;height:60px;bottom:40px;right:40px;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+   z-index:1000;" target="_blank">
+    <i style="margin-top:16px" class="fa fa-whatsapp"></i>
+</a>

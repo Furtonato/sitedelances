@@ -1,0 +1,59 @@
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fopen(../../plugins/Json/log_acoes/151317403126.json): failed to open stream: No such file or directory in /home/tocantinsleiloes/public_html/system/mysql.php on line 301
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 302
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 303
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fopen(../../plugins/Json/log_acoes/151317403125.json): failed to open stream: No such file or directory in /home/tocantinsleiloes/public_html/system/mysql.php on line 301
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 302
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 303
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fopen(../../plugins/Json/log_acoes/151317403122.json): failed to open stream: No such file or directory in /home/tocantinsleiloes/public_html/system/mysql.php on line 301
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 302
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 303
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fopen(../../plugins/Json/log_acoes/151317403125.json): failed to open stream: No such file or directory in /home/tocantinsleiloes/public_html/system/mysql.php on line 301
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 302
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 303
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fopen(../../plugins/Json/log_acoes/151317403122.json): failed to open stream: No such file or directory in /home/tocantinsleiloes/public_html/system/mysql.php on line 301
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 302
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 303
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fopen(../../plugins/Json/log_acoes/151317403125.json): failed to open stream: No such file or directory in /home/tocantinsleiloes/public_html/system/mysql.php on line 301
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 302
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 303
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fopen(../../plugins/Json/log_acoes/151317403122.json): failed to open stream: No such file or directory in /home/tocantinsleiloes/public_html/system/mysql.php on line 301
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 302
+[13-Dec-2017 12:07:11 America/Recife] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 303
+[13-Dec-2017 12:40:29 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/app/Funcoes/funcoes.php on line 2976
+[13-Dec-2017 12:40:29 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/app/Funcoes/funcoes.php on line 2977
+[13-Dec-2017 12:40:29 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/admin/app/Ajax/Boxs/enviar_email.php on line 65
+[13-Dec-2017 12:40:29 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/app/Funcoes/funcoes.php on line 2976
+[13-Dec-2017 12:40:29 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/app/Funcoes/funcoes.php on line 2977
+[13-Dec-2017 18:36:26 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/app/Funcoes/funcoes.php on line 2976
+[13-Dec-2017 18:36:26 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/app/Funcoes/funcoes.php on line 2977
+[13-Dec-2017 18:36:26 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/admin/app/Ajax/Boxs/enviar_email.php on line 65
+[13-Dec-2017 18:36:26 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/app/Funcoes/funcoes.php on line 2976
+[13-Dec-2017 18:36:26 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/app/Funcoes/funcoes.php on line 2977
+[13-Dec-2017 18:36:32 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/app/Funcoes/funcoes.php on line 2976
+[13-Dec-2017 18:36:32 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/app/Funcoes/funcoes.php on line 2977
+[13-Dec-2017 18:36:32 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/admin/app/Ajax/Boxs/enviar_email.php on line 65
+[13-Dec-2017 18:36:32 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/app/Funcoes/funcoes.php on line 2976
+[13-Dec-2017 18:36:32 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/app/Funcoes/funcoes.php on line 2977
+[18-Dec-2017 16:39:46 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/admin/app/Ajax/Boxs/enviar_email.php on line 65
+[18-Dec-2017 16:44:21 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/admin/app/Ajax/Boxs/enviar_email.php on line 65
+[18-Dec-2017 16:45:06 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/admin/app/Ajax/Boxs/enviar_email.php on line 65
+[18-Dec-2017 18:52:24 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/admin/app/Ajax/Boxs/enviar_email.php on line 65
+[21-Dec-2017 13:53:33 America/Recife] PHP Notice:  Trying to get property of non-object in /home/tocantinsleiloes/public_html/admin/app/Ajax/Boxs/enviar_email.php on line 65
+[30-Jan-2018 14:59:34 America/Recife] PHP Warning:  fopen(../../plugins/Json/log_acoes/1517331574410.json): failed to open stream: No such file or directory in /home/tocantinsleiloes/public_html/system/mysql.php on line 301
+[30-Jan-2018 14:59:34 America/Recife] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 302
+[30-Jan-2018 14:59:34 America/Recife] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 303
+[30-Jan-2018 14:59:34 America/Recife] PHP Warning:  fopen(../../plugins/Json/log_acoes/151733157446.json): failed to open stream: No such file or directory in /home/tocantinsleiloes/public_html/system/mysql.php on line 301
+[30-Jan-2018 14:59:34 America/Recife] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 302
+[30-Jan-2018 14:59:34 America/Recife] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 303
+[30-Jan-2018 14:59:34 America/Recife] PHP Warning:  fopen(../../plugins/Json/log_acoes/1517331574410.json): failed to open stream: No such file or directory in /home/tocantinsleiloes/public_html/system/mysql.php on line 301
+[30-Jan-2018 14:59:34 America/Recife] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 302
+[30-Jan-2018 14:59:34 America/Recife] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 303
+[30-Jan-2018 14:59:34 America/Recife] PHP Warning:  fopen(../../plugins/Json/log_acoes/151733157446.json): failed to open stream: No such file or directory in /home/tocantinsleiloes/public_html/system/mysql.php on line 301
+[30-Jan-2018 14:59:34 America/Recife] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 302
+[30-Jan-2018 14:59:34 America/Recife] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 303
+[30-Jan-2018 14:59:34 America/Recife] PHP Warning:  fopen(../../plugins/Json/log_acoes/1517331574410.json): failed to open stream: No such file or directory in /home/tocantinsleiloes/public_html/system/mysql.php on line 301
+[30-Jan-2018 14:59:34 America/Recife] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 302
+[30-Jan-2018 14:59:34 America/Recife] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 303
+[30-Jan-2018 14:59:34 America/Recife] PHP Warning:  fopen(../../plugins/Json/log_acoes/151733157446.json): failed to open stream: No such file or directory in /home/tocantinsleiloes/public_html/system/mysql.php on line 301
+[30-Jan-2018 14:59:34 America/Recife] PHP Warning:  fwrite() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 302
+[30-Jan-2018 14:59:34 America/Recife] PHP Warning:  fclose() expects parameter 1 to be resource, boolean given in /home/tocantinsleiloes/public_html/system/mysql.php on line 303

@@ -1,0 +1,751 @@
+﻿<?php
+
+$sql = $mysql->db->prepare("SELECT valor FROM configs WHERE tipo = 'dados-impressao'");
+$sql->execute();
+$reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+$dados = unserialize($reg['valor']);
+
+$sql = $mysql->db->prepare("SELECT valor FROM configs WHERE tipo = 'leilaoseguro'");
+$sql->execute();
+$reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+$leilaoseguro = unserialize($reg['valor']);
+
+if ($_GET['nome'] == 'recibo_provisorio') {
+    $mysql->prepare = array($_GET['id']);
+    $mysql->filtro = " WHERE id = ? AND situacao = 2 ";
+    $lotes = $mysql->read_unico('lotes');
+    //$frete = $mysql->read_unico('frete');
+} elseif ($_GET['nome'] == 'termo_arrematacao') {
+    $mysql->prepare = array($_GET['id']);
+    $mysql->filtro = " WHERE id = ? AND pago = 1 AND situacao = 2 ";
+    $lotes = $mysql->read_unico('lotes');
+} elseif ($_GET['nome'] == 'nota1') {
+    $url = DIR_C . DIR_D;
+    $url = isset($_GET['emitir_nota_txt']) ? str_replace($_GET['emitir_nota_txt'], base64_encode($_GET['emitir_nota_txt']), $url) : '';
+    $url = str_replace('/imprimir/nota1/?', '/imprimir/nota/?', $url);
+    location($url);
+} elseif ($_GET['nome'] == 'nota') {
+    $ids = array(0);
+    $ex = explode('-', $_GET['ids']);
+    foreach ($ex as $key => $value) {
+        if ($value) {
+            $ids[] = $value;
+        }
+    }
+    $mysql->filtro = " WHERE id IN (" . implode(',', $ids) . ") AND pago = 1 AND situacao = 2 ";
+    $lotes = $mysql->read('lotes');
+} elseif ($_GET['nome'] == 'etiqueta') {
+    $ids = array(0);
+    $ex = explode('-', $_GET['ids']);
+    foreach ($ex as $key => $value) {
+        if ($value) {
+            $ids[] = $value;
+        }
+    }
+    $mysql->filtro = " WHERE id IN (" . implode(',', $ids) . ") ";
+    $lotes = $mysql->read('lotes');
+}
+
+$mysql->filtro = " WHERE `tipo` = 'info_termos_e_notas' ";
+$info_termos_e_notas = $mysql->read_unico('configs');
+
+
+
+if (isset($lotes->id) or isset($lotes[0]->id)) {
+
+    $lote = isset($lotes->id) ? $lotes : $lotes[0];
+
+    $mysql->prepare = array($lote->lances_cadastro);
+    $mysql->filtro = " WHERE id = ? ";
+    $cadastro = $mysql->read_unico('cadastro');
+    //Frete
+    $frete = $mysql->read_unico('frete');
+    //if(strcasecmp($frete->estado,$cadastro->estados)){	
+    //$valor_frete = $frete->valor_frete;	
+    //} 
+
+    switch ($cadastro->estados) {
+        case 'AC':
+            $valor_frete = '0';
+            break;
+        case 'AL':
+            $valor_frete = '0';
+            break;
+        case 'AP':
+            $valor_frete = '0';
+            break;
+        case 'AM':
+            $valor_frete = '0';
+            break;
+        case 'BA':
+            $valor_frete = '0';
+            break;
+        case 'CE':
+            $valor_frete = '0';
+            break;
+        case 'DF':
+            $valor_frete = '0';
+            break;
+        case 'ES':
+            $valor_frete = '0';
+            break;
+        case 'GO':
+            $valor_frete = '0';
+            break;
+        case 'MA':
+            $valor_frete = '0';
+            break;
+        case 'MT':
+            $valor_frete = '0';
+            break;
+        case 'MS':
+            $valor_frete = '0';
+            break;
+        case 'MG':
+            $valor_frete = '0';
+            break;
+        case 'PA':
+            $valor_frete = '0';
+            break;
+        case 'PB':
+            $valor_frete = '0';
+            break;
+        case 'PR':
+            $valor_frete = '0';
+            break;
+        case 'PE':
+            $valor_frete = '0';
+            break;
+        case 'PI':
+            $valor_frete = '0';
+            break;
+        case 'RJ':
+            $valor_frete = '0';
+            break;
+        case 'RN':
+            $valor_frete = '0';
+            break;
+        case 'RS':
+            $valor_frete = '0';
+            break;
+        case 'RO':
+            $valor_frete = '0';
+            break;
+        case 'RR':
+            $valor_frete = '0';
+            break;
+        case 'SC':
+            $valor_frete = '0';
+            break;
+        case 'SP':
+            $valor_frete = '0';
+            break;
+        case 'SE':
+            $valor_frete = '0';
+            break;
+        case 'TO':
+            $valor_frete = '0';
+            break;
+    }
+
+    if (isset($_SESSION['x_admin']->id) or (isset($_SESSION['x_site']->id) and $_SESSION['x_site']->id == $cadastro->id)) {
+?>
+
+        <div style="<?= $_GET['nome'] == 'etiqueta' ? 'width: 600px; border: 0;' : 'width: 800px; border: 2px solid #666;' ?> padding: 1px; margin: 20px auto; font-size: 12px; font-family: Arial, Helvetica, sans-serif;">
+
+            <?php if ($_GET['nome'] != 'etiqueta') { ?>
+                <table cellpadding="0" cellspacing="0" border="1" style="width:100%">
+                    <tr>
+                        <td style="text-align: center; border-right: 0">
+                            <div style="padding-top: 10px"><img src="<?= DIR_C ?>/web/img/z_leilao/logo.png" style=" max-width:200px;"></div>
+                        </td>
+                        <td rowspan="2" style="text-align: center; border-left: 0; border-right: 0">
+                            <!-- <div style="font-size:20px; font-weight:bold"> <?= $dados['nome_empresa'] ?> </div>
+                            <div style="font-size:12px; font-weight:bold"></div>
+                            <div style="font-size:11px">Responsável Financeiro:<br><?= $dados['financeiro'] ?></div>
+                            <div style="font-size:11px">CNPJ: <?= $dados['cnpj'] ?></div>
+                            <div style="font-size:11px;">Endereço Escritório:</div>
+                            <div style="font-size:11px"><?= $dados['endereco'] ?></div>
+                            <div style="font-size:11px">CEP: <?= $dados['cep'] ?></div> -->
+        </div>
+        <!--div style="font-size:11px">Jardim Novo Mundo, Sorocaba-SP</div>
+
+        <div style="font-size:11px">Parque Novo Mundo<br> São Paulo/SP CEP: 02180-040</div-->
+        </div>
+        <!-- <div style="font-size:11px">Telefone (11) 4113-6869</div>
+        <div style="font-size:11px; font-weight:bold">www.ishikawaleiloes.com</div> -->
+        </td>
+        <td rowspan="2" style="text-align: center; border-left: 0">
+            <div style="font-size:24px; font-weight:bold">
+                <?php if ($_GET['nome'] == 'recibo_provisorio') { ?>
+                    <div style="padding: 5px 0;">
+                        TERMO<br> DE ARREMATAÇÃO
+                    </div>
+                    <div style="padding-bottom: 5px; font-size: 16px"><b>EMISSÃO: <?= data($lote->lances_data) ?></b></div>
+                <?php } elseif ($_GET['nome'] == 'termo_arrematacao') { ?>
+                    <div style="padding: 20px 0 12px;">
+                        PROTOCOLO<br>DE HOMOLOGAÇÃO
+                    </div>
+                    <div style="padding-bottom: 8px; font-size: 16px"><b>EMISSÃO: <?= $lote->emissao ? $lote->emissao : data($lote->lances_data) ?></b></div>
+                <?php } elseif ($_GET['nome'] == 'nota') { ?>
+                    <div style="padding: 20px 0 12px;">
+                        NOTA DE<br> VENDA <br>
+                    </div>
+                    <div style="padding-bottom: 8px; font-size: 16px"><b>EMISSÃO: <?= $lote->emissao ? $lote->emissao : data($lote->lances_data) ?></b></div>
+                <?php } ?>
+            </div>
+        </td>
+        </tr>
+        </table>
+    <?php } ?>
+
+    <?php if ($_GET['nome'] == 'recibo_provisorio') { ?>
+        <div style="height: 20px"></div>
+        <table cellpadding="5" cellspacing="0" border="1" style="width:100%;">
+            <tr>
+                <td colspan="2"><b>Lote(s):</b> <?= $lote->nome ?></td>
+                <td colspan="2"><b>Data do Leilão:</b> <?= data($lote->lances_data) ?></td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>Arrematante:</b> <?= $cadastro->nome ?></td>
+                <td colspan="2"><b>CPF/CNPJ:</b> <?= $cadastro->tipo ? $cadastro->cnpj : $cadastro->cpf ?></td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>Rua/Av:</b> <?= $cadastro->rua ?></td>
+                <td><b>Nº:</b> <?= $cadastro->numero ?></td>
+                <td><b>Compl.:</b> <?= $cadastro->complemento ?></td>
+            </tr>
+            <tr>
+                <td><b>Bairro:</b> <?= $cadastro->bairro ?></td>
+                <td><b>CEP:</b> <?= $cadastro->cep ?></td>
+                <td colspan="2"><b>Cidade:</b> <?= $cadastro->cidades ?> / <?= $cadastro->estados ?></td>
+            </tr>
+            <tr>
+                <td colspan="4"><b>Telefones:</b> <?= $cadastro->telefone ?> <?= $cadastro->celular ?></td>
+            </tr>
+        </table>
+
+        <div style="height: 20px"></div>
+        <?php $lances = array('lance' => 0, 'comissao' => 0, 'despesas' => 0); ?>
+        <table cellpadding="5" cellspacing="0" border="1" style="width:100%;">
+            <tr>
+                <td colspan="6" align="center"><b>RELAÇÃO DE LOTES</b></td>
+            </tr>
+            <tr>
+                <td><b>LOTE</b></td>
+                <td><b>VL. ARREMATADO</b></td>
+                <td><b>COMISSÃO (5%)</b></td>
+                <td><b>FRETE</b></td>
+                <td><b>TOTAL</b></td>
+                <td><b>SITUAÇÃO</b></td>
+            </tr>
+            <!-- Nao tem foreach pq eh so 1, mais ja ta ponto para o oreach -->
+            <?
+            $comissao_porc = $info_termos_e_notas->valor;
+            if ($lote->comissao) {
+                $comissao_porc = $lote->comissao;
+            }
+            $comissao_valor = $lote->lances * $comissao_porc / 100;
+            ?>
+            <tr>
+                <td><?= (int) $lote->ordem ?></td>
+                <td>
+                    <?= preco($lote->lances, 1) ?>
+                    <?php $lances['lance'] += $lote->lances ?>
+                </td>
+                <td>
+                    <?= preco(($comissao_valor), 1) ?>
+                    <?php $lances['comissao'] += $comissao_valor ?>
+                </td>
+                <td>
+                    <?= preco($valor_frete, 1) ?>
+                    <?php $valor_frete ?>
+                </td>
+                <td><?= preco($lote->lances + $comissao_valor + $valor_frete, 1) ?></td>
+                <td>Arrematado</td>
+            </tr>
+            <tr>
+                <td><b>TOTAL</b></td>
+                <td><b><?= preco($lances['lance'], 1) ?></b></td>
+                <td><b><?= preco($lances['comissao'], 1) ?></b></td>
+                <td><b><?= preco($valor_frete, 1) ?></b></td>
+                <td>
+                    <b>
+                        <?php $total = $lances['lance'] + $lances['comissao'] + $valor_frete ?>
+                        <?= preco($total, 1) ?>
+                    </b>
+                </td>
+                <td><b></b></td>
+            </tr>
+        </table>
+
+        <div style="padding: 10px;">
+            <div style="padding-top: 0px"><b>VALOR TOTAL DOS VENDIDOS:</b> <?= preco($total, 1) ?></div>
+            <div style="padding-top: 2px"><b>VALOR TOTAL DOS CONDICIONAIS:</b> <?= preco(0, 1) ?></div>
+            <div style="padding-top: 2px"><b>TOTAL GERAL:</b> <?= preco($total, 1) ?></div>
+        </div>
+
+
+        <div style="padding: 5px 10px 0; margin-top: 20px; font-size: 14px; border: 2px solid #666;">
+            <div style="font-size: 22px; text-align: center;"><b>FORMA DE PAGAMENTO</b></div>
+
+            <div style="padding-top: 2px"><b>O pagamento deverá ser feito impreterivelmente até as 16:00 horas do dia arremate. <br>
+                    Depósito na conta corrente bancária abaixo em dinheiro, TED ou DOC.<br></b></div>
+
+
+            <div style="padding-top: 15px"><b>Dados do Responsável Financeiro Ishikawa Leilões</b> </div>
+            <div style="padding-top: 2px"><?= $dados['nome'] ?></div>
+            <div style="padding-top: 2px"><b>CPF</b></div>
+            <div style="padding-top: 2px"><?= $dados['cpf'] ?></div>
+            <div style="padding-top: 2px"><b>Banco</b></div>
+            <div style="padding-top: 2px"><?= $dados['banco'] ?></div>
+            <div style="padding-top: 2px"><b>Agência</b></div>
+            <div style="padding-top: 2px"><?= $dados['agencia'] ?></div>
+            <div style="padding-top: 2px"><b>Conta Corrente</b></div>
+            <div style="padding-top: 2px"><?= $dados['conta'] ?></div>
+
+
+            <div style="padding-top: 15px; font-size: 18px"><b>VALOR TOTAL DO DEPÓSITO: <?= preco($total, 1) ?></b></div>
+            <div style="padding-top: 2px; padding-bottom: 10px; font-size: 18px"><b>DATA LIMITE PARA DEPÓSITO:11/04/2019 até às 16:00.</b></div>
+
+
+            <div style="padding-top: 2px"><b>Após o pagamento, o arrematante deverá nos enviar até as 16:00h do dia 11/04/2019 o comprovante de pagamento e solicitar a Nota de Venda via E-mail para financeiro@ishikawaleilao.com</b> </div>
+            <br>
+            <div style="padding-top: 18px"><b>Observações Importantes:</b><br></div><br>
+
+            <div style="padding-top: 2px">No caso de depósitos através de DOC, a Nota de Venda somente será liberada no dia seguinte da data de depósito<br></div>
+            <div style="padding-top: 2px">Não serão aceitos depósitos feitos em caixas eletrônicos, bem como depósitos em cheques (comuns ou administrativos).<br></div><br>
+            <div style="padding-top: 2px">Os depósitos estarão sujeitos a confirmação mediante apresentação do comprovante do depósito com devida autenticação bancários dentro do prazo estabelecido, sob pena de perda de 20% do valor da arrematação em favor do comitente vendedor, bem como da comissão do leiloeiro, nos termos do artigo 418 do código civil brasileiro.<br></div>
+            <br>
+            <div style="padding-top: 18px"><b>Entrega do(s) Bem(ns)</b><br></div>
+            <br>
+            <div style="padding-top: 2px">O(s) bem(ns) arrematado(s) serão entregues somente após a integralização dos pagamentos. E a retirada dos mesmos deverá ser efetuada com a apresentação de documentação oficial e cópia deste E-mail no ato da entrega. <br>
+                O prazo máximo de entrega do(s) lote(s) será de 03 (três) dias úteis contados a partir da data de realização do leilão.</div>
+
+
+            <br><br><br>
+
+        </div>
+
+
+        <div style="padding: 35px 0 15px; font-size: 12px; text-align: center;">
+
+            <div>ISHIKAWA LEILÕES<br>Patio Grupo 7, Rua: Laura Maiello Kook, N°1300, Jardim Novo Mundo,Sorocaba-SP<BR> CEP:18052-445</div>
+        </div>
+
+
+    <?php } elseif ($_GET['nome'] == 'termo_arrematacao') { ?>
+
+        <label style="writing-mode: vertical-rl; text-orientation: mixed; right: 0; position: fixed; text-align: center;">
+            Este documento é cópia do original, assinado digitalmente por <span id="LblNome_Leiloeiro_Topo"></span>,
+            liberado nos autos em <span id="LblData_Liberacao"><?= $lote->emissao ? $lote->emissao : data($lote->lances_data) ?></span> às <span id="LblHora_Liberacao"><?= data($lote->lances_data, 'H:i') ?></span>.
+        </label>
+
+        <div style="width: 98%">
+
+            <table cellpadding="0" cellspacing="0" style="width: 100%">
+                <tbody>
+                    <tr>
+                        <td style="padding: 5px; text-align: center; width: 60%; border: 1px solid; border-bottom: 0px; border-right: 0px;">
+                            <!-- <img alt="R. do Bosque, 200 - Rubem Berta, Porto Alegre - RS, 91170-240" src="./CERTIFICADO DE HOMOLOGAÇÃO - JOÃO CARLOS ZUCCO CAZORLA_files/logo.png" style="width: 100px;"><br> -->
+                            <strong>Detran Rio Grande do Sul</strong><br>
+                            R. do Bosque, 200 - Rubem Berta, Porto Alegre - RS, 91170-240<br>
+                            Fone: (51) 4042-7202 / WhatsApp: (51) 99556-7811
+                        </td>
+                        <td style="text-align: center; width: 40%; border: 1px solid; border-bottom: 0px;">
+                            <p>
+                                <strong>CERTIFICADO DE HOMOLOGAÇÃO</strong><br>
+                                Emissão:
+                                <span id="LblEmissao"><?= $lote->emissao ? $lote->emissao : data($lote->lances_data) ?></span><br>
+                                N.º
+                                <script>
+                                    document.write(new Date().getFullYear());
+                                </script>2022
+                                .020.<span id="LblId">688</span>
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <table cellpadding="0" cellspacing="0" style="width: 100%">
+                <tbody>
+                    <tr>
+                        <td style="width: 50%; border: 1px solid; padding-left: 5px !important; padding: 2px;">
+                            <strong>NATUREZA DA OPERAÇÃO</strong><br>
+                            Venda de Veículos através de Leilão Oficial
+                        </td>
+                        <td style="width: 50%; border: 1px solid; border-left: 0px; padding-left: 5px !important; padding: 2px;">
+                            <strong>PROTOCOLO&nbsp;DE HOMOLOGAÇÃO</strong><br>
+                            <?= data($lote->lances_data, 'dmYHis') ?><span id="LblProtocolo"><?= data(rel('leiloes', $lote->leiloes, 'data'), 'dmYHis') ?></span>
+                            -
+                            <span id="LblDataProtocolado"><?= data($lote->lances_data, 'd/m/Y H:i:s') ?></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="text-align: left; margin: 0px; border-bottom: 1px solid; padding: 2px; padding-left: 5px !important;">
+                <strong>DADOS DO ARREMATANTE</strong>
+            </p>
+
+            <table cellpadding="0" cellspacing="0" style="width: 100%">
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid; border-top: none; padding-left: 5px !important; padding: 2px;">
+                            <strong>NOME</strong><br>
+                            <span id="LblArrematante" style="text-transform: uppercase;"><?= $cadastro->nome ?></span>
+                        </td>
+                        <td style="border: 1px solid; border-left: 0px; border-top: none; padding-left: 5px !important; padding: 2px;">
+                            <strong>CPF/CNPJ</strong><br>
+                            <span id="LblCPF"><?= $cadastro->tipo ? $cadastro->cnpj : $cadastro->cpf ?></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid; border-top: none; padding-left: 5px !important; padding: 2px;">
+                            <strong>E-MAIL</strong><br>
+                            <span id="LblEmail"><?= $cadastro->email ?></span>
+                        </td>
+                        <td style="border: 1px solid; border-left: 0px; border-top: none; padding-left: 5px !important; padding: 2px;">
+                            <strong>FONE/CELULAR</strong><br>
+                            <span id="LblTelefone"><?= $cadastro->telefone ?>/<?= $cadastro->celular ?></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="text-align: left; margin: 0px; border-bottom: 1px solid; border-top: 0px; padding: 2px; padding-left: 5px !important;">
+                <strong>DESCRIÇÃO DO LOTE</strong>
+            </p>
+
+            <table cellpadding="0" cellspacing="0" style="width: 100%">
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid; border-top: none; padding-left: 5px !important; padding: 2px; width: 50%;">
+                            <strong>DADOS DO LOTE</strong><br>
+                            <span id="LblLote"><?= $lote->nome ?></span>
+                        </td>
+                        <td style="border: 1px solid; border-left: 0px; border-top: none; padding-left: 5px !important; padding: 2px; width: 50%;">
+                            <strong>DATA DO LEILÃO</strong><br>
+                            <span id="LblDataLeilao"><?= data($lote->lances_data, 'd/m/Y H:i:s') ?></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid; border-top: none; padding-left: 5px !important; padding: 2px; width: 50%;">
+                            <strong>LEILÃO N.º</strong><br>
+                            <span id="LblLeilao"><?= rel('leiloes', $lote->leiloes, 'codigo') ?></span>
+                        </td>
+                        <td style="border: 1px solid; border-left: 0px; border-top: none; padding-left: 5px !important; padding: 2px; width: 50%;">
+                            <strong>N.º DO LOTE</strong><br>
+                            <span id="LblLote_Numero"><?= (int) $lote->ordem ?></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid; border-top: none; padding-left: 5px !important; padding: 2px; width: 50%;">
+                            <strong>VALOR ARREMATADO</strong><br>
+                            <span id="LblVlArrematado"><?= preco($lote->lances, 1) ?></span>
+                        </td>
+                        <td style="border: 1px solid; border-left: 0px; border-top: none; padding-left: 5px !important; padding: 2px; width: 50%;">
+                            <strong>TAXA DE COMISSÃO (5%)</strong><br>
+                            <span id="LblComissao"><?= preco(($lote->lances * 5 / 100), 1) ?></span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="text-align: left; margin: 0px; border-bottom: 1px solid; border-top: 0px; padding: 2px; padding-left: 5px !important;">
+                <strong>INSTRUÇÕES DE PAGAMENTO</strong>
+            </p>
+
+            <table cellpadding="0" cellspacing="0" style="width: 100%;">
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid; border-top: 0px; padding-left: 5px !important; padding: 2px;">
+                            <strong>FIEL DEPOSITÁRIO AUTORIZADO</strong><br>
+                            <p style="margin: 2px;">
+                                O Detran Rio Grande do Sul Designa como Fiel Depositário o(a) <span id="LblNome_Leiloeiro" style="font-weight: bold;"><?= $dados['nome'] ?></span>
+                                portador do CPF sob nº
+                                <span id="LblCPF_Leiloeiro" style="font-weight: bold;"><?= $dados['cpf'] ?></span>. Devendo este assumir as
+                                responsabilidades do referido ofício em conformidade com a Lei
+                                9.973/200 inciso IV, Decreto nº 3.855/2001, artigo 665 Regulamentando a Matéria.
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table cellpadding="0" cellspacing="0" style="width: 100%;">
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid; border-top: none; padding-left: 5px !important; padding: 2px; width: 40%;">
+                            <strong>NOME</strong><br>
+
+                            <span id="LblNome_Leiloeiro_Pagamento"> <?= $dados['nome'] ?></span>
+                        </td>
+                        <td style="border: 1px solid; border-right: 0px; border-left: 0px; border-top: none; padding-left: 5px !important; padding: 2px; width: 40%;">
+                            <strong>CPF</strong><br>
+                            <span id="LblCPF_Leiloeiro_Pagamento"> <?= $dados['cpf'] ?></span>
+                        </td>
+                        <td style="border: 1px solid; border-left: 0px; border-top: none; padding-left: 5px !important; padding: 2px; width: 20%;">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid; border-top: none; padding-left: 5px !important; padding: 2px; width: 40%;">
+                            <strong>NOME DO BANCO/NÚMERO</strong><br>
+                            <span id="LblBanco"><?= $dados['banco'] ?></span>
+                        </td>
+                        <td style="border: 1px solid; border-left: 0px; border-top: none; padding-left: 5px !important; padding: 2px; width: 40%;">
+                            <strong>AGÊNCIA</strong><br>
+                            <span id="LblAgencia"><?= $dados['agencia'] ?></span>
+                        </td>
+                        <td style="border: 1px solid; border-left: 0px; border-top: none; padding-left: 5px !important; padding: 2px; width: 20%;">
+                            <strong>CONTA CORRENTE</strong><br>
+                            <span id="LblConta"><?= $dados['conta'] ?></span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="border: 1px solid; border-top: none; padding-left: 5px !important; padding: 2px; width: 40%;">
+                            <strong>VALOR TOTAL</strong><br>
+                            <span id="LblValorFinal"><?= preco($lote->lances, 1) ?></span>
+                        </td>
+                        <td style="border: 1px solid; border-right: 0px; border-left: 0px; border-top: none; padding-left: 5px !important; padding: 2px; width: 40%;">
+                            <div id="ChavePix">
+                                <strong>CHAVE PIX</strong><br>
+                                <span id="LblChave"></span>
+                            </div>
+                        </td>
+                        <td style="border: 1px solid; border-left: 0px; border-top: none; padding-left: 5px !important; padding: 2px; width: 20%;">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="text-align: left; margin: 0px; border-bottom: 1px solid; border-top: 0px; padding: 2px; padding-left: 5px !important;">
+                <strong>DADOS ADICIONAIS</strong>
+            </p>
+
+            <table cellpadding="0" cellspacing="0" style="width: 100%;">
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid; border-top: 0px; padding-left: 5px !important; padding: 2px;">
+                            <p style="margin: 2px;">
+                                <strong>PRAZO PARA PAGAMENTO</strong><br>
+                                O pagamento deverá ser feito impreterivelmente até as 16h do dia do arremate.
+                                <br>
+                                <br>
+                                <strong>OBSERVAÇÕES IMPORTANTES</strong><br>
+                                No caso de depósitos através de DOC,&nbsp; o Lote&nbsp;somente será liberada após dois
+                                dias a contar da&nbsp;data do pagamento.<br>
+                                Não serão aceitos depósitos feitos&nbsp;em cheques (comuns ou administrativos).<br>
+                                <br>
+                                <strong>INSTRUÇÕES PARA RETIRADA OU ENTREGA</strong><br>
+                                &nbsp;<strong>1. Entrega do Bem: </strong>O bem arrematado será entregue somente após
+                                pagamento integral do(s) lote(s).<br>
+                                &nbsp;<strong>2. Prazo de Entrega:</strong> O prazo máximo de entrega do lote será de 03
+                                (três) dias úteis contados a partir da data de realização do leilão.<br>
+                                &nbsp;<strong>3. Retirada do Bem:</strong> A retirada do mesmo deverá ser efetuada com a
+                                apresentação de documentação oficial com foto e cópia impressa desta carta assinada pelo
+                                arrematante.<br>
+                                &nbsp;<strong>4. Local de Retirada:</strong> O arrematante deverá se dirigir até o
+                                pátio, localizado na R. do Bosque, 200 - Rubem Berta, Porto Alegre - RS, 91170-240 para
+                                a retirada do veículo ou equipamento.<br>
+                                &nbsp;<strong>5. Prazo para Retirada:</strong> O prazo máximo para retirada do lote é de
+                                30 (trinta) dias contados a partir da data de realização do leilão.<br>
+                                <br>
+                                <strong>IMPORTANTE</strong><br>
+                                Sem este Certificado&nbsp;de Homologação não é possível a retirada do bem. Não
+                                imprimimos a carta no local.
+                            </p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p style="text-align: left; margin: 0px; border-bottom: 1px solid; border-top: 0px; padding: 2px; padding-left: 5px !important;">
+                <strong>DECLARAÇÃO DE ACEITAÇÃO</strong>
+            </p>
+
+            <table cellpadding="0" cellspacing="0" style="width: 100%;">
+                <tbody>
+                    <tr>
+                        <td style="border: 1px solid; border-top: none; padding: 10px 20px; width: 50%;">
+                            <div style="border-top: 1px solid; margin-top: 50px; font-weight: 600;text-align: center;">
+                                <span id="LblAss"><?= $cadastro->nome ?></span><br>
+                                <span id="LblCPF_Ass"><?= $cadastro->tipo ? $cadastro->cnpj : $cadastro->cpf ?></span>
+                            </div>
+                        </td>
+                        <td style="border: 1px solid; border-top: none; padding-left: 5px !important; padding: 2px; width: 50%;text-align: center;">
+
+                            <img src="<?= DIR_C ?>/_images/assdigital.bmp" style="width: 200px; top: 18px; position: relative;">
+                            <div style="border-top: 1px solid; font-weight: 600;text-align: center;z-index: 100; position: relative;">
+                                <span id="LblNome_Leiloeiro_Ass"><?= $leilaoseguro['leiloiros'] ?></span><br>
+                                <span id="LblCPF_Leiloeiro_Ass"></span>
+                            </div>
+
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <p style="text-align: center; margin: 0px; border: 1px solid; border-top: 0px; padding: 2px; padding-left: 5px !important; font-weight: bold; font-size: 10px;">
+                DOCUMENTO ASSINADO DIGITALMENTE NOS TERMOS DA LEI 11.419/2006, CONFORME IMPRESSÃO À MARGEM DIREITA.</p>
+
+            <p style="text-align: center; margin-top: 0px;">R. do Bosque, 200 - Rubem Berta, Porto Alegre - RS,
+                91170-240 | (51) 4042-7202 | falecom@patiopoa.com | patiopoa.com </p>
+            <p style="text-align: center; font-size: 8px; margin-top: 15px;">
+                <img alt="" src="<?= DIR_C ?>/_images/stjlogo.png" style="width: 60px;"><br>
+                Site homologado pelo STJ - Superior Tribunal de Justiça.<br>
+            </p>
+        </div>
+
+
+    <?php } elseif ($_GET['nome'] == 'nota') { ?>
+        <div style="height: 1px"></div>
+        <table cellpadding="5" cellspacing="0" border="1" style="width:100%;">
+            <tr>
+                <?php $comitentes = rel('leiloes', $lote->leiloes, 'comitentes') ?>
+                <td colspan="2"><b>COMITENTE:</b> <?= comitentes($comitentes) ?></td>
+                <td colspan="2"><b>CPF/CNPJ:</b> <?= comitentes($comitentes, 'cpf_cnpj') ?></td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>DATA DO LEILÃO:</b> <?= data(rel('leiloes', $lote->leiloes, 'data'), 'd/m/Y H:i:s') ?></td>
+                <td colspan="2"><b>Nº LEILÃO:</b> <?= rel('leiloes', $lote->leiloes, 'codigo') ?></td>
+            </tr>
+            <tr>
+                <td colspan="4"><b>Nome:</b> <?= $cadastro->nome ?></td>
+            </tr>
+            <tr>
+                <td><b>CPF/CNPJ:</b> <?= $cadastro->tipo ? $cadastro->cnpj : $cadastro->cpf ?></td>
+                <td><b>Telefones:</b> <?= $cadastro->telefone ?></td>
+                <td colspan="2"><b>Celular:</b> <?= $cadastro->celular ?></td>
+            </tr>
+            <tr>
+                <td colspan="2"><b>Rua/Av:</b> <?= $cadastro->rua ?></td>
+                <td><b>Nº:</b> <?= $cadastro->numero ?></td>
+                <td><b>Compl.:</b> <?= $cadastro->complemento ?></td>
+            </tr>
+            <tr>
+                <td><b>Bairro:</b> <?= $cadastro->bairro ?></td>
+                <td><b>CEP:</b> <?= $cadastro->cep ?></td>
+                <td colspan="2"><b>Cidade:</b> <?= $cadastro->cidades ?> / <?= $cadastro->estados ?></td>
+            </tr>
+        </table>
+
+        <?php $lance = 0; ?>
+        <div style="height: 1px"></div>
+        <table cellpadding="5" cellspacing="0" border="1" style="width:100%;">
+            <tr>
+                <td align="center" style="background: #f4f4f4"><b>LOTE</b></td>
+                <td style="background: #f4f4f4"><b></b></td>
+                <td align="center" style="background: #f4f4f4"><b>VALOR</b></td>
+            </tr>
+            <tr>
+                <td colspan="3" style="padding: 0; border-top: 0"></td>
+            </tr>
+            <?
+            for ($i = 1; $i <= 10; $i++) {
+                if (count($lotes) < $i) {
+                    $lotes[] = (object)array('ordem' => '', 'nome' => '&nbsp;', 'lances' => 0);
+                }
+            }
+            ?>
+            <?php foreach ($lotes as $key => $value) { ?>
+                <tr>
+                    <td align="center" style="width: 15%; border-top: 0; border-bottom: 0">
+                        <div style="padding-bottom: 5px"><?= $value->ordem ? (int) $value->ordem : '' ?></div>
+                    </td>
+                    <td style="border-top: 0; border-bottom: 0">
+                        <div style="padding-bottom: 5px"><?= $value->nome ?></div>
+                    </td>
+                    <td align="center" style="width: 30%; border-top: 0; border-bottom: 0">
+                        <div style="padding-bottom: 5px">
+                            <?= $value->lances ? preco($value->lances, 1) : '' ?>
+                            <?php $lance += $value->lances ?>
+                        </div>
+                    </td>
+                </tr>
+            <?php } ?>
+            <tr>
+                <td colspan="3" style="padding: 0; border-top: 0"></td>
+            </tr>
+            <tr>
+                <td colspan="2" style="vertical-align: top;">
+                    <?
+                    $mysql->filtro = " WHERE  `tipo` = 'informacoes' AND lang = '" . LANG . "' ";
+                    $info = $mysql->read_unico('configs');
+                    ?>
+                    <table cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+                        <tr>
+                            <td style="width: 40px; vertical-align: top;">OBS.:</td>
+                            <td><?= isset($_GET['emitir_nota_txt']) ? $_GET['emitir_nota_txt'] : '' ?></td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table cellpadding="0" cellspacing="0" border="0" style="width:100%;">
+                        <tr>
+                            <td style="width: 100px"><b>SUB TOTAL</b></td>
+                            <td><?= preco($lance, 1) ?></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 100px; padding-top: 5px"><b>COMISSÃO</b></td>
+                            <td><?= preco(($lance * 5 / 100), 1) ?></td>
+                        </tr>
+                        <tr style="font-size: 16px">
+                            <td style="width: 100px; padding-top: 5px"><b>TOTAL</b></td>
+                            <td><b><?= preco($lance + ($lance * 5 / 100), 1) ?></b></td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+    <?php } elseif ($_GET['nome'] == 'etiqueta') { ?>
+        <?php foreach ($lotes as $key => $value) { ?>
+            <table cellpadding="0" cellspacing="0" border="1" style="width:100%; height: 500px;">
+                <tr style="height: 120px;">
+                    <td style="text-align: center; border-right: 0">
+                        <div style="padding-top: 10px"><img src="<?= DIR_C ?>/web/img/z_leilao/logo.png" style="max-width:200px;"></div>
+                    </td>
+                    <td style="text-align: center; border-left: 0">
+                        <div style="font-size:40px; font-weight:bold">LOTE: <?= (int) $value->ordem ?></div>
+                        <div style="font-size:24px; font-weight:bold">LEILÃO: <?= rel('leiloes', $value->leiloes, 'codigo') ?></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="padding: 10px; text-align: justify; vertical-align: top">
+                        <b style="font-size: 16px">Descrição do lote:</b>
+                        <div style="padding: 5px; padding-bottom: 0px; font-size: 14px"><?= txt($value) ?></div>
+                    </td>
+                </tr>
+                <tr style="height: 80px;">
+                    <td style="padding: 5px; font-size: 16px; text-align: center; border-right: 0">
+                        <b>Data do leilão:</b> <?= data($value->data_ini, 'd/m/Y H:i') ?>
+                    </td>
+                    <td style="padding: 5px; font-size: 16px; text-align: center; border-left: 0">
+                        <b>Lance inicial:</b> <?= preco($value->lance_ini, 1) ?>
+                    </td>
+                </tr>
+                <tr style="height: 80px;">
+                    <td colspan="2" style="padding: 5px; font-size: 16px; text-align: center;">
+                        <b><?= DIR_C ?> | &#9742; <?= $info_termos_e_notas->telefone ?></b>
+                    </td>
+                </tr>
+            </table>
+            <div style="height: 20px"></div>
+        <?php } ?>
+
+
+    <?php } ?>
+
+    </div>
+
+<?php } else { ?>
+    <?php $ids = isset($_GET['ids']) ? '?ids=' . $_GET['ids'] : '' ?>
+    <?php location(DIR . '/login/' . $_GET['pg'] . '/' . $_GET['nome'] . '/' . $_GET['id'] . '/' . $ids); ?>
+<?php } ?>
+
+<?php } else { ?>
+    Ação Não Permitida!<br>
+    Esse Lote Não Foi Arrematado ou Não Foi Pago!
+<?php } ?>

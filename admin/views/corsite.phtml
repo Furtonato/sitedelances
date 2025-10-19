@@ -1,0 +1,139 @@
+<?php
+$db = $mysql->getDB();
+
+$valor = serialize($_POST);
+
+$sql = $db->prepare("SELECT valor FROM configs WHERE id = 20");
+$executa = $sql->execute();
+$reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+$cor = unserialize($reg['valor']);
+
+$sql = $db->prepare("SELECT valor FROM configs WHERE id = 15");
+$executa = $sql->execute();
+$reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+$logo_topo = $reg['valor'];
+
+
+$sql = $db->prepare("SELECT valor FROM configs WHERE id = 16");
+$executa = $sql->execute();
+$reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+$logo_roda = $reg['valor'];
+
+$sql = $db->prepare("SELECT valor FROM configs WHERE id = 17");
+$executa = $sql->execute();
+$reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+$fundo_topo = $reg['valor'];
+
+/* $sql = $db->prepare("SELECT valor FROM configs WHERE id = 19");
+$executa = $sql->execute();
+$reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+$marca_dagua = $reg['valor']; */
+
+$sql = $db->prepare("SELECT valor FROM configs WHERE id = 19");
+$executa = $sql->execute();
+$reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+$bg_fundo = $reg['valor'];
+?>
+<div class="tabs menu_admin">
+    <form class="form_1609547723" action="/admin/views/gravar.php" method="post" enctype="multipart/form-data">
+
+        <div class="pl10 ">
+            <fieldset class="w100p fll pt5 pb5 pr10 mt5 mb5 br1 ">
+
+
+                <div style="padding: 10px;padding-left: 0;" class="finput finput_nome">
+                    <img style="padding: 10px;" src="<?= DIR ?>/web/img/<?= $logo_topo ?>" height="75px;">
+                    <label style="width: 150px;" class="lnome" for="nome">
+                        <p> Logo topo: </p>
+                    </label>
+                    <div class="input" rel="tooltip" data-original-title="">
+                        <input type="file" name="logo_topo">
+                    </div>
+                </div>
+
+                <div style="padding: 10px;padding-left: 0;" class="finput finput_nome">
+
+                    <img style="padding: 10px;" src="<?= DIR ?>/web/img/<?= $logo_roda ?>" height="75px;">
+                    <label style="width: 150px;" class="lnome" for="nome">
+                        <p> Logo Roda-pé: </p>
+                    </label>
+                    <div class="input" rel="tooltip" data-original-title="">
+                        <input type="file" name="logo_roda">
+                    </div>
+                </div>
+
+
+               <div style="padding: 10px;padding-left: 0;" class="finput finput_nome">
+
+                    <img style="padding: 10px;" src="<?= DIR ?>/web/img/<?= $fundo_topo ?>" height="75px;">
+                    <label style="width: 150px;" class="lnome" for="nome">
+                        <p> Fundo Topo: </p>
+                    </label>
+                    <div class="input" rel="tooltip" data-original-title="">
+                        <input type="file" name="fundo_topo">
+                    </div>
+                </div> 
+
+                <!--  <div style="padding: 10px;padding-left: 0;" class="finput finput_nome">
+
+                    <img style="padding: 10px;" src="<?= DIR ?>/web/img/<?= $marca_dagua ?>" height="75px;">
+                    <label style="width: 150px;" class="lnome" for="marca_dagua">
+                        <p> Marca D'Agua: </p>
+                    </label>
+                    <div class="input" rel="tooltip" data-original-title="">
+                        <input type="file" name="marca_dagua">
+                    </div>
+                </div> -->
+
+                <!-- <div style="padding: 10px;padding-left: 0;" class="finput finput_nome">
+
+                    <img style="padding: 10px;" src="<?= DIR ?>/web/img/<?= $bg_fundo ?>" height="75px;">
+                    <label style="width: 150px;" class="lnome" for="bg_fundo">
+                        <p> Imagem de fundo: </p>
+                    </label>
+                    <div class="input" rel="tooltip" data-original-title="">
+                        <input type="file" name="bg_fundo">
+                    </div>
+                </div> -->
+
+                <div class="finput finput_nome">
+                    <label style="width: 150px;" class="lnome" for="nome">
+                        <p> Cor Principal: </p>
+                    </label>
+                    <div class="input" rel="tooltip" data-original-title="">
+                        <input type="color" name="cor_principal" value="<?= $cor['cor_principal'] ?>" class="design ">
+                    </div>
+                </div>
+                <br>
+                <div class="finput finput_nome">
+                    <label style="width: 150px;" class="lnome" for="nome">
+                        <p> Cor Texto: </p>
+                    </label>
+                    <div class="input" rel="tooltip" data-original-title="">
+                        <input type="color" name="cor_texto" value="<?= $cor['cor_texto'] ?>" class="design ">
+                    </div>
+                </div>
+
+                <div class="clear"></div>
+
+                <br>
+                <div style="padding-left: 10px;" class="finput finput_nome">
+                    <button type="submit">SALVAR</button>
+                </div>
+        </div>
+
+    </form>
+    <div class="clear"></div>
+    <script>
+        required_invalid('.tabs.menu_admin form.form_1609547723');
+    </script>
+    <script>
+        gravar_item('81', 'info_termos_e_notas', '.tabs.menu_admin form.form_1609547723');
+    </script>
+</div>

@@ -1,0 +1,292 @@
+
+<section id="lote" class="LL_box_<?= $item->id ?>">
+
+    <?php if (isset($leiloes->id)) { ?>
+        <div class="centerr pt40 pb40">
+
+            <?php include 'z_top_lote.phtml' ?>
+            <div class="clear"></div>
+
+
+            <h1 class="pt40 fz30 fwb cor_221E1F"><span class="LL_nome"></span> - <span class="LL_local"></span></h1>
+
+            <div>
+                <ul class="fll pt10">
+                    <li class="fll pr10 pb10 fz12 ttu cor_fff">
+                        <div class="dib p8 pl10 pr10 bd_ccc LL_natureza"></div>
+                    </li>
+                    <li class="fll pr10 pb10 fz12 ttu cor_fff">
+                        <div class="dib p8 pl10 pr10 cor_333 bd_ccc LL_tipos"></div>
+                    </li>
+                    <li class="fll pr10 pb10 fz12 ttu cor_fff">
+                        <div class="dib p8 pl10 pr10 cor_333 bd_ccc LL_praca_info"></div>
+                    </li>
+                    <li class="clear"></li>
+                </ul>
+                <?php if (count($lotes) > 1) { ?>
+                    <?php
+                    $value_left = '';
+                    $value_right = '';
+                    $vez = 0;
+                    foreach ($lotes as $key => $value) {
+                        if ($item->id == $value->id) {
+                            $vez++;
+                        } elseif (!$vez) {
+                            $value_left = $value;
+                        } elseif ($vez AND ! $value_right) {
+                            $value_right = $value;
+                        }
+                    }
+                    ?>
+                    <ul class="flr pt8">
+                        <?php if ($value_left) { ?>
+                            <a href="<?= url('lote', $value_left) ?>" class="dib p9 pb8 fz16 vam cor_fff back_ccc br2"><i class="fa fa-chevron-left"></i></a>
+                        <?php } ?>
+                        <select class="dib max-w200 designx" onchange="location = options[selectedIndex].value">
+                            <?php foreach ($lotes as $key => $value) { ?>
+                                <option value="<?= url('lote', $value) ?>" <?= $item->id == $value->id ? 'selected' : '' ?>>Leilão: <?= $leiloes->codigo ?> - Lote: <?= (int) $value->ordem ?></option>
+                            <?php } ?>
+                        </select>
+                        <?php if ($value_right) { ?>
+                            <a href="<?= url('lote', $value_right) ?>" class="dib p9 pb8 fz16 vam cor_fff back_ccc br2"><i class="fa fa-chevron-right"></i></a>
+                        <?php } ?>
+                        <div class="clear"></div>
+                    </ul>
+                <?php } ?>
+            </div>
+            <div class="clear"></div>
+            <hr class="bd0 bdb_E1E1E1">
+
+
+            <div class="pt15 pb15 fz14 cor_<?= LARANJA ?>">
+                <div class="fll mr20"><div class="dib w15"><i class="fa fa-eye cor_A0A2A6"></i></div></i> <span class="LL_count">--</span> <?= lang('visualizações') ?></div>
+                <a href="#box_info_leilao" onclick="box_leiloes_info(5, this)" class="fll pt2 cor_<?= LARANJA ?> back0"><div class="dib w15"><i class="fa fa-gavel cor_A0A2A6"></i></div> <span class="LL_count_lances">--</span> <?= lang('lance(s)') ?></a>
+                <div class="fll pt2 pl30"><?= rede() ?></div>
+                <div class="clear"></div>
+            </div>
+
+
+
+
+            <div class="wr45 posr pr10">
+                <div class="pb5 Plugin_CSS_galeriaa no_pagg">
+                    <?= Galeria_Produtos($item, 500, 500, 3, 1, 1) ?>
+                </div>
+
+                <div class="p20 back_F6F6F6">
+                    <div class="fz26 fwb cor_<?= LARANJA ?>"><?= lang('Informações') ?></div>
+                    <div class="fz14 cor_666">
+                        <ul class="wr6">
+                            <li class=pt10>
+                                <span class="dib fz11"><b><?= lang('Lote') ?>:</b></span>
+                                <span class="LL_codigo"></span> / <?= (int) $item->ordem ?>
+                            </li>
+                            <li class="pt5 LL_lance_ini">
+                                <div class="fz14 fwb"><?= lang('Lance Inicial') ?>:</div>
+                                <b class="fz20 cor_<?= LARANJA ?>"></b>
+                            </li>
+                        </ul>
+                        <ul class="wr6">
+                            <li class="pt5 LL_data_ini">
+                                <span class="dib w50 fz11"><b><?= lang('Início') ?>:</b></span>
+                                <data class="dib"></data> <?= lang('às') ?>
+                            <hora class="dib"></hora>
+                            </li>
+                            <li class="pt5 LL_data_fim">
+                                <span class="dib w50 fz11"><b><?= lang('Término') ?>:</b></span>
+                                <data class="dib"></data> <?= lang('às') ?>
+                            <hora class="dib"></hora>
+                            </li>
+                            <li class="pt5">
+                                <span class="dib fz11"><b><?= lang('Localidade') ?>:</b></span>
+                                <span class="LL_local"></span>
+                            </li>
+                        </ul>
+                        <div class="clear"></div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="h15 dnn_700"></div>
+            <div class="wr45 pl10 pr10 p0_700">
+                <div class="p10 pl15 pr15 fz14 ttu ts1 cor_fff LL_situacao">
+                    <p class="fll"></p>
+                    <div class="clear"></div>
+                </div>
+                <div class="p20 mt15 back_F6F6F6 LL_dar_lance">
+                    <div class="pb10 fz26 fwb cor_<?= LARANJA ?>"><?= lang('Dê seu lance') ?></div>
+                    <?php if ($item->incremento > 0 AND $item->situacao != 20) { ?>
+                        <div class="dn_700">
+                            <ul>
+                                <?php for ($i = 1; $i < 9; $i++) { ?>
+                                    <li class="wr6 wr12_700 mb10 p0_700 pr10">
+                                        <a onclick="dar_lance(<?= $item->id ?>, this)" class="db cor_fff back_221E1F hoverr-op6" >
+                                            <i class="fa fa-plus posa w30 h26 pt7 tac back_<?= LARANJA ?>"></i>
+                                            <div class="p6 pl10 pr10 ml30">
+                                                <?= preco($item->incremento * $i, 1) ?>
+                                                <input type="hidden" name="lance_mais" value="<?= $item->incremento * $i ?>">
+                                            </div>
+                                        </a>
+                                    </li>
+                                <?php } ?>
+                                <div class="clear"></div>
+                            </ul>
+                            <div class="pt5 pb2 fz14"><?= lang('Para outros valores') ?>:</div>
+                        </div>
+                    <?php } ?>
+                    <form id="form_lance" method="post" action="javascript:void(0)" onsubmit="dar_lance(<?= $item->id ?>, this)" enctype="multipart/form-data" >
+                        <div class=""><input type="search" name="lance" class="design preco1 w100p fz14 fwb" placeholder="Informe o valor (Ex. R$ 15.000,00)" required></div>
+                        <div class="pt10 tac"><button class="design db w100p p15 fz20 ttu cor_fff bd0 back_DD0000 br0 hoverr-op6"><i class="fa fa-gavel pr10 fz26"></i> <?= lang('Confirmar lance') ?></button></div>
+                    </form>
+                </div>
+
+                <?php if (!count($lotes_habilitacoes_sucata) AND $item->sucata) { ?>
+                    <div class="pt15 tac">
+                        <a onclick="habilitar_lote_sucata('<?= $item->id ?>')" class="botao dib p10 pl30 pr30 fz14 fwb ttu cor_fff back_00C200 LL_habilitar_lote_sucata"><?= lang('HABILITAR-SE PARA LOTE DE SUCATA') ?></a>
+                    </div>
+                <?php } ?>
+            </div>
+
+
+
+
+            <div class="wr3 pl10 aovivo">
+                <?php $aovivo = cod('asc->html', stripcslashes($leiloes->aovivo)); ?>
+                <?php
+                if (isset($_GET['sincronizar'])) {
+                    $entre1 = entre('src=&#34;', '&#34;', $leiloes->aovivo);
+                    $integ = preg_match('(&#63;)', $entre1) ? '&' : '?';
+
+                    $entre = entre('src="', '"', $aovivo);
+                    $aovivo = str_replace($entre, $entre . $integ . 'autoplay=1', $aovivo);
+                }
+                ?>
+                <?php if ($aovivo AND $leiloes->promocao) { ?>
+                    <div class="p20 mb15 o-h back_F6F6F6">
+                        <div class="posr fz26 fwb cor_<?= LARANJA ?>">
+                            <?= lang('Ao Vivo') ?>
+                            <a class="posa dn r10 b5 fz12 cor_00f link LL_sincronizar"><?= lang('Sincronizar') ?></a>
+                        </div>
+                        <div class="pt10"><?= $aovivo ?></div>
+                    </div>
+                    <?php if (isset($_GET['sincronizar'])) { ?>
+                        <script>
+                            setTimeout(function () {
+                                $("html,body").animate({scrollTop: $(".LL_nome").offset().top}, "fast");
+                            }, 500);
+                        </script>
+                    <?php } ?>
+                <?php } ?>
+                <div class="p20 pl0 pr0 mb15 back_F6F6F6 LL_cronometro">
+                    <div class="tac ttu cor_666 LL_cronometro_info"></div>
+                    <div class="pt5 fz30 fwb tac cor_<?= LARANJA ?> LL_cronometro_tempo">
+                        <div class="dib vat LL_dias">
+                            <span>--</span> :
+                            <div class="pr18 fz10 fwb ttu tac cor_666"><?= lang('dias') ?></div>
+                        </div>
+                        <div class="dib vat LL_hora">
+                            <span>--</span> :
+                            <div class="pr18 fz10 fwb ttu tac cor_666"><?= lang('horas') ?></div>						
+                        </div>
+                        <div class="dib vat LL_min">
+                            <span>--</span> :
+                            <div class="pr18 fz10 fwb ttu tac cor_666"><?= lang('min') ?></div>
+                        </div>
+                        <div class="dib vat LL_seg">
+                            <span>--</span>
+                            <div class="fz10 fwb ttu tac cor_666"><?= lang('seg') ?></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p15 pl0 pr0 tac border_dashed_DD0000">
+                    <div class="LL_lance_atual">
+                        <span class="db fwb ttu cor_666"></span>
+                        <b class="pt2 fz30 vas tac cor_<?= LARANJA ?>"></b>
+                    </div>
+                    <div class="">
+                        <div class="fz10 fwb cor_666 LL_lances_data"></div>
+                        <b class="pt2 fz12 vas tac cor_666 LL_lances_cadastro"></b>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            <div class="clear"></div>
+
+            <ul class="pt30" id="box_info_leilao">
+                <li class="fll mr10 mb10"><a onclick="box_leiloes_info(1, this)" class="box_ db p10 ttu bd_E1E1E1 back_F5F5F5"><?= lang('Descrição') ?></a></li>
+                <?php if ($item->situacao != 20) { ?>
+                    <li class="fll mr10 mb10"><a onclick="box_leiloes_info(5, this)" class="box_ db p10 ttu bd_E1E1E1"><?= lang('Histórico de lances') ?></a></li>
+                <?php } ?>
+                <?php if ($item->foto10) { ?>
+                    <li class="fll mr10 mb10"><a href="<?= DIR ?>/web/fotos/<?= $item->foto10 ?>" target="_blank" class="box_ db p10 ttu bd_E1E1E1"><?= lang('Edital') ?></a></li>
+                <?php } ?>
+                <?php if ($item->anexo1 AND $item->foto1) { ?>
+                    <li class="fll mr10 mb10"><a href="<?= DIR ?>/web/fotos/<?= $item->foto1 ?>" target="_blank" class="box_ db p10 ttu bd_E1E1E1"><?= $item->anexo1 ?></a></li>
+                <?php } ?>
+                <?php if ($item->anexo2 AND $item->foto2) { ?>
+                    <li class="fll mr10 mb10"><a href="<?= DIR ?>/web/fotos/<?= $item->foto2 ?>" target="_blank" class="box_ db p10 ttu bd_E1E1E1"><?= $item->anexo2 ?></a></li>
+                <?php } ?>
+                <?php if ($item->anexo3 AND $item->foto3) { ?>
+                    <li class="fll mr10 mb10"><a href="<?= DIR ?>/web/fotos/<?= $item->foto3 ?>" target="_blank" class="box_ db p10 ttu bd_E1E1E1"><?= $item->anexo3 ?></a></li>
+                <?php } ?>
+                <?php if ($item->anexo4 AND $item->foto4) { ?>
+                    <li class="fll mr10 mb10"><a href="<?= DIR ?>/web/fotos/<?= $item->foto4 ?>" target="_blank" class="box_ db p10 ttu bd_E1E1E1"><?= $item->anexo4 ?></a></li>
+                <?php } ?>
+                <?php if ($item->anexo5 AND $item->foto5) { ?>
+                    <li class="fll mr10 mb10"><a href="<?= DIR ?>/web/fotos/<?= $item->foto5 ?>" target="_blank" class="box_ db p10 ttu bd_E1E1E1"><?= $item->anexo5 ?></a></li>
+                <?php } ?>
+                <?php if ($item->txt_extra_01) { ?>
+                    <li class="fll mr10 mb10"><a onclick="box_leiloes_info(2, this)" class="box_ db p10 ttu bd_E1E1E1"><?= $item->txt_extra_01 ?></a></li>
+                <?php } ?>
+                <?php if ($item->txt_extra_02) { ?>
+                    <li class="fll mr10 mb10"><a onclick="box_leiloes_info(3, this)" class="box_ db p10 ttu bd_E1E1E1"><?= $item->txt_extra_02 ?></a></li>
+                <?php } ?>
+                <?php if ($item->txt_extra_03) { ?>
+                    <li class="fll mr10 mb10"><a onclick="box_leiloes_info(4, this)" class="box_ db p10 ttu bd_E1E1E1"><?= $item->txt_extra_03 ?></a></li>
+                <?php } ?>
+                <?php $mapa = cod('asc->html', stripcslashes($item->google_maps)); ?>
+                <?php if ($mapa) { ?>
+                    <li class="fll mr10 mb10"><a onclick="box_leiloes_info(6, this)" class="box_ db p10 ttu bd_E1E1E1"><?= lang('Mapa') ?></a></li>
+                <?php } ?>
+                <li class="clear"></li>
+
+                <li class="box__ box__1 p10 bd_ccc"><?= txt($item) ?></li>
+                <?php if ($item->situacao != 20) { ?>
+                    <li class="box__ box__5	 dn">
+                        <table class="w100p">
+                            <thead>
+                                <tr class="bdb_F7F7F7">
+                                    <td class="p10 tac"><?= lang('TIPO') ?></td>
+                                    <td class="p10 tac"><?= lang('USÚARIO / PLAQUETA') ?></td>
+                                    <td class="p10 tac"><?= lang('DATA') ?></td>
+                                    <td class="p10 tac"><?= lang('HORA') ?></td>
+                                    <td class="p10 tac"><?= lang('VALOR') ?></td>
+                                </tr>
+                            </thead>
+                            <tbody class="LL_historico"></tbody>
+                        </table>
+                    </li>
+                <?php } ?>
+                <li class="box__ box__2 p10 bd_ccc dn"><?= txt($item, 1) ?></li>
+                <li class="box__ box__3 p10 bd_ccc dn"><?= txt($item, 2) ?></li>
+                <li class="box__ box__4 p10 bd_ccc dn"><?= txt($item, 3) ?></li>
+                <li class="box__ box__6 google_maps"><?= mapaa($mapa, '100%', 500) ?></li>
+            </ul>
+            <script>box_leiloes_info_ini()</script>
+
+        </div>
+
+        <script>
+            atualizar_leiloes('', '', '<?= $item->id ?>');
+            cronometro();
+            historico('<?= $item->id ?>');
+        </script>
+
+    <?php } else { ?>
+        <div class="p40 fz14 tac"><?= lang('Nenhum Lote Encontrado') ?>...</div>
+    <?php } ?>
+
+</section>

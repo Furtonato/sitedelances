@@ -1,0 +1,136 @@
+﻿<?php
+if ($_GET['pg'] == 'home') {
+    $mysql->colunas = 'id, nome, foto, leiloes';
+    $mysql->filtro = " WHERE " . STATUS . " AND situacao = 0 AND leiloes = '" . $value->id . "' ORDER BY estados asc, " . ORDER . " ";
+    $lotes = $mysql->read('lotes');
+
+    // 1 Lote
+    if (count($lotes) == 1 and isset($lotes[0]->id)) {
+        $value = $lotes[0];
+    }
+}
+
+// comitentes
+if (isset($value->comitentes)) {
+    $ex_comitentes = ex($value->comitentes);
+    print_r($ex_comitentes);
+} else {
+    $leiloes_comitentes = rel('leiloes', $value->leiloes, 'comitentes');
+    $ex_comitentes = ex($leiloes_comitentes);
+}
+
+$mysql->colunas = 'id, nome, foto';
+$mysql->filtro = " WHERE " . STATUS . " AND id IN (" . implode(',', $ex_comitentes) . ") ";
+$comitentes_foto = $mysql->read_unico('comitentes');
+// comitentes
+
+$css_nome = 'cor_fff';
+$css_back = 'border:1px solid #ccc; ' . degrade('#' . LARANJA . '', '#' . LARANJA . '');
+if (isset($leiloes_e_lotes_home) and $leiloes_e_lotes_home) {
+    $css_nome = 'cor_fff';
+    $css_back = 'border:1px solid #3465F9; ' . degrade('#' . LARANJA . '', '#' . LARANJA2 . '');
+}
+
+// Link
+$link = url('lote', $value);
+if ($tipo_box == 'star') {
+    $link = 'https://' . $_SERVER['HTTP_HOST'] . '/' . url('lote', $value);
+}
+?>
+
+<a href="<?= $link ?>" class="posr db m10" style="<?= $css_back ?>">
+
+    <div class="carregando_lote"> <img src="<?= DIR ?>/web/img/outros/carregando/loader.gif" class="dib w32 h32"> <span> <span class="porcentagem m0 p0"></span> <?= lang('Carregando') ?>... </span> </div>
+
+    <div class="">
+        <div class="wf6 p10 pr2 fz12 ttu cor_fff">
+            <div class="p8 pl10 pr10 limit LL_natureza"></div>
+        </div>
+        <div class="wf6 p10 pl2 fz12 ttu tar cor_fff">
+            <div class="p8 pl10 pr10 cor_fff limit LL_tipos"></div>
+        </div>
+        <div class="clear"></div>
+    </div>
+
+    <div>
+        <div class="posr pl10 pr10">
+            <?php if (isset($comitentes_foto->foto) and $comitentes_foto->foto) { ?>
+                <div class="posa t5 r15 z1 bd_ccc back_fff">
+                    <?php $img->tags = ' class="db w100p m-a" ' ?>
+                    <?= $img->img($comitentes_foto, 70, 70) ?>
+                </div>
+            <?php } ?>
+            <div class="posr h200 c_flex jc back_fff">
+                <?php $img->tags = ' class="db w100p m-a" ' ?>
+                <?= $img->img($value, 300, 200) ?>
+                <div class="posa z1 b0 l0 w100p">
+                    <div class="dn p5 tac fz11 ts1 cor_fff back_1F369F LL_praca1">
+                        <span>1ª <?= lang('Praça') ?></span>: <div class="dib dataini"></div>
+                    </div>
+                    <div class="dn p5 tac fz11 ts1 cor_fff back_CB151A LL_praca2">
+                        2ª <?= lang('Praça') ?>: <span class="dataini"></span>
+                    </div>
+                </div>
+            </div>
+
+            <ul class="LL_situacao p10 fz11 ts1 cor_fff">
+                <li class="wf7 ttu">
+                    <p></p>
+                </li>
+                <li class="wf5 pr5 tar ttu">
+                    <div class="dib" title="Visualização">
+                        <div class="dib w15"><i class="fa fa-eye"></i></div></i> <span class="LL_count"></span>
+                    </div> &nbsp;
+                    <div class="dib" title="Lances" class="pt2">
+                        <div class="dib w15"><i class="fa fa-gavel"></i></div> <span class="LL_count_lances"></span>
+                    </div>
+                </li>
+                <li class="clear"></li>
+            </ul>
+        </div>
+
+        <ul class="p10">
+            <li class="limit fz16 <?= $css_nome ?> LL_nome"></li>
+        </ul>
+
+        <ul class="p10 bd_D9D9D9 back_fff">
+            <li class="cor_999 fz11">
+                <ul class="wr6">
+                    <li class="pt10 pb1">
+                        <div class="dib w14"><i class="fa fa-flag"></i></div>
+                        <div class="dib LL_codigo"></div>
+                    </li>
+                    <li class="pt10 pb1">
+                        <div class="dib w14 pr5 tac"><i class="fa fa-map-marker"></i></div>
+                        <div class="dib LL_local"></div>
+                    </li>
+                    <li class="pt10 LL_data_ini">
+                        <div class="dib w12"><i class="fa fa-calendar"></i></div>
+                        <div class="dib vam cor_888"><?= lang('Início') ?>:</div>
+                        <data class="dib"></data>
+                    </li>
+                    <li class="pt10 LL_data_fim">
+                        <div class="dib w12"><i class="fa fa-calendar"></i></div>
+                        <div class="dib vam cor_888"><?= lang('Término') ?>:</div>
+                        <data class="dib"></data>
+                    </li>
+                </ul>
+                <div class="wr6 pl10 bdl_F0F0F0">
+                    <div class="pt15 dn LL_lance_ini">
+                        <div class="fwb"><?= lang('Lance inicial') ?></div>
+                        <b class="fz16"></b>
+                    </div>
+                    <div class="pt10 dn LL_lance_min">
+                        <div class="fwb"><?= lang('Lance mínimo') ?></div>
+                        <b class="fz16 cor_CB151A"></b>
+                    </div>
+                    <div class="pt35 pb35 fz20 tac ttu cor_FF8C00 dn LL_count_lotes">
+                        <b class="fwn"></b> <?= lang('Lotes') ?>)
+                    </div>
+                </div>
+                <div class="clear"></div>
+            </li>
+        </ul>
+
+    </div>
+</a>

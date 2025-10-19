@@ -1,0 +1,144 @@
+[
+	{
+		"cidade": "Alto Alegre",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Amajari",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Boa Vista",
+		"bairros": [
+		 	"Aeroporto",
+		 	"Alvorada",
+		 	"Asa Branca",
+		 	"Bela Vista",
+		 	"Buritis",
+		 	"Caçari",
+		 	"Caimbé",
+		 	"Calungá",
+		 	"Cambará",
+		 	"Canarinho",
+		 	"Caranã",
+		 	"Cauamé",
+		 	"Centenário",
+		 	"Centro",
+		 	"Cidade Satélite",
+		 	"Cinturão Verde",
+		 	"Distrito Industrial Governador Aquilino Mota Duarte",
+		 	"Doutor Sílvio Botelho",
+		 	"Doutor Sílvio Leite",
+		 	"Equatorial",
+		 	"Estados",
+		 	"Jardim Caranã",
+		 	"Jardim Floresta",
+		 	"Jardim Primavera",
+		 	"Jardim Tropical",
+		 	"Jóquei Clube",
+		 	"Liberdade",
+		 	"Marechal Rondon",
+		 	"Mecejana",
+		 	"Nossa Senhora Aparecida",
+		 	"Nova Canaã",
+		 	"Nova Cidade",
+		 	"Olímpico",
+		 	"Operário",
+		 	"Paraviana",
+		 	"Pintolândia",
+		 	"Piscicultura",
+		 	"Pricumã",
+		 	"Professora Araceli Souto Maior",
+		 	"Raiar do Sol",
+		 	"Said Salomão",
+		 	"Santa Luzia",
+		 	"Santa Tereza",
+		 	"São Bento",
+		 	"São Francisco",
+		 	"São Pedro",
+		 	"São Vicente",
+		 	"Senador Hélio Campos",
+		 	"Tancredo Neves",
+		 	"Treze de Setembro",
+		 	"Trinta e Um de Março",
+		 	"União"
+		]
+	},
+	{
+		"cidade": "Bonfim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cantá",
+		"bairros": [
+		 	"Bairro Novo",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caracaraí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caroebe",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Iracema",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mucajaí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Normandia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pacaraima",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rorainópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João da Baliza",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Luiz",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Uiramutã",
+		"bairros": [
+		 	"Centro"
+		]
+	}
+]

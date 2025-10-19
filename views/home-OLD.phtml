@@ -1,0 +1,253 @@
+<section id="home">
+
+    <div style=" background: #<?= LARANJA ?>">
+
+        <div class="centerr">
+
+            <?php $leiloes_e_lotes_home = 1 ?>
+            <?php if ($leiloes_e_lotes_star) { ?>
+                <h2 class="pt20 fz24 fwn ttu cor_fff"><?= lang('SUPER DESTAQUES') ?> <span class="fz12 vam">(<?= lang('Lotes e Leilões') ?>)</span> </h2>
+                <ul class="pt20">
+                    <?php foreach ($leiloes_e_lotes_star as $key => $value) { ?>
+                        <?php $tipo_box = tipo_box($value) ?>
+                        <?php if ($tipo_box) { ?>
+                            <li class="wr3 pb20 LL_box_<?= $tipo_box ?>">
+                                <?php include 'z_leilao.phtml' ?>
+                            </li>
+                            <?= clear($key, 4) ?>
+                        <?php } ?>
+                    <?php } ?>
+                    <li class="clear"></li>
+                </ul>
+            <?php } ?>
+            <?php unset($leiloes_e_lotes_home); ?>
+
+        </div>
+
+    </div>
+
+
+
+
+
+    <div class="centerr pt40 pb40">
+
+        <ul class="p10 tac bdb_ccc">
+            <?php foreach ($topo_lotes1_cate_lancamentos as $key => $value) { ?>
+                <li class="wr2 tac">
+                    <a href="<?= busca_url('cate[]=' . $value->id) ?>" class="p10 fz18 cor_999">
+                        <?= $key == 0 ? '(' : '' ?>
+                        <i class="fa fa-<?= $value->icon ?>"></i>
+                        <b style="color: <?= $value->cor == '#ff0000' ? $value->cor : '#1D9CE8' ?>"><?= qtd_itens($value->id, 'categorias', 0) ?></b>
+                        <?= $value->nome ?>
+                        <?= $key == 0 ? ')' : '' ?>
+                    </a>
+                </li>
+            <?php } ?>
+            <li class="clear"></li>
+        </ul>
+
+
+        <div class="pt20 pb20">
+            <form method="post" action="<?= DIR ?>/lotes/">
+                <div class="calc80 fll">
+                    <div class="wr3">
+                        <select name="tipos" class="design w100p">
+                            <option value="">Tipo</option>
+                            <?php foreach ($topo_tipos as $key => $value) { ?>
+                                <option value="<?= $value->id ?>"><?= $value->nome ?></option>
+                            <?php } ?>
+                        </select>
+                    </div>
+                    <div class="wr3">
+                        <select name="natureza" class="design w100p">
+                            <option value="">Natureza</option>
+                            <?php foreach ($topo_natureza as $key => $value) { ?>
+                                <option value="<?= $value->id ?>"><?= $value->nome ?></option>
+                            <?php } ?>
+                        </select>
+                    </div>
+                    <div class="wr3">
+                        <select name="cate" class="design w100p">
+                            <option value="">Categorias</option>
+                            <?php foreach ($topo_lotes1_cate as $key => $value) { ?>
+                                <option value="<?= $value->id ?>"><?= $value->nome ?></option>
+                                <?php foreach ($topo_lotes1_cate1[$value->id] as $k => $v) { ?>
+                                    <option value="<?= $value->id ?>">&nbsp; - <?= $v->nome ?></option>
+                                <?php } ?>
+                            <?php } ?>
+                        </select>
+                    </div>
+                    <div class="wr3">
+                        <select name="local" class="design w100p">
+                            <option value="">Localização</option>
+                            <?php foreach ($topo_estados as $k => $v) { ?>
+                                <option value="estados;z;<?= $k ?>"><?= estados($k) ?></option>
+                                <?php foreach ($v as $key => $value) { ?>
+                                    <option value="cidades;z;<?= $value ?>">&nbsp; - <?= $value ?></option>
+                                <?php } ?>
+                            <?php } ?>
+                        </select>
+                    </div>
+                    <div class="clear"></div>
+                </div>
+                <div class="w80 fll">
+                    <button class="p10 pb11 tac bd_ccc back_fff brr5"><i class="fa fa-search"></i> Filtro</button>				
+                </div>
+                <div class="clear"></div>
+            </form>
+
+        </div>
+
+
+        <?php if ($info->frase_busca) { ?>
+            <div class="p20 mb20 back_DDDDDD">
+                <?= $info->frase_busca ?>
+            </div>
+        <?php } ?>
+
+
+
+
+        <div class="wr3">
+            <h2 class="pb20 fz24 fwn ttu cor_333"><?= lang('PRÓXIMOS LEILÕES') ?> <span class="fz12 vam">(<?= lang('Leilões') ?>)</span> </h2>
+        </div>
+        <div class="wr9">
+            <div class="flr p10 pr5 bs1 bd_ccc back_fff">
+                <?php foreach ($topo_status as $key => $value) { ?>
+                    <a href="<?= busca_url('status=' . $value->id) ?>" class="dib p8 pl10 pr10 mr5 cor_fff leilao_<?= $value->id ?>"><?= $value->nome ?></a>
+                <?php } ?>
+            </div>
+            <div class="flr fwb pt20 pr10"><?= lang('Filtros') ?></div>
+        </div>
+        <div class="clear"></div>
+
+        <div class="wr25 pr20">
+            <div>
+                <?php include 'z_categorias.phtml' ?>
+            </div>
+        </div>
+
+        <div class="wr95">
+            <?php if ($leiloes) { ?>
+                <ul>
+                    <?php $x = 0 ?>
+                    <?php foreach ($leiloes as $key => $value) { ?>
+                        <?php $tipo_box = tipo_box($value) ?>
+                        <?php if ($tipo_box) { ?>
+                            <li class="wr4 pb20 LL_box_<?= $tipo_box ?>">
+                                <?php include 'z_leilao.phtml' ?>
+                            </li>
+                            <?= clear($x, 3) ?>
+                            <?php $x++; ?>
+                        <?php } ?>
+                    <?php } ?>
+                    <li class="clear"></li>
+                    <?= $pagg ?>
+                </ul>
+            <?php } ?>
+        </div>
+        <div class="clear"></div>
+
+    </div>
+
+
+
+
+
+
+    <?php if ($comitentes) { ?>
+        <div class="centerr">
+            <div class="Plugin1 pagg1" itens="10" auto="10">
+                <?php foreach ($comitentes as $key => $value) { ?>
+                    <div class="dib h110 c_flex jc">
+                        <div class="p8 pl10 pr10 mr5 cor_fff bd_ccc back_fff bs1">
+                            <?= banner($value, 100, 100, ' class="db w100p m-a" ') ?>
+                        </div>
+                    </div>
+                <?php } ?>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <div class="h40"></div>
+    <?php } ?>
+
+
+
+
+
+
+
+    <?php if ($leiloes_arrematados) { ?>
+        <?php $leiloes_e_lotes_home = 1 ?>
+        <?php $lotes_arrematados_home = 1; ?>
+        <div>
+            <div class="back_DDDDDD">
+                <div class="centerr">
+                    <h2 class="pt15 pb15 fz20 fwb cor_999">Leilões Encerrados (Leilões)</h2>
+                </div>
+            </div>
+            <div class="centerr">
+                <ul class="pt20">
+                    <?php foreach ($leiloes_arrematados as $key => $value) { ?>
+                        <li class="wr3 pb20 LL_box_leilao_<?= $value->id ?>">
+                            <?php include 'z_leilao.phtml' ?>
+                        </li>
+                        <?= clear($key, 4) ?>
+                    <?php } ?>
+                    <li class="clear"></li>
+                </ul>
+            </div>		
+        </div>
+        <?php unset($leiloes_e_lotes_home); ?>
+        <?php unset($lotes_arrematados_home) ?>
+    <?php } ?>
+
+
+
+
+
+    <?php if ($lotes_arrematados) { ?>
+        <?php $lotes_arrematados_home = 1; ?>
+        <div style="<?= degrade1('#FF0000', '#FF8000', '#FF9673', '#FFEFBF', 35) ?>; <?/*background: url(<?= DIR ?>/web/img/tema_01/home/01.jpg) repeat-x top #1F369F*/?>">	
+            <div class="centerr">
+                <h2 class="pt20 fz24 fwn ttu cor_fff">Lotes Arrematados</h2>
+                <ul class="pt20">
+                    <?php foreach ($lotes_arrematados as $key => $value) { ?>
+                        <li class="wr3 pb20 LL_box_<?= $value->id ?>">
+                            <?php include 'z_leilao.phtml' ?>
+                        </li>
+                        <?= clear($key, 4) ?>
+                    <?php } ?>
+                    <li class="clear"></li>
+                </ul>
+            </div>		
+        </div>
+        <?php unset($lotes_arrematados_home); ?>
+    <?php } ?>
+
+
+
+
+
+
+    <?php if (isset($banner[3])) { ?>
+        <div class="">
+            <div class="Plugin1 pagg1 Plugin_CSS_fundo_vermelho" itens="1" auto="10" altura_flexcivel="1">
+                <?php foreach ($banner[3] as $key => $value) { ?>
+                    <a <?= $value->link ? 'href="' . http($value->link) . '"' : '' ?> class="db">
+                        <?= banner($value, 1900, 288, ' class="db w100p m-a" ') ?>
+                    </a>
+                <?php } ?>
+            </div>
+            <div class="clear"></div>
+        </div>
+    <?php } ?>
+
+</section>
+
+
+<?php $leiloes = array_merge($leiloes, $leiloes_star) ?>
+<?php $leiloes = array_merge($leiloes, $leiloes_arrematados) ?>
+<?php $lotes = array_merge($lotes_arrematados, $lotes_star) ?>
+<?= leiloes($leiloes, $lotes) ?>

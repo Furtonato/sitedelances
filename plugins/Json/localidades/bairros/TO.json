@@ -1,0 +1,1086 @@
+[
+	{
+		"cidade": "Abreulândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Aguiarnópolis",
+		"bairros": [
+		 	"Setor  Central"
+		]
+	},
+	{
+		"cidade": "Aliança do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Almas",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Alvorada",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Ananás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Angico",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Aparecida do Rio Negro",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Aragominas",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Araguacema",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Araguaçu",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Araguaína",
+		"bairros": [
+		 	"Bairro da Cimba",
+		 	"Barra da Grota",
+		 	"Boa Sorte",
+		 	"Ceú Azul",
+		 	"Conjunto Residencial Patrocínio",
+		 	"Conjunto Urbanístico",
+		 	"Daiara",
+		 	"Dom Orione",
+		 	"Eldorado",
+		 	"Jardim Beira Lago",
+		 	"Jardim Bounganville",
+		 	"Jardim Califórnia",
+		 	"Jardim das Palmeiras",
+		 	"Jardim dos Ipês I",
+		 	"Jardim dos Ipês II",
+		 	"Jardim dos Ipês III",
+		 	"Jardim Esplanada",
+		 	"Jardim Filadélfia",
+		 	"Jardim Flores",
+		 	"Jardim Garavelo Sul",
+		 	"Jardim Goiás",
+		 	"Jardim Itália",
+		 	"Jardim Mansões Palmeiras",
+		 	"Jardim Paulista",
+		 	"Jardim Pedra Alta",
+		 	"Jardim Santa Helena",
+		 	"JK",
+		 	"Loteamento Alaska",
+		 	"Loteamento Araguaína Sul",
+		 	"Loteamento Barros",
+		 	"Loteamento Castelo Branco",
+		 	"Loteamento Céu Azul",
+		 	"Loteamento Couto Magalhães",
+		 	"Loteamento Cruzeiro",
+		 	"Loteamento de Fátima",
+		 	"Loteamento Dona Nélcia",
+		 	"Loteamento Itapuan",
+		 	"Loteamento Jardim América",
+		 	"Loteamento Jardim do Lago",
+		 	"Loteamento Jardins Mônaco",
+		 	"Loteamento José Ferreira",
+		 	"Loteamento Liberdade",
+		 	"Loteamento Manoel Cardoso (Vila Cardoso)",
+		 	"Loteamento Manoel Gomes da Cunha",
+		 	"Loteamento Mansões do Lago",
+		 	"Loteamento Maracanã",
+		 	"Loteamento Martins Jorge",
+		 	"Loteamento Monte Sinai",
+		 	"Loteamento Nova Araguaína",
+		 	"Loteamento Pampulha",
+		 	"Loteamento Panorama",
+		 	"Loteamento Park Primavera",
+		 	"Loteamento Parque do Lago",
+		 	"Loteamento Planalto",
+		 	"Loteamento Presidente Costa e Silva",
+		 	"Loteamento Santa Mônica",
+		 	"Loteamento São Francisco",
+		 	"Loteamento São Luiz",
+		 	"Loteamento São Miguel",
+		 	"Loteamento São Pedro",
+		 	"Loteamento Vila Azul",
+		 	"Morada do Sol",
+		 	"Morada do Sol 2",
+		 	"Morada do Sol 3",
+		 	"Parque Bom Viver",
+		 	"Parque Sonhos Dourados",
+		 	"Parque Vale Araguaia",
+		 	"Residencial Belchior",
+		 	"Residencial Camargo",
+		 	"Residencial Itaipu",
+		 	"Residencial Jardim Europa",
+		 	"Santa Mônica",
+		 	"Santa Terezinha",
+		 	"São João",
+		 	"Senador",
+		 	"Setor Aeroporto",
+		 	"Setor Aeroviário",
+		 	"Setor Alto Bonito",
+		 	"Setor Ana Maria",
+		 	"Setor Anhangüera",
+		 	"Setor Bela Vista",
+		 	"Setor Belo Horizonte",
+		 	"Setor Brasil",
+		 	"Setor Carajá",
+		 	"Setor Central",
+		 	"Setor Coimbra",
+		 	"Setor de Telecomunicações",
+		 	"Setor George Yunes",
+		 	"Setor Itatiaia",
+		 	"Setor Novo Horizonte",
+		 	"Setor Oeste",
+		 	"Setor Palmas",
+		 	"Setor Raizal",
+		 	"Setor Rodoviário",
+		 	"Setor Sul",
+		 	"Setor Tereza Hilário",
+		 	"Setor Tiuba",
+		 	"Setor Tocantins",
+		 	"Setor Universitário",
+		 	"Vila Aliança",
+		 	"Vila Betel",
+		 	"Vila Boa",
+		 	"Vila Bragantina",
+		 	"Vila Cearense",
+		 	"Vila Couto Magalhães",
+		 	"Vila Ferreira",
+		 	"Vila Goiás",
+		 	"Vila Norte",
+		 	"Vila Nova",
+		 	"Vila Ribeiro",
+		 	"Vila Rosário",
+		 	"Vila Santa Luzia",
+		 	"Vila Santiago",
+		 	"Vila União"
+		]
+	},
+	{
+		"cidade": "Araguanã",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Araguatins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Arapoema",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Arraias",
+		"bairros": [
+		 	"Depasa",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Augustinópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Aurora do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Axixá do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Babaçulândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Bandeirantes do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Barra do Ouro",
+		"bairros": [
+		 	"Morro Grande",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Barrolândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Bernardo Sayão",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Bom Jesus do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Brasilândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Brasilândia do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Brejinho de Nazaré",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Buriti do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Cachoeirinha",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Campos Lindos",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Cariri do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Carmolândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Carrasco Bonito",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Cartucho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Caseara",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Centenário",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Chapada da Natividade",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Chapada de Areia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Colinas do Tocantins",
+		"bairros": [
+		 	"Nova Brasilene",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Colméia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Combinado",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Conceição do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Couto de Magalhães",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Craolândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cristalândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Crixás do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Darcinópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Dianópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Divinópolis do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Dois Irmãos do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Duerê",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Esperantina",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Fátima",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Figueirópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Filadélfia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Formoso do Araguaia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Fortaleza do Tabocão",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Goianorte",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Goiatins",
+		"bairros": [
+		 	"Barra do Ouro",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Guaraí",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Gurupi",
+		"bairros": [
+		 	"Alto da Boa Vista",
+		 	"Alto dos Buritis",
+		 	"Chácara Recreio Vale do Sol",
+		 	"Chácara Recreios Irmãos Ferreira",
+		 	"Cidade Industrial",
+		 	"Jardim Boulivard",
+		 	"Jardim da Luz",
+		 	"Jardim das Bandeiras",
+		 	"Jardim das Palmeiras",
+		 	"Jardim Eldorado",
+		 	"Jardim Flamboyant",
+		 	"Jardim Guanabara",
+		 	"Jardim Medeiros",
+		 	"Jardim Oriente",
+		 	"Jardim Paulicéia",
+		 	"Jardim São Lucas",
+		 	"Jardim Sevilha",
+		 	"Jardim Tocantins",
+		 	"Jardim Tropical",
+		 	"Loteamento Campo Bello",
+		 	"Loteamento Parque Residencial Atalaia",
+		 	"Loteamento Residencial João Lisboa da Cruz",
+		 	"Loteamento São Jorge",
+		 	"Muniz Santana",
+		 	"Parque Industrial",
+		 	"Parque Primavera",
+		 	"Parque Residencial dos Cajueiros",
+		 	"Parque Residencial Nova Fronteira",
+		 	"Parque Residencial São José",
+		 	"Parque Residencial São Paulo",
+		 	"Parque Sol Nascente",
+		 	"Residencial Daniela",
+		 	"Residencial Jardim dos Buritis",
+		 	"Residencial Park dos Buritis",
+		 	"Residencial Parque das Acácias",
+		 	"Santa Rita de Cássia",
+		 	"São Cristóvão",
+		 	"Setor Aeroporto",
+		 	"Setor Aeroporto II",
+		 	"Setor Bela Vista",
+		 	"Setor Canaã",
+		 	"Setor Casego",
+		 	"Setor Central",
+		 	"Setor Cruzeiro",
+		 	"Setor dos Funcionários",
+		 	"Setor Leste",
+		 	"Setor Morada do Sol",
+		 	"Setor Novo Horizonte",
+		 	"Setor Paulo de Tarso",
+		 	"Setor União I",
+		 	"Setor União II",
+		 	"Setor União III",
+		 	"Setor União IV",
+		 	"Setor União V",
+		 	"Shangri-Lá",
+		 	"Trevo Oeste",
+		 	"Vila Alagoana",
+		 	"Vila Dom Pedro I",
+		 	"Vila Guaracy",
+		 	"Vila Independência",
+		 	"Vila Iris",
+		 	"Vila Nossa Senhora D'Abadia",
+		 	"Vila Paulista",
+		 	"Vila Pedroso",
+		 	"Vila São José",
+		 	"Waldir Lins I",
+		 	"Waldir Lins II"
+		]
+	},
+	{
+		"cidade": "Ipueiras",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Itacajá",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Itaguatins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Itapiratins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Itaporã do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Jaú do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Juarina",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Lagoa da Confusão",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Lagoa do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Lajeado",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Lavandeira",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Lizarda",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Luzinópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Marianópolis do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Mateiros",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Maurilândia do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Miracema do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Miranorte",
+		"bairros": [
+		 	"Setor Central",
+		 	"Vila Jaó",
+		 	"Vila São José"
+		]
+	},
+	{
+		"cidade": "Monte do Carmo",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Monte Santo do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Muricilândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Natal",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Natividade",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Nazaré",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Nova Olinda",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Nova Rosalândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Novo Acordo",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Novo Alegre",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Novo Jardim",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Oliveira de Fátima",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Palmas",
+		"bairros": [
+		 	"Buritirana",
+		 	"Centro (Taquaralto)",
+		 	"Condomínio Santo Amaro",
+		 	"Conjunto Maria Rosa (Taquaralto)",
+		 	"Distrito Industrial de Taquaralto",
+		 	"Graciosa - Orla 14",
+		 	"Jardim Aeroporto (Taquaralto)",
+		 	"Jardim Aureny I (Taquaralto)",
+		 	"Jardim Aureny II (Taquaralto)",
+		 	"Jardim Aureny III (Taquaralto)",
+		 	"Jardim Aureny IV (Taquaralto)",
+		 	"Jardim Bela Vista",
+		 	"Jardim Janaína (Taquaralto)",
+		 	"Jardim Paulista (Taquaralto)",
+		 	"Jardim Santa Bárbara",
+		 	"Jardim Santa Helena",
+		 	"Jardim Taquari (Taquaralto)",
+		 	"Loteamento Água Fria",
+		 	"Loteamento Bertaville",
+		 	"Loteamento Lago Sul (Taquaralto)",
+		 	"Loteamento Residencial Polinésia",
+		 	"Loteamento Sonho Meu",
+		 	"Plano Diretor Expansão Sul",
+		 	"Plano Diretor Norte",
+		 	"Plano Diretor Sul",
+		 	"Setor Bela Vista (Taquaralto)",
+		 	"Setor Morada do Sol (Taquaralto)",
+		 	"Setor Morada do Sol 2 (Taquaralto)",
+		 	"Setor Morada do Sol 3 (Taquaralto)",
+		 	"Setor Santa Fé (Taquaralto)",
+		 	"Setor Santa Fé 2 (Taquaralto)",
+		 	"Setor Santa Fé 3 (Taquaralto)",
+		 	"Setor Sol Nascente (Taquaralto)",
+		 	"Setor Sônia Regina (Taquaralto)",
+		 	"Setor Sul (Taquaralto)",
+		 	"Setor União Sul",
+		 	"Setor Vale do Sol (Taquaralto)",
+		 	"Taquarussu"
+		]
+	},
+	{
+		"cidade": "Palmeirante",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Palmeiras do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Palmeirópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Paraíso do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Paranã",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Pau D'Arco",
+		"bairros": [
+		 	"Projeto Filadélfia",
+		 	"Projeto Sudan",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Pedro Afonso",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Peixe",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Pequizeiro",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Pindorama do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Piraquê",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Pium",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Ponte Alta do Bom Jesus",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Ponte Alta do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Porto Alegre do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Porto Nacional",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Praia Norte",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Presidente Kennedy",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Pugmil",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Recursolândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Riachinho",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Rio da Conceição",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Rio dos Bois",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Rio Sono",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Sampaio",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Sandolândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santa Fé do Araguaia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santa Maria do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santa Rita do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santa Rosa do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santa Tereza do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santa Terezinha do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "São Bento do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "São Félix do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "São Miguel do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "São Salvador do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "São Sebastião do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "São Valério da Natividade",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Silvanópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Sítio Novo do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Sucupira",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Taguatinga",
+		"bairros": [
+		 	"Setor Central",
+		 	"Setor Norte Rodovário"
+		]
+	},
+	{
+		"cidade": "Taipas do Tocantins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Talismã",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Tocantínia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Tocantinópolis",
+		"bairros": [
+		 	"Boa Vista",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Tupirama",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Tupiratins",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Wanderlândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Xambioá",
+		"bairros": [
+		 	"Setor Leste"
+		]
+	}
+]

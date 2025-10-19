@@ -1,0 +1,26 @@
+
+	<script src="../../Jquery/jquery-1.11.3.min.js"></script>
+	<script src="ckeditor_4.5.4_basic/ckeditor/ckeditor.js"></script>
+
+	<script>
+		function aa(){
+			$.ajax({
+				type: "POST",
+				url: 'a.php',
+				data: '',
+				dataType: "json",
+				success: function(json){
+					createEditor('aa');
+				}
+			});
+		}
+
+		function criar_editor(classe) {
+			var config = {};
+			editor = CKEDITOR.appendTo( classe, config, 'ss' );
+		}
+	</script>
+
+	<div id="aa"></div>
+
+	<script> aa(); </script>

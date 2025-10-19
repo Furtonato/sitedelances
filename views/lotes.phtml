@@ -1,0 +1,38 @@
+<?php $objLeilao = new ItemLeilao(); ?>
+<div class="container-fluid">
+    <div class="container p-5">
+        <?php if (isset($leiloes->id)) { ?>
+            <div class="pt-3">
+                <?php include 'z_top_lote.phtml' ?>
+            </div>
+        <?php } else { ?>
+
+            <div class="row justify-content-between align-items-center">
+                <h2><?= lang('Leilões') ?></h2>
+                <?= rede() ?>
+                <div style="background-color: var(--primary-color);height: 8px;width: 100%;"></div>
+            </div>
+
+        <?php } ?>
+
+        <?php if (count($lotes) > 0) { ?>
+
+            <div class="row">
+                <?php
+                $tipo = 'lote';
+                foreach ($lotes as $key => $value) {
+                    include 'item_leilao.phtml';
+                }
+                ?>
+            </div>
+        <?php } else {
+            ?>
+            <div class="p-5 text-center display-6">NENHUM ITEM</div>
+            <?php
+        }
+        ?>
+
+
+    </div>
+</div>
+

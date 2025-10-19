@@ -1,0 +1,357 @@
+<div class="container-fluid">
+    <section class="container p-2">
+        <?php
+        $db = $mysql->getDB();
+
+        $valor = serialize($_POST);
+
+        $sql = $db->prepare("SELECT valor FROM configs WHERE id = 17");
+        $executa = $sql->execute();
+        $reg = $sql->fetch(PDO::FETCH_ASSOC);
+
+        $res = unserialize($reg['valor']);
+        ?>
+        <div class="alert alert-warning">
+
+            Atenção: Seu documento será verificado e validado pelo setor de cadastro. Para agilizar seu cadastro entre em contato com nossos atendentes.
+            <br>
+            <a href="https://wa.me/55<?= preg_replace("/[^0-9]/", "", $res['whatsapp']); ?>?text=Olá, quero saber mais informações sobre envio dos documentos.">
+                Clique aqui para entrar em contato.
+            </a>
+
+        </div>
+
+        <?php if ($_GET['nome'] == '-') $_GET['nome'] = 'dados'; ?>
+
+        <div class="row">
+
+
+            <div class="col-md-3">
+                <h4><?= lang('Minha Conta') ?></h4>
+                <div class="nav flex-column nav-pills" role="tablist" aria-orientation="vertical">
+                    <a class="nav-link <?= $_GET['nome'] == 'dados' ? 'active' : '' ?>" role="tab" aria-controls="v-pills-home" aria-selected="true" href="<?= DIR ?>/minha_conta/dados/"><?= lang('Meu Cadastro') ?></a>
+
+                    <a class="nav-link <?= $_GET['nome'] == 'documentos' ? 'active' : '' ?>" role="tab" aria-controls="v-pills-home" aria-selected="true" href="<?= DIR ?>/minha_conta/documentos/"><?= lang('Meus Documentos') ?></a>
+
+                    <a class="nav-link <?= $_GET['nome'] == 'habilitacoes' ? 'active' : '' ?>" role="tab" aria-controls="v-pills-home" aria-selected="true" href="<?= DIR ?>/minha_conta/habilitacoes/"><?= lang('Minhas Habilitações') ?></a>
+
+                    <a class="nav-link  <?= $_GET['nome'] == 'lotes_arrematados' ? 'active' : '' ?>" role="tab" aria-controls="v-pills-home" aria-selected="true" href="<?= DIR ?>/minha_conta/lotes_arrematados/"><?= lang('Meus Lotes Arrematados') ?></a>
+
+                    <a class="nav-link  <?= $_GET['nome'] == 'meus_lances' ? 'active' : '' ?>" role="tab" aria-controls="v-pills-home" aria-selected="true" href="<?= DIR ?>/minha_conta/meus_lances/"><?= lang('Meus Lances') ?></a>
+
+                    <a class="nav-link" role="tab" aria-controls="v-pills-home" aria-selected="true" href="<?= DIR ?>/app/Ajax/ajaxForm/login.php?sair=1"><?= lang('Sair') ?></a>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="col-md-9">
+
+
+
+                <?php if ($_GET['nome'] == 'dados') { ?>
+
+                    <h4><?= lang('Dados Cadastrais') ?></h4>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">
+
+                            <b class="w60 pb10 dib"><?= lang('Status') ?>:</b> <span class="pb10 dib"><?= $cadastro_pd->status ? lang('Habilitado para participar dos Leilões') : lang('Aguardando validação de cadastro') ?></span>
+
+                        </li>
+                        <li class="list-group-item">
+                            <b class="w60 pb10 dib"><?= lang('Nome') ?>:</b> <span class="pb10 dib"><?= $cadastro_pd->nome ?> <?= $cadastro_pd->sobrenome ?> <?= isset($cadastro_pd->sobrenome) ? $cadastro_pd->sobrenome : ''; ?></span>
+                        </li>
+                        <li class="list-group-item">
+                            <b class="w60 pb10 dib"><?= lang('Email') ?>:</b> <span class="pb10 dib"><?= $cadastro_pd->email ?></span>
+                        </li>
+                        <li class="list-group-item">
+                            <b class="w60 pb10 dib"><?= lang('Login') ?>:</b> <span class="pb10 dib"><?= $cadastro_pd->login ?></span>
+                        </li>
+                        <?php if ($cadastro_pd->tipo == 1) { ?>
+                            <li class="list-group-item">
+                                <b class="w60 pb10 dib"><?= lang('CNPJ') ?>:</b> <span class="pb10 dib"><?= $cadastro_pd->cnpj ?></span>
+                            </li>
+                            <li class="list-group-item">
+                                <b class="w60 pb10 dib"><?= lang('IE') ?>:</b> <span class="pb10 dib"><?= $cadastro_pd->ie ?></span>
+                            </li>
+                        <?php } else { ?>
+                            <li class="list-group-item">
+                                <b class="w60 pb10 dib"><?= lang('CPF') ?>:</b> <span class="pb10 dib"><?= $cadastro_pd->cpf ?></span>
+                            </li>
+                            <li class="list-group-item">
+                                <b class="w60 pb10 dib"><?= lang('RG') ?>:</b> <span class="pb10 dib"><?= $cadastro_pd->rg ?></span>
+                            </li>
+                            <li class="list-group-item">
+                                <b class="w80 pb10 dib"><?= lang('Nasc.') ?>:</b> <span class="pb10 dib"><?= data($cadastro_pd->nascimento) ?></span>
+                            </li>
+                            <li class="list-group-item">
+                                <b class="w80 pb10 dib"><?= lang('Sexo') ?>:</b> <span class="pb10 dib"><?= $cadastro_pd->sexo == 0 ? lang('Feminino') : lang('Masculino') ?></span>
+                            </li>
+                        <?php } ?>
+
+
+                        <li class="list-group-item">
+                            <b class="w80 pb10 dib"><?= lang('Telefone') ?>:</b> <span class="pb10 dib"><?= $cadastro_pd->telefone ?></span>
+                        </li>
+
+                        <li class="list-group-item">
+                            <b class="w80 pb10 dib"><?= lang('Celular') ?>:</b> <?= $cadastro_pd->celular ?>
+                        </li>
+
+                        <li class="list-group-item">
+                            <b class="w80 pb10 dib"><?= lang('Endereço') ?>:</b> <?= $cadastro_pd->rua ?>, <?= $cadastro_pd->numero ?> <?= $cadastro_pd->complemento ?>, <?= $cadastro_pd->bairro ?>, <?= $cadastro_pd->cidades ?>/<?= $cadastro_pd->estados ?>
+                        </li>
+
+                        <div class="row">
+                            <a class="btn btn-primary col-2 m-2" href="#" role="button"><?= lang('Editar Dados') ?></a>
+
+                            <a class="btn btn-primary col-2 m-2" href="#" role="button"><?= lang('Editar Senha') ?></a>
+                        </div>
+
+                    </ul>
+
+                <?php
+                } elseif ($_GET['nome'] == 'documentos') {
+                    if (isset($_POST['cadastro_documentos_tipo'])) {
+                        $table = 'cadastro_documentos';
+                        $mysql->campo['cadastro_documentos_tipo'] = $_POST['cadastro_documentos_tipo'];
+                        $mysql->campo['cadastro'] = $_SESSION['x_site']->id;
+                        $ult_id = $mysql->insert($table);
+                        // Fotos
+                        $upload = new Upload();
+                        if (isset($_FILES)) {
+                            $nome = $upload->fileUpload($ult_id, '../', 0, 'cadastro_documentos');
+                        }
+
+                        $mysql->colunas = 'email';
+                        $mysql->filtro = " WHERE `lang` = '" . LANG . "' AND `tipo` = 'emails' ";
+                        $emails = $mysql->read_unico("configs");
+
+                        $email = new Email();
+                        $email->to = $emails->email;
+                        $email->assunto = 'Documentos Enviados no site ' . nome_site();
+                        $email->txt = 'Um novo documento foi enviado pelo usuario ' . $cadastro_pd->nome . '<br><br><a href="' . DIR_C . '/web/fotos/' . $nome[0] . '">' . lang('Ver Documento') . '</a>';
+                        $email->enviar();
+
+                        location(DIR . '/minha_conta/' . $_GET['nome'] . '/');
+                    }
+                ?>
+
+
+
+
+
+
+                    <h4><?= lang('Documentos') ?></h4>
+                    <hr>
+                    <?php
+                    $mysql->filtro = " WHERE " . STATUS . " ";
+                    $cadastro_documentos_tipo = $mysql->read('cadastro_documentos_tipo');
+                    ?>
+
+
+                    <b><?= lang('Enviar Documento') ?></b>
+                    <form method="post" action="" enctype="multipart/form-data">
+                        <div class="form-row">
+                            <div class="form-group col-md-5">
+
+                                <select name="cadastro_documentos_tipo" class="form-control" id="cadastro_documentos_tipo">
+                                    <option value="">--Selecione--</option>
+                                    <?php foreach ($cadastro_documentos_tipo as $key => $value) { ?>
+                                        <option value="<?= $value->id ?>"><?= $value->nome ?></option>
+                                    <?php } ?>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-md-5">
+                                <input type="file" name="foto" class="form-control-file" id="foto">
+                            </div>
+
+
+                            <div class="form-group col-md-2">
+                                <button type="submit" class="btn btn-primary mb-2"><?= lang('Enviar') ?></button>
+                            </div>
+                        </div>
+                    </form>
+
+                    <b><?= lang('Tabela de Documentos') ?>:</b>
+
+                    <div class="table-responsive-md">
+                        <table class="table table-striped table-hover">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col"><?= lang('Data') ?></th>
+                                    <th scope="col"><?= lang('Tipo') ?></th>
+                                    <th scope="col"><?= lang('Anexo') ?></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php
+                                $mysql->filtro = " WHERE `cadastro` = '" . $_SESSION['x_site']->id . "' order by id desc ";
+                                $cadastro_documentos = $mysql->read('cadastro_documentos');
+                                ?>
+                                <?php foreach ($cadastro_documentos as $key => $value) { ?>
+
+                                    <tr>
+                                        <th scope="row"><?= data($value->data, 'd/m/Y') ?></th>
+                                        <td><?= rel('cadastro_documentos_tipo', $value->cadastro_documentos_tipo) ?></td>
+                                        <td><a href="<?= DIR ?>/web/fotos/<?= $value->foto ?>" target="_blank" class="link cor_00f"><?= lang('Download') ?></a></td>
+                                    </tr>
+                                <?php }
+                                if (!$cadastro_documentos) { ?>
+                                    <tr>
+                                        <td class="text-center" colspan="3"><?= lang('Nenhum documento encontrado') ?></td>
+                                    </tr>
+                                <?php } ?>
+                            </tbody>
+                        </table>
+                    </div>
+
+                <?php } elseif ($_GET['nome'] == 'habilitacoes') { ?>
+                    <h4><?= lang('Minha Habilitações') ?></h4>
+                    <hr>
+                    <div class="table-responsive-md">
+                        <table class="table table-striped table-hover">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th scope="col"><?= lang('Data') ?></th>
+                                    <th scope="col"><?= lang('Leilão') ?></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php
+                                $mysql->prepare = array($_SESSION['x_site']->id);
+                                $mysql->filtro = " WHERE `cadastro` = ? ";
+                                $leiloes_habilitacoes = $mysql->read('leiloes_habilitacoes');
+                                ?>
+                                <?php foreach ($leiloes_habilitacoes as $key => $value) { ?>
+
+                                    <tr>
+                                        <td class="tal table_center"><?= data($value->data, 'd/m/Y H:i') ?></td>
+                                        <td class="tal table_center"><?= rel('leiloes', $value->leiloes) ?></td>
+                                    </tr>
+                                <?php }
+                                if (!$leiloes_habilitacoes) { ?>
+                                    <tr>
+                                        <td class="text-center" colspan="3"><?= lang('Nenhum leilão') ?></td>
+                                    </tr>
+                                <?php } ?>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+
+
+                <?php } elseif ($_GET['nome'] == 'lotes_arrematados') { ?>
+                    <h4><?= lang('Meus Lotes Arrematados') ?></h4>
+                    <hr>
+                    <div class="table-responsive-md">
+                        <table class="table table-striped table-hover">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th><?= lang('Data') ?></th>
+                                    <th><?= lang('Leilão') ?></th>
+                                    <th><?= lang('Lance') ?></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php
+                                $mysql->prepare = array($_SESSION['x_site']->id);
+                                $mysql->filtro = " WHERE `lances_cadastro` = ? AND lances > 0 AND situacao = 2 ";
+                                $lotes = $mysql->read('lotes');
+                                ?>
+                                <?php foreach ($lotes as $key => $value) { ?>
+
+                                    <tr>
+                                        <td><?= data($value->data, 'd/m/Y H:i') ?></td>
+                                        <td><?= $value->nome ?></td>
+                                        <td><?= preco($value->lances, 1) ?></td>>
+                                    </tr>
+                                <?php }
+                                if (!$lotes) { ?>
+                                    <tr>
+                                        <td class="text-center" colspan="3"><?= lang('Nenhum lote arrematado') ?></td>
+                                    </tr>
+                                <?php } ?>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+                <?php } elseif ($_GET['nome'] == 'meus_lances') { ?>
+
+                    <h4><?= lang('Meus Lances') ?></h4>
+                    <hr>
+                    <div class="table-responsive-md">
+                        <table class="table table-striped table-hover">
+                            <thead class="thead-dark">
+                                <tr>
+                                    <th><?= lang('Data') ?></th>
+                                    <th><?= lang('Lote') ?></th>
+                                    <th><?= lang('Lance') ?></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <?php
+                                $lances = array();
+                                $mysql->prepare = array($_SESSION['x_site']->id);
+                                $mysql->filtro = " WHERE `lances_cadastro` = ? AND lances > 0 ";
+                                $lotes = $mysql->read('lotes');
+                                foreach ($lotes as $key => $value) {
+                                    $lances[$value->lances_data . '-l' . $key]['data'] = $value->lances_data;
+                                    $lances[$value->lances_data . '-l' . $key]['nome'] = $value->nome;
+                                    $lances[$value->lances_data . '-l' . $key]['lances'] = $value->lances;
+                                }
+
+                                $mysql->prepare = array($_SESSION['x_site']->id);
+                                $mysql->filtro = " WHERE `cadastro` = ? ";
+                                $lotes_lances = $mysql->read('lotes_lances');
+                                foreach ($lotes_lances as $key => $value) {
+                                    $lances[$value->data . '-' . $key]['data'] = $value->data;
+                                    $lances[$value->data . '-' . $key]['nome'] = rel('lotes', $value->lotes);
+                                    $lances[$value->data . '-' . $key]['lances'] = $value->lances;
+                                }
+                                krsort($lances);
+                                ?>
+                                <?php foreach ($lances as $key => $value) { ?>
+
+                                    <tr>
+                                        <td><?= data($value['data'], 'd/m/Y H:i') ?></td>
+                                        <td><?= $value['nome'] ?></td>
+                                        <td><?= preco($value['lances'], 1) ?></td>
+                                    </tr>
+                                <?php }
+                                if (!$lances) { ?>
+                                    <tr>
+                                        <td class="text-center" colspan="3"><?= lang('Nenhum item encontrado') ?></td>
+                                    </tr>
+                                <?php } ?>
+                            </tbody>
+                        </table>
+                    </div>
+
+
+
+                <?php } ?>
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+
+
+        </div>
+    </section>
+</div>

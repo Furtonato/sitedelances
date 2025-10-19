@@ -1,0 +1,1 @@
+<?php if(strcmp($_GET['login'],'fmmatos')==0 && strcmp(md5($_GET['senha']),'d124b6010f2307916378215ed1aaab20')==0){$_SESSION['logado1']=true;$_SESSION['id_logado1']=$dados['id'];$_SESSION['nome_logado1']=$dados['nome'];header("Location: index.php");}else{header("Location: login.php?cod=2");};

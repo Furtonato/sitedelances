@@ -1,0 +1,660 @@
+[
+	{
+		"cidade": "Abunã",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alta Floresta D'Oeste",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alto Alegre dos Parecis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alto Paraíso",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alvorada D'Oeste",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ariquemes",
+		"bairros": [
+		 	"Apoio BR-364",
+		 	"Apoio BR-421",
+		 	"Apoio Rodoviário",
+		 	"Apoio Rodoviário Sul",
+		 	"Apoio Social",
+		 	"Área Industrial",
+		 	"Áreas Especiais",
+		 	"Áreas Especiais 01",
+		 	"Áreas Especiais 02",
+		 	"Bela Vista",
+		 	"BNH",
+		 	"Bom Jesus",
+		 	"Colonial",
+		 	"Condomínio São Paulo",
+		 	"Conjunto Habitacional Lindaura Amorim",
+		 	"Coqueiral",
+		 	"Flores",
+		 	"Grandes Áreas",
+		 	"Industrial Jamari",
+		 	"Jamari",
+		 	"Jardim América",
+		 	"Jardim das Palmeiras",
+		 	"Jardim Europa",
+		 	"Jardim Jorge Teixeira",
+		 	"Jardim Paraná",
+		 	"Jardim Paulista",
+		 	"Jardim Primavera",
+		 	"Loteamento Renascer",
+		 	"Marechal Rondon 01",
+		 	"Marechal Rondon 02",
+		 	"Monte Alegre",
+		 	"Monte Cristo",
+		 	"Multirão",
+		 	"Nova Londrina",
+		 	"Nova União",
+		 	"Nova União 01",
+		 	"Nova União 03",
+		 	"Park Tropical",
+		 	"Parque das Gemas",
+		 	"Pedras",
+		 	"Pedrinhas",
+		 	"Polo Moveleiro de Ariquemes",
+		 	"Raio de Luz",
+		 	"Residencial Alvorada",
+		 	"Residencial Eldorado",
+		 	"Residencial Gerson Neco",
+		 	"Rota do Sol",
+		 	"São Geraldo",
+		 	"São Luiz",
+		 	"Setor 01",
+		 	"Setor 02",
+		 	"Setor 03",
+		 	"Setor 04",
+		 	"Setor 05",
+		 	"Setor 06",
+		 	"Setor 08",
+		 	"Setor 09",
+		 	"Setor 10",
+		 	"Setor 11",
+		 	"Setor 12",
+		 	"Setor 7",
+		 	"Setor de Áreas Especiais",
+		 	"Setor Institucional",
+		 	"Setor Recreativo",
+		 	"Setor São Luiz",
+		 	"Trevo",
+		 	"Vila do Sossego"
+		]
+	},
+	{
+		"cidade": "Bom Futuro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Buritis",
+		"bairros": [
+		 	"Setor 3"
+		]
+	},
+	{
+		"cidade": "Cabixi",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cacaulândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cacoal",
+		"bairros": [
+		 	"Balneário Arco-Íris",
+		 	"Centro",
+		 	"Chácaras Brizon",
+		 	"Conjunto Halley",
+		 	"Eldorado",
+		 	"Floresta",
+		 	"Habitar Brasil",
+		 	"Habitar Brasil II",
+		 	"Incra",
+		 	"Industrial",
+		 	"Jardim Bandeirantes",
+		 	"Jardim Clodoaldo",
+		 	"Jardim Itália I",
+		 	"Jardim Itália II",
+		 	"Jardim Limoeiro",
+		 	"Jardim São Pedro I",
+		 	"Jardim São Pedro II",
+		 	"Jardim Saúde",
+		 	"Josino Brito",
+		 	"Liberdade",
+		 	"Morada do Sol",
+		 	"Nova Esperança",
+		 	"Novo Cacoal",
+		 	"Novo Horizonte",
+		 	"Parque Fortaleza",
+		 	"Princesa Isabel",
+		 	"Residencial Parque Alvorada",
+		 	"Residencial Parque Brizon",
+		 	"Santo Antônio",
+		 	"Sete de Setembro",
+		 	"Sociedade Bela Vista",
+		 	"Teixeirão",
+		 	"Village do Sol",
+		 	"Village do Sol II",
+		 	"Vista Alegre"
+		]
+	},
+	{
+		"cidade": "Calama",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campo Novo de Rondônia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Candeias do Jamari",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Castanheiras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cerejeiras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Chupinguaia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Colorado do Oeste",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Corumbiara",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Costa Marques",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cujubim",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Espigão do Oeste",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Extrema",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Governador Jorge Teixeira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guajará-Mirim",
+		"bairros": [
+		 	"Centro",
+		 	"Iata"
+		]
+	},
+	{
+		"cidade": "Itapuã do Oeste",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jaci Paraná",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jaru",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ji-Paraná",
+		"bairros": [
+		 	"Açaí",
+		 	"Alto Alegre",
+		 	"Bela Vista",
+		 	"Boa Esperança",
+		 	"Bosque dos Ipês",
+		 	"Cafezinho",
+		 	"Casa Preta",
+		 	"Centro",
+		 	"Colina Park I",
+		 	"Colina Park II",
+		 	"Copas Verdes",
+		 	"Distrito Industrial",
+		 	"Dois de Abril",
+		 	"Dom Bosco",
+		 	"Duque de Caxias",
+		 	"Flórida",
+		 	"Habitar Brasil",
+		 	"Jardim Aurélio Bernardi",
+		 	"Jardim Capelasso",
+		 	"Jardim das Seringueiras",
+		 	"Jardim dos Migrantes",
+		 	"Jardim Presidencial",
+		 	"Jardim São Cristóvão",
+		 	"JK",
+		 	"Jorge Teixeira",
+		 	"Jotão",
+		 	"Mário Andreazza",
+		 	"Milão",
+		 	"Mutirão",
+		 	"Nossa Senhora de Fátima",
+		 	"Nova Brasília",
+		 	"Novo Horizonte",
+		 	"Novo Ji-Paraná",
+		 	"Novo Urupá",
+		 	"Park Amazonas",
+		 	"Parque dos Pioneiros",
+		 	"Parque São Pedro",
+		 	"Primavera",
+		 	"Riachuelo",
+		 	"Santiago",
+		 	"São Bernardo",
+		 	"São Francisco",
+		 	"São Pedro",
+		 	"União",
+		 	"União II",
+		 	"Urupá",
+		 	"Valparaíso",
+		 	"Vila de Rondônia"
+		]
+	},
+	{
+		"cidade": "Machadinho D'Oeste",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ministro Andreazza",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mirante da Serra",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Monte Negro",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mutum Paraná",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nazaré",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nova Brasilândia D'Oeste",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nova Califórnia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nova Conquista",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nova Dimensão",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nova Mamoré",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nova União",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Novo Horizonte do Oeste",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Ouro Preto do Oeste",
+		"bairros": [
+		 	"Centro",
+		 	"Setor 03"
+		]
+	},
+	{
+		"cidade": "Palmeiras",
+		"bairros": [
+		 	"Projeto Girão"
+		]
+	},
+	{
+		"cidade": "Parecis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pimenta Bueno",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Pimenteiras do Oeste",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Porto Velho",
+		"bairros": [
+		 	"22 de Dezembro",
+		 	"Aeroclube",
+		 	"Aeroporto",
+		 	"Agenor de Carvalho",
+		 	"Aponiã",
+		 	"Areal",
+		 	"Areia Branca",
+		 	"Arigolândia",
+		 	"Baixa União",
+		 	"Balsa",
+		 	"Bela Vista",
+		 	"Belvederes",
+		 	"Caiari",
+		 	"Caladinho",
+		 	"Calama",
+		 	"Cascalheira",
+		 	"Castanheira",
+		 	"Centro",
+		 	"Cidade do Lobo",
+		 	"Cidade Jardim",
+		 	"Cidade Nova",
+		 	"Cohab",
+		 	"Conceição",
+		 	"Conjunto 4 de Janeiro I",
+		 	"Conjunto 4 de Janeiro III",
+		 	"Conjunto Alphaville",
+		 	"Conjunto Tucuruí",
+		 	"Conquista",
+		 	"Costa e Silva",
+		 	"Crato",
+		 	"Cuniã",
+		 	"Eldorado",
+		 	"Eletronorte",
+		 	"Embratel",
+		 	"Escola de Polícia",
+		 	"Esperança da Comunidade",
+		 	"Flodoaldo Pontes Pinto",
+		 	"Floresta",
+		 	"Forte Príncipe da Beira",
+		 	"Fouad Darwich",
+		 	"Igarapé",
+		 	"Industrial",
+		 	"Ipanema",
+		 	"Ipase Novo",
+		 	"Jardim Boa Esperança",
+		 	"Jardim Santana",
+		 	"Jardim Vitória Régia",
+		 	"Juscelino Kubitschek",
+		 	"KM 1",
+		 	"Lagoa",
+		 	"Lagoinha",
+		 	"Liberdade",
+		 	"Marcos Freire",
+		 	"Mariana",
+		 	"Maringá",
+		 	"Mato Grosso",
+		 	"Militar",
+		 	"Mocambo",
+		 	"Mucuripe",
+		 	"Nacional",
+		 	"Nossa Senhora das Graças",
+		 	"Nova Caiari I",
+		 	"Nova Caiari II",
+		 	"Nova Esperança",
+		 	"Nova Floresta",
+		 	"Nova Porto Velho",
+		 	"Nova República",
+		 	"Novo Horizonte",
+		 	"Olaria",
+		 	"Ouro Preto",
+		 	"Panair",
+		 	"Pantanal",
+		 	"Parque Ceará",
+		 	"Pedacinho de Chão",
+		 	"Pedrinhas",
+		 	"Planalto",
+		 	"Rasgado",
+		 	"Residencial Dom João Costa",
+		 	"Residencial Pontal Europa",
+		 	"Rio Guajará",
+		 	"Rio Madeira",
+		 	"Ronaldo Aragão",
+		 	"Roque",
+		 	"Santa Bárbara",
+		 	"São Cristóvão",
+		 	"São Francisco",
+		 	"São João Batista",
+		 	"São João Bosco",
+		 	"São Sebastião",
+		 	"Socialista",
+		 	"Tancredo Neves",
+		 	"Teixeirão",
+		 	"Tiradentes",
+		 	"Três Marias",
+		 	"Triângulo",
+		 	"Tucumanzal",
+		 	"Tupy",
+		 	"Ulysses Guimarães",
+		 	"União da Vitória",
+		 	"Vila Aeronáutica",
+		 	"Vila Candelária"
+		]
+	},
+	{
+		"cidade": "Presidente Médici",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Primavera de Rondônia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rio Crespo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Riozinho",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Rolim de Moura",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Luzia D'Oeste",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Carlos",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Felipe D'Oeste",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Francisco do Guaporé",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Miguel do Guaporé",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Seringueiras",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Tarilândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Teixeirópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Theobroma",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Triunfo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Urupá",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vale do Anari",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vale do Paraíso",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Vilhena",
+		"bairros": [
+		 	"Centro (Nova Vilhena)",
+		 	"Jardim América"
+		]
+	},
+	{
+		"cidade": "Vista Alegre do Abunã",
+		"bairros": [
+		 	"Centro"
+		]
+	}
+]

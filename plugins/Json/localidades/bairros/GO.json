@@ -1,0 +1,3712 @@
+[
+	{
+		"cidade": "Abadia de Goiás",
+		"bairros": [
+		 	"Setor Central",
+		 	"Setor Santa Bárbara"
+		]
+	},
+	{
+		"cidade": "Abadiânia",
+		"bairros": [
+		 	"Centro",
+		 	"Fazenda Mariká"
+		]
+	},
+	{
+		"cidade": "Acreúna",
+		"bairros": [
+		 	"Setor Central",
+		 	"Setor Núria",
+		 	"Setor Serra Dourada"
+		]
+	},
+	{
+		"cidade": "Adelândia",
+		"bairros": [
+		 	"Jardim Progresso"
+		]
+	},
+	{
+		"cidade": "Água Fria de Goiás",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Água Limpa",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Águas Lindas de Goiás",
+		"bairros": [
+		 	"Camping Clube",
+		 	"Chácaras Águas Lindas",
+		 	"Chácaras Cachoeira da Mata",
+		 	"Chácaras Coimbra",
+		 	"Chácaras do Entorno",
+		 	"Chácaras Quedas do Descoberto",
+		 	"Chácaras Quedas do Descoberto II",
+		 	"Cidade do Entorno",
+		 	"Cidade Jardim",
+		 	"Condomínio Bela Vista da Barragem I",
+		 	"Condomínio Residencial Embaixador",
+		 	"Condomínio solar da Barragem",
+		 	"Jardim Águas Lindas II",
+		 	"Jardim Alterosa",
+		 	"Jardim América I",
+		 	"Jardim América II",
+		 	"Jardim América III",
+		 	"Jardim América IV",
+		 	"Jardim América V",
+		 	"Jardim América VI",
+		 	"Jardim Brasília",
+		 	"Jardim Califórnia",
+		 	"Jardim da Barragem I",
+		 	"Jardim da Barragem II",
+		 	"Jardim da Barragem III",
+		 	"Jardim da Barragem IV",
+		 	"Jardim da Barragem V",
+		 	"Jardim da Barragem VI",
+		 	"Jardim das Laranjeiras I",
+		 	"Jardim das Oliveiras I",
+		 	"Jardim das Oliveiras II",
+		 	"Jardim do Entorno I",
+		 	"Jardim dos Pinheiros",
+		 	"Jardim Guaíra I",
+		 	"Jardim Guaíra II",
+		 	"Jardim Pepita",
+		 	"Jardim Pérola da Barragem I",
+		 	"Jardim Pérola da Barragem II",
+		 	"Jardim Planalto",
+		 	"Jardim Querência",
+		 	"Jardim Recanto",
+		 	"Jardim Santa Lúcia",
+		 	"Jardim Santana",
+		 	"Jardim Vitória",
+		 	"Mansões Águas Lindas",
+		 	"Mansões Azaléia",
+		 	"Mansões Camargo",
+		 	"Mansões Centro Oeste",
+		 	"Mansões Eden",
+		 	"Mansões Ilha Bela",
+		 	"Mansões Imperatriz",
+		 	"Mansões Itamaracá",
+		 	"Mansões Odisséia",
+		 	"Mansões Olinda",
+		 	"Mansões Pôr do Sol",
+		 	"Mansões Samurai",
+		 	"Mansões Savana",
+		 	"Mansões Village",
+		 	"Park das Águas Bonitas II",
+		 	"Parque da Barragem Setor 01",
+		 	"Parque da Barragem Setor 02",
+		 	"Parque da Barragem Setor 03",
+		 	"Parque da Barragem Setor 04",
+		 	"Parque da Barragem Setor 05",
+		 	"Parque da Barragem Setor 06",
+		 	"Parque da Barragem Setor 07",
+		 	"Parque da Barragem Setor 08",
+		 	"Parque da Barragem Setor 09",
+		 	"Parque da Barragem Setor 10",
+		 	"Parque da Barragem Setor 11",
+		 	"Parque da Barragem Setor 12",
+		 	"Parque da Barragem Setor 13",
+		 	"Parque da Barragem Setor 14",
+		 	"Parque da Barragem Setor 15",
+		 	"Parque da Barragem Setor 16",
+		 	"Parque das Águas Bonitas I",
+		 	"Parque das Águas Bonitas I Etapa B",
+		 	"Parque do Bosque",
+		 	"Recanto da Barragem",
+		 	"Recreio da Barragem",
+		 	"Recreio das Águas Lindas I",
+		 	"Recreio das Águas Lindas II",
+		 	"Recreio das Águas Lindas III",
+		 	"Residencial Jardim Paraíso",
+		 	"Residencial Portal da Barragem",
+		 	"Residencial Sol Nascente I",
+		 	"Residencial Sol Nascente II",
+		 	"Royal Parque",
+		 	"Vila Esperança",
+		 	"Vivendas Paraíso"
+		]
+	},
+	{
+		"cidade": "Alexânia",
+		"bairros": [
+		 	"Alexânia",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Aloândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Alto Alvorada",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Alto Horizonte",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Alto Paraíso de Goiás",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Alvorada do Norte",
+		"bairros": [
+		 	"Ipiranga"
+		]
+	},
+	{
+		"cidade": "Amaralina",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Americano do Brasil",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Amorinópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Anápolis",
+		"bairros": [
+		 	"Adriana Parque",
+		 	"Alto da Bela Vista",
+		 	"Alvorada",
+		 	"Anápolis City",
+		 	"Andracel Center",
+		 	"Anexo Antônio Fernandes",
+		 	"Anexo Bom Sucesso",
+		 	"Anexo Frei Eustáquio",
+		 	"Anexo Itamaraty",
+		 	"Anexo Maracananzinho",
+		 	"Antônio Fernandes",
+		 	"Bandeiras",
+		 	"Batista",
+		 	"Boa Vista",
+		 	"Bom Sucesso",
+		 	"Calixtolândia",
+		 	"Calixtolândia 2ª Etapa",
+		 	"Campos Elísios",
+		 	"Chácaras Americanas",
+		 	"Chácaras Colorado",
+		 	"Chácaras de Recreio Mansões do Planalto",
+		 	"Chácaras Jonas Duarte",
+		 	"Chácaras Vale das Antas",
+		 	"Cidade Jardim",
+		 	"Cidade Universitária",
+		 	"Condomínio Residencial Villa Lobos",
+		 	"Condomínio Vale dos Pássaros",
+		 	"Conjunto Eldorado",
+		 	"Conjunto Habitacional Esperança II",
+		 	"Conjunto Habitacional Filostro Machado Carneiro",
+		 	"Conjunto Habitacional Vila União",
+		 	"Conjunto IAPC",
+		 	"Conjunto Mirage",
+		 	"Conjunto Raul Balduino",
+		 	"Conjunto Villa Verde",
+		 	"Distrito Agroindustrial de Anápolis",
+		 	"Dom Pedro II",
+		 	"Eldorado",
+		 	"Estância Vale das Brisas",
+		 	"Fazenda Barreiro do Meio",
+		 	"Frei Eustáquio",
+		 	"Gran Ville",
+		 	"Itamaraty",
+		 	"Itamaraty 2ª Etapa",
+		 	"Itamaraty 3ª Etapa",
+		 	"Itamaraty 4ª Etapa",
+		 	"Jardim Alexandrina",
+		 	"Jardim Alvorada",
+		 	"Jardim América",
+		 	"Jardim Ana Paula",
+		 	"Jardim Arco Verde",
+		 	"Jardim Arco Verde 2ª Etapa",
+		 	"Jardim Bandeirante",
+		 	"Jardim Bela Vista",
+		 	"Jardim Bom Clima",
+		 	"Jardim Calixto",
+		 	"Jardim das Américas 1ª Etapa",
+		 	"Jardim das Américas 2ª Etapa",
+		 	"Jardim das Américas 3ª Etapa",
+		 	"Jardim das Oliveiras",
+		 	"Jardim das Samambaias",
+		 	"Jardim Diana",
+		 	"Jardim dos Ipês",
+		 	"Jardim Eldorado",
+		 	"Jardim Esperança",
+		 	"Jardim Europa",
+		 	"Jardim Flor de Liz",
+		 	"Jardim Goiano",
+		 	"Jardim Gonçalves",
+		 	"Jardim Ibirapuera",
+		 	"Jardim Itália",
+		 	"Jardim Luzitano",
+		 	"Jardim Nações Unidas",
+		 	"Jardim Palmares",
+		 	"Jardim Petrópolis",
+		 	"Jardim Planalto",
+		 	"Jardim Primavera 1ª Etapa",
+		 	"Jardim Primavera 2ª Etapa",
+		 	"Jardim Progresso",
+		 	"Jardim Promissão",
+		 	"Jardim Santa Cecília",
+		 	"Jardim Santana",
+		 	"Jardim São Jorge",
+		 	"Jardim São Paulo",
+		 	"Jardim Silveira",
+		 	"Jardim Suíço",
+		 	"Jardim Tesouro",
+		 	"Jardim Vera Cruz",
+		 	"Jibran El Hadj",
+		 	"JK Parque Industrial Nova Capital",
+		 	"JK Setor Oeste",
+		 	"Jóquei Club",
+		 	"Jundiaí",
+		 	"Lapa",
+		 	"Las Palmas",
+		 	"Loteamento Guanabara",
+		 	"Loteamento Novo Jundiaí",
+		 	"Loteamento Residencial América",
+		 	"Loteamento Residencial Verona",
+		 	"Loteamento Residencial Victor Braga",
+		 	"Lourdes",
+		 	"Maracanã",
+		 	"Maracananzinho",
+		 	"Nossa Senhora Aparecida",
+		 	"Nova Alexandrina",
+		 	"Nova Vila Jaiara",
+		 	"Novo Paraíso",
+		 	"Olhos D ' Água",
+		 	"Paraíso",
+		 	"Parque Brasília",
+		 	"Parque Brasília 2ª Etapa",
+		 	"Parque Calixtópolis",
+		 	"Parque Calixtópolis II",
+		 	"Parque das Nações",
+		 	"Parque das Primaveras",
+		 	"Parque dos Pirineus",
+		 	"Parque Iracema",
+		 	"Parque Michel",
+		 	"Parque Residencial Ander",
+		 	"Parque Residencial Ander - II Etapa",
+		 	"Parque Residencial das Flores",
+		 	"Parque São Conrado",
+		 	"Parque São Jerônimo",
+		 	"Parque São João",
+		 	"Polocentro I",
+		 	"Polocentro I - 2ª Etapa",
+		 	"Privê Lírios dos Campos",
+		 	"Recanto do Sol",
+		 	"Residencial Aldeia dos Sonhos",
+		 	"Residencial Alfredo Abrahão",
+		 	"Residencial Alphaville",
+		 	"Residencial Ana Caroline",
+		 	"Residencial Anaville",
+		 	"Residencial Araguaia",
+		 	"Residencial Araujoville",
+		 	"Residencial Arco-Íris",
+		 	"Residencial Ayrton Senna",
+		 	"Residencial Bela Vista",
+		 	"Residencial Buritis",
+		 	"Residencial Caminho das Águas",
+		 	"Residencial Centenário",
+		 	"Residencial Cidade Industrial",
+		 	"Residencial Copacabana",
+		 	"Residencial do Trabalhador",
+		 	"Residencial Dom Emanoel",
+		 	"Residencial Dom Felipe",
+		 	"Residencial Flamboyant",
+		 	"Residencial Florença",
+		 	"Residencial Gabriela",
+		 	"Residencial Geovanni Braga",
+		 	"Residencial Ipanema",
+		 	"Residencial Itatiaia",
+		 	"Residencial Itororó",
+		 	"Residencial Jardins do Lago",
+		 	"Residencial Leblon",
+		 	"Residencial Marla Cristina",
+		 	"Residencial Mônica Braga",
+		 	"Residencial Monte Sinai",
+		 	"Residencial Morada Nova",
+		 	"Residencial Morumbi",
+		 	"Residencial Palmeiras",
+		 	"Residencial Paris",
+		 	"Residencial Portal do Cerrado",
+		 	"Residencial Reny Cury",
+		 	"Residencial Rio Jordão",
+		 	"Residencial Rose's Garden",
+		 	"Residencial San Marco",
+		 	"Residencial Santo Antônio",
+		 	"Residencial Santo Expedito",
+		 	"Residencial São Vicente",
+		 	"Residencial Shangrilá",
+		 	"Residencial Sol Nascente",
+		 	"Residencial Sun Flower",
+		 	"Residencial Tangará",
+		 	"Residencial Terezinha Braga",
+		 	"Residencial Vale do Sol",
+		 	"Residencial Valência",
+		 	"Residencial Veneza",
+		 	"Residencial Vila Feliz",
+		 	"Residencial Villa Bella",
+		 	"Residencial Virgínia Correa",
+		 	"Santo André",
+		 	"Santo Antônio",
+		 	"Santos Dumont",
+		 	"São Carlos",
+		 	"São João",
+		 	"São José",
+		 	"São Lourenço",
+		 	"São Sebastião",
+		 	"Setor Bougainville",
+		 	"Setor Central",
+		 	"Setor Escala",
+		 	"Setor Industrial Aeroporto",
+		 	"Setor Industrial Munir Calixto",
+		 	"Setor Lago dos Buritis",
+		 	"Setor Residencial das Rosas",
+		 	"Setor Residencial Jandaia",
+		 	"Setor Residencial Jandaia II Etapa",
+		 	"Setor Residencial Pedro Ludovico",
+		 	"Setor Santa Clara",
+		 	"Setor Scala II",
+		 	"Setor Sul",
+		 	"Setor Sul II Etapa",
+		 	"Setor Sul III Etapa",
+		 	"Setor Sul Jamil Miguel",
+		 	"Setor Summerville",
+		 	"Setor Tropical",
+		 	"Sítio de Recreio Jardim Boa Vista",
+		 	"Sítio de Recreio Recanto Mansões",
+		 	"Sítios de Recreio Americano do Brasil",
+		 	"Sítios de Recreio Estâncias Vila Rica",
+		 	"Sítios de Recreio Vale das Laranjeiras",
+		 	"Sítios Recreio Denise",
+		 	"Vila Brasil",
+		 	"Vila Calixto Abrão",
+		 	"Vila Dom Bosco",
+		 	"Vila Dona Maria",
+		 	"Vila dos Oficiais",
+		 	"Vila dos Sargentos",
+		 	"Vila Esperança",
+		 	"Vila Fabril",
+		 	"Vila Formosa",
+		 	"Vila Goiás",
+		 	"Vila Góis",
+		 	"Vila Gonçalves",
+		 	"Vila Harmonia",
+		 	"Vila Industrial",
+		 	"Vila Jaiara",
+		 	"Vila Jaiara Setor Leste",
+		 	"Vila Jaiara Setor Norte",
+		 	"Vila João Luiz de Oliveira",
+		 	"Vila João XXIII",
+		 	"Vila Jussara",
+		 	"Vila Mariana",
+		 	"Vila Miguel Jorge",
+		 	"Vila Milmar",
+		 	"Vila Moreira",
+		 	"Vila Norte",
+		 	"Vila Nossa Senhora D'Abadia",
+		 	"Vila Nova Jayara",
+		 	"Vila Operária",
+		 	"Vila Popular Munir Calixto",
+		 	"Vila Residencial Pedro Ludovico",
+		 	"Vila Rica",
+		 	"Vila Santa Helena",
+		 	"Vila Santa Isabel",
+		 	"Vila Santa Maria",
+		 	"Vila Santa Maria de Nazareth",
+		 	"Vila Santa Rita",
+		 	"Vila Santa Rosa",
+		 	"Vila Santa Terezinha",
+		 	"Vila Santana",
+		 	"Vila São João",
+		 	"Vila São Joaquim",
+		 	"Vila São Jorge",
+		 	"Vila São José",
+		 	"Vila São Vicente",
+		 	"Vila Sul",
+		 	"Vila União",
+		 	"Village Jardim Anápolis",
+		 	"Víviam Parque",
+		 	"Víviam Parque 2ª Etapa"
+		]
+	},
+	{
+		"cidade": "Anhangüera",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Anicuns",
+		"bairros": [
+		 	"Capelinha",
+		 	"Setor Central",
+		 	"Vila São Domingos"
+		]
+	},
+	{
+		"cidade": "Aparecida de Goiânia",
+		"bairros": [
+		 	"Águas Claras",
+		 	"Alvorada Oeste",
+		 	"Alvorada Sul",
+		 	"American Park",
+		 	"Cardoso",
+		 	"Cardoso Continuação",
+		 	"Célia Maria",
+		 	"Chácaras Bela Vista",
+		 	"Chácaras Condomínio Sonho Verde",
+		 	"Chácaras Marivânia",
+		 	"Chácaras Santa Luzia",
+		 	"Chácaras São Pedro",
+		 	"Cidade Livre",
+		 	"Cidade Satélite São Luiz",
+		 	"Cidade Vera Cruz",
+		 	"Colina Azul",
+		 	"Colinas de Homero",
+		 	"Condomínio Cidade Empresarial",
+		 	"Conjunto Estrela do Sul",
+		 	"Conjunto Habitacional Madre Germana - 1ª Etapa",
+		 	"Conjunto Habitacional Madre Germana - 2ª Etapa",
+		 	"Conjunto Liberdade",
+		 	"Conjunto Mabel",
+		 	"Conjunto Maria Celeste",
+		 	"Conjunto Morada do Sol",
+		 	"Conjunto Residencial Baliza",
+		 	"Conjunto Residencial Storil",
+		 	"Conjunto Santa Fé",
+		 	"Distrito Agro Industrial de Aparecida de Goiânia",
+		 	"Distrito Industrial",
+		 	"Expansul",
+		 	"Expansul Complemento",
+		 	"Fazenda Santo Antônio",
+		 	"Garavelo Residencial Park",
+		 	"Goiânia Park Sul",
+		 	"Granjas Reunidas Nossa Senhora de Lourdes",
+		 	"Ilda",
+		 	"Independência",
+		 	"Independência - 1º Complemento Setor das Mansões",
+		 	"Independência - 2º Complemento",
+		 	"Independência - 3º Complemento",
+		 	"Industrial Santo Antônio",
+		 	"Internacional Park",
+		 	"Itapoã",
+		 	"Jardim Alto Paraíso",
+		 	"Jardim Ametista",
+		 	"Jardim Áurea",
+		 	"Jardim Bela Morada",
+		 	"Jardim Bela Vista",
+		 	"Jardim Belo Horizonte",
+		 	"Jardim Boa Esperança",
+		 	"Jardim Boa Esperança - Continuação",
+		 	"Jardim Bonança",
+		 	"Jardim Buriti Sereno",
+		 	"Jardim Canadá",
+		 	"Jardim Casa Grande",
+		 	"Jardim Cecília",
+		 	"Jardim Colorado",
+		 	"Jardim Copacabana",
+		 	"Jardim Cristal",
+		 	"Jardim Cristalino",
+		 	"Jardim das Acácias",
+		 	"Jardim das Cascatas",
+		 	"Jardim das Esmeraldas",
+		 	"Jardim Dom Bosco",
+		 	"Jardim Dom Bosco 2ª Etapa",
+		 	"Jardim dos Buritis",
+		 	"Jardim dos Girassóis",
+		 	"Jardim dos Pomares",
+		 	"Jardim Eldorado",
+		 	"Jardim Esplanada",
+		 	"Jardim Florença",
+		 	"Jardim Helvécia",
+		 	"Jardim Helvécia Complemento",
+		 	"Jardim Himalaia",
+		 	"Jardim Imperial",
+		 	"Jardim Ipanema",
+		 	"Jardim Ipê",
+		 	"Jardim Ipiranga",
+		 	"Jardim Ipiranga - Continuação",
+		 	"Jardim Iracema",
+		 	"Jardim Isaura",
+		 	"Jardim Itaipu",
+		 	"Jardim Maranata",
+		 	"Jardim Maria Inês",
+		 	"Jardim Miramar",
+		 	"Jardim Miramar Sul",
+		 	"Jardim Mont Serrat",
+		 	"Jardim Mont Serrat Complemento",
+		 	"Jardim Monte Cristo",
+		 	"Jardim Monte Líbano",
+		 	"Jardim Monte Sinai",
+		 	"Jardim Nova Era",
+		 	"Jardim Nova Era Acréscimo",
+		 	"Jardim Olímpico",
+		 	"Jardim Oliveira",
+		 	"Jardim Palácios",
+		 	"Jardim Palmares",
+		 	"Jardim Paraíso",
+		 	"Jardim Progresso",
+		 	"Jardim Repouso",
+		 	"Jardim Rio Dourado",
+		 	"Jardim Rio Grande",
+		 	"Jardim Riviera",
+		 	"Jardim Rosa do Sul",
+		 	"Jardim São Conrado",
+		 	"Jardim Tiradentes",
+		 	"Jardim Transbrasiliano",
+		 	"Jardim Tropical",
+		 	"Jardim Veneza",
+		 	"Jardins Mônaco",
+		 	"Jardins Viena",
+		 	"Mansões Paraíso",
+		 	"Morada dos Pássaros",
+		 	"Nova Cidade",
+		 	"Nova Olinda",
+		 	"Nova Olinda - 1º Complemento",
+		 	"Nova Olinda - 2º Complemento",
+		 	"Papillon Park",
+		 	"Papillon Park - Complemento",
+		 	"Parque Amazônia",
+		 	"Parque Atalaia",
+		 	"Parque das Nações",
+		 	"Parque Flamboyant",
+		 	"Parque Floresta",
+		 	"Parque Hayala",
+		 	"Parque Ibirapuera",
+		 	"Parque Industrial Vice-Presidente José Alencar",
+		 	"Parque Itamaraty",
+		 	"Parque Itatiaia",
+		 	"Parque Karajá",
+		 	"Parque Montreal",
+		 	"Parque Primavera",
+		 	"Parque Real de Goiânia",
+		 	"Parque Rio das Pedras",
+		 	"Parque Santa Cecília",
+		 	"Parque Trindade",
+		 	"Parque Trindade II",
+		 	"Parque Trindade III",
+		 	"Parque Veiga Jardim",
+		 	"Parque Village",
+		 	"Pólo Empresarial Goiás",
+		 	"Pontal Sul - Acréscimo",
+		 	"Porto das Pedras",
+		 	"Quinta da Boa Vista",
+		 	"Real Grandeza",
+		 	"Real Grandeza - 2ª Etapa",
+		 	"Recanto dos Emboabas",
+		 	"Residencial Alvaluz",
+		 	"Residencial Andrade Reis",
+		 	"Residencial Anhambi",
+		 	"Residencial Araguaia",
+		 	"Residencial Baliza",
+		 	"Residencial Brasicon I",
+		 	"Residencial Cândido Queiroz",
+		 	"Residencial Caraíbas",
+		 	"Residencial Goiani",
+		 	"Residencial Maria Luiza",
+		 	"Residencial Norte Sul",
+		 	"Residencial Por do Sol",
+		 	"Residencial Recanto do Cerrado",
+		 	"Residencial Serra das Brisas",
+		 	"Residencial Solar Central Park",
+		 	"Residencial Solar Garden I",
+		 	"Residencial Solar Garden II",
+		 	"Residencial Solar Sul",
+		 	"Residencial Village Garavelo",
+		 	"Residencial Village Garavelo - 2ª Etapa",
+		 	"Retiro do Bosque",
+		 	"Retiro do Bosque - Acréscimo",
+		 	"Riviera Sul",
+		 	"Rosa dos Ventos",
+		 	"Setor Aeroporto Sul",
+		 	"Setor Aeroporto Sul - 2ª Etapa",
+		 	"Setor Ana Rosa",
+		 	"Setor Araguaia",
+		 	"Setor Araguaia Acréscimo",
+		 	"Setor Belo Horizonte",
+		 	"Setor Buenos Aires - 1ª Etapa",
+		 	"Setor Buenos Aires - 2ª Etapa",
+		 	"Setor Central",
+		 	"Setor Colonial Sul",
+		 	"Setor Comendador Walmor",
+		 	"Setor Conde dos Arcos",
+		 	"Setor Conde dos Arcos - Complemento",
+		 	"Setor Continental",
+		 	"Setor das Esmeraldas",
+		 	"Setor dos Afonsos",
+		 	"Setor dos Bandeirantes",
+		 	"Setor dos Estados",
+		 	"Setor Fabrício",
+		 	"Setor Garavelo",
+		 	"Setor Jardim Luz",
+		 	"Setor Marista Sul",
+		 	"Setor Ocidente da Vila Brasília",
+		 	"Setor Oeste",
+		 	"Setor Pampulha",
+		 	"Setor Planície",
+		 	"Setor Pontal Sul",
+		 	"Setor Residencial Campos Elísios",
+		 	"Setor Rio Vermelho",
+		 	"Setor Santo André",
+		 	"Setor Serra Dourada - 1ª Etapa",
+		 	"Setor Serra Dourada - 2ª Etapa",
+		 	"Setor Serra Dourada - 3ª Etapa",
+		 	"Setor Tocantins",
+		 	"Sítio Santa Luzia Residencial",
+		 	"Sítios Santa Luzia",
+		 	"Solar das Candeias",
+		 	"Terra do Sol",
+		 	"Terra Prometida",
+		 	"Vale do Sol",
+		 	"Vera Cruz",
+		 	"Verde Vale",
+		 	"Vila Adélia",
+		 	"Vila Alzira",
+		 	"Vila Brasília",
+		 	"Vila Brasília Complemento",
+		 	"Vila Brasília Sul",
+		 	"Vila Cruzeiro do Sul",
+		 	"Vila Irmãos Souza",
+		 	"Vila Maria",
+		 	"Vila Mariana",
+		 	"Vila Nossa Senhora de Lourdes",
+		 	"Vila Oliveira",
+		 	"Vila Real",
+		 	"Vila Rosa",
+		 	"Vila Santa",
+		 	"Vila Santo Antônio",
+		 	"Vila Santos Dumont",
+		 	"Vila São Joaquim",
+		 	"Vila São Jorge",
+		 	"Vila São Manoel",
+		 	"Vila São Tomaz",
+		 	"Villa Delfiore",
+		 	"Villa Romana",
+		 	"Villasul",
+		 	"Virgínia Parque"
+		]
+	},
+	{
+		"cidade": "Aparecida do Rio Doce",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Aporé",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Araçu",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Aragarças",
+		"bairros": [
+		 	"Setor Aeroporto",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Aragoiânia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Araguapaz",
+		"bairros": [
+		 	"Setor Central",
+		 	"Setor Oeste"
+		]
+	},
+	{
+		"cidade": "Arantina",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Arenópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Aruanã",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Aurilândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Avelinópolis",
+		"bairros": [
+		 	"Setor Central",
+		 	"Setor Irani"
+		]
+	},
+	{
+		"cidade": "Bacilândia",
+		"bairros": [
+		 	"Bacilândia"
+		]
+	},
+	{
+		"cidade": "Baliza",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Barbosilândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Barro Alto",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Bela Vista de Goiás",
+		"bairros": [
+		 	"Barcelona",
+		 	"Conceição",
+		 	"Distrito de Roselândia",
+		 	"Jardim Barcelona",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Bezerra",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Bom Jardim de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Bom Jesus",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Bonfinópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Bonópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Brazabrantes",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Britânia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Buriti Alegre",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Buriti de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Buritinópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cabeceiras",
+		"bairros": [
+		 	"Centro",
+		 	"Parque São João"
+		]
+	},
+	{
+		"cidade": "Cachoeira Alta",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Cachoeira de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Cachoeira Dourada",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Caçu",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Caiapônia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Caiçara",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Caldas Novas",
+		"bairros": [
+		 	"Setor Central",
+		 	"Setor Nova Vila"
+		]
+	},
+	{
+		"cidade": "Caldazinha",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Campestre de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Campinaçu",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Campinorte",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Campo Alegre de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Campo Limpo",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Campo Limpo de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Campo Lindo",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Campos Belos",
+		"bairros": [
+		 	"Centro",
+		 	"Setor Aeroporto"
+		]
+	},
+	{
+		"cidade": "Campos Verdes",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Cana Brava",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Caraíba",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Carmo do Rio Verde",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Castelândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Catalão",
+		"bairros": [
+		 	"Alto da Boa Vista",
+		 	"Alto da Boa Vista II",
+		 	"Bairro das Américas",
+		 	"Castelo Branco",
+		 	"Condomínio dos Buritis",
+		 	"Distrito Minero Industrial de Catalão",
+		 	"Evelina Nour II",
+		 	"Goianiense",
+		 	"Jardim Colonial",
+		 	"Loteamento Bela Vista",
+		 	"Loteamento Boa Sorte",
+		 	"Loteamento Brasiliense",
+		 	"Loteamento Copacabana",
+		 	"Loteamento de Interesse Social Jardim das Acácias",
+		 	"Loteamento de Interesse Social Jardim dos Ipês",
+		 	"Loteamento Estrela",
+		 	"Loteamento Ipanema",
+		 	"Loteamento Jardim Catalão",
+		 	"Loteamento Jardim Europa",
+		 	"Loteamento Jardim Evelina Nour",
+		 	"Loteamento Jardim Paraíso",
+		 	"Loteamento Jardim Paulista",
+		 	"Loteamento Jardins Florença",
+		 	"Loteamento JK",
+		 	"Loteamento Lago das Mansões Silva Leão",
+		 	"Loteamento Leão",
+		 	"Loteamento Marcone",
+		 	"Loteamento Paineiras",
+		 	"Loteamento Parque das Mangueiras",
+		 	"Loteamento Pontal Norte",
+		 	"Loteamento Residencial e Comercial Jardim Athenas",
+		 	"Loteamento Residencial Maria Amélia",
+		 	"Loteamento Residencial Parque Imperial",
+		 	"Loteamento Residencial Village",
+		 	"Loteamento Santa Cruz",
+		 	"Loteamento Santa Helena II",
+		 	"Loteamento Santa Terezinha",
+		 	"Loteamento Três Cruzes",
+		 	"Loteamento Vale do Sol",
+		 	"Loteamento Vila Chaud",
+		 	"Loteamento Vila Cruzeiro I",
+		 	"Loteamento Vila Cruzeiro II",
+		 	"Loteamento Vila Planalto",
+		 	"Mãe de Deus",
+		 	"Margon II",
+		 	"Margon III",
+		 	"Monsenhor Souza",
+		 	"Nossa Senhora de Fátima",
+		 	"Novo Horizonte",
+		 	"Paquetá",
+		 	"Pio Gomes",
+		 	"Progresso",
+		 	"Residencial dos Lucas",
+		 	"Residencial Eldorado",
+		 	"Residencial Geraldo Evangelista da Rocha",
+		 	"Residencial Leblon",
+		 	"Residencial Liz",
+		 	"Residencial Parati",
+		 	"Residencial Vale do Pirapitinga",
+		 	"Residencial Vereda dos Buritis",
+		 	"Safatle",
+		 	"Santa Helena I",
+		 	"Santa Mônica",
+		 	"Santo Antônio",
+		 	"São Francisco",
+		 	"São João",
+		 	"São José",
+		 	"São Lucas",
+		 	"Setor Aeroporto",
+		 	"Setor Central",
+		 	"Setor Dona Matilde",
+		 	"Setor Dona Sofia",
+		 	"Setor Elias Safatle",
+		 	"Setor Flamboyant",
+		 	"Setor Santa Rita",
+		 	"Setor Universitário",
+		 	"Vila Dona Erondina",
+		 	"Vila Liberdade",
+		 	"Vila Margon",
+		 	"Vila Maria",
+		 	"Vila Santa Luzia",
+		 	"Vila Teotônio Vilela",
+		 	"Vila União",
+		 	"Vila Wilson Guimarães"
+		]
+	},
+	{
+		"cidade": "Caturaí",
+		"bairros": [
+		 	"Novo Horizonte",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Cavalcante",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cavalheiro",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Ceres",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Cezarina",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Chapadão do Céu",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Choupana",
+		"bairros": [
+		 	"Choupana"
+		]
+	},
+	{
+		"cidade": "Cibele",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Cidade Ocidental",
+		"bairros": [
+		 	"Bela Vitá",
+		 	"Centro",
+		 	"Colina Verde",
+		 	"Dom Bosco",
+		 	"Mansões Recreio Estrela D'Alva I",
+		 	"Mansões Recreio Estrela D'Alva III",
+		 	"Mansões Recreio Mossoró",
+		 	"Mansões Suleste",
+		 	"Mansões Suleste I",
+		 	"Morada das Garças",
+		 	"Ocidental Parque",
+		 	"Parque Araguari",
+		 	"Parque Nápolis A",
+		 	"Parque Nápolis B",
+		 	"Parque Nova Friburgo A",
+		 	"Parque Nova Friburgo B",
+		 	"São Mateus",
+		 	"Vila Suiça"
+		]
+	},
+	{
+		"cidade": "Cirilândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Cocalzinho de Goiás",
+		"bairros": [
+		 	"Centro",
+		 	"Cidade dos Pirineus"
+		]
+	},
+	{
+		"cidade": "Colinaçu",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Colinas do Sul",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Córrego do Ouro",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Corumbá de Goiás",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Corumbaíba",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Cristalina",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Cristianópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Crixás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Cromínia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Cruzeiro do Norte",
+		"bairros": [
+		 	"Cruzeiro do Norte"
+		]
+	},
+	{
+		"cidade": "Cumari",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Damianópolis",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Damolândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Davinópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Diorama",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Divinópolis de Goiás",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Domiciano Ribeiro",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Doverlândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Edealina",
+		"bairros": [
+		 	"Cerâmica São Luis",
+		 	"Edealina II",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Edéia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Edilândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Estrela do Norte",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Faina",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Fazenda Nova",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Firminópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Flores de Goiás",
+		"bairros": [
+		 	"Centro",
+		 	"Nova Flores",
+		 	"São Vicente",
+		 	"Setor Centro",
+		 	"Zona Rural"
+		]
+	},
+	{
+		"cidade": "Formosa",
+		"bairros": [
+		 	"Abreu",
+		 	"Centro",
+		 	"Chácaras do Abreu",
+		 	"Conjunto Padre José",
+		 	"Formosinha",
+		 	"Jardim Califórnia",
+		 	"Jardim das Américas",
+		 	"Jardim Oliveira",
+		 	"Jardim Triângulo",
+		 	"Nova Formosa",
+		 	"Parque da Colina I",
+		 	"Parque da Colina II",
+		 	"Parque das Laranjeiras",
+		 	"Parque Dom Bosco",
+		 	"Parque Esmeralda",
+		 	"Parque Lago",
+		 	"Parque Laguna II",
+		 	"Parque São Francisco",
+		 	"Parque Serrano",
+		 	"Parque União",
+		 	"Parque Vila Verde",
+		 	"Residencial Santa Rosa",
+		 	"Rosa Maria",
+		 	"São Benedito",
+		 	"São Vicente",
+		 	"Setor Bela Vista",
+		 	"Setor Bosque",
+		 	"Setor Bosque II",
+		 	"Setor Ferroviário",
+		 	"Setor Imperatriz",
+		 	"Setor Industrial II",
+		 	"Setor Nordeste",
+		 	"Setor Pampulha",
+		 	"Setor Primavera",
+		 	"Setor Sul",
+		 	"Sul América",
+		 	"Vila Aurora",
+		 	"Vila Bela",
+		 	"Vila Carolina",
+		 	"Vila Iara",
+		 	"Vila Lorena",
+		 	"Vila Pantanal",
+		 	"Vila Santos",
+		 	"Village",
+		 	"Vista Alegre"
+		]
+	},
+	{
+		"cidade": "Formoso",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Gameleira de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Girassol",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Goialândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Goianápolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Goiandira",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Goianésia",
+		"bairros": [
+		 	"Bairro Carrilho",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Goiânia",
+		"bairros": [
+		 	"Aeroviário",
+		 	"Água Branca",
+		 	"Alphaville Flamboyant Residencial Araguaia",
+		 	"Alto da Glória",
+		 	"Anhanguera",
+		 	"Araguaia Park",
+		 	"Bairro Santa Rita",
+		 	"Boa Vista",
+		 	"Campus Universitário",
+		 	"Capuava",
+		 	"Capuava Residencial Privê",
+		 	"Carolina Parque",
+		 	"Carolina Parque Extensão",
+		 	"Chácara do Governador",
+		 	"Chácara São Salvador",
+		 	"Chácaras Alto da Glória",
+		 	"Chácaras Anhanguera",
+		 	"Chácaras Bom Retiro",
+		 	"Chácaras Botafogo",
+		 	"Chácaras Buritis",
+		 	"Chácaras Califórnia",
+		 	"Chácaras Cidade Pompeu",
+		 	"Chácaras de Recreio Samambaia",
+		 	"Chácaras de Recreio São Joaquim",
+		 	"Chácaras Dona Gê",
+		 	"Chácaras Hellou",
+		 	"Chácaras Ipanema",
+		 	"Chácaras Mansões Rosas de Ouro",
+		 	"Chácaras Maria Dilce",
+		 	"Chácaras Maringá",
+		 	"Chácaras Nossa Senhora da Piedade",
+		 	"Chácaras Retiro",
+		 	"Chácaras Salino",
+		 	"Chácaras Salinos",
+		 	"Chácaras Santa Bárbara",
+		 	"Chácaras Santa Rita",
+		 	"Chácaras São Francisco de Assis",
+		 	"Chácaras São José",
+		 	"Chácaras São Silvestre",
+		 	"Cidade Jardim",
+		 	"Colônia Santa Marta",
+		 	"Condomínio Alto da Boa Vista",
+		 	"Condomínio Amin Camargo",
+		 	"Condomínio Anhanguera",
+		 	"Condomínio Cidade Universitária",
+		 	"Condomínio das Esmeraldas",
+		 	"Condomínio do Lago",
+		 	"Condomínio dos Dourados",
+		 	"Condomínio Eldorado",
+		 	"Condomínio Ipanema",
+		 	"Condomínio Jardim das Oliveiras",
+		 	"Condomínio Marlene",
+		 	"Condomínio Parque dos Cisnes",
+		 	"Condomínio Privê das Oliveiras",
+		 	"Condomínio Privê dos Girassóis",
+		 	"Condomínio Residencial Parque Oeste",
+		 	"Condomínio Residencial Santa Maria I",
+		 	"Condomínio Residencial Santa Rita",
+		 	"Condomínio Rio Branco",
+		 	"Condomínio Santa Rita",
+		 	"Condomínio Santa Rita - 7ª etapa",
+		 	"Condomínio Santa Rita 6ª Etapa",
+		 	"Condomínio Shangry-Lá",
+		 	"Conjunto Anhanguera",
+		 	"Conjunto Cachoeira Dourada",
+		 	"Conjunto Caiçara",
+		 	"Conjunto Fabiana",
+		 	"Conjunto Guadalajara",
+		 	"Conjunto Habitacional Baliza",
+		 	"Conjunto Habitacional Madre Germana II",
+		 	"Conjunto Morada Nova",
+		 	"Conjunto Palmares",
+		 	"Conjunto Parque dos Eucaliptos",
+		 	"Conjunto Primavera",
+		 	"Conjunto Residencial Aruanã I",
+		 	"Conjunto Residencial Aruanã II",
+		 	"Conjunto Residencial Aruanã III",
+		 	"Conjunto Residencial Irisville",
+		 	"Conjunto Residencial Irisville - 2ª Etapa",
+		 	"Conjunto Residencial Paulo Pacheco",
+		 	"Conjunto Residencial Rodoviário",
+		 	"Conjunto Residencial Yara",
+		 	"Conjunto Riviera",
+		 	"Conjunto Romildo Ferreira do Amaral",
+		 	"Conjunto Vera Cruz",
+		 	"Conjunto Vila Isabel",
+		 	"Da Vitória",
+		 	"Distrito Vila Rica",
+		 	"Elísio Campos",
+		 	"Esplanada do Anicuns",
+		 	"Fazenda Botafogo",
+		 	"Fazenda Caveiras",
+		 	"Fazenda Caveiras - Aeródromo",
+		 	"Fazenda Colina",
+		 	"Fazenda Criméia Caveiras",
+		 	"Fazenda Gameleira",
+		 	"Fazenda Planície Petrópolis",
+		 	"Fazenda Retiro",
+		 	"Fazenda Salinos",
+		 	"Fazenda Santa Rita",
+		 	"Fazenda Santa Rita - Conjunto Residencial Alto Oriente",
+		 	"Fazenda Santa Rita - Glebas B e B1",
+		 	"Fazenda São Domingos",
+		 	"Fazenda São Domingos - Conjunto Residencial Campo Belo",
+		 	"Fazenda São Domingos - Conjunto Residencial Terra Nova",
+		 	"Fazenda Vau das Pombas",
+		 	"Feliz",
+		 	"Floresta",
+		 	"Garavelo Residencial Norte",
+		 	"Goiá",
+		 	"Goiá 2",
+		 	"Goiá 2 Complemento",
+		 	"Goiá IV",
+		 	"Goiá Setor Veloso",
+		 	"Granja Agrícola Jacirema",
+		 	"Granja Cruzeiro do Sul",
+		 	"Granja Santos Dumont",
+		 	"Industrial Mooca",
+		 	"Ipiranga",
+		 	"Jardim Abaporu",
+		 	"Jardim Alphaville",
+		 	"Jardim América",
+		 	"Jardim Ana Lúcia",
+		 	"Jardim Aritana",
+		 	"Jardim Atlântico",
+		 	"Jardim Balneário Meia Ponte",
+		 	"Jardim Bela Vista",
+		 	"Jardim Belvedere",
+		 	"Jardim Bom Jesus",
+		 	"Jardim Bonanza",
+		 	"Jardim Botânico",
+		 	"Jardim Brasil",
+		 	"Jardim Califórnia",
+		 	"Jardim Califórnia Parque Industrial",
+		 	"Jardim Caravelas",
+		 	"Jardim Clarissa",
+		 	"Jardim Colorado",
+		 	"Jardim Colorado Extensão",
+		 	"Jardim Colorado I",
+		 	"Jardim Colorado II",
+		 	"Jardim Colorado Sul",
+		 	"Jardim Conquista",
+		 	"Jardim Corte Real",
+		 	"Jardim Curitiba",
+		 	"Jardim da Luz",
+		 	"Jardim das Aroeiras",
+		 	"Jardim das Esmeraldas",
+		 	"Jardim das Hortências",
+		 	"Jardim das Rosas",
+		 	"Jardim Diamantina",
+		 	"Jardim Dom Fernando I",
+		 	"Jardim Dom Fernando II",
+		 	"Jardim Eli Forte",
+		 	"Jardim Eli Fortes Complemento",
+		 	"Jardim Europa",
+		 	"Jardim Florença",
+		 	"Jardim Fonte das Esmeraldas",
+		 	"Jardim Fonte Nova",
+		 	"Jardim Gardênia",
+		 	"Jardim Goiás",
+		 	"Jardim Gramado",
+		 	"Jardim Guanabara",
+		 	"Jardim Guanabara II",
+		 	"Jardim Guanabara III",
+		 	"Jardim Guanabara IV",
+		 	"Jardim Imperial",
+		 	"Jardim Ipanema",
+		 	"Jardim Ipê",
+		 	"Jardim Itaipu",
+		 	"Jardim Lago Azul",
+		 	"Jardim Lajeado",
+		 	"Jardim Leblon",
+		 	"Jardim Leblon II",
+		 	"Jardim Liberdade",
+		 	"Jardim Luz",
+		 	"Jardim Maria Helena",
+		 	"Jardim Mariliza",
+		 	"Jardim Marques de Abreu",
+		 	"Jardim Mirabel",
+		 	"Jardim Nova Esperança",
+		 	"Jardim Novo Mundo",
+		 	"Jardim Novo Mundo Extensão",
+		 	"Jardim Novo Mundo II",
+		 	"Jardim Novo Petrópolis",
+		 	"Jardim Pampulha",
+		 	"Jardim Petrópolis",
+		 	"Jardim Planalto",
+		 	"Jardim Presidente",
+		 	"Jardim Real",
+		 	"Jardim Santa Cecília",
+		 	"Jardim Santo Antônio",
+		 	"Jardim São José",
+		 	"Jardim Sônia Maria",
+		 	"Jardim Vila Boa",
+		 	"Jardim Vista Bela",
+		 	"Jardins Atenas",
+		 	"Jardins Lisboa",
+		 	"Jardins Madri",
+		 	"Jardins Madri Complemento",
+		 	"Jardins Milão",
+		 	"Jardins Munique",
+		 	"Jardins Paris",
+		 	"Jardins Valência",
+		 	"Jardins Verona",
+		 	"Lorena Parque",
+		 	"Loteamento Alphaville Residencial",
+		 	"Loteamento Areião I",
+		 	"Loteamento Aruanã Park",
+		 	"Loteamento Celina Park",
+		 	"Loteamento Estâncias Vista Alegre",
+		 	"Loteamento Grande Retiro",
+		 	"Loteamento Mansões Goianas",
+		 	"Loteamento Mansões Pereira",
+		 	"Loteamento Morada dos Sonhos",
+		 	"Loteamento Portal do Sol I",
+		 	"Loteamento Portal do Sol II",
+		 	"Loteamento Quinta do Rio Dourados",
+		 	"Loteamento Solar Santa Rita",
+		 	"Loteamento Tropical Verde",
+		 	"Loteamento Tropical Ville",
+		 	"Loteamento Tupinambá dos Reis",
+		 	"Moinho dos Ventos",
+		 	"Nossa Senhora de Fátima",
+		 	"Panorama Parque",
+		 	"Park Lozandes",
+		 	"Parque Acalanto",
+		 	"Parque Aeródromo Antônio Sebba Filho",
+		 	"Parque Amazônia",
+		 	"Parque Anhanguera",
+		 	"Parque Anhanguera II",
+		 	"Parque Atheneu",
+		 	"Parque Balneário",
+		 	"Parque Bom Jesus",
+		 	"Parque Buriti",
+		 	"Parque das Amendoeiras",
+		 	"Parque das Amendoeiras I",
+		 	"Parque das Flores",
+		 	"Parque das Laranjeiras",
+		 	"Parque das Laranjeiras Acréscimo",
+		 	"Parque das Nações",
+		 	"Parque das Paineiras (1,2,3 e 4 Etapa)",
+		 	"Parque Eldorado Oeste",
+		 	"Parque Eldorado Oeste Extensão",
+		 	"Parque Flamboyant",
+		 	"Parque Industrial de Goiânia",
+		 	"Parque Industrial João Bras 2",
+		 	"Parque Industrial João Braz",
+		 	"Parque Industrial Paulista",
+		 	"Parque Maracanã",
+		 	"Parque Oeste Industrial",
+		 	"Parque Oeste Industrial Extensão",
+		 	"Parque Paraíso",
+		 	"Parque Santa Cruz",
+		 	"Parque Santa Maria",
+		 	"Parque Santa Rita",
+		 	"Privê Residencial Elza Fronza",
+		 	"Privê Residencial Itanhangá",
+		 	"Recanto Barravento",
+		 	"Recreio dos Funcionários Públicos",
+		 	"Recreio Panorama",
+		 	"Residencial 14 Bis",
+		 	"Residencial 14 Bis Extensão",
+		 	"Residencial Aldeia do Vale",
+		 	"Residencial Alice Barbosa",
+		 	"Residencial Alice Barbosa Extensão",
+		 	"Residencial Alphaville Flamboyant",
+		 	"Residencial Ana Clara",
+		 	"Residencial Ana Moraes",
+		 	"Residencial Anglo",
+		 	"Residencial Anicuns",
+		 	"Residencial Antônio Barbosa",
+		 	"Residencial Antônio Carlos Pires",
+		 	"Residencial Aquários",
+		 	"Residencial Aquários II",
+		 	"Residencial Arco Verde",
+		 	"Residencial Aruanã",
+		 	"Residencial Atalaia",
+		 	"Residencial Balneário",
+		 	"Residencial Barcelona",
+		 	"Residencial Barravento",
+		 	"Residencial Beatriz Nascimento",
+		 	"Residencial Bela Goiânia",
+		 	"Residencial Belo Horizonte",
+		 	"Residencial Belo Horizonte Complemento",
+		 	"Residencial Bertim Belchior 1ª etapa",
+		 	"Residencial Bertim Belchior 2ª etapa",
+		 	"Residencial Bethel",
+		 	"Residencial Bosque dos Buritis",
+		 	"Residencial Brasil Central",
+		 	"Residencial Brisas da Mata",
+		 	"Residencial Brisas do Cerrado",
+		 	"Residencial Buena Vista I",
+		 	"Residencial Buena Vista II",
+		 	"Residencial Buena Vista III",
+		 	"Residencial Buena Vista IV",
+		 	"Residencial Campos Dourados",
+		 	"Residencial Campus",
+		 	"Residencial Canadá",
+		 	"Residencial Carla Cristina",
+		 	"Residencial Celeste",
+		 	"Residencial Center Ville",
+		 	"Residencial Cidade Verde",
+		 	"Residencial Cléa Borges",
+		 	"Residencial Costa Paranhos",
+		 	"Residencial das Acácias",
+		 	"Residencial Della Penna",
+		 	"Residencial Della Penna Extensão",
+		 	"Residencial Dezopi",
+		 	"Residencial Dom Rafael",
+		 	"Residencial dos Ipês",
+		 	"Residencial dos Ipês Extensão",
+		 	"Residencial Eldorado",
+		 	"Residencial Eldorado Expansão",
+		 	"Residencial Eli Forte",
+		 	"Residencial Eli Forte Extensão",
+		 	"Residencial Felicidade",
+		 	"Residencial Fidelis",
+		 	"Residencial Flamingo",
+		 	"Residencial Flórida",
+		 	"Residencial Fonte das Águas",
+		 	"Residencial Fortaleza",
+		 	"Residencial Forteville",
+		 	"Residencial Forteville Extensão",
+		 	"Residencial Goiânia Golfe Clube",
+		 	"Residencial Goiânia Viva",
+		 	"Residencial Goyaz Park",
+		 	"Residencial Granville",
+		 	"Residencial Green Park",
+		 	"Residencial Guanabara",
+		 	"Residencial Guarema",
+		 	"Residencial Havaí",
+		 	"Residencial Hugo de Moraes",
+		 	"Residencial Humaitá",
+		 	"Residencial Itaipu",
+		 	"Residencial Itaipu I",
+		 	"Residencial Itália",
+		 	"Residencial Itamaracá",
+		 	"Residencial Jardim Belvedere Expansão",
+		 	"Residencial Jardim Camargo",
+		 	"Residencial Jardim Helou",
+		 	"Residencial Jardim Leblon",
+		 	"Residencial Jardins do Cerrado 1",
+		 	"Residencial Jardins do Cerrado 10",
+		 	"Residencial Jardins do Cerrado 11",
+		 	"Residencial Jardins do Cerrado 2",
+		 	"Residencial Jardins do Cerrado 3",
+		 	"Residencial Jardins do Cerrado 4",
+		 	"Residencial Jardins do Cerrado 5",
+		 	"Residencial Jardins do Cerrado 6",
+		 	"Residencial Jardins do Cerrado 7",
+		 	"Residencial Jardins do Cerrado 8",
+		 	"Residencial Jardins do Cerrado 9",
+		 	"Residencial João Paulo II",
+		 	"Residencial José Viandeli",
+		 	"Residencial Junqueira",
+		 	"Residencial Kátia",
+		 	"Residencial Licardino Ney",
+		 	"Residencial Linda Vista",
+		 	"Residencial Lírios do Campo",
+		 	"Residencial London Park",
+		 	"Residencial Luana Park",
+		 	"Residencial Manhattan",
+		 	"Residencial Mansões Paraíso",
+		 	"Residencial Mar Del Plata",
+		 	"Residencial Maria Lourença",
+		 	"Residencial Maringá",
+		 	"Residencial Mendanha",
+		 	"Residencial Monte Carlo",
+		 	"Residencial Monte Pascoal",
+		 	"Residencial Monte Verde",
+		 	"Residencial Morada do Bosque",
+		 	"Residencial Morada do Ipê",
+		 	"Residencial Morumbi",
+		 	"Residencial Mundo Novo 1",
+		 	"Residencial Mundo Novo 2",
+		 	"Residencial Mundo Novo 3",
+		 	"Residencial Noroeste",
+		 	"Residencial Nossa Morada",
+		 	"Residencial Nova Aurora",
+		 	"Residencial Nunes de Morais 1ª Etapa",
+		 	"Residencial Nunes de Morais 2ª Etapa",
+		 	"Residencial Nunes de Morais 3ª Etapa",
+		 	"Residencial Olinda",
+		 	"Residencial Orlando Morais",
+		 	"Residencial Park Solar",
+		 	"Residencial Parque Mendanha",
+		 	"Residencial Parque Oeste",
+		 	"Residencial Paulo Estrela",
+		 	"Residencial Perim",
+		 	"Residencial Petrópolis",
+		 	"Residencial Pilar dos Sonhos",
+		 	"Residencial Ponta Negra",
+		 	"Residencial Portal da Mata",
+		 	"Residencial Portinari",
+		 	"Residencial Porto Seguro",
+		 	"Residencial Português",
+		 	"Residencial Primavera",
+		 	"Residencial Privê Norte",
+		 	"Residencial Real",
+		 	"Residencial Real Conquista",
+		 	"Residencial Recanto das Garças",
+		 	"Residencial Recanto do Bosque",
+		 	"Residencial Recanto dos Buritis",
+		 	"Residencial Recreio Panorama",
+		 	"Residencial Recreio Panorama Extensão",
+		 	"Residencial Rio Jordão",
+		 	"Residencial Rio Verde",
+		 	"Residencial Santa Fé",
+		 	"Residencial Santa Fé I",
+		 	"Residencial Santa Rita - 4ª Etapa",
+		 	"Residencial São Bernardo",
+		 	"Residencial São Geraldo",
+		 	"Residencial São Leopoldo",
+		 	"Residencial São Leopoldo Complemento",
+		 	"Residencial São Marcos",
+		 	"Residencial Senador Albino Boaventura",
+		 	"Residencial Senador Paranhos",
+		 	"Residencial Serra Azul Etapa I",
+		 	"Residencial Serra Azul II",
+		 	"Residencial Sevilha",
+		 	"Residencial Solar Bougainville",
+		 	"Residencial Solar Ville",
+		 	"Residencial Sonho Dourado",
+		 	"Residencial Sonho Verde",
+		 	"Residencial Talismã",
+		 	"Residencial Talismã I",
+		 	"Residencial Tempo Novo",
+		 	"Residencial Vale da Serra",
+		 	"Residencial Vale das Brisas",
+		 	"Residencial Vale do Araguaia",
+		 	"Residencial Vale dos Sonhos",
+		 	"Residencial Vale dos Sonhos II",
+		 	"Residencial Vereda dos Buritis",
+		 	"Residencial Village Santa Rita I",
+		 	"Residencial Village Santa Rita II",
+		 	"Residencial Village Santa Rita III",
+		 	"Residencial Village Santa Rita IV",
+		 	"Residencial Ville de France",
+		 	"Residencial Ytapuã",
+		 	"Rodoviário",
+		 	"Santa Genoveva",
+		 	"Santa Genoveva 2",
+		 	"Santo Hilário",
+		 	"Santo Hilário Complemento",
+		 	"Santo Hilário II",
+		 	"São Carlos",
+		 	"São Domingos",
+		 	"São Francisco",
+		 	"Serrinha",
+		 	"Setor Aeroporto",
+		 	"Setor Alto do Vale",
+		 	"Setor Andréia",
+		 	"Setor Areião II",
+		 	"Setor Asa Branca",
+		 	"Setor Barra da Tijuca",
+		 	"Setor Bela Vista",
+		 	"Setor Bueno",
+		 	"Setor Campinas",
+		 	"Setor Cândida de Morais",
+		 	"Setor Castelo Branco",
+		 	"Setor Central",
+		 	"Setor Centro Oeste",
+		 	"Setor Coimbra",
+		 	"Setor Criméia Leste",
+		 	"Setor Criméia Oeste",
+		 	"Setor Cristina",
+		 	"Setor das Nações",
+		 	"Setor das Nações Extensão",
+		 	"Setor dos Afonsos",
+		 	"Setor dos Dourados",
+		 	"Setor dos Funcionários",
+		 	"Setor Empresarial",
+		 	"Setor Estrela Dalva",
+		 	"Setor Faiçalville",
+		 	"Setor Garavelo",
+		 	"Setor Gentil Meireles",
+		 	"Setor Goiânia 2",
+		 	"Setor Grajaú",
+		 	"Setor Jaó",
+		 	"Setor Leste Universitário",
+		 	"Setor Leste Vila Nova",
+		 	"Setor Marabá",
+		 	"Setor Marechal Rondon",
+		 	"Setor Maria Celeste",
+		 	"Setor Maria Rosa",
+		 	"Setor Marista",
+		 	"Setor Maysa Extensão",
+		 	"Setor Morada do Sol",
+		 	"Setor Morais",
+		 	"Setor Negrão de Lima",
+		 	"Setor Noroeste",
+		 	"Setor Norte Ferroviário",
+		 	"Setor Norte Ferroviário II",
+		 	"Setor Nova Suiça",
+		 	"Setor Nova Vila",
+		 	"Setor Novo Planalto",
+		 	"Setor Oeste",
+		 	"Setor Orientville",
+		 	"Setor Parque Tremendão",
+		 	"Setor Pedro Ludovico",
+		 	"Setor Perim",
+		 	"Setor Perim Continuação",
+		 	"Setor Progresso",
+		 	"Setor Rasmussem",
+		 	"Setor Recanto das Minas Gerais",
+		 	"Setor Rio Formoso",
+		 	"Setor Santa Rita",
+		 	"Setor Santa Rita II",
+		 	"Setor Santa Rita VII",
+		 	"Setor Santa Rita VIII",
+		 	"Setor Santos Dumont",
+		 	"Setor São José",
+		 	"Setor Sevene",
+		 	"Setor Sol Nascente",
+		 	"Setor Sudoeste",
+		 	"Setor Sul",
+		 	"Setor Tancredo Neves",
+		 	"Setor Três Marias",
+		 	"Setor Três Marias I",
+		 	"Setor Ulisses Guimarães",
+		 	"Setor União",
+		 	"Setor Urias Magalhães",
+		 	"Setor Urias Magalhães II",
+		 	"Sítio de Recreio Ipê",
+		 	"Sítio de Recreio Mansões Bernardo Sayão",
+		 	"Sítio de Recreio Panorama",
+		 	"Sítio de Recreio Paraíso Tropical",
+		 	"Sítio de Recreio Pindorama",
+		 	"Sítios de Recreio Caraíbas",
+		 	"Sítios de Recreio dos Bandeirantes",
+		 	"Sítios de Recreio Mansões do Campus",
+		 	"Solange Park I",
+		 	"Solange Park II",
+		 	"Solange Park III",
+		 	"Solange Parque Complemento",
+		 	"Solange Parque Extensão",
+		 	"Vila Abajá",
+		 	"Vila Adélia",
+		 	"Vila Aguiar",
+		 	"Vila Alto da Glória",
+		 	"Vila Alvorada",
+		 	"Vila Americano do Brasil",
+		 	"Vila Anchieta",
+		 	"Vila Aurora Oeste",
+		 	"Vila Bandeirantes",
+		 	"Vila Bela",
+		 	"Vila Boa Sorte",
+		 	"Vila Canaã",
+		 	"Vila Clemente",
+		 	"Vila Colemar Natal e Silva",
+		 	"Vila Concórdia",
+		 	"Vila Cristina",
+		 	"Vila Cristina Continuação",
+		 	"Vila Cristina Extensão",
+		 	"Vila Divino Pai Eterno",
+		 	"Vila dos Alpes",
+		 	"Vila dos Oficiais",
+		 	"Vila dos Subtenentes e Sargentos",
+		 	"Vila Fernandes",
+		 	"Vila Finsocial",
+		 	"Vila Fróes",
+		 	"Vila Irany",
+		 	"Vila Isaura",
+		 	"Vila Itatiaia",
+		 	"Vila Jacaré",
+		 	"Vila Jaraguá",
+		 	"Vila Jardim Pompéia",
+		 	"Vila Jardim São Judas Tadeu",
+		 	"Vila Jardim Vitória",
+		 	"Vila João Vaz",
+		 	"Vila Legionárias",
+		 	"Vila Luciana",
+		 	"Vila Lucy",
+		 	"Vila Maria Dilce",
+		 	"Vila Maria José",
+		 	"Vila Maria Luiza",
+		 	"Vila Martins",
+		 	"Vila Martins Extensão",
+		 	"Vila Matilde",
+		 	"Vila Mauá",
+		 	"Vila Megale",
+		 	"Vila Monticelli",
+		 	"Vila Mooca",
+		 	"Vila Mooca Complemento",
+		 	"Vila Morais",
+		 	"Vila Mutirão I",
+		 	"Vila Mutirão II",
+		 	"Vila Nossa Senhora Aparecida",
+		 	"Vila Nova Canaã",
+		 	"Vila Novo Horizonte",
+		 	"Vila Ofugi",
+		 	"Vila Osvaldo Rosa",
+		 	"Vila Paraíso",
+		 	"Vila Pedroso",
+		 	"Vila Perdiz",
+		 	"Vila Redenção",
+		 	"Vila Regina",
+		 	"Vila Rezende",
+		 	"Vila Rizzo",
+		 	"Vila Romana",
+		 	"Vila Rosa",
+		 	"Vila Santa Cruz",
+		 	"Vila Santa Efigênia",
+		 	"Vila Santa Helena",
+		 	"Vila Santa Isabel",
+		 	"Vila Santa Rita",
+		 	"Vila Santa Rita - 5ª Etapa",
+		 	"Vila Santa Rita Acréscimo",
+		 	"Vila Santana",
+		 	"Vila Santo Afonso",
+		 	"Vila São Francisco",
+		 	"Vila São João",
+		 	"Vila São José Complemento",
+		 	"Vila São José Extensão",
+		 	"Vila São Luiz",
+		 	"Vila São Paulo",
+		 	"Vila São Tomaz",
+		 	"Vila Teófilo Neto",
+		 	"Vila Vera Cruz",
+		 	"Vila Viana",
+		 	"Vila Viandeli",
+		 	"Vila Xavier",
+		 	"Village Atalaia",
+		 	"Village Casa Grande",
+		 	"Village Maringá",
+		 	"Village Santa Rita",
+		 	"Village Veneza",
+		 	"Villar Baviera",
+		 	"Zona Industrial Pedro Abraão"
+		]
+	},
+	{
+		"cidade": "Goianira",
+		"bairros": [
+		 	"Setor Central",
+		 	"Vila Kléria"
+		]
+	},
+	{
+		"cidade": "Goiás",
+		"bairros": [
+		 	"Distrito de São João",
+		 	"Setor Central",
+		 	"Uvá"
+		]
+	},
+	{
+		"cidade": "Goiatuba",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Gouvelândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Guapó",
+		"bairros": [
+		 	"Posselândia",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Guaraíta",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Guarani de Goiás",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Guarinos",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Heitoraí",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Hidrolândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Hidrolina",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Iaciara",
+		"bairros": [
+		 	"Água Quente",
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Inaciolândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Indiara",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Inhumas",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Interlândia",
+		"bairros": [
+		 	"Interlândia"
+		]
+	},
+	{
+		"cidade": "Ipameri",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Ipiranga de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Iporá",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Israelândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Itaberaí",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Itaguaçu",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Itaguari",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Itaguaru",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Itajá",
+		"bairros": [
+		 	"Jardim Planalto",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Itapaci",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Itapirapuã",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Itapuranga",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Itarumã",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Itauçu",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Itumbiara",
+		"bairros": [
+		 	"Alto da Boa Vista",
+		 	"Cidade Jardim",
+		 	"Condomínio Horizontal Paraíso",
+		 	"Conjunto Habitacional Alcides Rodrigues",
+		 	"Conjunto Habitacional Dionária Rocha",
+		 	"Conjunto Habitacional Dona Norma Gibaldi",
+		 	"Conjunto Habitacional Juca Arantes",
+		 	"Conjunto Habitacional Morada dos Sonhos",
+		 	"Conjunto Habitacional Santa Helena",
+		 	"Distrito Agro Industrial",
+		 	"Distrito Agroindustrial II",
+		 	"Dom Bosco",
+		 	"Dom Velloso",
+		 	"Dona Silica",
+		 	"Ernestina Borges de Andrade",
+		 	"Estância Vale do Paraíso",
+		 	"Ferreira da Costa",
+		 	"Jardim Adelaide",
+		 	"Jardim América",
+		 	"Jardim Bandeirantes",
+		 	"Jardim Leonora",
+		 	"Jardim Leonora II",
+		 	"Jardim Liberdade",
+		 	"Jardim Morumbi",
+		 	"Jardim Morumbi II",
+		 	"Jardim Nova Itumbiara",
+		 	"Karfan",
+		 	"Ladário Cardoso de Paula",
+		 	"Olinta Soares Guimarães",
+		 	"Prefeito José Moisés",
+		 	"Prolongamento Bairro Cidade Jardim",
+		 	"Remy Martins Ferreira",
+		 	"Residencial Alto do Trindade",
+		 	"Residencial Dona Guri Rodrigues",
+		 	"Residencial Jardim Primavera",
+		 	"Residencial Morada do Sol",
+		 	"Setor Afonso Pena",
+		 	"Setor Anhanguera",
+		 	"Setor Bela Vista",
+		 	"Setor Brasília",
+		 	"Setor Buritys",
+		 	"Setor Central",
+		 	"Setor Dona Marolina",
+		 	"Setor Luz",
+		 	"Setor Nossa Senhora da Saúde",
+		 	"Setor Nova Aurora",
+		 	"Setor Novo Horizonte",
+		 	"Setor Paranaíba",
+		 	"Setor Planalto",
+		 	"Setor Rodoviário",
+		 	"Setor Santa Inês",
+		 	"Setor Santa Rita",
+		 	"Setor Santos Dumont",
+		 	"Setor São João",
+		 	"Setor São Sebastião",
+		 	"Setor Social",
+		 	"Setor Trindade",
+		 	"Ulysses Guimarães",
+		 	"Vila de Furnas",
+		 	"Vila Mutirão",
+		 	"Vila Vitória",
+		 	"Village Imperial",
+		 	"Zenon Borges Guimarães"
+		]
+	},
+	{
+		"cidade": "Ivolândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Jacilândia",
+		"bairros": [
+		 	"Jacilândia",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Jandaia",
+		"bairros": [
+		 	"Setor Central",
+		 	"Setor Linda Vista"
+		]
+	},
+	{
+		"cidade": "Jaraguá",
+		"bairros": [
+		 	"Artulândia",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Jardim ABC de Goiás",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Jataí",
+		"bairros": [
+		 	"Aimbiré",
+		 	"Bela Vista",
+		 	"Bela Vista II",
+		 	"Cohacol",
+		 	"Colméia Park I",
+		 	"Conjunto Dorival de Carvalho",
+		 	"Conjunto Filostro Machado",
+		 	"Conjunto Residencial Cidade Jardim",
+		 	"Conjunto Residencial Mauro Antônio Bento",
+		 	"Conjunto Rio Claro I",
+		 	"Conjunto Rio Claro II",
+		 	"Conjunto Rio Claro III",
+		 	"Conjunto Sebastião Herculano de Souza II",
+		 	"Divino Espírito Santo",
+		 	"Dom Abel",
+		 	"Dom Benedito D. Coscia",
+		 	"Fernandes",
+		 	"Hamilton Nunes",
+		 	"Jardim da Liberdade",
+		 	"Jardim Floresta",
+		 	"Jardim Primavera",
+		 	"José Estevam",
+		 	"José Ferreira",
+		 	"Loteamento Carvalho",
+		 	"Naveslândia",
+		 	"Popular",
+		 	"Primavera II",
+		 	"Residencial Bandeirantes",
+		 	"Residencial Barcelona",
+		 	"Residencial Cohacol 5",
+		 	"Residencial Cyleneo França",
+		 	"Residencial das Abelhas",
+		 	"Residencial das Brisas",
+		 	"Residencial Eldorado",
+		 	"Residencial Flamboyant",
+		 	"Residencial Morada do Sol",
+		 	"Residencial Portal do Sol - 1ª Etapa",
+		 	"Residencial Portal do Sol - 2ª Etapa",
+		 	"Residencial Recanto da Mata",
+		 	"Residencial Setor Sul",
+		 	"Samuel Grahan",
+		 	"Santa Lúcia",
+		 	"Santa Lúcia II",
+		 	"Santa Terezinha",
+		 	"Santo Antônio",
+		 	"Sebastião Herculano I",
+		 	"Serra Azul",
+		 	"Setor Aeroporto",
+		 	"Setor Alto das Rosas",
+		 	"Setor Antena",
+		 	"Setor Brasília",
+		 	"Setor Central",
+		 	"Setor Central - Parte Baixa",
+		 	"Setor Colinas",
+		 	"Setor Cordeiro",
+		 	"Setor das Mansões",
+		 	"Setor Epaminondas I",
+		 	"Setor Epaminondas II",
+		 	"Setor Estrela Dalva",
+		 	"Setor Fabriny",
+		 	"Setor Francisco Antônio",
+		 	"Setor Geda",
+		 	"Setor Granjeiro",
+		 	"Setor Hermosa",
+		 	"Setor Industrial",
+		 	"Setor Iracema",
+		 	"Setor Jacutinga",
+		 	"Setor Jardim Goiás",
+		 	"Setor Jardim Goiás II",
+		 	"Setor José Bento",
+		 	"Setor Oeste",
+		 	"Setor Planalto",
+		 	"Sítios de Recreio Alvorada",
+		 	"Sodré",
+		 	"Vila Campo Neutro",
+		 	"Vila das Palmeiras",
+		 	"Vila Fátima",
+		 	"Vila Frei Domingos",
+		 	"Vila Jardim América",
+		 	"Vila Jardim Maximiano Peres",
+		 	"Vila Jardim Paraíso",
+		 	"Vila Jardim Rio Claro",
+		 	"Vila Luíza",
+		 	"Vila Mutirão",
+		 	"Vila Nossa Senhora do Carmo",
+		 	"Vila Olavo",
+		 	"Vila Paraíso I",
+		 	"Vila Paraíso II",
+		 	"Vila Progresso",
+		 	"Vila Santa Maria",
+		 	"Vila São Pedro",
+		 	"Vila Sofia",
+		 	"Vila Três Marias"
+		]
+	},
+	{
+		"cidade": "Jaupaci",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Jeroaquara",
+		"bairros": [
+		 	"Jeroaquara"
+		]
+	},
+	{
+		"cidade": "Jesúpolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "JK",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Joanápolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Joviânia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Jussara",
+		"bairros": [
+		 	"Distrito de Betânia",
+		 	"Distrito de São Sebastião do Rio Claro",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Lagoa do Bauzinho",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Lagoa Santa",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Lagolândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Leopoldo de Bulhões",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Luiz Alves",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Luziânia",
+		"bairros": [
+		 	"Centro",
+		 	"Chácaras Marajoara",
+		 	"Chacaras Vale da Canção",
+		 	"Cidade da Esperança",
+		 	"Cidade Industrial Fracaroli",
+		 	"Cidade Jardim Marília",
+		 	"Cidade Osfaya",
+		 	"DICAL",
+		 	"Diogo Machado de Araújo",
+		 	"Distrito Industrial de Luziânia (Dial)",
+		 	"Engenheiro Jofre Parada",
+		 	"Jardim América",
+		 	"Jardim Bandeirante",
+		 	"Jardim Brasília Sul",
+		 	"Jardim Central",
+		 	"Jardim do Ingá",
+		 	"Jardim do Ingá Gleba B",
+		 	"Jardim Europa",
+		 	"Jardim Flamboyant",
+		 	"Jardim Jóckei Clube",
+		 	"Jardim Luzília",
+		 	"Jardim Planalto",
+		 	"Jardim Umuarama Setor 1",
+		 	"Jardim Umuarama Setor 2",
+		 	"Jardim Umuarama Setor 3",
+		 	"Jardim Umuarama Setor 4",
+		 	"Jardim Umuarama Setor 5",
+		 	"Jardim Umuarama Setor 6",
+		 	"Jardim Umuarama Setor 7",
+		 	"Jardim Zuleika",
+		 	"Luzília Parque",
+		 	"Mansões de Recreio Casa de Telha",
+		 	"Mansões de Recreio Estrela Dalva II",
+		 	"Mansões de Recreio Estrela Dalva IV",
+		 	"Mansões de Recreio Estrela Dalva V",
+		 	"Mansões de Recreio Estrela Dalva VI",
+		 	"Mansões de Recreio Estrela Dalva VIII",
+		 	"Parque Alvorada I",
+		 	"Parque Alvorada II",
+		 	"Parque Alvorada III",
+		 	"Parque Belo Horizonte",
+		 	"Parque Cruzeiro do Sul",
+		 	"Parque da Saudade",
+		 	"Parque Desportivo Brasília (Roosevelt)",
+		 	"Parque Estrela Dalva I",
+		 	"Parque Estrela Dalva II",
+		 	"Parque Estrela Dalva III",
+		 	"Parque Estrela Dalva IV",
+		 	"Parque Estrela Dalva IX",
+		 	"Parque Estrela Dalva V",
+		 	"Parque Estrela Dalva VII",
+		 	"Parque Estrela Dalva VIII",
+		 	"Parque Estrela Dalva X",
+		 	"Parque Industrial Mingone",
+		 	"Parque Industrial São José",
+		 	"Parque Inspiração",
+		 	"Parque JK",
+		 	"Parque Nova Iguaçu",
+		 	"Parque Paulistano Gleba A",
+		 	"Parque Paulistano Gleba B",
+		 	"Parque Residencial Faro",
+		 	"Parque Santa Fé",
+		 	"Parque São Judas Tadeu",
+		 	"Parque São Sebastião",
+		 	"Parque Sol Nascente",
+		 	"Parque Três Poderes",
+		 	"Residencial Alto das Caraíbas",
+		 	"Residencial Copaíbas",
+		 	"Rosário",
+		 	"Santa Edwirges",
+		 	"Santa Luzia",
+		 	"Santa Luzia II",
+		 	"São Caetano",
+		 	"Setor Aeroporto",
+		 	"Setor Fumal",
+		 	"Setor Leste",
+		 	"Setor Mandu",
+		 	"Setor Mandu II",
+		 	"Setor Norte",
+		 	"Setor Norte Maravilha",
+		 	"Setor Presidente Kennedy",
+		 	"Setor Sul II",
+		 	"SHIS",
+		 	"Sion",
+		 	"Vale do Ouro",
+		 	"Vera Cruz",
+		 	"Vila Esperança",
+		 	"Vila Guará",
+		 	"Vila Isabel",
+		 	"Vila Juracy",
+		 	"Vila Marília",
+		 	"Vila Portuguesa",
+		 	"Vila Roriz",
+		 	"Vila Santa Luzia",
+		 	"Vila Santa Marta",
+		 	"Vila São José"
+		]
+	},
+	{
+		"cidade": "Mairipotaba",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Mambaí",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Mara Rosa",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Marcianópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Marzagão",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Matrinchã",
+		"bairros": [
+		 	"Lua Nova",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Maurilândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Messianópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Mimoso de Goiás",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Minaçu",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Mineiros",
+		"bairros": [
+		 	"Setor Central",
+		 	"Setor Costa Nery"
+		]
+	},
+	{
+		"cidade": "Moiporá",
+		"bairros": [
+		 	"Messianópolis",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Monte Alegre de Goiás",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Montes Claros de Goiás",
+		"bairros": [
+		 	"Distrito de Aparecida do Rio Claro",
+		 	"Distrito de Lucilândia",
+		 	"Distrito de Ponte Alta do Araguaia",
+		 	"Distrito de Registro do Araguaia",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Montividiu",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Montividiu do Norte",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Morrinhos",
+		"bairros": [
+		 	"Setor Central",
+		 	"Setor Sol Nascente"
+		]
+	},
+	{
+		"cidade": "Morro Agudo de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Mossâmedes",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Mozarlândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Mundo Novo",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Mutunópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Natinópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Nazário",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Nerópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Niquelândia",
+		"bairros": [
+		 	"Centro",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Nova América",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Nova Aurora",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Nova Crixás",
+		"bairros": [
+		 	"Setor Central",
+		 	"Setor Santo Antônio"
+		]
+	},
+	{
+		"cidade": "Nova Fátima",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Nova Glória",
+		"bairros": [
+		 	"Setor Bela Vista",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Nova Iguaçu de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Nova Roma",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Nova Veneza",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Novo Brasil",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Novo Gama",
+		"bairros": [
+		 	"Alphavile Paiva",
+		 	"Boa Vista",
+		 	"Chácaras Araguaia",
+		 	"Chácaras Minas Gerais B",
+		 	"Chácaras Paulista",
+		 	"Chácaras Vale das Andorinhas",
+		 	"Jardim Lago Azul",
+		 	"Jardim Paiva",
+		 	"Jardim Tropical",
+		 	"Loteamento Grande Vale",
+		 	"Loteamento Lunabel 3",
+		 	"Loteamento Lunabel 3A",
+		 	"Loteamento Lunabel 3B",
+		 	"Loteamento Lunabel 3C",
+		 	"Loteamento Lunabel 3H",
+		 	"Loteamento Santa Cecília",
+		 	"Mansões das Andorinhas",
+		 	"Mansões de Recreio Estrela Dalva VII-A",
+		 	"Mansões de Recreio Estrela Dalva VII-B",
+		 	"Mansões Eldorado",
+		 	"Mont Serrat Paiva",
+		 	"Núcleo Habitacional Novo Gama",
+		 	"Núcleo Residencial Brasília",
+		 	"Parque Estrela Dalva VI (Pedregal)",
+		 	"Parque Nova Brasília",
+		 	"Residencial Alvorada",
+		 	"Residencial América do Sul",
+		 	"Residencial Brasília",
+		 	"Residencial Cidade Nova",
+		 	"Residencial Negreiros",
+		 	"Residencial Paiva I",
+		 	"Residencial Paraíso",
+		 	"Residencial Santa Luzia",
+		 	"Setor de Mansões Santa Barbara",
+		 	"Sítio Santa Maria",
+		 	"Vale do Pedregal",
+		 	"Vila Lolli",
+		 	"Vila União"
+		]
+	},
+	{
+		"cidade": "Novo Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Novo Planalto",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Orizona",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Ouro Verde de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Ouroana",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Ouvidor",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Padre Bernardo",
+		"bairros": [
+		 	"Centro",
+		 	"Setor Leste",
+		 	"Trajanópolis"
+		]
+	},
+	{
+		"cidade": "Palestina de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Palmeiras de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Palmelo",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Palminópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Panamá",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Paranaiguara",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Paraúna",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Perolândia",
+		"bairros": [
+		 	"Planalto"
+		]
+	},
+	{
+		"cidade": "Petrolina de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Pilar de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Piracanjuba",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Piranhas",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Pirenópolis",
+		"bairros": [
+		 	"Centro",
+		 	"Jaranápolis",
+		 	"Radiolândia"
+		]
+	},
+	{
+		"cidade": "Pires Belo",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Pires do Rio",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Planalmira",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Planaltina",
+		"bairros": [
+		 	"Brasilinha 16 (Panorama)",
+		 	"Brasilinha 17",
+		 	"Itapuã I",
+		 	"Itapuã II",
+		 	"Jardim das Paineiras",
+		 	"Jardim das Palmeiras",
+		 	"Jardim Paquetá I",
+		 	"Jardim Paquetá II",
+		 	"Parque da Gávea",
+		 	"Parque do Sol Nascente I",
+		 	"Parque do Sol Nascente II",
+		 	"Santa Rita",
+		 	"São José",
+		 	"Setor Aeroporto (Barrolândia)",
+		 	"Setor Aeroporto (Mutirão)",
+		 	"Setor Aeroporto (residencial Esperança)",
+		 	"Setor dos Imigrantes",
+		 	"Setor Leste",
+		 	"Setor Norte",
+		 	"Setor Oeste",
+		 	"Setor Sul"
+		]
+	},
+	{
+		"cidade": "Pontalina",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Porangatu",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Porteirão",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Portelândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Posse",
+		"bairros": [
+		 	"Centro",
+		 	"Nova Vista"
+		]
+	},
+	{
+		"cidade": "Posse D'Abadia",
+		"bairros": [
+		 	"Posse D'Abadia"
+		]
+	},
+	{
+		"cidade": "Posselândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Prata",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Professor Jamil",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Quirinópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Rialma",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Rianápolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Rio Quente",
+		"bairros": [
+		 	"Esplanada",
+		 	"Setor Solon Amaral"
+		]
+	},
+	{
+		"cidade": "Rio Verde",
+		"bairros": [
+		 	"Anhanguera",
+		 	"César Bastos",
+		 	"Céu Azul",
+		 	"Cidade Empresarial Nova Aliança",
+		 	"Conjunto Maurício Arantes",
+		 	"Conjunto Morada do Sol",
+		 	"Conjunto Valdeci Pires",
+		 	"Conjunto Vila Verde",
+		 	"Distrito Agroindustrial Rio Verde II - DARVII",
+		 	"Eldorado",
+		 	"Eldorado Prolongamento",
+		 	"Jardim Adriana",
+		 	"Jardim América",
+		 	"Jardim América Prolongamento A",
+		 	"Jardim Bela Vista",
+		 	"Jardim Brasília",
+		 	"Jardim Cruvinel",
+		 	"Jardim das Margaridas",
+		 	"Jardim Diniz",
+		 	"Jardim Eleonora",
+		 	"Jardim Floresta",
+		 	"Jardim Goiás",
+		 	"Jardim Marconal",
+		 	"Jardim Mondale",
+		 	"Jardim Neves",
+		 	"Jardim Presidente",
+		 	"Jardim São Tomaz",
+		 	"Jardim São Tomaz II",
+		 	"Liberdade",
+		 	"Lindolfina",
+		 	"Loteamento Gameleira",
+		 	"Lourdes",
+		 	"Maria Rocha Village",
+		 	"Maristela",
+		 	"Martins",
+		 	"Martins Prolongamento",
+		 	"Medeiros",
+		 	"Nova Vila Maria",
+		 	"Odília",
+		 	"Paraguaçu",
+		 	"Parque Bandeirante",
+		 	"Parque Bandeirante Prolongamento",
+		 	"Parque Betel",
+		 	"Parque Bougainville",
+		 	"Parque das Acácias",
+		 	"Parque das Laranjeiras Prolongamento",
+		 	"Parque das Paineiras",
+		 	"Parque Dom Miguel",
+		 	"Parque dos Buritis",
+		 	"Parque dos Girassóis",
+		 	"Parque dos Jatobás",
+		 	"Parque Laranjeiras",
+		 	"Parque Solar do Agreste A",
+		 	"Parque Solar do Agreste B",
+		 	"Popular",
+		 	"Presidente Nasser",
+		 	"Primavera",
+		 	"Residencial Água Santa",
+		 	"Residencial Araguaia",
+		 	"Residencial Arco Iris",
+		 	"Residencial Atalaia",
+		 	"Residencial Canaã",
+		 	"Residencial Dona IIza",
+		 	"Residencial dos Buritis",
+		 	"Residencial Engracia Vaz",
+		 	"Residencial Gameleira II",
+		 	"Residencial Interlagos",
+		 	"Residencial Jardim Campestre",
+		 	"Residencial Jardim Helena",
+		 	"Residencial Maranata",
+		 	"Residencial Nilson Veloso",
+		 	"Residencial Parque dos Ipês",
+		 	"Residencial Pôr do Sol",
+		 	"Residencial Recanto do Bosque",
+		 	"Residencial Solar dos Ataídes 1ª Etapa",
+		 	"Residencial Solar dos Ataídes 2ª Etapa",
+		 	"Residencial Tocantins",
+		 	"Residencial Veneza",
+		 	"Residencial Villagio Terra Cota",
+		 	"Santo Agostinho",
+		 	"Santo Antônio de Lisboa",
+		 	"São Felipe",
+		 	"São João",
+		 	"São Joaquim",
+		 	"Serra Dourada",
+		 	"Setor Alvorada",
+		 	"Setor Alvorada Prolongamento",
+		 	"Setor Central",
+		 	"Setor Dona Gercina",
+		 	"Setor dos Funcionários",
+		 	"Setor Industrial",
+		 	"Setor Industrial II",
+		 	"Setor Morada do Sol",
+		 	"Setor Municipal de Pequenas Empresas",
+		 	"Setor Oeste",
+		 	"Setor Pausanes",
+		 	"Setor Santa Luzia",
+		 	"Setor Universitário",
+		 	"Solar Campestre",
+		 	"Solar Monte Sião",
+		 	"Vila Amália",
+		 	"Vila André Luiz",
+		 	"Vila Baylão",
+		 	"Vila Borges",
+		 	"Vila Borges Prolongamento",
+		 	"Vila Borges Prolongamento A",
+		 	"Vila Carolina",
+		 	"Vila Dinara",
+		 	"Vila Dona Auta",
+		 	"Vila Gomes",
+		 	"Vila Maria",
+		 	"Vila Mariana",
+		 	"Vila Mariana Prolongamento",
+		 	"Vila Mariana Prolongamento II",
+		 	"Vila Meneses",
+		 	"Vila Miafiori",
+		 	"Vila Modelo",
+		 	"Vila Morais",
+		 	"Vila Moreira Ataídes",
+		 	"Vila Mutirão",
+		 	"Vila Olinda",
+		 	"Vila Promissão",
+		 	"Vila Renovação",
+		 	"Vila Rocha",
+		 	"Vila Rosalina",
+		 	"Vila Santa Bárbara",
+		 	"Vila Santa Cruz",
+		 	"Vila Santa Cruz II",
+		 	"Vila Santo André",
+		 	"Vila Santo Antônio",
+		 	"Vila Serpro",
+		 	"Vitória Regia"
+		]
+	},
+	{
+		"cidade": "Riverlândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Rosalândia",
+		"bairros": [
+		 	"Rosalândia"
+		]
+	},
+	{
+		"cidade": "Rubiataba",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Sanclerlândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santa Bárbara de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santa Cruz de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santa Fé de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santa Helena de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santa Isabel",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santa Rita do Araguaia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santa Rita do Novo Destino",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santa Rosa",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santa Rosa de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santa Tereza de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santa Terezinha de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santo Antônio da Barra",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santo Antônio da Esperança",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Santo Antônio de Goiás",
+		"bairros": [
+		 	"Setor Central",
+		 	"Vila Florença"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Descoberto",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Santo Antônio do Rio Verde",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "São Domingos",
+		"bairros": [
+		 	"Centro",
+		 	"Setor Leste"
+		]
+	},
+	{
+		"cidade": "São Francisco de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "São Gabriel de Goiás",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João D'Aliança",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São João da Paraúna",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "São Jorge",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "São Luís de Montes Belos",
+		"bairros": [
+		 	"Planura Verde",
+		 	"Setor Central",
+		 	"Silvolândia",
+		 	"Vila Eduarda"
+		]
+	},
+	{
+		"cidade": "São Luiz do Norte",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "São Miguel do Araguaia",
+		"bairros": [
+		 	"Centro (Tataíra)",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "São Miguel do Passa Quatro",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "São Patrício",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "São Simão",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Senador Canedo",
+		"bairros": [
+		 	"Conjunto Sabiá",
+		 	"Jardim das Oliveiras",
+		 	"Morada do Morro",
+		 	"Setor Central",
+		 	"Vila São João"
+		]
+	},
+	{
+		"cidade": "Serra Dourada",
+		"bairros": [
+		 	"Serra Dourada"
+		]
+	},
+	{
+		"cidade": "Serranópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Silvânia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Simolândia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sítio D'Abadia",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Sousânia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Souzalândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Taquaral de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Taveira",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Teresina de Goiás",
+		"bairros": [
+		 	"Centro"
+		]
+	},
+	{
+		"cidade": "Terezópolis de Goiás",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Três Ranchos",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Trevo do José Rosário",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Trindade",
+		"bairros": [
+		 	"Jardim Salvador",
+		 	"Santa Maria",
+		 	"Setor Central",
+		 	"Setor Maysa"
+		]
+	},
+	{
+		"cidade": "Trombas",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Turvânia",
+		"bairros": [
+		 	"Jardim da Vitória",
+		 	"Loteamento Residencial Campos Vedres",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Turvelândia",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Uirapuru",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Uruaçu",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Uruana",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Urutaí",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Valparaíso de Goiás",
+		"bairros": [
+		 	"Chácara Lourdes Meireles",
+		 	"Chácaras Anhangüera",
+		 	"Chácaras Ipanema",
+		 	"Chácaras Saia Velha",
+		 	"Cidade Jardins",
+		 	"Condomínio Vivendas Chácaras Ypiranga",
+		 	"Cruzeiro do Sul",
+		 	"Jardim Céu Azul",
+		 	"Jardim dos Ipês",
+		 	"Jardim Ipanema",
+		 	"Morada Nobre",
+		 	"Novo Jardim Oriente",
+		 	"Pacaembu",
+		 	"Parque Araruama",
+		 	"Parque das Cachoeiras",
+		 	"Parque das Flores",
+		 	"Parque do Ipê",
+		 	"Parque Esplanada I",
+		 	"Parque Esplanada II",
+		 	"Parque Esplanada III",
+		 	"Parque Esplanada V",
+		 	"Parque Marajó",
+		 	"Parque Rio Branco",
+		 	"Parque Santa Rita de Cássia",
+		 	"Parque São Bernardo",
+		 	"Setor de Chácaras Anhangüera A",
+		 	"Setor de Chácaras Anhangüera B",
+		 	"Setor de Chácaras Anhangüera C",
+		 	"Valparaiso I - Etapa A",
+		 	"Valparaiso I - Etapa B",
+		 	"Valparaiso I - Etapa C",
+		 	"Valparaiso I - Etapa D",
+		 	"Valparaiso I - Etapa E",
+		 	"Valparaiso II",
+		 	"Vila Isabel",
+		 	"Ypiranga"
+		]
+	},
+	{
+		"cidade": "Varjão",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Vazante",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Vianópolis",
+		"bairros": [
+		 	"Caraíba",
+		 	"Ponte Funda",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Vicentinópolis",
+		"bairros": [
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Vila Boa",
+		"bairros": [
+		 	"Centro",
+		 	"Jardim Nova Aurora"
+		]
+	},
+	{
+		"cidade": "Vila Propício",
+		"bairros": [
+		 	"Dois Irmãos",
+		 	"Setor Central"
+		]
+	},
+	{
+		"cidade": "Vila Sertaneja",
+		"bairros": [
+		 	"Vila Sertaneja"
+		]
+	}
+]
