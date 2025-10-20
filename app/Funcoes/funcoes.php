@@ -1989,24 +1989,14 @@ function estados($ab)
     return $return;
 }
 
-// Caminho
+// CÓDIGO NOVO E CORRETO
 function caminho($file)
 {
-    $return = $file;
-    if (file_exists('..' . $file)) {
-        $return = '..' . $file;
-    } elseif (file_exists('../..' . $file)) {
-        $return = '../..' . $file;
-    } elseif (file_exists('../../..' . $file)) {
-        $return = '../../..' . $file;
-    } elseif (file_exists('../../../..' . $file)) {
-        $return = '../../../..' . $file;
-    } elseif (file_exists('../../../../..' . $file)) {
-        $return = '../../../../..' . $file;
-    } elseif (file_exists('../../../../../..' . $file)) {
-        $return = '../../../../../..' . $file;
+    // Remove a barra inicial se ela existir, para evitar caminhos duplicados como "//app"
+    if (substr($file, 0, 1) === '/') {
+        $file = substr($file, 1);
     }
-    return $return;
+    return DIR_F . '/' . $file;
 }
 
 // Star

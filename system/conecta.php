@@ -1,5 +1,9 @@
 <?php
 
+// A CONFIGURAÇÃO DA SESSÃO FOI MOVIDA PARA CÁ (PARA ANTES DO SESSION_START)
+// Garante que a pasta de sessão seja a 'tmp' dentro da raiz do site.
+@ini_set('session.save_path', __DIR__ . '/../tmp');
+
 if (!isset($no_session_start))
     session_start();
 
@@ -58,7 +62,7 @@ ini_set("allow_url_fopen", 1);
 ini_set("allow_url_include", 1);
 ini_set('max_execution_time', 300);
 ini_set('memory_limit', '-1');
-@ini_set('session.save_path', 'tmp');
+// A LINHA @ini_set('session.save_path', 'tmp'); FOI REMOVIDA DAQUI
 //setlocale(LC_TIME, NULL); // data BR smarty
 // DEFINES
 // PAGAMENTOS
